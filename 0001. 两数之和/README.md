@@ -1,6 +1,6 @@
 # 0001. 两数之和
 
-- 原题：[链接](https://leetcode.cn/problems/two-sum/)
+- 原题：https://leetcode.cn/problems/two-sum/
 - 难度：简单
 - 标签：数组、哈希表
 - 相似题目：0015. 三数之和
