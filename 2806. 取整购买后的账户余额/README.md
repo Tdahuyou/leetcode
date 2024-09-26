@@ -1,74 +1,44 @@
 # 2806. 取整购买后的账户余额
 
-原题：[链接](https://leetcode.cn/problems/account-balance-after-rounded-purchase/description/)
-
-难度：<font style="background:#DBF1B7;color:#2A4200">简单</font>
-
-标签：`数学`
-
-
-
-# 题目描述
-
-
-一开始，你的银行账户里有 `100` 块钱。
-
-
-
-给你一个整数`purchaseAmount` ，它表示你在一次购买中愿意支出的金额。
-
-
-
-在一个商店里，你进行一次购买，实际支出的金额会向 **最近** 的 `10` 的 **倍数** 取整。换句话说，你实际会支付一个 **非负** 金额 `roundedAmount` ，满足 `roundedAmount` 是 `10` 的倍数且 `abs(roundedAmount - purchaseAmount)` 的值 **最小** 。
-
-
-
-如果存在多于一个最接近的 `10` 的倍数，**较大的倍数** 是你的实际支出金额。
-
-
-
-请你返回一个整数，表示你在愿意支出金额为 `purchaseAmount` 块钱的前提下，购买之后剩下的余额。
-
-
-
-**注意：** `0` 也是 `10` 的倍数。
-
-
-
-**示例 1：**
-
-输入：purchaseAmount = 9
-输出：90
-解释：这个例子中，最接近 9 的 10 的倍数是 10 。所以你的账户余额为 100 - 10 = 90 。
-
-**示例 2：**
-
-输入：purchaseAmount = 15
-输出：80
-解释：这个例子中，有 2 个最接近 15 的 10 的倍数：10 和 20，较大的数 20 是你的实际开销。
-所以你的账户余额为 100 - 20 = 80 。
-
-
-
-**提示：**
-
-+ `0 <= purchaseAmount <= 100`
-
-
-
-# 题解
-
+- 原题：https://leetcode.cn/problems/account-balance-after-rounded-purchase
+- 难度：简单
+- 标签：`数学`
 
 找规律解题，规律很多，解法也很多。
 
+## 📝 题目描述
 
+一开始，你的银行账户里有 `100` 块钱。
 
-## 题解
+给你一个整数`purchaseAmount` ，它表示你在一次购买中愿意支出的金额。
 
+在一个商店里，你进行一次购买，实际支出的金额会向 **最近** 的 `10` 的 **倍数** 取整。换句话说，你实际会支付一个 **非负** 金额 `roundedAmount` ，满足 `roundedAmount` 是 `10` 的倍数且 `abs(roundedAmount - purchaseAmount)` 的值 **最小** 。
 
-![画板](https://cdn.nlark.com/yuque/0/2024/jpeg/2331396/1718167174065-8de9aebf-2140-4153-aa1c-d7cd735c0f01.jpeg)
+如果存在多于一个最接近的 `10` 的倍数，**较大的倍数** 是你的实际支出金额。
 
+请你返回一个整数，表示你在愿意支出金额为 `purchaseAmount` 块钱的前提下，购买之后剩下的余额。
 
+**注意：** `0` 也是 `10` 的倍数。
+
+**示例 1：**
+
+- 输入：`purchaseAmount = 9`
+- 输出：`90`
+- 解释：这个例子中，最接近 9 的 10 的倍数是 10 。所以你的账户余额为 100 - 10 = 90 。
+
+**示例 2：**
+
+- 输入：`purchaseAmount = 15`
+- 输出：`80`
+- 解释：这个例子中，有 2 个最接近 15 的 10 的倍数：10 和 20，较大的数 20 是你的实际开销。所以你的账户余额为 `100 - 20 = 80`。
+
+**提示：**
+
+- `0 <= purchaseAmount <= 100`
+
+## 💻 题解 1
+
+![](md-imgs/2024-09-26-23-10-13.png)
 
 ```javascript
 var accountBalanceAfterPurchase = function (purchaseAmount) {
@@ -82,11 +52,8 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 }
 ```
 
-**时间复杂度：**![image](https://cdn.nlark.com/yuque/__latex/a2006f1ac61cb1902beacb3e29fff089.svg)
-
-**空间复杂度：**![image](https://cdn.nlark.com/yuque/__latex/a2006f1ac61cb1902beacb3e29fff089.svg)
-
-
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
 
 **解题思路：**
 
@@ -94,25 +61,22 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 
 规律有很多，所以解法也有很多。
 
-![画板](https://cdn.nlark.com/yuque/0/2024/jpeg/2331396/1718167760574-383f93de-dad1-4af5-9ffe-5a56dad3c8b1.jpeg)
+![](md-imgs/2024-09-26-23-10-44.png)
 
-
-
-## 题解
-
+## 💻 题解 2
 
 **所有金额整除 5 找规律：**
 
-| purchaseAmount |  整除 5 得到的结果 | 支付的金额 |
-| --- | --- | --- |
-| 1、2、3、4 | 0 | 0 |
-| 5～14 | 1、2 | 10 |
-| 15～24 | 3、4 | 20 |
-| 25～34 | 5、6 | 30 |
-| …… | …… | …… |
-| 75～84 | 15、16 | 80 |
-| 85～94 | 17、18 | 90 |
-| 95、96、97、98、99、100 | 19、20 | 100 |
+| purchaseAmount          | 整除 5 得到的结果 | 支付的金额 |
+| ----------------------- | ----------------- | ---------- |
+| 1、2、3、4              | 0                 | 0          |
+| 5～14                   | 1、2              | 10         |
+| 15～24                  | 3、4              | 20         |
+| 25～34                  | 5、6              | 30         |
+| ……                      | ……                | ……         |
+| 75～84                  | 15、16            | 80         |
+| 85～94                  | 17、18            | 90         |
+| 95、96、97、98、99、100 | 19、20            | 100        |
 
 
 支付的金额，规律如下：
@@ -122,9 +86,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 3. 再整除 2
 4. 再乘以 10
 
-![image](https://www.yuque.com/api/services/graph/generate_redirect/latex?%20%20%20%5Ctext%7BroundedAmount%7D%20%3D%20%5Cleft%5Clfloor%20%5Cfrac%7B(%5Cleft%5Clfloor%20%5Cfrac%7B%5Ctext%7BpurchaseAmount%7D%7D%7B5%7D%20%5Cright%5Crfloor%20%2B%201)%7D%7B2%7D%20%5Cright%5Crfloor%20%5Ctimes%2010%0A)
-
-
+![](md-imgs/2024-09-26-23-11-48.png)
 
 ```javascript
 var accountBalanceAfterPurchase = function (purchaseAmount) {
@@ -132,36 +94,30 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 }
 ```
 
-
-
-## 题解
-
+## 💻 题解 3
 
 **所有金额 ****➕**** 5 后整除 10 找规律：**
 
-| purchaseAmount |  整除 10 得到的结果 | 支付的金额 |
-| --- | --- | --- |
-| 1、2、3、4 | 0 | 0 |
-| 5～14 | 1 | 10 |
-| 15～24 | 2 | 20 |
-| 25～34 | 3 | 30 |
-| …… | …… | …… |
-| 75～84 | 8 | 80 |
-| 85～94 | 9 | 90 |
-| 95、96、97、98、99、100 | 10 | 100 |
+| purchaseAmount          | 整除 10 得到的结果 | 支付的金额 |
+| ----------------------- | ------------------ | ---------- |
+| 1、2、3、4              | 0                  | 0          |
+| 5～14                   | 1                  | 10         |
+| 15～24                  | 2                  | 20         |
+| 25～34                  | 3                  | 30         |
+| ……                      | ……                 | ……         |
+| 75～84                  | 8                  | 80         |
+| 85～94                  | 9                  | 90         |
+| 95、96、97、98、99、100 | 10                 | 100        |
 
 
-**🤔**** 为什么这里会想到加 5？**
+**🤔 为什么这里会想到加 5？**
 
 以 5、6、7、8、9、10、11、12、13、14 这组数据为例。
 
 若加上 5，就能确保这组数组都是 1 开头，11 ～ 19，多找一些共性的部分，有助于查找规律。
-
-
 
 ```javascript
 var accountBalanceAfterPurchase = function (purchaseAmount) {
   return 100 - Math.floor((purchaseAmount + 5) / 10) * 10;
 }
 ```
-

@@ -1,54 +1,40 @@
 # 2822. 对象反转
 
-原题：[链接](https://leetcode.cn/problems/inversion-of-object/description/)
+- 原题：https://leetcode.cn/problems/inversion-of-object
+- 难度：简单
+- 标签：JavaScript、TypeScript
 
-难度：<font style="background:#DBF1B7;color:#2A4200">简单</font>
-
-标签：JavaScript、TypeScript
-
-
-
-# 📝 题目描述
-
+## 📝 题目描述
 
 给定一个对象 `obj`，返回一个反转的对象 `invertedObj`。
 
-
-
 `invertedObj` 应该以 `obj` 的键作为值，以 `obj` 的值作为键。题目保证 `obj` 中的值仅为字符串。该函数应该处理重复值，也就是说，如果在 `obj` 中有多个具有相同值的键，那么 `invertedObj` 应该将该值映射到一个包含所有相应键的数组中。
-
-
 
 **示例 1：**
 
-输入：obj = {"a": "1", "b": "2", "c": "3", "d": "4"}
-输出：invertedObj = {"1": "a", "2": "b", "3": "c", "4": "d"}
-解释：obj 中的键变成 invertedObj 中的值，而 obj 中的值变成 invertedObj 中的键。
+- 输入：`obj = {"a": "1", "b": "2", "c": "3", "d": "4"}`
+- 输出：`invertedObj = {"1": "a", "2": "b", "3": "c", "4": "d"}`
+- 解释：obj 中的键变成 invertedObj 中的值，而 obj 中的值变成 invertedObj 中的键。
 
 **示例 2：**
 
-输入：obj = {"a": "1", "b": "2", "c": "2", "d": "4"}
-输出：invertedObj = {"1": "a", "2": ["b", "c"], "4": "d"}
-解释：在 obj 中有两个具有相同值的键，invertedObj 将该值映射到一个包含所有对应键的数组中。
+- 输入：`obj = {"a": "1", "b": "2", "c": "2", "d": "4"}`
+- 输出：`invertedObj = {"1": "a", "2": ["b", "c"], "4": "d"}`
+- 解释：在 obj 中有两个具有相同值的键，invertedObj 将该值映射到一个包含所有对应键的数组中。
 
 **示例 3：**
 
-输入：obj = ["1", "2", "3", "4"]
-输出：invertedObj = {"1": "0", "2": "1", "3": "2", "4": "3"}
-解释：数组也是对象，因此数组已经转换为一个对象，obj 中的键（索引）变成了 invertedObj 中的值，而 obj 中的值变成了 invertedObj 中的键。
-
-
+- 输入：`obj = ["1", "2", "3", "4"]`
+- 输出：`invertedObj = {"1": "0", "2": "1", "3": "2", "4": "3"}`
+- 解释：数组也是对象，因此数组已经转换为一个对象，obj 中的键（索引）变成了 invertedObj 中的值，而 obj 中的值变成了 invertedObj 中的键。
 
 **提示：**
 
-+ `obj` 是一个有效的 JSON 对象
-+ `typeof obj[key] === "string"`
-+ `2 <= JSON.stringify(obj).length <= 10**5`
+- `obj` 是一个有效的 JSON 对象
+- `typeof obj[key] === "string"`
+- `2 <= JSON.stringify(obj).length <= 10**5`
 
-
-
-# 💻 题解
-
+## 💻 题解
 
 ```javascript
 /**
@@ -71,29 +57,6 @@ var invertObject = function (obj) {
   return ans
 };
 ```
-
-```typescript
-type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };
-type Obj = Record<string, JSONValue> | Array<JSONValue>
-
-function invertObject(obj: Obj): Record<string, JSONValue> {
-  const ans = {}
-  const keysAndVals = Object.entries(obj)
-  for (let i = 0; i < keysAndVals.length; i++) {
-    const [k, v] = keysAndVals[i] as [string, string]
-    if (v in ans) {
-      // ans[v] = Array.isArray(ans[v]) ? [...ans[v], k] : [ans[v], k]
-      if (Array.isArray(ans[v])) ans[v].push(k)
-      else ans[v] = [ans[v], k]
-    } else {
-      ans[v] = k
-    }
-  }
-  return ans
-};
-```
-
-
 
 `ans[v] = Array.isArray(ans[v]) ? [...ans[v], k] : [ans[v], k]`
 
@@ -123,8 +86,3 @@ var invertObject = function (obj) {
   }, {})
 };
 ```
-
-
-
-
-

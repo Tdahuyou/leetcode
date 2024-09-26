@@ -1,23 +1,84 @@
 # 2632. 柯里化
 
-[此处为语雀卡片，点击链接查看](https://www.yuque.com/docs/173926022#iIYx8)
+- 原题：https://leetcode.cn/problems/curry
+- 视频：✔（录制了题解 1 对应的视频讲解。）
+- 难度：中等
+- 标签：JavaScript、TypeScript、柯里化
 
-这是题解 1 对应的视频讲解。
+## 📝 题目描述
 
----
+请你编写一个函数，它接收一个其他的函数，并返回该函数的 **柯里化** 后的形式。
 
-原题：[链接](https://leetcode.cn/problems/curry/description/)
+**柯里化** 函数的定义是接受与原函数相同数量或更少数量的参数，并返回另一个 **柯里化** 后的函数或与原函数相同的值。
 
-难度：<font style="background:#F6E1AC;color:#664900">中等</font>
+实际上，当你调用原函数，如 `sum(1,2,3)` 时，它将调用 **柯里化** 函数的某个形式，如 `csum(1)(2)(3)`， `csum(1)(2,3)`， `csum(1,2)(3)`，或 `csum(1,2,3)` 。所有调用 **柯里化** 函数的方法都应该返回与原始函数相同的值。
 
-标签：JavaScript、TypeScript、柯里化
+**示例 1：**
 
----
+输入：
+```js
+fn = function sum(a, b, c) { return a + b + c; }
+inputs = [[1],[2],[3]]
+```
 
-提示：
+输出：`6`
 
-+ 函数的形参数量可以通过函数的 length 属性来读取。
-+ 清空一个数组可以通过给数组的 length 属性赋值为 0 来实现。
+解释 - 执行的代码是：
+
+- `const curriedSum = curry(fn);`
+- `curriedSum(1)(2)(3) === 6;`
+- `curriedSum(1)(2)(3)` 应该返回像原函数 `sum(1, 2, 3)` 一样的值。
+
+**示例 2：**
+
+输入：
+```js
+fn = function sum(a, b, c) { return a + b + c; }
+inputs = [[1,2],[3]]]
+```
+
+输出：`6`
+
+解释：`curriedSum(1, 2)(3)` 应该返回像原函数 `sum(1, 2, 3)` 一样的值。
+
+**示例 3：**
+
+输入：
+```js
+fn = function sum(a, b, c) { return a + b + c; }
+inputs = [[],[],[1,2,3]]
+```
+
+输出：`6`
+
+解释：你应该能够以任何方式传递参数，包括一次性传递所有参数或完全不传递参数。`curriedSum()()(1, 2, 3)` 应该返回像原函数 `sum(1, 2, 3)` 一样的值。
+
+**示例 4：**
+
+输入：
+```js
+fn = function life() { return 42; }
+inputs = [[]]
+```
+
+输出：`42`
+
+解释：柯里化一个没有接收参数，没做有效操作的函数。`curriedLife() === 42`
+
+**提示：**
+
+- `1 <= inputs.length <= 1000`
+- `0 <= inputs[i][j] <= 10^5`
+- `0 <= fn.length <= 1000`
+- `inputs.flat().length == fn.length`
+- `函数参数需要被显式定义`
+- 如果 `fn.length > 0` 则最后一个数组 `inputs` 不为空
+- 如果 `fn.length === 0` 则 `inputs.length === 1`
+
+## 📝 笔记 - 函数的 length 属性
+
+- 函数的形参数量可以通过函数的 length 属性来读取。
+- 清空一个数组可以通过给数组的 length 属性赋值为 0 来实现。
 
 ```javascript
 function testFunction(a, b, c) {
@@ -32,93 +93,14 @@ arr.length = 0
 arr // []
 ```
 
-# 📝 题目描述
-请你编写一个函数，它接收一个其他的函数，并返回该函数的 **柯里化** 后的形式。
+## 💻 题解 - 题解1
 
-**柯里化** 函数的定义是接受与原函数相同数量或更少数量的参数，并返回另一个 **柯里化** 后的函数或与原函数相同的值。
-
-实际上，当你调用原函数，如 `sum(1,2,3)` 时，它将调用 **柯里化** 函数的某个形式，如 `csum(1)(2)(3)`， `csum(1)(2,3)`， `csum(1,2)(3)`，或 `csum(1,2,3)` 。所有调用 **柯里化** 函数的方法都应该返回与原始函数相同的值。
-
-**示例 1：**
-
-输入：
-fn = function sum(a, b, c) { return a + b + c; }
-inputs = [[1],[2],[3]]
-输出：6
-解释：
-执行的代码是：
-const curriedSum = curry(fn);
-curriedSum(1)(2)(3) === 6;
-curriedSum(1)(2)(3) 应该返回像原函数 sum(1, 2, 3) 一样的值。
-
-**示例 2：**
-
-输入：
-fn = function sum(a, b, c) { return a + b + c; }
-inputs = [[1,2],[3]]]
-输出：6
-解释：
-curriedSum(1, 2)(3) 应该返回像原函数 sum(1, 2, 3) 一样的值。
-
-**示例 3：**
-
-输入：
-fn = function sum(a, b, c) { return a + b + c; }
-inputs = [[],[],[1,2,3]]
-输出：6
-解释：
-你应该能够以任何方式传递参数，包括一次性传递所有参数或完全不传递参数。
-curriedSum()()(1, 2, 3) 应该返回像原函数 sum(1, 2, 3) 一样的值。
-
-**示例 4：**
-
-输入：
-fn = function life() { return 42; }
-inputs = [[]]
-输出：42
-解释：
-柯里化一个没有接收参数，没做有效操作的函数。
-curriedLife() === 42
-
-
-
-**提示：**
-
-+ `1 <= inputs.length <= 1000`
-+ `0 <= inputs[i][j] <= 10^5`
-+ `0 <= fn.length <= 1000`
-+ `inputs.flat().length == fn.length`
-+ `函数参数需要被显式定义`
-+ 如果 `fn.length > 0` 则最后一个数组 `inputs` 不为空
-+ 如果 `fn.length === 0` 则 `inputs.length === 1`
-
-
-
-# 💻 题解
-## 题解1
 ```javascript
 /**
  * @param {Function} fn
  * @return {Function}
  */
 var curry = function (fn) {
-  const receivedArgs = []
-  return function curried(...args) {
-    receivedArgs.push(...args)
-    if (receivedArgs.length >= fn.length) return fn(...receivedArgs)
-    else return curried
-  }
-};
-
-/**
- * function sum(a, b) { return a + b; }
- * const csum = curry(sum);
- * csum(1)(2) // 3
- */
-```
-
-```typescript
-function curry(fn: Function): Function {
   const receivedArgs = []
   return function curried(...args) {
     receivedArgs.push(...args)
@@ -146,7 +128,7 @@ function curry(fn: Function): Function {
 
 在 `2024.06.16 22:32` 这个时间点，官方提供的测试用例都是可以顺利通过的。
 
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1721653610520-c1e73eeb-00cd-47d0-a2fb-9af9ea87b073.png)
+![](md-imgs/2024-09-26-21-57-15.png)
 
 但是，实际上这种写法是存在一些问题的，问题就在于没有重置 `receivedArgs` 数组。可以看看以下测试用例。
 
@@ -173,7 +155,7 @@ console.log(sum2(1)(2, 3, 4, 5)) // 15 ❌
 // 后续调用 sum2 就会出问题。
 ```
 
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1721653863649-bf4f0bca-d90f-4334-b81d-869ac70c7dfc.png)
+![](md-imgs/2024-09-26-21-57-36.png)
 
 问题在于首次调用之后，`receivedArgs` 数组中记录的上一次调用所需的参数并没有被清空，清楚问题之后，解决起来就很简单了。
 
@@ -204,9 +186,10 @@ var curry = function (fn) {
 
 处理过之后，再提交试试。
 
-![](https://cdn.nlark.com/yuque/0/2024/png/2331396/1721655832792-9f5e2947-b9dd-45cf-9d64-5530f606e972.png)
+![](md-imgs/2024-09-26-21-57-46.png)
 
-## 题解2
+## 💻 题解 - 题解2
+
 ```javascript
 /**
  * @param {Function} fn

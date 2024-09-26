@@ -1,9 +1,13 @@
 # LeetCode
 
+## 🔗 链接
+
 - https://leetcode.cn/ - LeetCode 官网
 - https://www.yuque.com/huyouda/leetcode - 语雀 LeetCode 知识库
   - 存储一些通过语雀画板绘制的图片、思维导图等，以便必要的时候二次编辑用。
   - 存储 LeetCode 相关题解的视频。
+- https://github.com/doocs - GitHub 技术社区 Doocs
+- https://github.com/doocs/leetcode - 🔥 LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解
 
 ## 📝 LeetCode 刷题指南 - 新手快速入门
 
