@@ -1,14 +1,51 @@
 # 2618. 检查是否是类的对象实例
 
-原题：[链接](https://leetcode.cn/problems/check-if-object-instance-of-class/description/)
+- 原题：https://leetcode.cn/problems/check-if-object-instance-of-class
+- 难度：中等
+- 标签：JavaScript、TypeScript
 
-难度：<font style="background:#F6E1AC;color:#664900">中等</font>
+## 🔗 链接
 
-标签：JavaScript、TypeScript
+- https://leetcode.cn/problems/check-if-object-instance-of-class/solutions/2288152/2618-jian-cha-shi-fou-shi-lei-de-dui-xia-spyn/ - 题解，2618. 检查是否是类的对象实例。从使用 instanceof 到迭代，递归实现 instanceof。
 
+## 📝 题目描述
 
+请你编写一个函数，检查给定的值是否是给定类或超类的实例。
 
-**提示：**`Object`函数的参数是各种原始类型的值，转换成对象就是原始类型值对应的包装对象。
+**可以传递给函数的数据类型没有限制。**例如，值或类可能是  `undefined` 。
+
+**示例 1：**
+
+- 输入：func = () => checkIfInstance(new Date(), Date)
+- 输出：true
+- 解释：根据定义，Date 构造函数返回的对象是 Date 的一个实例。
+
+**示例 2：**
+
+- 输入：func = () => { class Animal {}; class Dog extends Animal {}; return checkIfInstance(new Dog(), Animal); }
+- 输出：true
+- 解释：
+  - class Animal {};
+  - class Dog extends Animal {};
+  - checkIfInstanceOf(new Dog(), Animal); // true
+
+Dog 是 Animal 的子类。因此，Dog 对象同时是 Dog 和 Animal 的实例。
+
+**示例 3：**
+
+- 输入：func = () => checkIfInstance(Date, Date)
+- 输出：false
+- 解释：日期的构造函数在逻辑上不能是其自身的实例。
+
+**示例 4：**
+
+- 输入：func = () => checkIfInstance(5, Number)
+- 输出：true
+- 解释：5 是一个 Number。注意，"instanceof" 关键字将返回 false。
+
+## 📝 笔记 - 使用 Object() 将原始类型的值转为对应的包装对象
+
+**提示：**`Object` 函数的参数是各种原始类型的值，转换成对象就是原始类型值对应的包装对象。
 
 ```javascript
 var obj = Object(1);
@@ -24,46 +61,8 @@ obj instanceof Object // true
 obj instanceof Boolean // true
 ```
 
-# 🔗 链接
-[链接](https://leetcode.cn/problems/check-if-object-instance-of-class/solutions/2288152/2618-jian-cha-shi-fou-shi-lei-de-dui-xia-spyn/)，题解，2618. 检查是否是类的对象实例。从使用 instanceof 到迭代，递归实现 instanceof。
+## 💻 题解
 
-# 📝 题目描述
-请你编写一个函数，检查给定的值是否是给定类或超类的实例。
-
-**<font style="color:#DF2A3F;">可以传递给函数的数据类型没有限制。</font>**例如，值或类可能是  `undefined` 。
-
-
-
-**示例 1：**
-
-输入：func = () => checkIfInstance(new Date(), Date)
-输出：true
-解释：根据定义，Date 构造函数返回的对象是 Date 的一个实例。
-
-**示例 2：**
-
-输入：func = () => { class Animal {}; class Dog extends Animal {}; return checkIfInstance(new Dog(), Animal); }
-输出：true
-解释：
-class Animal {};
-class Dog extends Animal {};
-checkIfInstanceOf(new Dog(), Animal); // true
-
-Dog 是 Animal 的子类。因此，Dog 对象同时是 Dog 和 Animal 的实例。
-
-**示例 3：**
-
-输入：func = () => checkIfInstance(Date, Date)
-输出：false
-解释：日期的构造函数在逻辑上不能是其自身的实例。
-
-**示例 4：**
-
-输入：func = () => checkIfInstance(5, Number)
-输出：true
-解释：5 是一个 Number。注意，"instanceof" 关键字将返回 false。
-
-# 💻 题解
 ```javascript
 /**
  * @param {*} obj
@@ -81,24 +80,9 @@ var checkIfInstanceOf = function (obj, classFunction) {
  */
 ```
 
-```typescript
-function checkIfInstanceOf(obj: any, classFunction: any): boolean {
-  if ([null, undefined].includes(obj) || !(classFunction instanceof Function)) return false
-  else return Object(obj) instanceof classFunction
-};
-
-/**
- * checkIfInstanceOf(new Date(), Date); // true
- */
-```
-
-
-
 **难点分析**
 
 难点在于 obj 的几乎涵盖了所有 JS 中可能的类型，编写完程序提交之后，时不时会发现有遗漏的类型没考虑到。除了 obj 之外，classFunction 也有可能是任意类型，不一定是函数，不过是否是函数类型，可以通过检查原型链上是否有 Function 的原型来判断。
-
-
 
 **Object()**
 
