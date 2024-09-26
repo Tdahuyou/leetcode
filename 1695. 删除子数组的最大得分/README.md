@@ -1,1 +1,68 @@
 # 1695. 删除子数组的最大得分
+
+原题：[链接](https://leetcode.cn/problems/maximum-erasure-value/description/)
+
+难度：<font style="background:#F6E1AC;color:#664900">中等</font>
+
+标签：数组、哈希表、滑动窗口
+
+相似题目：[💻 0003. 无重复字符的最长子串](https://www.yuque.com/huyouda/leetcode/0003)
+
+# 📝 题目描述
+给你一个正整数数组 `nums` ，请你从中删除一个含有 **若干不同元素** 的子数组**。**删除子数组的 **得分** 就是子数组各元素之 **和** 。
+
+返回 **只删除一个** 子数组可获得的 **最大得分** _。_
+
+如果数组 `b` 是数组 `a` 的一个连续子序列，即如果它等于 `a[l],a[l+1],...,a[r]` ，那么它就是 `a` 的一个子数组。
+
+
+
+**示例 1：**
+
+输入：nums = [4,2,4,5,6]
+输出：17
+解释：最优子数组是 [2,4,5,6]
+
+**示例 2：**
+
+输入：nums = [5,2,1,2,5,2,1,2,5]
+输出：8
+解释：最优子数组是 [5,2,1] 或 [1,2,5]
+
+**提示：**
+
++ `1 <= nums.length <= 10^5`
++ `1 <= nums[i] <= 10^4`
+
+# 💻 题解
+## 滑动窗口
+[此处为语雀卡片，点击链接查看](https://www.yuque.com/docs/181087732#GAHyM)
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var maximumUniqueSubarray = function(nums) {
+  const set = new Set()
+  let ans = 0, left = 0, right = 0, sum = 0
+
+  while (right < nums.length) {
+    if (!set.has(nums[right])) {
+      set.add(nums[right])
+      sum += nums[right]
+      ans = Math.max(ans, sum)
+      right++
+    } else {
+      set.delete(nums[left])
+      sum -= nums[left]
+      left++
+    }
+  }
+  return ans
+};
+```
+
+> 题解参考 [💻 0003. 无重复字符的最长子串](https://www.yuque.com/huyouda/leetcode/0003)
+>
+
