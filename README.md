@@ -8,6 +8,7 @@
   - 存储 LeetCode 相关题解的视频。
 - https://github.com/doocs - GitHub 技术社区 Doocs
 - https://github.com/doocs/leetcode - 🔥 LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解
+- https://doocs.github.io/leetcode/lc/1/ - LeetCode 全解
 
 ## 📝 LeetCode 刷题指南 - 新手快速入门
 
