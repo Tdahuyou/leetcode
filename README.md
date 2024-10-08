@@ -1,6 +1,6 @@
 # LeetCode
 
-## 🔗 链接
+## 🔗 links
 
 - https://leetcode.cn/ - LeetCode 官网
 - https://www.yuque.com/huyouda/leetcode - 语雀 LeetCode 知识库

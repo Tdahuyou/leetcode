@@ -1,8 +1,8 @@
 # 2667. 创建 Hello World 函数
 
+- [x] 视频
 - 原题：https://leetcode.cn/problems/create-hello-world-function
 - 难度：简单
-- 视频：✔
 - 标签：JavaScript、TypeScript
 
 ---

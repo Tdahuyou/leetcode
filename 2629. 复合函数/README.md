@@ -1,8 +1,8 @@
 # 2629. 复合函数
 
+- [x] 视频
 - 原题：https://leetcode.cn/problems/function-composition
 - 难度：简单
-- 视频：✔
 - 标签：JavaScript、TypeScript
 
 ## 📝 题目描述

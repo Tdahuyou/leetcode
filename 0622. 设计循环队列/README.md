@@ -1,9 +1,9 @@
 # 0622. 设计循环队列
 
+- [x] 视频
 - 原题：https://leetcode.cn/problems/design-circular-queue
 - 难度：中等
 - 标签：设计、队列、数组、链表
-- 视频：✔
 
 ## 📝 题目描述
 

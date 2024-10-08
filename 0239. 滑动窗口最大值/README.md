@@ -1,8 +1,8 @@
 # 0239. 滑动窗口最大值
 
+- [x] 视频
 - 原题：https://leetcode.cn/problems/sliding-window-maximum
 - 难度：困难
-- 视频：✔
 - 标签：滑动窗口、队列、数组、单调队列、堆（优先队列）
 
 ## 📝 题目描述

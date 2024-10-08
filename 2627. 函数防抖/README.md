@@ -1,8 +1,8 @@
 # 2627. 函数防抖
 
+- [x] 视频
 - 原题：https://leetcode.cn/problems/debounce/
 - 难度：中等
-- 视频：✔
 - 标签：JavaScript、TypeScript、函数防抖
 - 相似题目：2676. 节流
 

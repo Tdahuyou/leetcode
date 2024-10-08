@@ -1,8 +1,8 @@
 # 2676. 节流
 
+- [x] 视频
 - 原题：https://leetcode.cn/problems/throttle
 - 难度：中等
-- 视频：✔
 - 标签：JavaScript、TypeScript
 - 相似题目：2627. 函数防抖
 
