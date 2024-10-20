@@ -4,10 +4,6 @@
 - 难度：简单
 - 标签：JavaScript、TypeScript、arguments
 
-![](md-imgs/2024-09-26-22-26-49.png)
-
-评论区点个赞～
-
 # 📝 题目描述
 
 请你编写一个函数 `argumentsLength`，返回传递给该函数的参数数量。
@@ -40,3 +36,6 @@ var argumentsLength = function(...args) {
   return args.length
 }
 ```
+
+- 评论区点个赞～
+  - ![](md-imgs/2024-09-26-22-26-49.png)

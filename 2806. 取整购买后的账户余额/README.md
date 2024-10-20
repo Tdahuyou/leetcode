@@ -86,7 +86,9 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 3. 再整除 2
 4. 再乘以 10
 
-![](md-imgs/2024-09-26-23-11-48.png)
+$$
+\text{roundedAmount} = \left\lfloor \frac{(\left\lfloor \frac{\text{purchaseAmount}}{5} \right\rfloor + 1)}{2} \right\rfloor \times 10
+$$
 
 ```javascript
 var accountBalanceAfterPurchase = function (purchaseAmount) {
@@ -96,7 +98,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 
 ## 💻 题解 3
 
-**所有金额 ****➕**** 5 后整除 10 找规律：**
+**所有金额 ➕ 5 后整除 10 找规律：**
 
 | purchaseAmount          | 整除 10 得到的结果 | 支付的金额 |
 | ----------------------- | ------------------ | ---------- |

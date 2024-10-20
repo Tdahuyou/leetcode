@@ -1,12 +1,12 @@
 # 2796. 重复字符串（Plus）
 
-原题：[链接](https://leetcode.cn/problems/repeat-string/description/)
-难度：<font style="background:#DBF1B7;color:#2A4200">简单</font>
-标签：`递归`、`分治`、JavaScript、TypeScript
-
-> 单词：
-> - replicate 复制
-> - conquer `divide and conquer` 分而治之；各个击破
+- 原题：https://leetcode.cn/problems/repeat-string/description/
+- 难度：简单
+- 标签：
+  - 递归
+  - 分治
+  - JavaScript
+  - TypeScript
 
 ## 📝 题目描述
 
@@ -55,8 +55,8 @@ String.prototype.replicate = function(times) {
 }
 ```
 
-- 时间复杂度：$O(n)$
-- 空间复杂度：$O(m * n)$
+- 时间复杂度： $O(n)$
+- 空间复杂度： $O(m * n)$
 
 其中 m 是原字符串的长度，n 就是 times，也就是复制的次数。
 
@@ -83,8 +83,8 @@ String.prototype.replicate = function (times) {
 }
 ```
 
-- 时间复杂度：$O(log(n))$
-- 空间复杂度：$O(m * n)$
+- 时间复杂度： $O(log(n))$
+- 空间复杂度： $O(m * n)$
 
 其中 m 是原字符串的长度，n 就是 times，也就是复制的次数。
 
@@ -96,10 +96,13 @@ String.prototype.replicate = function (times) {
 - **递 - divide and conquer**：将 `times` 分成两部分，递归地生成半数的字符串副本。
 - **合并结果**：将两个半数的字符串副本拼接在一起，如果 `times` 是奇数，再加上原字符串。
 
-## 📝 笔记 - 双百提交
+## 📒 notes - 单词
 
-首次见到的双百的提交，记录以下……
+- replicate 复制
+- conquer `divide and conquer` 分而治之；各个击破
 
-https://leetcode.cn/problems/repeat-string/submissions/539803907
+## 📒 ntoes - 双百提交
 
-![](md-imgs/2024-09-26-22-49-34.png)
+- 首次见到的双百的提交，记录一下……
+  - https://leetcode.cn/problems/repeat-string/submissions/539803907
+  - ![](md-imgs/2024-09-26-22-49-34.png)
