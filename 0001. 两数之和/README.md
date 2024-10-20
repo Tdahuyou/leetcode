@@ -3,9 +3,12 @@
 > [!NOTE]
 > - 原题：https://leetcode.cn/problems/two-sum/
 > - 难度：简单
-> - 标签：数组、哈希表
-> - 相似题目：0015. 三数之和
-> - 视频：
+> - 标签：
+>   - 数组
+>   - 哈希表
+> - 相似题目：
+>   - [中等 - 0015. 三数之和](../0015.%20三数之和/README.md)
+> - 视频：https://www.bilibili.com/video/BV1DivNejEb1
 >   - leetcode.0001.双指针暴力求解
 >   - leetcode.0001.静态哈希表
 >   - leetcode.0001.动态哈希表
