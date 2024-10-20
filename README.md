@@ -1,16 +1,24 @@
 # LeetCode
 
-## 🔗 links
+## 📝 summary
+
+leetcode 刷题笔记。
+
+## 🔗 links - bilibili 视频
+
+- https://www.bilibili.com/video/BV1DivNejEb1
+
+## 🔗 links - leetcode 官网
 
 - https://leetcode.cn/ - LeetCode 官网
-- https://www.yuque.com/huyouda/leetcode - 语雀 LeetCode 知识库
-  - 存储一些通过语雀画板绘制的图片、思维导图等，以便必要的时候二次编辑用。
-  - 存储 LeetCode 相关题解的视频。
+
+## 🔗 links - leetcode 全解
+
 - https://github.com/doocs - GitHub 技术社区 Doocs
 - https://github.com/doocs/leetcode - 🔥 LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解
 - https://doocs.github.io/leetcode/lc/1/ - LeetCode 全解
 
-## 📝 LeetCode 刷题指南 - 新手快速入门
+## 📒 notes - LeetCode 刷题指南 - 新手快速入门
 
 - 数据结构
 
@@ -20,7 +28,7 @@
 
 ![](md-imgs/2024-09-25-15-02-56.png)
 
-## 📝 JavaScript 相关算法题汇总
+## 📒 notes - JavaScript 相关算法题汇总
 
 ![](md-imgs/2024-09-25-15-04-53.png)
 

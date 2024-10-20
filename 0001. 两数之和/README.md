@@ -1,10 +1,14 @@
 # 0001. 两数之和
 
-- [x] 视频
-- 原题：https://leetcode.cn/problems/two-sum/
-- 难度：简单
-- 标签：数组、哈希表
-- 相似题目：0015. 三数之和
+> [!NOTE]
+> - 原题：https://leetcode.cn/problems/two-sum/
+> - 难度：简单
+> - 标签：数组、哈希表
+> - 相似题目：0015. 三数之和
+> - 视频：
+>   - leetcode.0001.双指针暴力求解
+>   - leetcode.0001.静态哈希表
+>   - leetcode.0001.动态哈希表
 
 ## 📝 题目描述
 
