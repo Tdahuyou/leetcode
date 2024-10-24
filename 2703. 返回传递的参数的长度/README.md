@@ -2,9 +2,12 @@
 
 - 原题：https://leetcode.cn/problems/return-length-of-arguments-passed
 - 难度：简单
-- 标签：JavaScript、TypeScript、arguments
+- 标签：
+  - JavaScript
+  - TypeScript
+  - arguments
 
-# 📝 题目描述
+## 📝 题目描述
 
 请你编写一个函数 `argumentsLength`，返回传递给该函数的参数数量。
 

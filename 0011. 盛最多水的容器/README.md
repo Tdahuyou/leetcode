@@ -2,7 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/container-with-most-water/
 - 难度：中等
-- 标签：贪心、数组、双指针
+- 标签：
+  - 贪心
+  - 数组
+  - 双指针
 
 ## 🔗 参考题解
 

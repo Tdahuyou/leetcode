@@ -1,10 +1,15 @@
 # 2627. 函数防抖
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/debounce/
 - 难度：中等
-- 标签：JavaScript、TypeScript、函数防抖
-- 相似题目：2676. 节流
+- 标签：
+  - JavaScript
+  - TypeScript
+  - 函数防抖
+- 相似题目：
+  - [2676. 节流](./2676.%20节流/README.md)
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.2627.函数防抖
 
 ## 🔗 链接
 

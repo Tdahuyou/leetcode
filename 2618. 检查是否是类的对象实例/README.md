@@ -2,7 +2,9 @@
 
 - 原题：https://leetcode.cn/problems/check-if-object-instance-of-class
 - 难度：中等
-- 标签：JavaScript、TypeScript
+- 标签：
+  - JavaScript
+  - TypeScript
 
 ## 🔗 链接
 

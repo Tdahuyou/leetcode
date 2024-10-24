@@ -1,13 +1,14 @@
 # 2667. 创建 Hello World 函数
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/create-hello-world-function
 - 难度：简单
-- 标签：JavaScript、TypeScript
-
----
-
-太看得起我了……
+- 标签：
+  - JavaScript
+  - TypeScript
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.2667.创建 Hello World 函数
+- 📝 summary
+  - 太看得起我了……
 
 ## 📝 题目描述
 

@@ -2,8 +2,14 @@
 
 - 原题：https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal
 - 难度：中等
-- 标签：树、数组、哈希表、分治、二叉树
-- 相似题目：105. 从前序与中序遍历序列构造二叉树
+- 标签：
+  - 树
+  - 数组
+  - 哈希表
+  - 分治
+  - 二叉树
+- 相似题目：
+  - [0105. 从前序与中序遍历序列构造二叉树](./0105.%20从前序与中序遍历序列构造二叉树/README.md)
 
 ## 📝 题目描述
 

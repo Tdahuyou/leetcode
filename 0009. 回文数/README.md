@@ -2,8 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/palindrome-number/
 - 难度：简单
-- 标签：数学
-- 相似题目：0007. 整数反转
+- 标签：
+  - 数学
+- 相似题目：
+  - [0007. 整数反转](./0007.%20整数反转/README.md)
 
 ## 📝 题目描述
 

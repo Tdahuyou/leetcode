@@ -2,8 +2,11 @@
 
 - 原题：https://leetcode.cn/problems/memoize
 - 难度：中等
-- 标签：JavaScript、TypeScript
-- 相似题目：2630. 记忆函数 II
+- 标签：
+  - JavaScript
+  - TypeScript
+- 相似题目：
+  - [2630. 记忆函数 II](./2630.%20记忆函数%20II/README.md)
 
 ## 📝 题目描述
 

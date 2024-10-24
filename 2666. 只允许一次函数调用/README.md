@@ -1,10 +1,16 @@
 # 2666. 只允许一次函数调用
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/allow-one-function-call
 - 难度：简单
-- 标签：JavaScript、TypeScript、闭包
-- 相似题目：2620. 计数器、2665. 计数器 II
+- 标签：
+  - JavaScript
+  - TypeScript
+  - 闭包
+- 相似题目：
+  - [2620. 计数器](./2620.%20计数器/README.md)
+  - [2665. 计数器 II](./2665.%20计数器%20II/README.md)
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.2666.只允许一次函数调用
 
 ## 📝 题目描述
 

@@ -2,7 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/timeout-cancellation
 - 难度：简单
-- 标签：JavaScript、TypeScript、setTimeout
+- 标签：
+  - JavaScript
+  - TypeScript
+  - setTimeout
 
 ## 📝 题目描述
 

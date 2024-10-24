@@ -1,12 +1,18 @@
 # 2665. 计数器 II
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/counter-ii
 - 难度：简单
-- 标签：JavaScript、TypeScript、闭包
-- 相似题目：2620. 计数器、2666. 只允许一次函数调用
-
-这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
+- 标签：
+  - JavaScript
+  - TypeScript
+  - 闭包
+- 相似题目：
+  - [2620. 计数器](./2620.%20计数器/README.md)
+  - [2666. 只允许一次函数调用](./2666.%20只允许一次函数调用/README.md)
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.2665.计数器 II
+- 📝 summary
+  - 这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
 
 ## 📝 题目描述
 

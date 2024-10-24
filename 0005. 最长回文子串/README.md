@@ -2,7 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/longest-palindromic-substring/
 - 难度：中等
-- 标签：双指针、字符串、动态规划
+- 标签：
+  - 双指针
+  - 字符串
+  - 动态规划
 
 ## 📝 题目描述
 

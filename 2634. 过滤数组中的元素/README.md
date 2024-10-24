@@ -2,7 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/filter-elements-from-array/
 - 难度：简单
-- 标签：JavaScript、TypeScript、回调
+- 标签：
+  - JavaScript
+  - TypeScript
+  - 回调
 
 ## 📝 题目描述
 

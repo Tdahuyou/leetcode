@@ -2,9 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/account-balance-after-rounded-purchase
 - 难度：简单
-- 标签：`数学`
-
-找规律解题，规律很多，解法也很多。
+- 标签：
+  - 数学
+- 📝 summary
+  - 找规律解题，规律很多，解法也很多。
 
 ## 📝 题目描述
 

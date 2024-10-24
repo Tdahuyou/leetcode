@@ -2,7 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/generate-fibonacci-sequence
 - 难度：简单
-- 标签：JavaScript、TypeScript、生成器
+- 标签：
+  - JavaScript
+  - TypeScript
+  - 生成器
 
 ## 📝 题目描述
 

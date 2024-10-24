@@ -2,7 +2,9 @@
 
 - 原题：https://leetcode.cn/problems/to-be-or-not-to-be
 - 难度：简单
-- 标签：JavaScript、TypeScript
+- 标签：
+  - JavaScript
+  - TypeScript
 
 ## 📝 题目描述
 

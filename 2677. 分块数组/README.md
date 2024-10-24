@@ -2,9 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/chunk-array
 - 难度：简单
-- 标签：JavaScript、TypeScript
-
-本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
+- 标签：JavaScript
+  - TypeScript
+- 📝 summary
+  - 本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
 
 ## 🔗 链接
 

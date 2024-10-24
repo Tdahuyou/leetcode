@@ -1,8 +1,9 @@
 # 0520. 检测大写字母
 
-原题：https://leetcode.cn/problems/detect-capital
-难度：简单
-标签：字符串
+- 原题：https://leetcode.cn/problems/detect-capital
+- 难度：简单
+- 标签：
+  - 字符串
 
 ## 📝 题目描述
 

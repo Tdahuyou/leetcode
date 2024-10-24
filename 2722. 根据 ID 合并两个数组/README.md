@@ -2,7 +2,9 @@
 
 - 原题：https://leetcode.cn/problems/join-two-arrays-by-id
 - 难度：中等
-- 标签：JavaScript、TypeScript
+- 标签：
+  - JavaScript
+  - TypeScript
 
 ## 📝 题目描述
 

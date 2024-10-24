@@ -2,8 +2,9 @@
 
 - 原题：https://leetcode.cn/problems/calculator-with-method-chaining
 - 难度：简单
-- 标签：JavaScript、TypeScript
-
+- 标签：
+  - JavaScript
+  - TypeScript
 题目有些长，但逻辑很简单。
 
 ## 📝 题目描述

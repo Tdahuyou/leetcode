@@ -2,7 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/array-reduce-transformation
 - 难度：简单
-- 标签：JavaScript、TypeScript、reduce
+- 标签：
+  - JavaScript
+  - TypeScript
+  - reduce
 
 ## 📝 题目描述
 

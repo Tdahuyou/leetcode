@@ -1,10 +1,15 @@
 # 0015. 三数之和
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/3sum/description/
 - 难度：中等
-- 标签：数组、双指针、排序
-- 相似题目：0001. 两数之和
+- 标签：
+  - 数组
+  - 双指针
+  - 排序
+- 相似题目：
+  - [0001. 两数之和](./0001.%20两数之和/README.md)
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.0015.排序 + 双指针
 
 ## 📝 题目描述
 

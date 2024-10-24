@@ -2,7 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/sleep/
 - 难度：简单
-- 标签：JavaScript、TypeScript、Promise
+- 标签：
+  - JavaScript
+  - TypeScript
+  - Promise
 
 ## 📝 题目描述
 

@@ -1,12 +1,14 @@
 # 2694. 事件发射器
 
-原题：https://leetcode.cn/problems/event-emitter
-难度：中等
-标签：JavaScript、TypeScript、EventEmitter、NodeJS
-
----
-
-模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
+- 原题：https://leetcode.cn/problems/event-emitter
+- 难度：中等
+- 标签：
+  - JavaScript
+  - TypeScript
+  - EventEmitter
+  - NodeJS
+- 📝 summary
+  - 模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
 
 ## 📝 题目描述
 

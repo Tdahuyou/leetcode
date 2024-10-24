@@ -1,10 +1,16 @@
 # 0003. 无重复字符的最长子串
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/longest-substring-without-repeating-characters/
 - 难度：中等
-- 标签：哈希表、字符串、滑动窗口
-- 相似题目：1695. 删除子数组的最大得分
+- 标签：
+  - 哈希表
+  - 字符串
+  - 滑动窗口
+- 相似题目：
+  - [1695. 删除子数组的最大得分](./1695.%20删除子数组的最大得分/README.md)
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.0003.暴力解法
+  - leetcode.0003.滑动窗口
 
 ## 📝 题目描述
 

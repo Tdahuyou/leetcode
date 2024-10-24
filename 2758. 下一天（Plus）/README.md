@@ -2,7 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/next-day
 - 难度：简单
-- 标签：JavaScript、TypeScript、Date
+- 标签：
+  - JavaScript
+  - TypeScript
+  - Date
 
 ## 📝 题目描述
 

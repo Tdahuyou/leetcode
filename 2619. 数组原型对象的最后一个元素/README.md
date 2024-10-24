@@ -2,7 +2,11 @@
 
 - 原题：https://leetcode.cn/problems/array-prototype-last/
 - 难度：简单
-- 标签：数组、JavaScript、TypeScript、原型
+- 标签：
+  - 数组
+  - JavaScript
+  - TypeScript
+  - 原型
 
 ## 📝 题目描述
 

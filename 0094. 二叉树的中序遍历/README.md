@@ -1,10 +1,17 @@
 # 0094. 二叉树的中序遍历
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/binary-tree-inorder-traversal
 - 难度：简单
-- 标签：栈、树、深度优先搜索、二叉树
-- 相似题目：144. 二叉树的前序遍历、145. 二叉树的后序遍历
+- 标签：
+  - 栈
+  - 树
+  - 深度优先搜索
+  - 二叉树
+- 相似题目：
+  - [0144. 二叉树的前序遍历](./0144.%20二叉树的前序遍历/README.md)
+  - [0145. 二叉树的后序遍历](./0145.%20二叉树的后序遍历/README.md)
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.0094.递归
 
 ## 🔗 链接
 

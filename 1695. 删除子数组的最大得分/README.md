@@ -1,10 +1,14 @@
 # 1695. 删除子数组的最大得分
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/maximum-erasure-value/
 - 难度：中等
-- 标签：数组、哈希表、滑动窗口
+- 标签：
+  - 数组
+  - 哈希表
+  - 滑动窗口
 - 相似题目：0003. 无重复字符的最长子串
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.1695.滑动窗口
 
 ## 📝 题目描述
 

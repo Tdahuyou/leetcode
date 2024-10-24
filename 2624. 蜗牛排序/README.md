@@ -2,7 +2,9 @@
 
 - 原题：https://leetcode.cn/problems/snail-traversal/
 - 难度：中等
-- 标签：JavaScript、TypeScript
+- 标签：
+  - JavaScript
+  - TypeScript
 
 ## 🔗 链接
 

@@ -1,9 +1,12 @@
 # 0206. 反转链表
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/reverse-linked-list
 - 难度：简单
-- 标签：递归、链表
+- 标签：
+  - 递归
+  - 链表
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.0206.递归
 
 ## 📝 题目描述
 

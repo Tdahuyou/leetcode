@@ -1,11 +1,15 @@
 # 2635. 转换数组中的每个元素
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/apply-transform-over-each-element-in-array
 - 难度：简单
-- 标签：JavaScript、TypeScript、map
-
-本题的要求 - 实现数组原生 API `Array.map`。
+- 标签：
+  - JavaScript
+  - TypeScript
+  - map
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.2635.转换数组中的每个元素
+- 📝 summary
+  - 本题要求 - 实现数组原生 API `Array.map`
 
 ## 📝 题目描述
 

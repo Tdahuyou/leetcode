@@ -2,7 +2,8 @@
 
 - 原题：https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring
 - 难度：中等
-- 标签：字符串
+- 标签：
+  - 字符串
 
 ## 📝 题目描述
 

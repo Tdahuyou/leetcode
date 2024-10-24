@@ -1,9 +1,18 @@
 # 0912. 排序数组
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/sort-an-array
 - 难度：中等
-- 标签：数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序
+- 标签：
+  - 数组
+  - 分治
+  - 桶排序
+  - 计数排序
+  - 基数排序
+  - 排序
+  - 堆（优先队列）
+  - 归并排序
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.0912.原生排序方法 Array.prototype.sort + 冒泡（官方提供的题解也超时 -_-||）
 
 ## 🔗 链接
 

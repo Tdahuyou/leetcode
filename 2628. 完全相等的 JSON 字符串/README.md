@@ -2,7 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/json-deep-equal
 - 难度：中等
-- 标签：JavaScript、TypeScript、递归
+- 标签：
+  - JavaScript
+  - TypeScript
+  - 递归
 
 ## 📝 题目描述
 

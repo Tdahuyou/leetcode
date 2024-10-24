@@ -2,7 +2,9 @@
 
 - 原题：https://leetcode.cn/problems/longest-common-prefix
 - 难度：简单
-- 标签：字典树、字符串
+- 标签：
+  - 字典树
+  - 字符串
 
 ## 📝 题目描述
 

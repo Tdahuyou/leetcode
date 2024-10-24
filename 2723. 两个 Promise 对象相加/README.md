@@ -2,8 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/add-two-promises
 - 难度：简单
-- 标签：JavaScript、TypeScript、Promise
-
+- 标签：
+  - JavaScript
+  - TypeScript
+  - Promise
 考察对 Promise 的理解。
 
 ## 📝 题目描述

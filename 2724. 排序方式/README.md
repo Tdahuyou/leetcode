@@ -2,7 +2,10 @@
 
 - 原题：https://leetcode.cn/problems/sort-by
 - 难度：简单
-- 标签：JavaScript、TypeScript、sort
+- 标签：
+  - JavaScript
+  - TypeScript
+  - sort
 
 ## 🔗 链接
 

@@ -1,10 +1,13 @@
 # 2632. 柯里化
 
-- [x] 视频
-  - 录制了题解 1 对应的视频讲解。
 - 原题：https://leetcode.cn/problems/curry
 - 难度：中等
-- 标签：JavaScript、TypeScript、柯里化
+- 标签：
+  - JavaScript
+  - TypeScript
+  - 柯里化
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.2632.柯里化
 
 ## 📝 题目描述
 

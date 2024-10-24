@@ -1,10 +1,14 @@
 # 2676. 节流
 
-- [x] 视频
 - 原题：https://leetcode.cn/problems/throttle
 - 难度：中等
-- 标签：JavaScript、TypeScript
-- 相似题目：2627. 函数防抖
+- 标签：
+  - JavaScript
+  - TypeScript
+- 相似题目：
+  - [2627. 函数防抖](./2627.%20函数防抖/README.md)
+- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+  - leetcode.2676.节流
 
 ## 🔗 链接
 
