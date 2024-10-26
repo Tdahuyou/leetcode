@@ -1,14 +1,11 @@
-# 2623. 记忆函数
+# [2623. 记忆函数](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0)
 
 - 原题：https://leetcode.cn/problems/memoize
 - 难度：中等
-- 标签：
-  - JavaScript
-  - TypeScript
-- 相似题目：
+- 相似：
   - [2630. 记忆函数 II](./2630.%20记忆函数%20II/README.md)
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写一个函数 `fn`，它接收另一个函数作为输入，并返回该函数的 **记忆化** 后的结果。
 

@@ -1,18 +1,16 @@
-# 2677. 分块数组
+# [2677. 分块数组](https://github.com/Tdahuyou/leetcode/tree/main/2677.%20%E5%88%86%E5%9D%97%E6%95%B0%E7%BB%84)
 
 - 原题：https://leetcode.cn/problems/chunk-array
 - 难度：简单
-- 标签：JavaScript
-  - TypeScript
 - 📝 summary
   - 本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
 
-## 🔗 链接
+## 🔗 links
 
 - https://lodash.com/docs/4.17.15#chunk - Lodash，Array，`_.chunk`。
 - https://github.com/lodash/lodash/blob/4.17.15/lodash.js#L6839 - Github Lodash，Array，`_.chunk` 实现源码。
 
-## 📝 题目描述
+## 📝 Description
 
 给定一个数组 `arr` 和一个块大小 `size` ，返回一个 **分块** 的数组。
 

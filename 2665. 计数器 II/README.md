@@ -1,12 +1,8 @@
-# 2665. 计数器 II
+# [2665. 计数器 II](https://github.com/Tdahuyou/leetcode/tree/main/2665.%20%E8%AE%A1%E6%95%B0%E5%99%A8%20II)
 
 - 原题：https://leetcode.cn/problems/counter-ii
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
-  - 闭包
-- 相似题目：
+- 相似：
   - [2620. 计数器](./2620.%20计数器/README.md)
   - [2666. 只允许一次函数调用](./2666.%20只允许一次函数调用/README.md)
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
@@ -14,7 +10,7 @@
 - 📝 summary
   - 这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
 
-## 📝 题目描述
+## 📝 Description
 
 请你写一个函数 `createCounter`。这个函数接收一个初始的整数值 `init`。并返回一个包含三个函数的对象。
 

@@ -1,12 +1,9 @@
-# 2725. 间隔取消
+# [2725. 间隔取消](https://github.com/Tdahuyou/leetcode/tree/main/2725.%20%E9%97%B4%E9%9A%94%E5%8F%96%E6%B6%88)
 
 - 原题：https://leetcode.cn/problems/interval-cancellation
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 
-## 📝 题目描述
+## 📝 Description
 
 现给定一个函数 `fn`，一个参数数组 `args` 和一个时间间隔 `t`，返回一个取消函数 `cancelFn`。
 

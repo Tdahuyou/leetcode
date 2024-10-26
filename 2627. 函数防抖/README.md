@@ -1,23 +1,19 @@
-# 2627. 函数防抖
+# [2627. 函数防抖](https://github.com/Tdahuyou/leetcode/tree/main/2627.%20%E5%87%BD%E6%95%B0%E9%98%B2%E6%8A%96)
 
 - 原题：https://leetcode.cn/problems/debounce/
 - 难度：中等
-- 标签：
-  - JavaScript
-  - TypeScript
-  - 函数防抖
-- 相似题目：
+- 相似：
   - [2676. 节流](./2676.%20节流/README.md)
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.2627.函数防抖
 
-## 🔗 链接
+## 🔗 links
 
 - https://lodash.com/docs/4.17.15#debounce - Lodash，`_.debounce(func, [wait=0], [options={}])`
 - https://github.com/lodash/lodash/blob/4.17.15/lodash.js#L10304 - github Lodash，debounce 实现源码
 - https://github.com/Tdahuyou/javascript - 0037. 防抖、节流
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写一个函数，接收参数为另一个函数和一个以毫秒为单位的时间 `t` ，并返回该函数的 **函数防抖** 后的结果。
 

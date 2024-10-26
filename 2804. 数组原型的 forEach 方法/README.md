@@ -1,17 +1,14 @@
-# 2804. 数组原型的 forEach 方法
+# [2804. 数组原型的 forEach 方法](https://github.com/Tdahuyou/leetcode/tree/main/2804.%20%E6%95%B0%E7%BB%84%E5%8E%9F%E5%9E%8B%E7%9A%84%20forEach%20%E6%96%B9%E6%B3%95)
 
 - 原题：https://leetcode.cn/problems/array-prototype-foreach/
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 
-## 🔗 链接
+## 🔗 links
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call - MDN，Function.prototype.call()
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach - MDN，Array.prototype.forEach()
 
-## 📝 题目描述
+## 📝 Description
 
 编写一个数组方法 `forEach`，使其可以在任何数组上调用 `array.forEach(callback, context)` 方法，它将在数组的每个元素上执行回调函数。`forEach` 方法不应该返回任何内容。
 

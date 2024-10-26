@@ -1,16 +1,13 @@
-# 2794. 从两个数组中创建对象（Plus）
+# [2794. 从两个数组中创建对象（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2794.%20%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1%EF%BC%88Plus%EF%BC%89)
 
 - 原题：https://leetcode.cn/problems/create-object-from-two-arrays
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 
-## 🔗 链接
+## 🔗 links
 
 - https://github.com/Tdahuyou/javascript - 0043. 判断某个属性是否存在于对象中
 
-## 📝 题目描述
+## 📝 Description
 
 给定两个数组 `keysArr` 和 `valuesArr`，返回一个新的对象 `obj`。`obj` 中的每个键值对都来自 `keysArr[i]` 和 `valuesArr[i]`。
 

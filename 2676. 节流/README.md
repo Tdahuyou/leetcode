@@ -1,20 +1,17 @@
-# 2676. 节流
+# [2676. 节流](https://github.com/Tdahuyou/leetcode/tree/main/2676.%20%E8%8A%82%E6%B5%81)
 
 - 原题：https://leetcode.cn/problems/throttle
 - 难度：中等
-- 标签：
-  - JavaScript
-  - TypeScript
-- 相似题目：
+- 相似：
   - [2627. 函数防抖](./2627.%20函数防抖/README.md)
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.2676.节流
 
-## 🔗 链接
+## 🔗 links
 
 - https://github.com/Tdahuyou/javascript - 0037. 防抖、节流
 
-## 📝 题目描述
+## 📝 Description
 
 现给定一个函数 `fn` 和一个以毫秒为单位的时间 `t` ，请你返回该函数的 **节流** 版本。
 

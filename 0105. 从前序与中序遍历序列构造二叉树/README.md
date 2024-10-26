@@ -1,17 +1,11 @@
-# 0105. 从前序与中序遍历序列构造二叉树
+# [0105. 从前序与中序遍历序列构造二叉树](https://github.com/Tdahuyou/leetcode/tree/main/0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91)
 
 - 原题：https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal
 - 难度：中等
-- 标签：
-  - 树
-  - 数组
-  - 哈希表
-  - 分治
-  - 二叉树
-- 相似题目：
+- 相似：
   - [0106. 从中序与后序遍历序列构造二叉树](./0106.%20从中序与后序遍历序列构造二叉树/README.md)
 
-## 📝 题目描述
+## 📝 Description
 
 给定两个整数数组 `preorder` 和 `inorder` ，其中 `preorder` 是二叉树的**先序遍历**， `inorder` 是同一棵树的**中序遍历**，请构造二叉树并返回其根节点。
 

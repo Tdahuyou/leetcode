@@ -1,12 +1,9 @@
-# 2727. 判断对象是否为空
+# [2727. 判断对象是否为空](https://github.com/Tdahuyou/leetcode/tree/main/2727.%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E4%B8%BA%E7%A9%BA)
 
 - 原题：https://leetcode.cn/problems/is-object-empty
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 
-## 📝 题目描述
+## 📝 Description
 
 给定一个对象或数组，判断它是否为空。
 

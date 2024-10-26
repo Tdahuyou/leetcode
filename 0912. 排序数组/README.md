@@ -1,25 +1,16 @@
-# 0912. 排序数组
+# [0912. 排序数组](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84)
 
 - 原题：https://leetcode.cn/problems/sort-an-array
 - 难度：中等
-- 标签：
-  - 数组
-  - 分治
-  - 桶排序
-  - 计数排序
-  - 基数排序
-  - 排序
-  - 堆（优先队列）
-  - 归并排序
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.0912.原生排序方法 Array.prototype.sort + 冒泡（官方提供的题解也超时 -_-||）
 
-## 🔗 链接
+## 🔗 links
 
 - https://github.com/hustcc/JS-Sorting-Algorithm - Github，JS-Sorting-Algorithm，十大经典排序算法。`5.1k starts`
 - https://blog.csdn.net/hlc246/article/details/81064951 - CSDN，排序算法系列之鸡尾酒排序
 
-## 📝 题目描述
+## 📝 Description
 
 给你一个整数数组 `nums`，请你将该数组升序排列。
 

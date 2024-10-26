@@ -1,15 +1,11 @@
-# 2632. 柯里化
+# [2632. 柯里化](https://github.com/Tdahuyou/leetcode/tree/main/2632.%20%E6%9F%AF%E9%87%8C%E5%8C%96)
 
 - 原题：https://leetcode.cn/problems/curry
 - 难度：中等
-- 标签：
-  - JavaScript
-  - TypeScript
-  - 柯里化
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.2632.柯里化
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写一个函数，它接收一个其他的函数，并返回该函数的 **柯里化** 后的形式。
 

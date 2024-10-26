@@ -1,13 +1,9 @@
-# 2628. 完全相等的 JSON 字符串
+# [2628. 完全相等的 JSON 字符串](https://github.com/Tdahuyou/leetcode/tree/main/2628.%20%E5%AE%8C%E5%85%A8%E7%9B%B8%E7%AD%89%E7%9A%84%20JSON%20%E5%AD%97%E7%AC%A6%E4%B8%B2)
 
 - 原题：https://leetcode.cn/problems/json-deep-equal
 - 难度：中等
-- 标签：
-  - JavaScript
-  - TypeScript
-  - 递归
 
-## 📝 题目描述
+## 📝 Description
 
 给定两个对象 `o1` 和 `o2` ，请你检查它们是否 **完全相等** 。
 

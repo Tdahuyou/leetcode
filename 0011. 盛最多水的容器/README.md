@@ -1,17 +1,13 @@
-# 0011. 盛最多水的容器
+# [0011. 盛最多水的容器](https://github.com/Tdahuyou/leetcode/tree/main/0011.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8)
 
 - 原题：https://leetcode.cn/problems/container-with-most-water/
 - 难度：中等
-- 标签：
-  - 贪心
-  - 数组
-  - 双指针
 
 ## 🔗 参考题解
 
 - https://leetcode.cn/problems/container-with-most-water/solutions/11491/container-with-most-water-shuang-zhi-zhen-fa-yi-do/
 
-## 📝 题目描述
+## 📝 Description
 
 给定一个长度为 `n` 的整数数组 `height` 。有 `n` 条垂线，第 `i` 条线的两个端点是 `(i, 0)` 和 `(i, height[i])` 。
 

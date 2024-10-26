@@ -1,12 +1,9 @@
-# 2695. 包装数组
+# [2695. 包装数组](https://github.com/Tdahuyou/leetcode/tree/main/2695.%20%E5%8C%85%E8%A3%85%E6%95%B0%E7%BB%84)
 
 - 原题：https://leetcode.cn/problems/array-wrapper
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 
-## 📝 题目描述
+## 📝 Description
 
 创建一个名为 `ArrayWrapper` 的类，它在其构造函数中接受一个整数数组作为参数。该类应具有以下两个特性：
 

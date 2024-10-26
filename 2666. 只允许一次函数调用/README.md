@@ -1,18 +1,14 @@
-# 2666. 只允许一次函数调用
+# [2666. 只允许一次函数调用](https://github.com/Tdahuyou/leetcode/tree/main/2666.%20%E5%8F%AA%E5%85%81%E8%AE%B8%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8)
 
 - 原题：https://leetcode.cn/problems/allow-one-function-call
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
-  - 闭包
-- 相似题目：
+- 相似：
   - [2620. 计数器](./2620.%20计数器/README.md)
   - [2665. 计数器 II](./2665.%20计数器%20II/README.md)
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.2666.只允许一次函数调用
 
-## 📝 题目描述
+## 📝 Description
 
 给定一个函数 `fn` ，它返回一个新的函数，返回的函数与原始函数完全相同，只不过它确保 `fn` 最多被调用一次。
 

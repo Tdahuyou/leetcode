@@ -1,16 +1,13 @@
-# 2667. 创建 Hello World 函数
+# [2667. 创建 Hello World 函数](https://github.com/Tdahuyou/leetcode/tree/main/2667.%20%E5%88%9B%E5%BB%BA%20Hello%20World%20%E5%87%BD%E6%95%B0)
 
 - 原题：https://leetcode.cn/problems/create-hello-world-function
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.2667.创建 Hello World 函数
 - 📝 summary
   - 太看得起我了……
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写一个名为 `createHelloWorld` 的函数。它应该返回一个新的函数，该函数总是返回 `"Hello World"` 。
 

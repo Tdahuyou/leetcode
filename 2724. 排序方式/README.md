@@ -1,17 +1,13 @@
-# 2724. 排序方式
+# [2724. 排序方式](https://github.com/Tdahuyou/leetcode/tree/main/2724.%20%E6%8E%92%E5%BA%8F%E6%96%B9%E5%BC%8F)
 
 - 原题：https://leetcode.cn/problems/sort-by
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
-  - sort
 
-## 🔗 链接
+## 🔗 links
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort - MDN，Array.prototype.sort
 
-## 📝 题目描述
+## 📝 Description
 
 给定一个数组 `arr` 和一个函数 `fn`，返回一个排序后的数组 `sortedArr`。你可以假设 `fn` 只返回数字，并且这些数字决定了 `sortedArr` 的排序顺序。`sortedArr` 必须按照 `fn` 的输出值 **升序** 排序。
 

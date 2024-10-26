@@ -1,17 +1,13 @@
-# 2635. 转换数组中的每个元素
+# [2635. 转换数组中的每个元素](https://github.com/Tdahuyou/leetcode/tree/main/2635.%20%E8%BD%AC%E6%8D%A2%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%AF%8F%E4%B8%AA%E5%85%83%E7%B4%A0)
 
 - 原题：https://leetcode.cn/problems/apply-transform-over-each-element-in-array
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
-  - map
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.2635.转换数组中的每个元素
 - 📝 summary
   - 本题要求 - 实现数组原生 API `Array.map`
 
-## 📝 题目描述
+## 📝 Description
 
 编写一个函数，这个函数接收一个整数数组 `arr` 和一个映射函数  `fn` ，通过该映射函数返回一个新的数组。
 

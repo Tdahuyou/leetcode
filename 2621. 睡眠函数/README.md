@@ -1,13 +1,9 @@
-# 2621. 睡眠函数
+# [2621. 睡眠函数](https://github.com/Tdahuyou/leetcode/tree/main/2621.%20%E7%9D%A1%E7%9C%A0%E5%87%BD%E6%95%B0)
 
 - 原题：https://leetcode.cn/problems/sleep/
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
-  - Promise
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写一个异步函数，它接收一个正整数参数 `millis` ，并休眠 `millis` 毫秒。要求此函数可以解析任何值。
 

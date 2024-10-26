@@ -1,13 +1,9 @@
-# 2626. 数组归约运算
+# [2626. 数组归约运算](https://github.com/Tdahuyou/leetcode/tree/main/2626.%20%E6%95%B0%E7%BB%84%E5%BD%92%E7%BA%A6%E8%BF%90%E7%AE%97)
 
 - 原题：https://leetcode.cn/problems/array-reduce-transformation
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
-  - reduce
 
-## 📝 题目描述
+## 📝 Description
 
 给定一个整数数组 `nums`、一个 reducer 函数 `fn` 和一个初始值 `init`，返回通过依次对数组的每个元素执行 `fn` 函数得到的最终结果。
 

@@ -1,13 +1,9 @@
-# 2803. 阶乘生成器（Plus）
+# [2803. 阶乘生成器（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2803.%20%E9%98%B6%E4%B9%98%E7%94%9F%E6%88%90%E5%99%A8%EF%BC%88Plus%EF%BC%89)
 
 - 原题：https://leetcode.cn/problems/factorial-generator
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
-  - 生成器
 
-## 📝 题目描述
+## 📝 Description
 
 编写一个生成器函数，该函数以一个整数 `n` 作为参数，并返回一个生成器对象，该生成器对象可以生成 **阶乘序列** 。
 

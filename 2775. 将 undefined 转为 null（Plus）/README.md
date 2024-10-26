@@ -1,13 +1,9 @@
-# 2775. 将 undefined 转为 null（Plus）
+# [2775. 将 undefined 转为 null（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2775.%20%E5%B0%86%20undefined%20%E8%BD%AC%E4%B8%BA%20null%EF%BC%88Plus%EF%BC%89)
 
 - 原题：https://leetcode.cn/problems/undefined-to-null/
 - 难度：中等
-- 标签：
-  - JavaScript
-  - TypeScript
-  - 递归
 
-## 📝 题目描述
+## 📝 Description
 
 给定一个深层嵌套的对象或数组 obj ，并创建该对象 obj 的副本，将其中的任何 undefined 值替换为 null 。
 

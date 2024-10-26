@@ -1,12 +1,9 @@
-# 2704. 相等还是不相等
+# [2704. 相等还是不相等](https://github.com/Tdahuyou/leetcode/tree/main/2704.%20%E7%9B%B8%E7%AD%89%E8%BF%98%E6%98%AF%E4%B8%8D%E7%9B%B8%E7%AD%89)
 
 - 原题：https://leetcode.cn/problems/to-be-or-not-to-be
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写一个名为 `expect` 的函数，用于帮助开发人员测试他们的代码。它应该接受任何值 `val` 并返回一个包含以下两个函数的对象。
 

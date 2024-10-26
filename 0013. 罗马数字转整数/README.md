@@ -1,15 +1,11 @@
-# 0013. 罗马数字转整数
+# [0013. 罗马数字转整数](https://github.com/Tdahuyou/leetcode/tree/main/0013.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0)
 
 - 原题：https://leetcode.cn/problems/roman-to-integer
 - 难度：简单
-- 标签：
-  - 哈希表
-  - 数学
-  - 字符串
 - 📝 summary
   - 本文介绍的两种题解，都是基于哈希表来实现的。
 
-## 📝 题目描述
+## 📝 Description
 
 罗马数字包含以下七种字符: `I`， `V`， `X`， `L`，`C`，`D` 和 `M`。
 

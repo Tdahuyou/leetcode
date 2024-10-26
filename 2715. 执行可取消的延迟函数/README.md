@@ -1,13 +1,9 @@
-# 2715. 执行可取消的延迟函数
+# [2715. 执行可取消的延迟函数](https://github.com/Tdahuyou/leetcode/tree/main/2715.%20%E6%89%A7%E8%A1%8C%E5%8F%AF%E5%8F%96%E6%B6%88%E7%9A%84%E5%BB%B6%E8%BF%9F%E5%87%BD%E6%95%B0)
 
 - 原题：https://leetcode.cn/problems/timeout-cancellation
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
-  - setTimeout
 
-## 📝 题目描述
+## 📝 Description
 
 给定一个函数 `fn` ，一个参数数组 `args` 和一个以毫秒为单位的超时时间 `t` ，返回一个取消函数 `cancelFn` 。
 

@@ -1,13 +1,9 @@
-# 2758. 下一天（Plus）
+# [2758. 下一天（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2758.%20%E4%B8%8B%E4%B8%80%E5%A4%A9%EF%BC%88Plus%EF%BC%89)
 
 - 原题：https://leetcode.cn/problems/next-day
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
-  - Date
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写一个有关日期对象的方法，使得任何日期对象都可以调用 `date.nextDay()` 方法，然后返回调用日期对象的下一天，格式为 YYYY-MM-DD 。
 

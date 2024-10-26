@@ -1,16 +1,13 @@
-# 2618. 检查是否是类的对象实例
+# [2618. 检查是否是类的对象实例](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B)
 
 - 原题：https://leetcode.cn/problems/check-if-object-instance-of-class
 - 难度：中等
-- 标签：
-  - JavaScript
-  - TypeScript
 
-## 🔗 链接
+## 🔗 links
 
 - https://leetcode.cn/problems/check-if-object-instance-of-class/solutions/2288152/2618-jian-cha-shi-fou-shi-lei-de-dui-xia-spyn/ - 题解，2618. 检查是否是类的对象实例。从使用 instanceof 到迭代，递归实现 instanceof。
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写一个函数，检查给定的值是否是给定类或超类的实例。
 

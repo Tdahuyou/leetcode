@@ -1,16 +1,11 @@
-# 2694. 事件发射器
+# [2694. 事件发射器](https://github.com/Tdahuyou/leetcode/tree/main/2694.%20%E4%BA%8B%E4%BB%B6%E5%8F%91%E5%B0%84%E5%99%A8)
 
 - 原题：https://leetcode.cn/problems/event-emitter
 - 难度：中等
-- 标签：
-  - JavaScript
-  - TypeScript
-  - EventEmitter
-  - NodeJS
 - 📝 summary
   - 模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
 
-## 📝 题目描述
+## 📝 Description
 
 设计一个 `EventEmitter` 类。这个接口与 Node.js 或 DOM 的 Event Target 接口相似，但有一些差异。`EventEmitter` 应该允许订阅事件和触发事件。
 

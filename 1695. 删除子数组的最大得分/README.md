@@ -1,16 +1,13 @@
-# 1695. 删除子数组的最大得分
+# [1695. 删除子数组的最大得分](https://github.com/Tdahuyou/leetcode/tree/main/1695.%20%E5%88%A0%E9%99%A4%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86)
 
 - 原题：https://leetcode.cn/problems/maximum-erasure-value/
 - 难度：中等
-- 标签：
-  - 数组
-  - 哈希表
-  - 滑动窗口
-- 相似题目：0003. 无重复字符的最长子串
+- 相似：
+  - [0003. 无重复字符的最长子串](./0003.%20无重复字符的最长子串/README.md)
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.1695.滑动窗口
 
-## 📝 题目描述
+## 📝 Description
 
 给你一个正整数数组 `nums` ，请你从中删除一个含有 **若干不同元素** 的子数组。删除子数组的 **得分** 就是子数组各元素之 **和** 。
 

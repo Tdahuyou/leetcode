@@ -1,16 +1,13 @@
-# 2774. 数组的上界（Plus）
+# [2774. 数组的上界（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2774.%20%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8A%E7%95%8C%EF%BC%88Plus%EF%BC%89)
 
 - 原题：https://leetcode.cn/problems/array-upper-bound
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 
-## 🔗 链接
+## 🔗 links
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf - MDN，`Array.prototype.indexOf()`
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写代码实现一个数组方法，任何数组都可以调用 `upperBound()` 方法，并返回给定目标数字的 **最后** 一个索引。`nums` 是一个可能包含重复数字的按升序排序的数组。如果在数组中找不到目标数字，则返回 -1。
 

@@ -1,14 +1,11 @@
-# 2629. 复合函数
+# [2629. 复合函数](https://github.com/Tdahuyou/leetcode/tree/main/2629.%20%E5%A4%8D%E5%90%88%E5%87%BD%E6%95%B0)
 
 - 原题：https://leetcode.cn/problems/function-composition
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.2629.复合函数
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写一个函数，它接收一个函数数组 `[f1, f2, f3，…， fn]` ，并返回一个新的函数 `fn` ，它是函数数组的 **复合函数** 。
 

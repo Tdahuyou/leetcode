@@ -1,13 +1,10 @@
-# 2726. 使用方法链的计算器
+# [2726. 使用方法链的计算器](https://github.com/Tdahuyou/leetcode/tree/main/2726.%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E9%93%BE%E7%9A%84%E8%AE%A1%E7%AE%97%E5%99%A8)
 
 - 原题：https://leetcode.cn/problems/calculator-with-method-chaining
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 题目有些长，但逻辑很简单。
 
-## 📝 题目描述
+## 📝 Description
 
 设计一个类 `Calculator` 。该类应提供加法、减法、乘法、除法和乘方等数学运算功能。同时，它还应支持连续操作的方法链式调用。`Calculator` 类的构造函数应接受一个数字作为 `result` 的初始值。
 

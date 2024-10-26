@@ -1,16 +1,14 @@
-# 2620. 计数器
+# [2620. 计数器](https://github.com/Tdahuyou/leetcode/tree/main/2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8)
 
 - 原题：https://leetcode.cn/problems/counter/
 - 难度：简单
-- 标签：JavaScript
-  - TypeScript
-  - 闭包
-- 相似题目：2665. 计数器 II
+- 相似：
+  - [2665. 计数器 II](./2665.%20计数器%20II/README.md)
   - [2666. 只允许一次函数调用](./2666.%20只允许一次函数调用/README.md)
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.2620.计数器
 
-## 📝 题目描述
+## 📝 Description
 
 给定一个整型参数 `n`，请你编写并返回一个 `counter` 函数。这个 `counter` 函数最初返回 `n`，每次调用它时会返回前一个值加 1 的值 ( `n` ,  `n + 1` ,  `n + 2` ，等等)。
 

@@ -1,16 +1,11 @@
-# 0622. 设计循环队列
+# [0622. 设计循环队列](https://github.com/Tdahuyou/leetcode/tree/main/0622.%20%E8%AE%BE%E8%AE%A1%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97)
 
 - 原题：https://leetcode.cn/problems/design-circular-queue
 - 难度：中等
-- 标签：
-  - 设计
-  - 队列
-  - 数组
-  - 链表
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.0622.设计循环队列
 
-## 📝 题目描述
+## 📝 Description
 
 设计你的循环队列实现。 循环队列是一种线性数据结构，其操作表现基于 FIFO（先进先出）原则并且队尾被连接在队首之后以形成一个循环。它也被称为“环形缓冲器”。
 

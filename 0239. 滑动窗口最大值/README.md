@@ -1,17 +1,11 @@
-# 0239. 滑动窗口最大值
+# [0239. 滑动窗口最大值](https://github.com/Tdahuyou/leetcode/tree/main/0239.%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC)
 
 - 原题：https://leetcode.cn/problems/sliding-window-maximum
 - 难度：困难
-- 标签：
-  - 滑动窗口
-  - 队列
-  - 数组
-  - 单调队列
-  - 堆（优先队列）
 - 视频：https://www.bilibili.com/video/BV1DivNejEb1
   - leetcode.0239.deque
 
-## 📝 题目描述
+## 📝 Description
 
 给你一个整数数组 `nums`，有一个大小为 `k` 的滑动窗口从数组的最左侧移动到数组的最右侧。你只可以看到在滑动窗口内的 `k` 个数字。滑动窗口每次只向右移动一位。
 

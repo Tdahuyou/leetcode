@@ -1,12 +1,9 @@
-# 2822. 对象反转
+# [2822. 对象反转](https://github.com/Tdahuyou/leetcode/tree/main/2822.%20%E5%AF%B9%E8%B1%A1%E5%8F%8D%E8%BD%AC)
 
 - 原题：https://leetcode.cn/problems/inversion-of-object
 - 难度：简单
-- 标签：
-  - JavaScript
-  - TypeScript
 
-## 📝 题目描述
+## 📝 Description
 
 给定一个对象 `obj`，返回一个反转的对象 `invertedObj`。
 

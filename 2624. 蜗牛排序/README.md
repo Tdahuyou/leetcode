@@ -1,17 +1,14 @@
-# 2624. 蜗牛排序
+# [2624. 蜗牛排序](https://github.com/Tdahuyou/leetcode/tree/main/2624.%20%E8%9C%97%E7%89%9B%E6%8E%92%E5%BA%8F)
 
 - 原题：https://leetcode.cn/problems/snail-traversal/
 - 难度：中等
-- 标签：
-  - JavaScript
-  - TypeScript
 
-## 🔗 链接
+## 🔗 links
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from - MDN Array.from()
 - https://github.com/Tdahuyou/javascript - 0076. 使用 Array.form 来创建一个二维数组
 
-## 📝 题目描述
+## 📝 Description
 
 请你编写一段代码为所有数组实现  `snail(rowsCount，colsCount)` 方法，该方法将 1D 数组转换为以蜗牛排序的模式的 2D 数组。无效的输入值应该输出一个空数组。当 `rowsCount * colsCount !==``nums.length` 时。这个输入被认为是无效的。
 
