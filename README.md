@@ -23,6 +23,8 @@
 - https://doocs.github.io/leetcode/lc/1/
   - LeetCode 全解
 
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112867630125027&bvid=BV1DivNejEb1&cid=500001645668599&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 ## 📒 notes - LeetCode 刷题指南 - 新手快速入门
 
 - 数据结构
