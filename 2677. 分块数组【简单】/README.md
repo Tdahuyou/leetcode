@@ -1,8 +1,7 @@
 # [2677. 分块数组](https://github.com/Tdahuyou/leetcode/tree/main/2677.%20%E5%88%86%E5%9D%97%E6%95%B0%E7%BB%84)
 
 - [leetcode](https://leetcode.cn/problems/chunk-array)
-- **备注**
-  - 本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
+- 备注：本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
 
 ## 🔗 links
 

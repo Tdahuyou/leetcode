@@ -1,8 +1,7 @@
 # [2723. 两个 Promise 对象相加](https://github.com/Tdahuyou/leetcode/tree/main/2723.%20%E4%B8%A4%E4%B8%AA%20Promise%20%E5%AF%B9%E8%B1%A1%E7%9B%B8%E5%8A%A0)
 
 - [leetcode](https://leetcode.cn/problems/add-two-promises)
-- **备注**
-  - 考察对 Promise 的理解。
+- 备注：考察对 Promise 的理解。
 
 ## 📝 Description
 

@@ -3,9 +3,8 @@
 - [leetcode](https://leetcode.cn/problems/allow-one-function-call)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2666.只允许一次函数调用
-- **相似**
-  - [2620. 计数器](./2620.%20计数器/README.md)
-  - [2665. 计数器 II](./2665.%20计数器%20II/README.md)
+- 相似：[2620. 计数器【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+- 相似：[2665. 计数器 II【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2665.%20%E8%AE%A1%E6%95%B0%E5%99%A8%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2665.%20%E8%AE%A1%E6%95%B0%E5%99%A8%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 ## 📝 Description
 

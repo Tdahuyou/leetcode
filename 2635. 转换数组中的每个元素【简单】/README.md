@@ -3,8 +3,7 @@
 - [leetcode](https://leetcode.cn/problems/apply-transform-over-each-element-in-array)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2635.转换数组中的每个元素
-- **备注**
-  - 本题要求 - 实现数组原生 API `Array.map`
+- 备注：本题要求 - 实现数组原生 API `Array.map`
 
 ## 📝 Description
 

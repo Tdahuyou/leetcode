@@ -5,7 +5,7 @@
   - leetcode.0001.双指针暴力求解
   - leetcode.0001.静态哈希表
   - leetcode.0001.动态哈希表
-- 相似：[0015. 三数之和【中等】](./0015.%20三数之和【中等】/README.md)
+- 相似：[0015. 三数之和【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -15,7 +15,7 @@
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0003.暴力解法
   - leetcode.0003.滑动窗口
-- 相似：[1695. 删除子数组的最大得分【中等】](./1695.%20删除子数组的最大得分【中等】/README.md)
+- 相似：[1695. 删除子数组的最大得分【中等】](https://github.com/Tdahuyou/leetcode/tree/main/1695.%20%E5%88%A0%E9%99%A4%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./1695.%20%E5%88%A0%E9%99%A4%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -28,14 +28,14 @@
 ### [0007. 整数反转【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/reverse-integer/)
-- 相似：[0009. 回文数【简单】](./0009.%20回文数【简单】/README.md)
+- 相似：[0009. 回文数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
 ### [0009. 回文数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/palindrome-number/)
-- 相似：[0007. 整数反转](./0007.%20整数反转/README.md)
+- 相似：[0007. 整数反转【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -48,8 +48,7 @@
 ### [0013. 罗马数字转整数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0013.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0013.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/roman-to-integer)
-- **备注**
-  - 本文介绍的两种题解，都是基于哈希表来实现的。
+- 备注：本文介绍的两种题解，都是基于哈希表来实现的。
 
 
 <!-- !====================>分隔符<====================! -->
@@ -64,7 +63,7 @@
 - [leetcode](https://leetcode.cn/problems/3sum/description/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0015.排序 + 双指针
-- 相似：[0001. 两数之和](./0001.%20两数之和/README.md)
+- 相似：[0001. 两数之和【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -97,24 +96,22 @@
 - [leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0094.递归
-- 相似：[0144. 二叉树的前序遍历](./0144.%20二叉树的前序遍历/README.md)
-- 相似：[0145. 二叉树的后序遍历](./0145.%20二叉树的后序遍历/README.md)
+- 相似：[0144. 二叉树的前序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+- 相似：[0145. 二叉树的后序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
 ### [0105. 从前序与中序遍历序列构造二叉树【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
-- **相似**
-  - [0106. 从中序与后序遍历序列构造二叉树](./0106.%20从中序与后序遍历序列构造二叉树/README.md)
+- 相似：[0106. 从中序与后序遍历序列构造二叉树【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0106.%20%E4%BB%8E%E4%B8%AD%E5%BA%8F%E4%B8%8E%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0106.%20%E4%BB%8E%E4%B8%AD%E5%BA%8F%E4%B8%8E%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
 ### [0106. 从中序与后序遍历序列构造二叉树【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0106.%20%E4%BB%8E%E4%B8%AD%E5%BA%8F%E4%B8%8E%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0106.%20%E4%BB%8E%E4%B8%AD%E5%BA%8F%E4%B8%8E%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
-- **相似**
-  - [0105. 从前序与中序遍历序列构造二叉树](./0105.%20从前序与中序遍历序列构造二叉树/README.md)
+- 相似：[0105. 从前序与中序遍历序列构造二叉树【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -123,9 +120,8 @@
 - [leetcode](https://leetcode.cn/problems/binary-tree-preorder-traversal)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0144.递归
-- **相似**
-  - [0094. 二叉树的中序遍历](./0094.%20二叉树的中序遍历/README.md)
-  - [0145. 二叉树的后序遍历](./0145.%20二叉树的后序遍历/README.md)
+- 相似：[0094. 二叉树的中序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+- 相似：[0145. 二叉树的后序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -134,9 +130,8 @@
 - [leetcode](https://leetcode.cn/problems/binary-tree-postorder-traversal)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0145.递归
-- **相似**
-  - [0094. 二叉树的中序遍历](./0094.%20二叉树的中序遍历/README.md)
-  - [0144. 二叉树的前序遍历](./0144.%20二叉树的前序遍历/README.md)
+- 相似：[0094. 二叉树的中序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+- 相似：[0144. 二叉树的前序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -183,8 +178,7 @@
 - [leetcode](https://leetcode.cn/problems/maximum-erasure-value/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.1695.滑动窗口
-- **相似**
-  - [0003. 无重复字符的最长子串](./0003.%20无重复字符的最长子串/README.md)
+- 相似：[0003. 无重复字符的最长子串【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0003.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0003.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -211,9 +205,8 @@
 - [leetcode](https://leetcode.cn/problems/counter/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2620.计数器
-- **相似**
-  - [2665. 计数器 II](./2665.%20计数器%20II/README.md)
-  - [2666. 只允许一次函数调用](./2666.%20只允许一次函数调用/README.md)
+- 相似：[2665. 计数器 II【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2665.%20%E8%AE%A1%E6%95%B0%E5%99%A8%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2665.%20%E8%AE%A1%E6%95%B0%E5%99%A8%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+- 相似：[2666. 只允许一次函数调用【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2666.%20%E5%8F%AA%E5%85%81%E8%AE%B8%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2666.%20%E5%8F%AA%E5%85%81%E8%AE%B8%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -232,8 +225,7 @@
 ### [2623. 记忆函数【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/memoize)
-- **相似**
-  - [2630. 记忆函数 II](./2630.%20记忆函数%20II/README.md)
+- 相似：[2630. 记忆函数 II【困难】](https://github.com/Tdahuyou/leetcode/tree/main/2630.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91) <!-- [locale](./2630.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -260,8 +252,7 @@
 - [leetcode](https://leetcode.cn/problems/debounce/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2627.函数防抖
-- **相似**
-  - [2676. 节流](./2676.%20节流/README.md)
+- 相似：[2676. 节流【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2676.%20%E8%8A%82%E6%B5%81%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./2676.%20%E8%8A%82%E6%B5%81%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -282,8 +273,7 @@
 ### [2630. 记忆函数 II【困难】](https://github.com/Tdahuyou/leetcode/tree/main/2630.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91) <!-- [locale](./2630.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/memoize-ii/)
-- **相似**
-  - [2623. 记忆函数](./2623.%20记忆函数/README.md)
+- 相似：[2623. 记忆函数【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -317,13 +307,11 @@
 - [leetcode](https://leetcode.cn/problems/apply-transform-over-each-element-in-array)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2635.转换数组中的每个元素
-- **备注**
-  - 本题要求 - 实现数组原生 API `Array.map`
+- 备注：本题要求 - 实现数组原生 API `Array.map`
 
 
 <!-- !====================>分隔符<====================! -->
 ### [2636. Promise 对象池（Plus）【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2636.%20Promise%20%E5%AF%B9%E8%B1%A1%E6%B1%A0%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./2636.%20Promise%20%E5%AF%B9%E8%B1%A1%E6%B1%A0%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
-
 
 - [leetcode](https://leetcode.cn/problems/promise-pool)
 
@@ -349,7 +337,6 @@
 <!-- !====================>分隔符<====================! -->
 ### [2650. 设计可取消函数【困难】](https://github.com/Tdahuyou/leetcode/tree/main/2650.%20%E8%AE%BE%E8%AE%A1%E5%8F%AF%E5%8F%96%E6%B6%88%E5%87%BD%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91) <!-- [locale](./2650.%20%E8%AE%BE%E8%AE%A1%E5%8F%AF%E5%8F%96%E6%B6%88%E5%87%BD%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md) -->
 
-
 - [leetcode](https://leetcode.cn/problems/design-cancellable-function/)
 
 
@@ -359,11 +346,9 @@
 - [leetcode](https://leetcode.cn/problems/counter-ii)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2665.计数器 II
-- **相似**
-  - [2620. 计数器](./2620.%20计数器/README.md)
-  - [2666. 只允许一次函数调用](./2666.%20只允许一次函数调用/README.md)
-- **备注**
-  - 这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
+- 相似：[2620. 计数器【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+- 相似：[2666. 只允许一次函数调用【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2666.%20%E5%8F%AA%E5%85%81%E8%AE%B8%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2666.%20%E5%8F%AA%E5%85%81%E8%AE%B8%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+- 备注：这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
 
 
 <!-- !====================>分隔符<====================! -->
@@ -372,9 +357,8 @@
 - [leetcode](https://leetcode.cn/problems/allow-one-function-call)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2666.只允许一次函数调用
-- **相似**
-  - [2620. 计数器](./2620.%20计数器/README.md)
-  - [2665. 计数器 II](./2665.%20计数器%20II/README.md)
+- 相似：[2620. 计数器【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+- 相似：[2665. 计数器 II【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2665.%20%E8%AE%A1%E6%95%B0%E5%99%A8%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2665.%20%E8%AE%A1%E6%95%B0%E5%99%A8%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
@@ -383,8 +367,7 @@
 - [leetcode](https://leetcode.cn/problems/create-hello-world-function)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2667.创建 Hello World 函数
-- **备注**
-  - 太看得起我了……
+- 备注：太看得起我了……
 
 
 <!-- !====================>分隔符<====================! -->
@@ -398,16 +381,14 @@
 - [leetcode](https://leetcode.cn/problems/throttle)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2676.节流
-- **相似**
-  - [2627. 函数防抖](./2627.%20函数防抖/README.md)
+- 相似：[2627. 函数防抖【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2627.%20%E5%87%BD%E6%95%B0%E9%98%B2%E6%8A%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./2627.%20%E5%87%BD%E6%95%B0%E9%98%B2%E6%8A%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
 ### [2677. 分块数组【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2677.%20%E5%88%86%E5%9D%97%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2677.%20%E5%88%86%E5%9D%97%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/chunk-array)
-- **备注**
-  - 本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
+- 备注：本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
 
 
 <!-- !====================>分隔符<====================! -->
@@ -438,8 +419,7 @@
 ### [2694. 事件发射器【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2694.%20%E4%BA%8B%E4%BB%B6%E5%8F%91%E5%B0%84%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./2694.%20%E4%BA%8B%E4%BB%B6%E5%8F%91%E5%B0%84%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/event-emitter)
-- **备注**
-  - 模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
+- 备注：模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
 
 
 <!-- !====================>分隔符<====================! -->
@@ -491,8 +471,7 @@
 ### [2723. 两个 Promise 对象相加【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2723.%20%E4%B8%A4%E4%B8%AA%20Promise%20%E5%AF%B9%E8%B1%A1%E7%9B%B8%E5%8A%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2723.%20%E4%B8%A4%E4%B8%AA%20Promise%20%E5%AF%B9%E8%B1%A1%E7%9B%B8%E5%8A%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/add-two-promises)
-- **备注**
-  - 考察对 Promise 的理解。
+- 备注：考察对 Promise 的理解。
 
 
 <!-- !====================>分隔符<====================! -->
@@ -511,8 +490,7 @@
 ### [2726. 使用方法链的计算器【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2726.%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E9%93%BE%E7%9A%84%E8%AE%A1%E7%AE%97%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2726.%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E9%93%BE%E7%9A%84%E8%AE%A1%E7%AE%97%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/calculator-with-method-chaining)
-- **备注**
-  - 题目有些长，但逻辑很简单。
+- 备注：题目有些长，但逻辑很简单。
 
 
 <!-- !====================>分隔符<====================! -->
@@ -618,8 +596,7 @@
 ### [2806. 取整购买后的账户余额【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2806.%20%E5%8F%96%E6%95%B4%E8%B4%AD%E4%B9%B0%E5%90%8E%E7%9A%84%E8%B4%A6%E6%88%B7%E4%BD%99%E9%A2%9D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2806.%20%E5%8F%96%E6%95%B4%E8%B4%AD%E4%B9%B0%E5%90%8E%E7%9A%84%E8%B4%A6%E6%88%B7%E4%BD%99%E9%A2%9D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
-- **备注**
-  - 找规律解题，规律很多，解法也很多。
+- 备注：找规律解题，规律很多，解法也很多。
 
 
 <!-- !====================>分隔符<====================! -->
@@ -641,10 +618,7 @@
 <!-- !====================>分隔符<====================! -->
 ### [9999. 油猴脚本 - LeetCode 题目描述爬取](https://github.com/Tdahuyou/leetcode/tree/main/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96) <!-- [locale](./9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md) -->
 
-- **备注**
-  - 该油猴脚本用于从LeetCode网站上抓取题目描述并转换成Markdown格式，方便用户复制使用。
-  - 脚本通过添加一个按钮到页面上，让用户能够一键复制题目描述，并对转换后的Markdown内容进行了一定的格式优化。
-  - 使用者可以在题解页面找到新增的“复制题目描述”按钮来快速获取题目信息。
+- 备注：该油猴脚本用于从LeetCode网站上抓取题目描述并转换成Markdown格式，方便用户复制使用。脚本通过添加一个按钮到页面上，让用户能够一键复制题目描述，并对转换后的Markdown内容进行了一定的格式优化。使用者可以在题解页面找到新增的“复制题目描述”按钮来快速获取题目信息。
 
 
 <!-- !====================>分隔符<====================! -->

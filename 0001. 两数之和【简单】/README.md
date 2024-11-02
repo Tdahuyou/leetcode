@@ -5,7 +5,7 @@
   - leetcode.0001.双指针暴力求解
   - leetcode.0001.静态哈希表
   - leetcode.0001.动态哈希表
-- 相似：[0015. 三数之和【中等】](./0015.%20三数之和【中等】/README.md)
+- 相似：[0015. 三数之和【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 ## 📝 Description
 
