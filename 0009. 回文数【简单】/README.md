@@ -1,8 +1,7 @@
 # [0009. 回文数](https://github.com/Tdahuyou/leetcode/tree/main/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0)
 
 - [leetcode](https://leetcode.cn/problems/palindrome-number/)
-- **相似**
-  - [0007. 整数反转](./0007.%20整数反转/README.md)
+- 相似：[0007. 整数反转](./0007.%20整数反转/README.md)
 
 ## 📝 Description
 

@@ -5,8 +5,7 @@
   - leetcode.0001.双指针暴力求解
   - leetcode.0001.静态哈希表
   - leetcode.0001.动态哈希表
-- **相似**
-  - [0015. 三数之和【中等】](./0015.%20三数之和【中等】/README.md)
+- 相似：[0015. 三数之和【中等】](./0015.%20三数之和【中等】/README.md)
 
 
 <!-- !====================>分隔符<====================! -->
@@ -16,8 +15,7 @@
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0003.暴力解法
   - leetcode.0003.滑动窗口
-- **相似**
-  - [1695. 删除子数组的最大得分【中等】](./1695.%20删除子数组的最大得分【中等】/README.md)
+- 相似：[1695. 删除子数组的最大得分【中等】](./1695.%20删除子数组的最大得分【中等】/README.md)
 
 
 <!-- !====================>分隔符<====================! -->
@@ -30,16 +28,14 @@
 ### [0007. 整数反转【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/reverse-integer/)
-- **相似**
-  - [0009. 回文数【简单】](./0009.%20回文数【简单】/README.md)
+- 相似：[0009. 回文数【简单】](./0009.%20回文数【简单】/README.md)
 
 
 <!-- !====================>分隔符<====================! -->
 ### [0009. 回文数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/palindrome-number/)
-- **相似**
-  - [0007. 整数反转](./0007.%20整数反转/README.md)
+- 相似：[0007. 整数反转](./0007.%20整数反转/README.md)
 
 
 <!-- !====================>分隔符<====================! -->
@@ -68,8 +64,7 @@
 - [leetcode](https://leetcode.cn/problems/3sum/description/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0015.排序 + 双指针
-- **相似**
-  - [0001. 两数之和](./0001.%20两数之和/README.md)
+- 相似：[0001. 两数之和](./0001.%20两数之和/README.md)
 
 
 <!-- !====================>分隔符<====================! -->
@@ -102,9 +97,8 @@
 - [leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0094.递归
-- **相似**
-  - [0144. 二叉树的前序遍历](./0144.%20二叉树的前序遍历/README.md)
-  - [0145. 二叉树的后序遍历](./0145.%20二叉树的后序遍历/README.md)
+- 相似：[0144. 二叉树的前序遍历](./0144.%20二叉树的前序遍历/README.md)
+- 相似：[0145. 二叉树的后序遍历](./0145.%20二叉树的后序遍历/README.md)
 
 
 <!-- !====================>分隔符<====================! -->

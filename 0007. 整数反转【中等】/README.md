@@ -1,8 +1,7 @@
 # [0007. 整数反转](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC)
 
 - [leetcode](https://leetcode.cn/problems/reverse-integer/)
-- **相似**
-  - [0009. 回文数【简单】](./0009.%20回文数【简单】/README.md)
+- 相似：[0009. 回文数【简单】](./0009.%20回文数【简单】/README.md)
 
 ## 📝 Description
 

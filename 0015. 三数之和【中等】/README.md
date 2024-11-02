@@ -3,8 +3,7 @@
 - [leetcode](https://leetcode.cn/problems/3sum/description/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0015.排序 + 双指针
-- **相似**
-  - [0001. 两数之和](./0001.%20两数之和/README.md)
+- 相似：[0001. 两数之和](./0001.%20两数之和/README.md)
 
 ## 📝 Description
 

@@ -4,8 +4,7 @@
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0003.暴力解法
   - leetcode.0003.滑动窗口
-- **相似**
-  - [1695. 删除子数组的最大得分【中等】](./1695.%20删除子数组的最大得分【中等】/README.md)
+- 相似：[1695. 删除子数组的最大得分【中等】](./1695.%20删除子数组的最大得分【中等】/README.md)
 
 ## 📝 Description
 
