@@ -1,7 +1,6 @@
 # [0005. 最长回文子串](https://github.com/Tdahuyou/leetcode/tree/main/0005.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2)
 
-- 原题：https://leetcode.cn/problems/longest-palindromic-substring/
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/longest-palindromic-substring/)
 
 ## 📝 Description
 

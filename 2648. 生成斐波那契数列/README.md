@@ -1,7 +1,6 @@
 # [2648. 生成斐波那契数列](https://github.com/Tdahuyou/leetcode/tree/main/2648.%20%E7%94%9F%E6%88%90%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97)
 
-- 原题：https://leetcode.cn/problems/generate-fibonacci-sequence
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/generate-fibonacci-sequence)
 
 ## 📝 Description
 

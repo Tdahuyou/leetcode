@@ -1,10 +1,9 @@
 # [0015. 三数之和](https://github.com/Tdahuyou/leetcode/tree/main/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C)
 
-- 原题：https://leetcode.cn/problems/3sum/description/
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/3sum/description/)
 - 相似：
   - [0001. 两数之和](./0001.%20两数之和/README.md)
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0015.排序 + 双指针
 
 ## 📝 Description

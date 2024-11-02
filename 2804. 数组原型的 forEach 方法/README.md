@@ -1,7 +1,6 @@
 # [2804. 数组原型的 forEach 方法](https://github.com/Tdahuyou/leetcode/tree/main/2804.%20%E6%95%B0%E7%BB%84%E5%8E%9F%E5%9E%8B%E7%9A%84%20forEach%20%E6%96%B9%E6%B3%95)
 
-- 原题：https://leetcode.cn/problems/array-prototype-foreach/
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/array-prototype-foreach/)
 
 ## 🔗 links
 

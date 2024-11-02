@@ -1,7 +1,6 @@
 # [2704. 相等还是不相等](https://github.com/Tdahuyou/leetcode/tree/main/2704.%20%E7%9B%B8%E7%AD%89%E8%BF%98%E6%98%AF%E4%B8%8D%E7%9B%B8%E7%AD%89)
 
-- 原题：https://leetcode.cn/problems/to-be-or-not-to-be
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/to-be-or-not-to-be)
 
 ## 📝 Description
 

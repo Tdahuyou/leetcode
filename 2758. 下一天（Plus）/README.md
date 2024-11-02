@@ -1,7 +1,6 @@
 # [2758. 下一天（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2758.%20%E4%B8%8B%E4%B8%80%E5%A4%A9%EF%BC%88Plus%EF%BC%89)
 
-- 原题：https://leetcode.cn/problems/next-day
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/next-day)
 
 ## 📝 Description
 

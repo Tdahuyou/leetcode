@@ -1,7 +1,6 @@
 # [0022. 括号生成](https://github.com/Tdahuyou/leetcode/tree/main/0022.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90)
 
-- 原题：https://leetcode.cn/problems/generate-parentheses/
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/generate-parentheses/)
 
 ## 🔗 links
 

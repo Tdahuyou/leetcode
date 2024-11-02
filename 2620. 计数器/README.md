@@ -1,11 +1,10 @@
 # [2620. 计数器](https://github.com/Tdahuyou/leetcode/tree/main/2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8)
 
-- 原题：https://leetcode.cn/problems/counter/
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/counter/)
 - 相似：
   - [2665. 计数器 II](./2665.%20计数器%20II/README.md)
   - [2666. 只允许一次函数调用](./2666.%20只允许一次函数调用/README.md)
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2620.计数器
 
 ## 📝 Description

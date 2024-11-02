@@ -1,7 +1,6 @@
 # [2803. 阶乘生成器（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2803.%20%E9%98%B6%E4%B9%98%E7%94%9F%E6%88%90%E5%99%A8%EF%BC%88Plus%EF%BC%89)
 
-- 原题：https://leetcode.cn/problems/factorial-generator
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/factorial-generator)
 
 ## 📝 Description
 

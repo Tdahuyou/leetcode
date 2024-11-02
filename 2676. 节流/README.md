@@ -1,10 +1,9 @@
 # [2676. 节流](https://github.com/Tdahuyou/leetcode/tree/main/2676.%20%E8%8A%82%E6%B5%81)
 
-- 原题：https://leetcode.cn/problems/throttle
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/throttle)
 - 相似：
   - [2627. 函数防抖](./2627.%20函数防抖/README.md)
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2676.节流
 
 ## 🔗 links

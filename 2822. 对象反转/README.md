@@ -1,7 +1,6 @@
 # [2822. 对象反转](https://github.com/Tdahuyou/leetcode/tree/main/2822.%20%E5%AF%B9%E8%B1%A1%E5%8F%8D%E8%BD%AC)
 
-- 原题：https://leetcode.cn/problems/inversion-of-object
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/inversion-of-object)
 
 ## 📝 Description
 

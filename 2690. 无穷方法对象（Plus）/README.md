@@ -1,7 +1,6 @@
 # [2690. 无穷方法对象（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2690.%20%E6%97%A0%E7%A9%B7%E6%96%B9%E6%B3%95%E5%AF%B9%E8%B1%A1%EF%BC%88Plus%EF%BC%89)
 
-- 原题：https://leetcode.cn/problems/infinite-method-object
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/infinite-method-object)
 
 ## 📝 Description
 

@@ -1,7 +1,6 @@
 # [2774. 数组的上界（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2774.%20%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8A%E7%95%8C%EF%BC%88Plus%EF%BC%89)
 
-- 原题：https://leetcode.cn/problems/array-upper-bound
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/array-upper-bound)
 
 ## 🔗 links
 

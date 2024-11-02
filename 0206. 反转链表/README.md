@@ -1,8 +1,7 @@
 # [0206. 反转链表](https://github.com/Tdahuyou/leetcode/tree/main/0206.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8)
 
-- 原题：https://leetcode.cn/problems/reverse-linked-list
-- 难度：简单
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [leetcode|*](https://leetcode.cn/problems/reverse-linked-list)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0206.递归
 
 ## 📝 Description

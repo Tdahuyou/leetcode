@@ -1,7 +1,6 @@
 # [2722. 根据 ID 合并两个数组](https://github.com/Tdahuyou/leetcode/tree/main/2722.%20%E6%A0%B9%E6%8D%AE%20ID%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84)
 
-- 原题：https://leetcode.cn/problems/join-two-arrays-by-id
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/join-two-arrays-by-id)
 
 ## 📝 Description
 

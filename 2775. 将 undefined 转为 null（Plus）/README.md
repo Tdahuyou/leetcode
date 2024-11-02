@@ -1,7 +1,6 @@
 # [2775. 将 undefined 转为 null（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2775.%20%E5%B0%86%20undefined%20%E8%BD%AC%E4%B8%BA%20null%EF%BC%88Plus%EF%BC%89)
 
-- 原题：https://leetcode.cn/problems/undefined-to-null/
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/undefined-to-null/)
 
 ## 📝 Description
 

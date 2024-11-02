@@ -1,10 +1,9 @@
 # [0001. 两数之和](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C)
 
-- 原题：https://leetcode.cn/problems/two-sum/
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/two-sum/)
 - 相似：
   - [0015. 三数之和](./0015.%20三数之和/README.md)
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0001.双指针暴力求解
   - leetcode.0001.静态哈希表
   - leetcode.0001.动态哈希表

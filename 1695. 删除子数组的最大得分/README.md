@@ -1,10 +1,9 @@
 # [1695. 删除子数组的最大得分](https://github.com/Tdahuyou/leetcode/tree/main/1695.%20%E5%88%A0%E9%99%A4%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86)
 
-- 原题：https://leetcode.cn/problems/maximum-erasure-value/
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/maximum-erasure-value/)
 - 相似：
   - [0003. 无重复字符的最长子串](./0003.%20无重复字符的最长子串/README.md)
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.1695.滑动窗口
 
 ## 📝 Description

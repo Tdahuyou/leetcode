@@ -1,7 +1,6 @@
 # [0011. 盛最多水的容器](https://github.com/Tdahuyou/leetcode/tree/main/0011.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8)
 
-- 原题：https://leetcode.cn/problems/container-with-most-water/
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/container-with-most-water/)
 
 ## 🔗 参考题解
 

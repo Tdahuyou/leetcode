@@ -1,8 +1,7 @@
 # [2629. 复合函数](https://github.com/Tdahuyou/leetcode/tree/main/2629.%20%E5%A4%8D%E5%90%88%E5%87%BD%E6%95%B0)
 
-- 原题：https://leetcode.cn/problems/function-composition
-- 难度：简单
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [leetcode|*](https://leetcode.cn/problems/function-composition)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2629.复合函数
 
 ## 📝 Description

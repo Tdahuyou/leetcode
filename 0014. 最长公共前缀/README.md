@@ -1,7 +1,6 @@
 # [0014. 最长公共前缀](https://github.com/Tdahuyou/leetcode/tree/main/0014.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80)
 
-- 原题：https://leetcode.cn/problems/longest-common-prefix
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/longest-common-prefix)
 
 ## 📝 Description
 

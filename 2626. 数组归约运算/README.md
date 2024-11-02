@@ -1,7 +1,6 @@
 # [2626. 数组归约运算](https://github.com/Tdahuyou/leetcode/tree/main/2626.%20%E6%95%B0%E7%BB%84%E5%BD%92%E7%BA%A6%E8%BF%90%E7%AE%97)
 
-- 原题：https://leetcode.cn/problems/array-reduce-transformation
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/array-reduce-transformation)
 
 ## 📝 Description
 

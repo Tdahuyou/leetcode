@@ -1,7 +1,6 @@
 # [2796. 重复字符串（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89)
 
-- 原题：https://leetcode.cn/problems/repeat-string/description/
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/repeat-string/description/)
 
 ## 📝 Description
 

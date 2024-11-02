@@ -1,7 +1,6 @@
 # [2726. 使用方法链的计算器](https://github.com/Tdahuyou/leetcode/tree/main/2726.%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E9%93%BE%E7%9A%84%E8%AE%A1%E7%AE%97%E5%99%A8)
 
-- 原题：https://leetcode.cn/problems/calculator-with-method-chaining
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/calculator-with-method-chaining)
 题目有些长，但逻辑很简单。
 
 ## 📝 Description

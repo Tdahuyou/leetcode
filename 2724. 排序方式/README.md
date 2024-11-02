@@ -1,7 +1,6 @@
 # [2724. 排序方式](https://github.com/Tdahuyou/leetcode/tree/main/2724.%20%E6%8E%92%E5%BA%8F%E6%96%B9%E5%BC%8F)
 
-- 原题：https://leetcode.cn/problems/sort-by
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/sort-by)
 
 ## 🔗 links
 

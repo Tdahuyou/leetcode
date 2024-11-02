@@ -1,11 +1,10 @@
 # [0094. 二叉树的中序遍历](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86)
 
-- 原题：https://leetcode.cn/problems/binary-tree-inorder-traversal
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/binary-tree-inorder-traversal)
 - 相似：
   - [0144. 二叉树的前序遍历](./0144.%20二叉树的前序遍历/README.md)
   - [0145. 二叉树的后序遍历](./0145.%20二叉树的后序遍历/README.md)
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0094.递归
 
 ## 🔗 links

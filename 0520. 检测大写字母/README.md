@@ -1,7 +1,6 @@
 # [0520. 检测大写字母](https://github.com/Tdahuyou/leetcode/tree/main/0520.%20%E6%A3%80%E6%B5%8B%E5%A4%A7%E5%86%99%E5%AD%97%E6%AF%8D)
 
-- 原题：https://leetcode.cn/problems/detect-capital
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/detect-capital)
 
 ## 📝 Description
 

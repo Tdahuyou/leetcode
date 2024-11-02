@@ -1,7 +1,6 @@
 # [2628. 完全相等的 JSON 字符串](https://github.com/Tdahuyou/leetcode/tree/main/2628.%20%E5%AE%8C%E5%85%A8%E7%9B%B8%E7%AD%89%E7%9A%84%20JSON%20%E5%AD%97%E7%AC%A6%E4%B8%B2)
 
-- 原题：https://leetcode.cn/problems/json-deep-equal
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/json-deep-equal)
 
 ## 📝 Description
 

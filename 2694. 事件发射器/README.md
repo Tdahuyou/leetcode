@@ -1,7 +1,6 @@
 # [2694. 事件发射器](https://github.com/Tdahuyou/leetcode/tree/main/2694.%20%E4%BA%8B%E4%BB%B6%E5%8F%91%E5%B0%84%E5%99%A8)
 
-- 原题：https://leetcode.cn/problems/event-emitter
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/event-emitter)
 - 📝 summary
   - 模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
 

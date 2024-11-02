@@ -1,8 +1,7 @@
 # [0912. 排序数组](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84)
 
-- 原题：https://leetcode.cn/problems/sort-an-array
-- 难度：中等
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [leetcode|**](https://leetcode.cn/problems/sort-an-array)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0912.原生排序方法 Array.prototype.sort + 冒泡（官方提供的题解也超时 -_-||）
 
 ## 🔗 links

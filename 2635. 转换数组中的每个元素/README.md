@@ -1,8 +1,7 @@
 # [2635. 转换数组中的每个元素](https://github.com/Tdahuyou/leetcode/tree/main/2635.%20%E8%BD%AC%E6%8D%A2%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%AF%8F%E4%B8%AA%E5%85%83%E7%B4%A0)
 
-- 原题：https://leetcode.cn/problems/apply-transform-over-each-element-in-array
-- 难度：简单
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [leetcode|*](https://leetcode.cn/problems/apply-transform-over-each-element-in-array)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2635.转换数组中的每个元素
 - 📝 summary
   - 本题要求 - 实现数组原生 API `Array.map`

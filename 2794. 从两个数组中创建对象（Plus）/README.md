@@ -1,7 +1,6 @@
 # [2794. 从两个数组中创建对象（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2794.%20%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1%EF%BC%88Plus%EF%BC%89)
 
-- 原题：https://leetcode.cn/problems/create-object-from-two-arrays
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/create-object-from-two-arrays)
 
 ## 🔗 links
 

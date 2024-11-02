@@ -1,7 +1,6 @@
 # [2624. 蜗牛排序](https://github.com/Tdahuyou/leetcode/tree/main/2624.%20%E8%9C%97%E7%89%9B%E6%8E%92%E5%BA%8F)
 
-- 原题：https://leetcode.cn/problems/snail-traversal/
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/snail-traversal/)
 
 ## 🔗 links
 

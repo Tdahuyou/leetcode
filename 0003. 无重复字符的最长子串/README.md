@@ -1,10 +1,9 @@
 # [0003. 无重复字符的最长子串](https://github.com/Tdahuyou/leetcode/tree/main/0003.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2)
 
-- 原题：https://leetcode.cn/problems/longest-substring-without-repeating-characters/
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
 - 相似：
   - [1695. 删除子数组的最大得分](./1695.%20删除子数组的最大得分/README.md)
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.0003.暴力解法
   - leetcode.0003.滑动窗口
 

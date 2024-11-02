@@ -1,7 +1,6 @@
 # [2619. 数组原型对象的最后一个元素](https://github.com/Tdahuyou/leetcode/tree/main/2619.%20%E6%95%B0%E7%BB%84%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0)
 
-- 原题：https://leetcode.cn/problems/array-prototype-last/
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/array-prototype-last/)
 
 ## 📝 Description
 

@@ -1,7 +1,6 @@
 # [2621. 睡眠函数](https://github.com/Tdahuyou/leetcode/tree/main/2621.%20%E7%9D%A1%E7%9C%A0%E5%87%BD%E6%95%B0)
 
-- 原题：https://leetcode.cn/problems/sleep/
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/sleep/)
 
 ## 📝 Description
 

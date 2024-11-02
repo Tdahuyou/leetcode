@@ -1,6 +1,6 @@
 # [2630. 记忆函数 II](https://github.com/Tdahuyou/leetcode/tree/main/2630.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%20II)
 
-- 原题：https://leetcode.cn/problems/memoize-ii/
+- [leetcode|*](https://leetcode.cn/problems/memoize-ii/)
 - 难度：困难
 - 相似：
   - [2623. 记忆函数](./2623.%20记忆函数/README.md)

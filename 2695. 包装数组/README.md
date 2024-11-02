@@ -1,7 +1,6 @@
 # [2695. 包装数组](https://github.com/Tdahuyou/leetcode/tree/main/2695.%20%E5%8C%85%E8%A3%85%E6%95%B0%E7%BB%84)
 
-- 原题：https://leetcode.cn/problems/array-wrapper
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/array-wrapper)
 
 ## 📝 Description
 

@@ -1,7 +1,6 @@
 # [2725. 间隔取消](https://github.com/Tdahuyou/leetcode/tree/main/2725.%20%E9%97%B4%E9%9A%94%E5%8F%96%E6%B6%88)
 
-- 原题：https://leetcode.cn/problems/interval-cancellation
-- 难度：简单
+- [leetcode|*](https://leetcode.cn/problems/interval-cancellation)
 
 ## 📝 Description
 

@@ -1,10 +1,9 @@
 # [2627. 函数防抖](https://github.com/Tdahuyou/leetcode/tree/main/2627.%20%E5%87%BD%E6%95%B0%E9%98%B2%E6%8A%96)
 
-- 原题：https://leetcode.cn/problems/debounce/
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/debounce/)
 - 相似：
   - [2676. 节流](./2676.%20节流/README.md)
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2627.函数防抖
 
 ## 🔗 links

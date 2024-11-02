@@ -1,8 +1,7 @@
 # [2632. 柯里化](https://github.com/Tdahuyou/leetcode/tree/main/2632.%20%E6%9F%AF%E9%87%8C%E5%8C%96)
 
-- 原题：https://leetcode.cn/problems/curry
-- 难度：中等
-- 视频：https://www.bilibili.com/video/BV1DivNejEb1
+- [leetcode|**](https://leetcode.cn/problems/curry)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
   - leetcode.2632.柯里化
 
 ## 📝 Description

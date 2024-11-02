@@ -1,7 +1,6 @@
 # [2618. 检查是否是类的对象实例](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B)
 
-- 原题：https://leetcode.cn/problems/check-if-object-instance-of-class
-- 难度：中等
+- [leetcode|**](https://leetcode.cn/problems/check-if-object-instance-of-class)
 
 ## 🔗 links
 
