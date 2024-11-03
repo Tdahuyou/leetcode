@@ -1,4 +1,4 @@
-# [0206. 反转链表](https://github.com/Tdahuyou/leetcode/tree/main/0206.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8)
+# [0206. 反转链表【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0206.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/reverse-linked-list)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)

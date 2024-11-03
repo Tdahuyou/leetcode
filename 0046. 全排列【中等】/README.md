@@ -1,4 +1,4 @@
-# 0046. 全排列【中等】
+# [0046. 全排列【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0046.%20%E5%85%A8%E6%8E%92%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/permutations/)
 
@@ -27,8 +27,26 @@
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有整数 **互不相同**
 
-## 💻 题解
+## 💻 题解 - 回溯
 
-```
+```javascript
+var permute = function(nums) {
+  const ans = [];
 
+  const dfs = (path) => {
+    if (path.length === nums.length) {
+      ans.push([...path]);
+      return;
+    }
+    for (let i = 0; i < nums.length; i++) {
+      if (path.includes(nums[i])) continue;
+      path.push(nums[i]);
+      dfs(path);
+      path.pop();
+    }
+  }
+
+  dfs([]);
+  return ans;
+};
 ```

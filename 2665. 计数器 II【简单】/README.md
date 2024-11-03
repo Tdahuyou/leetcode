@@ -1,4 +1,4 @@
-# [2665. 计数器 II](https://github.com/Tdahuyou/leetcode/tree/main/2665.%20%E8%AE%A1%E6%95%B0%E5%99%A8%20II)
+# [2665. 计数器 II【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2665.%20%E8%AE%A1%E6%95%B0%E5%99%A8%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/counter-ii)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)

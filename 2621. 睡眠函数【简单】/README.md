@@ -1,4 +1,4 @@
-# [2621. 睡眠函数](https://github.com/Tdahuyou/leetcode/tree/main/2621.%20%E7%9D%A1%E7%9C%A0%E5%87%BD%E6%95%B0)
+# [2621. 睡眠函数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2621.%20%E7%9D%A1%E7%9C%A0%E5%87%BD%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/sleep/)
 

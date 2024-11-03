@@ -1,4 +1,4 @@
-# [0912. 排序数组](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84)
+# [0912. 排序数组【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/sort-an-array)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)

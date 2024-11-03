@@ -1,4 +1,4 @@
-# 0496. 下一个更大元素 I【简单】
+# [0496. 下一个更大元素 I【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0496.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0%20I%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/next-greater-element-i/)
 

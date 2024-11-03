@@ -1,4 +1,4 @@
-# [2726. 使用方法链的计算器](https://github.com/Tdahuyou/leetcode/tree/main/2726.%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E9%93%BE%E7%9A%84%E8%AE%A1%E7%AE%97%E5%99%A8)
+# [2726. 使用方法链的计算器【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2726.%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E9%93%BE%E7%9A%84%E8%AE%A1%E7%AE%97%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/calculator-with-method-chaining)
 - 备注：题目有些长，但逻辑很简单。

@@ -1,4 +1,4 @@
-# 0162. 寻找峰值【中等】
+# [0162. 寻找峰值【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/find-peak-element)
 

@@ -1,4 +1,4 @@
-# [2725. 间隔取消](https://github.com/Tdahuyou/leetcode/tree/main/2725.%20%E9%97%B4%E9%9A%94%E5%8F%96%E6%B6%88)
+# [2725. 间隔取消【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2725.%20%E9%97%B4%E9%9A%94%E5%8F%96%E6%B6%88%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/interval-cancellation)
 

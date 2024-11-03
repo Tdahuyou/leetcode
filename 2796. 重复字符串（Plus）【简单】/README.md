@@ -1,4 +1,4 @@
-# [2796. 重复字符串（Plus）](https://github.com/Tdahuyou/leetcode/tree/main/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89)
+# [2796. 重复字符串（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/repeat-string/description/)
 

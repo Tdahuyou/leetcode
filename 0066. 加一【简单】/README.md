@@ -1,4 +1,4 @@
-# 0066. 加一【简单】
+# [0066. 加一【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0066.%20%E5%8A%A0%E4%B8%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/plus-one/)
 
@@ -35,8 +35,22 @@
 - `1 <= digits.length <= 100`
 - `0 <= digits[i] <= 9`
 
-## 💻 题解
+## 💻 题解 - 逆序循环
 
-```
-
+```javascript
+/**
+ * @param {number[]} digits
+ * @return {number[]}
+ */
+var plusOne = function (digits) {
+    const len = digits.length;
+    for (let i = len - 1; i >= 0; i--) {
+        digits[i]++;
+        digits[i] %= 10;
+        if (digits[i] !== 0) return digits;
+    }
+    const result = Array(len + 1).fill(0);
+    result[0] = 1;
+    return result;
+};
 ```

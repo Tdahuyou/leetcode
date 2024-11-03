@@ -1,4 +1,4 @@
-# [2626. 数组归约运算](https://github.com/Tdahuyou/leetcode/tree/main/2626.%20%E6%95%B0%E7%BB%84%E5%BD%92%E7%BA%A6%E8%BF%90%E7%AE%97)
+# [2626. 数组归约运算【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2626.%20%E6%95%B0%E7%BB%84%E5%BD%92%E7%BA%A6%E8%BF%90%E7%AE%97%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
 

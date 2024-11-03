@@ -1,4 +1,4 @@
-# [2695. 包装数组](https://github.com/Tdahuyou/leetcode/tree/main/2695.%20%E5%8C%85%E8%A3%85%E6%95%B0%E7%BB%84)
+# [2695. 包装数组【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2695.%20%E5%8C%85%E8%A3%85%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/array-wrapper)
 
