@@ -1,7 +1,3 @@
-/************************************************************
- * 油猴脚本 - LeetCode 题目描述爬取
- ************************************************************/
-
 // ==UserScript==
 // @name         力扣题目转Markdown
 // @name:en      LeetCode Promlem to Markdown
@@ -37,54 +33,83 @@ GM_addStyle(`
     color: rgba(var(--dsw-green-standard-rgb), 1);
     cursor: pointer;
     outline: none;
-}`);
+}`)
 
 const turndownService = new TurndownService({
-    emDelimiter: '*',
-    bulletListMarker: '-'
-});
+  emDelimiter: '*',
+  bulletListMarker: '-',
+})
 turndownService.addRule('strikethrough', {
-    filter: ['pre'],
-    replacement: (content, node) => node.innerText.trim() + '\n'
-});
+  filter: ['pre'],
+  replacement: (content, node) => node.innerText.trim(),
+})
 turndownService.addRule('strikethrough', {
-    filter: ['sup'],
-    replacement: content => '^' + content
-});
+  filter: ['sup'],
+  replacement: (content) => '^' + content,
+})
 
 // 接收HTML字符串转成Markdown格式
-const htmlToMd = htmlStr => {
-    console.log('转换开始...', htmlStr);
-    return turndownService.turndown(htmlStr.replace(/<p>&nbsp;<\/p>/g, '<br>'));
+const htmlToMd = (htmlStr) => {
+  console.log('转换开始...', htmlStr)
+  return turndownService.turndown(htmlStr.replace(/<p>&nbsp;<\/p>/g, '<br>'))
 }
-const getDescMd = () => htmlToMd(document.querySelector('div[data-track-load="description_content"]').innerHTML);
-const getCodeMd = () => document.querySelector('input[name=lang]').value + '\n' +
-    document.querySelector('input[name=code]').value + '\n```\n';
+const getDescMd = () =>
+  htmlToMd(
+    document.querySelector('div[data-track-load="description_content"]')
+      .innerHTML
+  )
+const getCodeMd = () =>
+  document.querySelector('input[name=lang]').value +
+  '\n' +
+  document.querySelector('input[name=code]').value +
+  '\n```\n'
 
-// 查询到的节点缓存在变量中
-let descEle;
-// 拼接解题模板用到的字符串
-const afterDesc = '\n\n  \n\n## 解题\n\n### 方法一：\n\n#### 思路\n\n\n\n#### 代码\n\n```';
 // 复制题目
-const copyDescBtn = document.createElement('button');
-copyDescBtn.innerText = '复制题目描述';
-copyDescBtn.addEventListener('click', copyDescHandler);
-GM_registerMenuCommand("复制题目描述", copyDescHandler);
+const copyDescBtn = document.createElement('button')
+copyDescBtn.innerText = '复制题目描述'
+copyDescBtn.addEventListener('click', copyDescHandler)
+GM_registerMenuCommand('复制题目描述', copyDescHandler)
 // 放入功能按钮
-const copyBtnsEle = document.createElement('div');
-copyBtnsEle.className = 'copy-btns';
-copyBtnsEle.appendChild(copyDescBtn);
+const copyBtnsEle = document.createElement('div')
+copyBtnsEle.className = 'copy-btns'
+copyBtnsEle.appendChild(copyDescBtn)
 
 function copyDescHandler() {
-    GM_setClipboard(getDescMd());
-    message.success({
-        text: '复制题目成功',
-        duration: 800
-    });
+  GM_setClipboard(
+    '# ' +
+      document
+        .querySelector('.text-title-large')
+        .innerText.replace(/\d+/, (match) => match.padStart(4, '0')) +
+      '【' +
+      document.querySelectorAll(
+        '.text-difficulty-easy, .text-difficulty-hard, .text-difficulty-medium'
+      )[0].innerText +
+      '】' +
+      '\n\n' + // 生成标题
+      `- [leetcode](${location.href.replace(/\/?description\/?/, '')})\n\n` + // 生成原题链接
+      `## 📝 Description\n\n` + // 题目描述开始
+      getDescMd()
+        .replaceAll('-   ', '- ') // 处理【提示】部分的无序列表缩进
+        .replace(/\*\*(示例 (\d+)[:：])\*\*(?:\n| )/g, (match, p1, num) => {
+          if (num === '1') {
+            return `**${p1}**\n\`\`\``
+          } else {
+            return `\`\`\`\n**${p1}**\n\`\`\``
+          }
+        }) // 将示例内统一使用 ``` 包裹起来
+        .replace(/\*\*(提示[:：])\*\*(?:\n| )/g, (match, p1) => {
+          return `\`\`\`\n**${p1}**\n`
+        }) +
+      `\n\n## 💻 题解\n\n\`\`\`\n\n\`\`\`\n` // 题解模板
+  )
+  message.success({
+    text: '【题目描述】复制成功',
+    duration: 800,
+  })
 }
 
-(() => {
-    'use strict';
+;(() => {
+  'use strict'
 
-    window.addEventListener('load', setTimeout(copyDescHandler, 3000));
-})();
+  window.addEventListener('load', setTimeout(copyDescHandler, 1000))
+})()

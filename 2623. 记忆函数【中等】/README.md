@@ -73,7 +73,7 @@ fib(5) = 8 // "call"
 - `actions[i]` 为 "call" 和 "getCallCount" 中的一个
 - `fnName` 为 "sum", "factorial" 和 "fib" 中的一个
 
-## 📝 笔记 - 将数字数组直接作为 key
+## 📒 notes - 将数字数组直接作为 key
 
 ```js
 const arr = [1, 2]

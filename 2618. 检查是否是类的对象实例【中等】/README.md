@@ -41,7 +41,7 @@ Dog 是 Animal 的子类。因此，Dog 对象同时是 Dog 和 Animal 的实例
 - 输出：true
 - 解释：5 是一个 Number。注意，"instanceof" 关键字将返回 false。
 
-## 📝 笔记 - 使用 Object() 将原始类型的值转为对应的包装对象
+## 📒 notes - 使用 Object() 将原始类型的值转为对应的包装对象
 
 **提示：**`Object` 函数的参数是各种原始类型的值，转换成对象就是原始类型值对应的包装对象。
 

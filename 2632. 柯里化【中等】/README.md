@@ -74,7 +74,7 @@ inputs = [[]]
 - 如果 `fn.length > 0` 则最后一个数组 `inputs` 不为空
 - 如果 `fn.length === 0` 则 `inputs.length === 1`
 
-## 📝 笔记 - 函数的 length 属性
+## 📒 notes - 函数的 length 属性
 
 - 函数的形参数量可以通过函数的 length 属性来读取。
 - 清空一个数组可以通过给数组的 length 属性赋值为 0 来实现。
