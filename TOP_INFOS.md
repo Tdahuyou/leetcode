@@ -91,15 +91,23 @@
 
 
 <!-- !====================>分隔符<====================! -->
+### [0026. 删除有序数组中的重复项【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0026.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0026.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+
+- [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
+
+
+<!-- !====================>分隔符<====================! -->
 ### [0027. 移除元素【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/remove-element/)
+- 相似：[0283. 移动零【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 
 <!-- !====================>分隔符<====================! -->
 ### [0028. 找出字符串中第一个匹配项的下标【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+- 本节介绍了 KMP 算法，代码量不多，但理解起来比较费劲儿，不应该是简单题的难度。
 
 
 <!-- !====================>分隔符<====================! -->
@@ -119,9 +127,21 @@
 
 
 <!-- !====================>分隔符<====================! -->
+### [0048. 旋转图像【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0048.%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0048.%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
+
+- [leetcode](https://leetcode.cn/problems/rotate-image)
+
+
+<!-- !====================>分隔符<====================! -->
 ### [0053. 最大子数组和【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0053.%20%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0053.%20%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/maximum-subarray/)
+
+
+<!-- !====================>分隔符<====================! -->
+### [0056. 合并区间【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
+
+- [leetcode](https://leetcode.cn/problems/merge-intervals)
 
 
 <!-- !====================>分隔符<====================! -->
@@ -147,6 +167,13 @@
 
 
 <!-- !====================>分隔符<====================! -->
+### [0075. 颜色分类【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0075.%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0075.%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
+
+- [leetcode](https://leetcode.cn/problems/sort-colors)
+- 本质是考察升序排序。
+
+
+<!-- !====================>分隔符<====================! -->
 ### [0077. 组合【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0077.%20%E7%BB%84%E5%90%88%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0077.%20%E7%BB%84%E5%90%88%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 - [leetcode](https://leetcode.cn/problems/combinations/)
@@ -158,6 +185,12 @@
 - [leetcode](https://leetcode.cn/problems/subsets/)
 - **⏰ TODO**
   - 合并 keynote-2.key、keynote.key。
+
+
+<!-- !====================>分隔符<====================! -->
+### [0080. 删除有序数组中的重复项 II【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0080.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0080.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
+
+- [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)
 
 
 <!-- !====================>分隔符<====================! -->

@@ -1,6 +1,7 @@
 # [0027. 移除元素【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/remove-element/)
+- 相似：[0283. 移动零【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 ## 🔗 links
 
@@ -135,6 +136,25 @@ var removeElement = function (nums, val) {
   - 由于循环结束分两种情况，所以最终返回的新数组长度也分两种情况：
     - 左指针撞向右指针 - 直接返回 l
     - 右指针撞向左指针 - 返回 l + 1
+
+```js
+/**
+ * 22-08-27
+ * @param {number[]} nums
+ * @param {number} val
+ * @return {number}
+ */
+var removeElement = function (nums, val) {
+  let slow = -1, fast = 0, len = nums.length
+  while (fast <= len - 1) {
+    if (nums[fast] === val) fast++
+    else nums[++slow] = nums[fast++]
+  }
+  return slow + 1
+}
+```
+
+- ![](md-imgs/2024-11-09-22-50-43.png)
 
 ## 💻 题解 - 调用系统函数
 
