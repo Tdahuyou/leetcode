@@ -1,5 +1,11 @@
 # LeetCode
 
+### ⏰ 待录视频
+
+- [ ] [0088. 合并两个有序数组【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0088.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./0088.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+- [ ] [0118. 杨辉三角【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0118.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./0118.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+- [ ] [0119. 杨辉三角 II【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0119.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./0119.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
+
 ### JS 相关例题
 
 - [ ] [2618. 检查是否是类的对象实例【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) <!-- [locale](./2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
@@ -138,8 +144,6 @@
 - [ ] [9999. 油猴脚本 - LeetCode 题目描述爬取](https://github.com/Tdahuyou/leetcode/tree/main/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md) <!-- [locale](./9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md) -->
 
 ---
-
-
 
 ### ⏰ 待分组
 
