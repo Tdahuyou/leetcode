@@ -34,8 +34,28 @@ recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002]，范围是 [2,300
 - 保证每次对 `ping` 调用所使用的 `t` 值都 **严格递增**
 - 至多调用 `ping` 方法 `10^4` 次
 
-## 💻 题解
+## 💻 题解 - 暴力解法 - 使用队列 queue
 
+```js
+var RecentCounter = function () {
+  this.queue = []
+};
+
+/**
+ * @param {number} t
+ * @return {number}
+ */
+RecentCounter.prototype.ping = function (t) {
+  this.queue.push(t) // 入队
+  while (this.queue[0] < t - 3000) this.queue.shift() // 出队
+  return this.queue.length; // 返回符合条件的队列成员数量
+}
+
+/**
+ * Your RecentCounter object will be instantiated and called as such:
+ * var obj = new RecentCounter()
+ * var param_1 = obj.ping(t)
+ */
 ```
 
-```
+- `this.queue.shift()` 移除第一个成员（第二个成员将变为第一个成员，继续判断是否需要移除新的第一个成员。）

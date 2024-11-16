@@ -33,8 +33,39 @@
 - `1 <= m, n <= 50`
 - `grid[i][j]` 为 `0` 或 `1`
 
-## 💻 题解
+## 💻 题解 - DFS + 递归
 
+```js
+/**
+ * @param {number[][]} grid
+ * @return {number}
+ */
+var maxAreaOfIsland = function (grid) {
+  let result = 0 // 最终结果
+  const rowCount = grid.length, colCount = grid[0].length
+
+  // 递归，遍历与当前陆地相连的所有陆地
+  const dfs = (grid, i, j) => {
+    if (i < 0 || j < 0 || i > rowCount - 1 || j > colCount - 1) return 0 // 越界
+    if (grid[i][j] !== 1) return 0 // 不是陆地
+    // 这个点是陆地
+    grid[i][j] = 0 // 将遍历过的陆地全部置 0，防止重复遍历
+    return 1 +              // 1 表示当前这个点是陆地
+      dfs(grid, i - 1, j) + // 上
+      dfs(grid, i + 1, j) + // 下
+      dfs(grid, i, j - 1) + // 左
+      dfs(grid, i, j + 1)   // 右
+  }
+
+  // 遍历 grid
+  for (let i = 0; i < rowCount; i++) { // 遍历行
+    for (let j = 0; j < colCount; j++) { // 遍历列
+      result = Math.max(result, dfs(grid, i, j))
+    }
+  }
+  return result
+}
 ```
 
-```
+- 如何防止同一个陆地被重复遍历？
+  - 但凡是遍历过的陆地（也就是被计数过的陆地），就将其重置为 0；重置以后，下次再遍历到它时，它将不再被识别为陆地。

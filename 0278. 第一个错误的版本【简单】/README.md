@@ -29,8 +29,39 @@
 
 - `1 <= bad <= n <= 2^31 - 1`
 
-## 💻 题解
+## 💻 题解 - 暴力解法
 
+```js
+var solution = function (isBadVersion) {
+  return function (n) {
+    for (let i = 1; i <= n; i ++) if (isBadVersion(i)) return i
+  }
+};
 ```
 
+- 直接将所有成员都遍历一遍来查找，从最小的开始。
+- 超时：
+  - 这种解法在早期（21、22 年那会儿）是可以通过的，不过现在（2024 年 11 月 16 日 23:08:01）测试了一下，发现会超时。
+  - leetcode 提交记录
+    - ![](md-imgs/2024-11-16-23-09-11.png)
+
+## 💻 题解 - 二分查找
+
+```js
+var solution = function (isBadVersion) {
+  return function (n) {
+    let left = 1, right = n, mid = left + ((right - left) >> 1)
+    while (left <= right) {
+      if (isBadVersion(mid) && !isBadVersion(mid - 1)) return mid // 若当前版本错误，且前一个版本没错，则当前版本就是第一个错误版本。
+
+      if (isBadVersion(mid)) right = mid - 1 // 当前版本有错 - 切片 - 舍弃后续所有错误版本继续查找。
+      else left = mid + 1 // 当前版本没错 - 切片 - 舍弃前边的所有正确版本继续查找。
+
+      mid = left + ((right - left) >> 1) // 重新计算中点
+    }
+  }
+}
 ```
+
+实现思路：同 `704. 二分查找`，不过得加一个判断，当找到错误的成员之后，必须确保该错误成员的左侧（前一个）成员必须是正确的，这样才能确保当前找到的这个错误成员是第一个出错的成员。
+

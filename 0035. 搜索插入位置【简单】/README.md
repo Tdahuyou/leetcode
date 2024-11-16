@@ -1,10 +1,6 @@
 # [0035. 搜索插入位置【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0035.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/search-insert-position/)
-- 相似：[0162. 寻找峰值【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
-- 相似：[0035. 搜索插入位置【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0035.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0035.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
-- 相似：[0704. 二分查找【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
-- 相似：[0074. 搜索二维矩阵【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0074.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0074.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 ## 📝 Description
 
@@ -61,8 +57,6 @@ var searchInsert = function (nums, target) {
   2. 若目标值 target > nums[mid]，则插入位置不可能位于左区间，包括当前 mid 所在位置也不可能是插入位置，所以将 l 赋值为 mid + 1，舍弃掉左侧区间，将查找的区间进一步细分；
   3. 若目标值 target < nums[mid]，则插入位置不可能位于右区间，但是，当前 mid 所在的位置有可能是插入位置，所以将 r 赋值为 mid，舍弃掉右侧区间，将查找的区间进一步细分；
   4. 循环以上 3 步，直到循环结束「区间不能再细分了，即 `l === r === mid`」，此时区间所指的位置，就是要找的插入位置。
-- 提交记录：
-  - ![](md-imgs/2024-11-03-21-31-47.png)
 
 ```js
 var searchInsert = function(nums, target) {
@@ -83,9 +77,6 @@ var searchInsert = function(nums, target) {
 }
 ```
 
-- 提交记录：
-  - ![](md-imgs/2024-11-10-01-37-04.png)
-
 ## 💻 题解 - 暴力解法
 
 ```javascript
@@ -101,8 +92,6 @@ var searchInsert = function (nums, target) {
 - 题解：
   - ![](md-imgs/2024-11-03-21-31-58.png)
   - 直接用 leetcode.0704 题解的图，思路完全几乎是一样的。
-- 提交记录：
-  - ![](md-imgs/2024-11-03-21-31-24.png)
 
 ```js
 // 22-09-18
@@ -114,6 +103,3 @@ var searchInsert = function (nums, target) {
   return nums.length
 };
 ```
-
-- 提交记录：
-  - ![](md-imgs/2024-11-10-01-36-40.png)

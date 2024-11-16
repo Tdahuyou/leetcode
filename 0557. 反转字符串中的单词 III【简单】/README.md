@@ -25,8 +25,59 @@
 - `s` 里 **至少** 有一个词。
 - `s` 中的所有单词都用一个空格隔开。
 
-## 💻 题解
+## 💻 题解 - 暴力解法 - 使用原生 API
 
+```js
+var reverseWords = function(s) {
+  return s.split(" ").map(item => item.split("").reverse().join("")).join(" ")
+}
 ```
 
+- 处理逻辑：
+
+```js
+// 1. 先将字符串按照空格进行拆分，得到一个新数组
+"Let's take LeetCode contest".split(" ")
+// => ["Let's", "take", "LeetCode", "contest"]
+
+// 2. 再对每一项进行反转，在反转过程中，需要将其转为 Array 类型
+"Let's take LeetCode contest".split(" ").map(item => item.split("").reverse().join(""))
+// => ["s'teL", 'ekat', 'edoCteeL', 'tsetnoc']
+
+// 3. 最后将结果拼接为一个字符串即可
+"Let's take LeetCode contest".split(" ").map(item => item.split("").reverse().join("")).join(" ")
+// => "s'teL ekat edoCteeL tsetnoc"
 ```
+
+## 💻 题解 - 双指针
+
+```js
+/**
+示例：
+  输入："abcde" 1 3
+  输出：adcbe
+  注解：将字符串的第1位到第3位进行反转
+类似于 344. 反转字符串
+ */
+var reverseString = function (s) {
+  let left = 0, len = s.length, right = len - 1, newArr = new Array(len)
+  while (left <= right) {
+    newArr[left] = s[right]
+    newArr[right] = s[left]
+    left++, right--
+  }
+  return newArr.join("")
+};
+
+/**
+ * @param {string} s
+ * @return {string}
+ */
+var reverseWords = function (s) {
+  return s.split(" ").map(item => reverseString(item)).join(" ");
+};
+```
+
+- `newArr = new Array(len)`
+  - 由于 JavaScript 中 String 是不可变的，所以这里就换成了 Array 来替代一下，实现原理上和 `344. 反转字符串` 都是一样的。
+

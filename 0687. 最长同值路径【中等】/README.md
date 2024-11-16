@@ -28,8 +28,26 @@
 - `-1000 <= Node.val <= 1000`
 - 树的深度将不超过 `1000`
 
-## 💻 题解
+## 💻 题解 - DFS
 
+```js
+var longestUnivaluePath = function (root) {
+  let ans = 0;
+
+  const dfs = (root) => {
+    if (root === null) return 0;
+    const left = dfs(root.left), right = dfs(root.right);
+    let l = 0, r = 0;
+    if (root.left && root.left.val === root.val) l = left + 1;
+    if (root.right && root.right.val === root.val) r = right + 1;
+    ans = Math.max(ans, l + r);
+    return Math.max(l, r);
+  }
+
+  dfs(root);
+  return ans;
+};
 ```
 
-```
+- 思路：
+  - ![](./md-imgs/1.gif)

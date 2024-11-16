@@ -25,8 +25,20 @@
 
 **进阶：** 你能尽量减少完成的操作次数吗？
 
-## 💻 题解
+## 💻 题解 - 双指针
 
+```js
+var moveZeroes = function (nums) {
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] !== 0) continue
+    for (let j = i + 1; j < nums.length; j++) {
+      if (nums[j] === 0) continue
+      [nums[i], nums[j]] = [nums[j], nums[i]]
+      break
+    }
+  }
+};
 ```
 
-```
+- 实现思路：
+  - i 指向 0 的时候，j 找 i 后边第一个不是 0 的跟 i 交换。

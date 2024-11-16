@@ -1,6 +1,8 @@
 # [0876. 链表的中间结点【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0876.%20%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/middle-of-the-linked-list)
+- https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/
+  - 本节笔记中用到的图片来源于这篇题解。
 
 ## 📝 Description
 
@@ -32,8 +34,37 @@
 - 链表的结点数范围是 `[1, 100]`
 - `1 <= Node.val <= 100`
 
-## 💻 题解
+## 💻 题解 - 暴力解法 - 先找长度，再找中间
 
+```js
+var middleNode = function(head) {
+  // 获取到链表的总长度
+  let len = 1,
+  root = head
+  while (head.next) {
+    len ++
+    head = head.next
+  }
+  // 找中点
+  for (let i = 0 i < Math.floor(len / 2) i++) {
+    root = root.next
+  }
+  return root
+}
 ```
 
+## 💻 题解 - 快慢指针 - 一步两步
+
+```js
+var middleNode = function(head) {
+  let slow = fast = head
+  while (fast.next !== null && fast.next.next !== null) {
+    slow = slow.next
+    fast = fast.next.next
+  }
+  return slow
+}
 ```
+
+- ![](md-imgs/2024-11-16-19-59-26.png)
+- ![](md-imgs/2024-11-16-19-59-32.png)

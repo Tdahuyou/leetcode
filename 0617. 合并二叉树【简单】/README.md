@@ -31,8 +31,25 @@
 - 两棵树中的节点数目在范围 `[0, 2000]` 内
 - `-10^4 <= Node.val <= 10^4`
 
-## 💻 题解
+## 📒 notes - 在 js 中，null 参与加法运算的时候自动被视作 0 处理
 
+```js
+1 + 2 + null // => 3
 ```
 
+## 💻 题解 - DFS + 递归
+
+```js
+var mergeTrees = function (root1, root2) {
+  if (root1 && root2) {
+    root1.val += root2.val
+    root1.left = mergeTrees(root1.left, root2.left) // 处理左边的树
+    root1.right = mergeTrees(root1.right, root2.right) // 处理右边的树
+  }
+  return root1 || root2;
+};
 ```
+
+- 优先处理 root1，优先返回 root1。
+  - `return root1 || root2;`
+  - 只要 root1 一开始不是空，那么，最后一次 return 时，会将 root1 返回。所以在 if 条件分支中，都是对二叉树 root1 做处理。
