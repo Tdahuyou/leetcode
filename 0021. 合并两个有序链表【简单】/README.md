@@ -28,6 +28,51 @@
 - `-100 <= Node.val <= 100`
 - `l1` 和 `l2` 均按 **非递减顺序** 排列
 
+## 📒 notes - 测试代码
+
+```js
+function ListNode(val, next) {
+  this.val = (val === undefined ? 0 : val);
+  this.next = (next === undefined ? null : next);
+}
+
+function traverseLinkedList(root) {
+  let temp = root;
+  while (true) {
+      if (temp !== null) {
+          console.log(temp.val);
+      } else {
+          break;
+      }
+      temp = temp.next;
+  }
+}
+
+// 示例1
+const l1_node1 = new ListNode(1);
+const l1_node2 = new ListNode(2);
+const l1_node4 = new ListNode(4);
+l1_node1.next = l1_node2;
+l1_node2.next = l1_node4;
+
+const l2_node1 = new ListNode(1);
+const l2_node3 = new ListNode(3);
+const l2_node4 = new ListNode(4);
+l2_node1.next = l2_node3;
+l2_node3.next = l2_node4;
+
+const newList1 = mergeTwoLists(l1_node1, l2_node1);
+traverseLinkedList(newList1); // 1 1 2 3 4 4
+
+// 示例2
+// const newList2 = mergeTwoLists(new ListNode(null), new ListNode(null));
+// traverseLinkedList(newList2); // null null
+
+// 示例3
+// const newList3 = mergeTwoLists(new ListNode(null), new ListNode(0));
+// traverseLinkedList(newList3); // 0 null
+```
+
 ## 💻 题解 - 迭代
 
 ```js
@@ -69,55 +114,6 @@ var mergeTwoLists = function(list1, list2) {
   cur.next = list1 ? list1 : list2
   return head
 };
-
-// #region test
-
-function ListNode(val, next) {
-  this.val = (val === undefined ? 0 : val);
-  this.next = (next === undefined ? null : next);
-}
-
-function traverseLinkedList(root) {
-  let temp = root;
-  while (true) {
-      if (temp !== null) {
-          console.log(temp.val);
-      } else {
-          break;
-      }
-      temp = temp.next;
-  }
-}
-
-// 示例1
-const l1_node1 = new ListNode(1);
-const l1_node2 = new ListNode(2);
-const l1_node4 = new ListNode(4);
-l1_node1.next = l1_node2;
-l1_node2.next = l1_node4;
-
-const l2_node1 = new ListNode(1);
-const l2_node3 = new ListNode(3);
-const l2_node4 = new ListNode(4);
-l2_node1.next = l2_node3;
-l2_node3.next = l2_node4;
-
-
-const newList1 = mergeTwoLists(l1_node1, l2_node1);
-traverseLinkedList(newList1); // 1 1 2 3 4 4
-
-
-// 示例2
-// const newList2 = mergeTwoLists(new ListNode(null), new ListNode(null));
-// traverseLinkedList(newList2); // null null
-
-
-
-// 示例3
-// const newList3 = mergeTwoLists(new ListNode(null), new ListNode(0));
-// traverseLinkedList(newList3); // 0 null
-
-// #endregion test
 ```
 
 ```js

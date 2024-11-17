@@ -1,7 +1,6 @@
 # [0027. 移除元素【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/remove-element/)
-- 相似：[0283. 移动零【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 ## 🔗 links
 
@@ -153,8 +152,6 @@ var removeElement = function (nums, val) {
   return slow + 1
 }
 ```
-
-- ![](md-imgs/2024-11-09-22-50-43.png)
 
 ## 💻 题解 - 调用系统函数
 

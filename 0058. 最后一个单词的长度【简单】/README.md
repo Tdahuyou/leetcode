@@ -34,7 +34,7 @@
 - `s` 仅有英文字母和空格 `' '` 组成
 - `s` 中至少存在一个单词
 
-## 💻 题解 - split、filter
+## 💻 题解 - 暴力解法 - 直接调用原生 API - trim、split、pop
 
 ```javascript
 /**
@@ -42,10 +42,6 @@
  * @return {number}
  */
 var lengthOfLastWord = function(s) {
-    const strs = s.split(' ').filter(str => str !== '');
-    if(strs.length === 0) return 0;
-    return strs[strs.length - 1].length;
-};
+  return s.trim().split(/\s+/).pop().length
+}
 ```
-
-- 直接调用原生的 api：split、filter。

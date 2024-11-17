@@ -1,7 +1,17 @@
 # [0028. 找出字符串中第一个匹配项的下标【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
-- 本节介绍了 KMP 算法，代码量不多，但理解起来比较费劲儿，不应该是简单题的难度。
+- 本节介绍了 KMP 算法，代码量不多，但理解起来比较费劲儿，不应该是简单题的难度。在查阅资料的过程中，了解到这貌似是考研、竞赛题。
+
+## 🔗 links
+
+- https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/solutions/575568/shua-chuan-lc-shuang-bai-po-su-jie-fa-km-tb86/
+  - 参考题解 - 【宫水三叶】简单题学 KMP 算法
+- https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/solutions/732236/shi-xian-strstr-by-leetcode-solution-ds6y/
+  - leetcode 官方题解
+- https://www.bilibili.com/video/BV1AY4y157yL/?spm_id_from=333.337.search-card.all.click&vd_source=f8873530fc00410ea3fbec0d4b875972
+  - 哔哩哔哩 - 最浅显易懂的 KMP 算法讲解
+  - 理解 next 数组（next 数组有什么用？如何构建 next 数组？）是 KMP 算法的核心，可以多看看视屏中的动画演示。
 
 ## 📝 Description
 
@@ -29,14 +39,9 @@
 
 - **Find needle in haystack** 大海捞针
 
-## 💻 题解 - 调用原生 js 等价 api：`indexOf`
+## 💻 题解 - 暴力解法 - 调用原生 API - indexOf
 
 ```javascript
-/**
- * @param {string} haystack
- * @param {string} needle
- * @return {number}
- */
 var strStr = function(haystack, needle) {
   return haystack.indexOf(needle);
 };
@@ -63,6 +68,36 @@ var strStr = function(haystack, needle) {
      - **当发生失配时，模式串指针不会回溯到起始位置，而是根据PMT移动到下一个可能匹配的位置。**
      - **如果模式串完全匹配，则返回匹配的起始位置；否则，继续匹配直到主串结束或找到匹配。**
 
+## 💻 题解 - 暴力解法
+
+```js
+var strStr = function (haystack, needle) {
+  const n = haystack.length;
+  const m = needle.length;
+
+  if (m === 0) return 0; // 特殊情况处理：空字符串
+
+  for (let i = 0; i <= n - m; i++) { // 外层循环遍历主串
+    let match = true;
+    for (let j = 0; j < m; j++) { // 内层循环检查子串是否匹配
+      if (haystack[i + j] !== needle[j]) {
+        match = false;
+        break;
+      }
+    }
+    if (match) return i; // 如果匹配成功，返回起始索引
+  }
+
+  return -1; // 如果没有找到匹配的子串，返回 -1
+}
+```
+
+- 时间复杂度：O(n * m)
+  - 其中 n 是 haystack 的长度，m 是 needle 的长度。
+- 实现思路：
+  - 从主串的开头 0 进行遍历，直到 n - m 为止。
+  - 每次遍历，一旦发现子串的某个位置不匹配，就结束本次匹配，下次匹配继续从子串开头进行匹配。
+
 ## 💻 题解 - KMP
 
 ```javascript
@@ -80,9 +115,9 @@ var strStr = function (haystack, needle) {
   // 初始化 next
   const next = new Array(m).fill(0);
   for (let i = 1, j = 0; i < m; i++) {
-    while (j > 0 && needle[j] !== needle[i]) j = next[j - 1]
-    if (needle[i] === needle[j]) j++
-    next[i] = j
+    while (j > 0 && needle[j] !== needle[i]) j = next[j - 1] // j 收缩
+    if (needle[i] === needle[j]) j++ // j 扩散
+    next[i] = j // 更新 next[i]
   }
 
   // 查找匹配项
@@ -96,23 +131,22 @@ var strStr = function (haystack, needle) {
 }
 ```
 
-- 提交记录
-  - ![](md-imgs/2024-11-09-22-56-53.png)
+- 时间复杂度：O(n + m)
+- 简述实现思路：
+  - **对暴力匹配做了优化，如果发现不匹配的情况，不会暴力地直接回溯到子串的开头位置，而是根据 next 中记录的索引来决定当本次匹配失败时，下次匹配开始的位置应该是哪。**
+  - **理解 next 是理解 KMP 算法的关键。**
 - 核心步骤
-  - **步骤1. 初始化next数组**：这部分代码构建了PMT（或称next数组）。通过遍历模式串，计算每个位置的 **最大相同前后缀** 长度，从而指导后续匹配时如何移动模式串。
-    - 解释：最大相同前后缀
+  - **步骤1. 初始化 next 数组**：这部分代码构建了 PMT（或称 next 数组）。通过遍历模式串，计算每个位置的 **最大相同前后缀长度**，从而指导后续匹配时如何移动模式串。
+    - 什么是“最大相同前缀”？
+      - `next[i] = xxx` 表示位置 i 的最大相同前后缀长度是 xxx。
       - 示例：`needle = "sad"` 对应的 next 数组为 `[0, 0, 0]`。
       - 示例：`leeto` 对应的 next 数组为 `[0, 0, 0, 0, 0]`。
       - 示例：`needle = "ababca"` 对应的 next 数组为 `[0, 0, 1, 2, 0, 1]`。
+        - ![](md-imgs/2024-11-17-12-17-38.png)
+      - 官方提供的示例：
+        - ![](md-imgs/2024-11-17-12-27-49.png)
   - **步骤2. 匹配过程**：使用两个指针i和j分别遍历主串和模式串。当字符匹配时，两个指针都向前移动；如果不匹配，模式串指针j会根据next数组进行调整，以尝试新的匹配位置。如果模式串完全匹配，则返回匹配的起始位置。
   - 步骤 1、2 的实现流程是 KMP 算法的核心，它们的实现逻辑是非常类似的。
-- 初始化 next 是 KMP 算法的核心，其中最难理解的部分，应该就是 while 循环部分了。简单的说，就是一旦失配 `needle[j] !== needle[i]`，那么就缩减 `j`，缩减到哪？就看 `next[j - 1]` 存放的位置是哪了。
-- 其实无论是初始化 next 的过程，还是匹配 `haystack` 的过程，感觉都有点递归的味道。在初始化 next 时：
-  - 只要匹配，`j` 就扩散一步，同时 `i` 也会扩散一步，在 `i` 扩散之前，会先记录下 `next[i]` 如果失配的话，那么下次匹配应该开始的位置是哪里
-  - 只要失配，`j` 就要收缩，但是 `j` 并不是一口气直接缩到 `0`，它会先缩到 `next[j - 1]`，然后继续判断是否匹配
-- 仔细阅读代码，不难发现，先驱始终都是 `i`，`j` 一直都是跟班，`j` 不可能会大于 `i`，`j` 走过的，都是 `i` 走过的路。而 `i` 走过的每一步，都记录下了这一步如果失算了，那么应该回退到哪才是最合理的。
-
-### 分析 - next 初始化的逻辑
 
 ```js
 // 初始化 next
@@ -126,16 +160,19 @@ for (let i = 1, j = 0; i < m; i++) {
 
 - m 表示子串 needle 的长度。
 - i 表示子串 needle 的第几个位置。
-- j 是一个辅助变量，用于记录当前位置失配时，需要回退到哪里。你可以认为 j 指向的位置，始终是 i 之前的某个片段的结尾，这个片段满足：`[0, j) === [i - j, i)`。
+- j 是一个辅助变量，用于记录子串的当前位置失配时，需要回退到哪里。
 - `const next = new Array(m).fill(0);` next 数组中存放的成员，表示的含义是如果在匹配过程中，如果子串的某个位置失配了，那么需要根据 next 来决定下次匹配的开始位置，所以在初始化的时候，需要根据子串的长度来初始化。
 - `for (let i = 1, j = 0; i < m; i++) { ... }`
-  - `let i = 1` 如果第一个位置就失配了，不用纠结，直接从头开始，所以不需要去管 `next[0]` 的值，它肯定得是 `0`。
-  - `i < m` 根据子串的长度来决定外层循环的次数，每次循环决定一个当前的 `next[i]` 的值。
-- `while (j > 0 && needle[j] !== needle[i]) j = next[j - 1]` 失配，`j` 回退到 `next[j - 1]` 的位置。
-- `if (needle[i] === needle[j]) j++` 匹配，j 向后移动一位。
-- `next[i] = j` 将 j 的值赋给 `next[i]`，记录 `i + 1` 失配时应该回溯到的位置。
-
-### 分析 - 查找匹配项的逻辑
+  - 循环初始语句：
+    - `let i = 1` 如果第一个位置就失配了，不用纠结，直接从头开始，所以不需要去管 `next[0]` 的值，它肯定得是 `0`。
+    - `j = 0` 辅助变量 j 默认从 0 开始走。
+  - 循环条件：
+    - `i < m` 根据子串的长度来决定外层循环的次数，每次循环决定一个当前的 `next[i]` 的值。
+  - 循环体：
+    - 失配 - 收缩：`while (j > 0 && needle[j] !== needle[i]) j = next[j - 1]` 失配，`j` 回退到 `next[j - 1]` 的位置。
+    - 匹配 - 扩散：`if (needle[i] === needle[j]) j++` 匹配，j 向后移动一位。
+    - 更新 next：`next[i] = j` 将 j 的值赋给 `next[i]`。
+      - next 记录后续【查找匹配项】的流程中，当子串的 `j` 位置失配 `needle[j] !== haystack[i]` 时，指针 `j` 应该回溯到的位置是 `next[j - 1]`。
 
 ```js
 // 查找匹配项

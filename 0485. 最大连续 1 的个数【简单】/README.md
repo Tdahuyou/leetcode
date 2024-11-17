@@ -22,8 +22,77 @@
 - `1 <= nums.length <= 10^5`
 - `nums[i]` 不是 `0` 就是 `1`.
 
-## 💻 题解
+## 📒 notes - 性能比较
 
+- 在本节介绍的提接中，通过【暴力解法 - 遍历】的方式来求解是性能最好的。
+
+## 💻 题解 - 暴力解法 - 遍历
+
+```js
+var findMaxConsecutiveOnes = function (nums) {
+  let maxLen = 0 // 记录最终的结果
+  let len = 0 // 记录当前的长度
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] === 1) {
+      len++
+    } else {
+      maxLen = maxLen > len ? maxLen : len
+      len = 0
+    }
+  }
+  maxLen = maxLen > len ? maxLen : len
+  return maxLen
+};
 ```
 
+- 遍历数组 nums：
+  - 如果当前项是 1，那么将 len 自增。
+  - 如果当前项不是 1，那么将 len 的值与最终结果进行比较，将较大的值赋值给 maxLen。同时将 len 清零，意味着当前连续的 1 已经结束，下次需要重新开始计算。
+- 注意：循环结束时，需要再判断一次 len 和 maxLen。
+
+## 💻 题解 - 暴力解法 - 字符串切片
+
+- 实现思路：
+  - 将数组转为字符串后，按照 0 对字符串进行分割，获取到分割后的新数组 `["11", "111"]`，再从中找出最长的字符串的长度。
+  - 写法可以直接简化到一行，但性能很拉胯。
+
+```js
+var findMaxConsecutiveOnes = function (nums) {
+  const newNums = nums.join("").split("0").filter(item => item.length > 0); // ["11", "111"]
+  let maxLen = 0;
+  for (let i = 0; i < newNums.length; i++) {
+    let len = newNums[i].length;
+    maxLen = maxLen > len ? maxLen : len;
+  }
+  return maxLen;
+}
 ```
+
+```js
+var findMaxConsecutiveOnes = function (nums) {
+  const newNums = nums.join("").split("0").filter(item => item.length > 0); // ["11", "111"]
+  if (newNums.length === 0) return 0;
+  return Math.max(...(newNums.map(item => item.length)));
+}
+```
+
+```js
+var findMaxConsecutiveOnes = function (nums) {
+  return Math.max(...nums.join("").split(/0+/).map(item => item.length));
+}
+```
+
+## 💻 题解 - 暴力解法 - 正则
+
+```js
+var findMaxConsecutiveOnes = function (nums) { // => [1, 1, 0, 1, 1, 1]
+  nums.push(0) // 往 nums 的结尾推一个 0，以便后续做正则匹配，实现切片。
+  const str = nums.join(""), reg = /(1+)(?=0+)/g
+  const arr = str.match(reg) // => ['11', '111']
+  return arr ?
+    Math.max(...arr.map(item => item.length)) :
+    0
+}
+```
+
+- 转为字符串，结合正则表达式中的“正向预查”来实现。
