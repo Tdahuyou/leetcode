@@ -44,15 +44,7 @@
 
 ```js
 var reverseWords = function (s) {
-  return s.trim().replace(/\s+/g, ' ').split(' ').reverse().map(word => {
-    let l = 0, r = word.length
-    while (l < r) {
-      [word[l], word[r]] = [word[r], word[l]];
-      l++;
-      r--;
-    }
-    return word
-  }).join(' ')
+  return s.trim().replace(/\s+/g, ' ').split(' ').reverse().join(' ')
 }
 ```
 
@@ -62,8 +54,7 @@ var reverseWords = function (s) {
 2. **替换多余空格**：使用 `replace(/\s+/g, ' ')` 方法将字符串中多余的空格替换为单个空格。
 3. **分割字符串**：使用 `split(' ')` 方法将字符串按空格分割成单词数组。
 4. **反转单词数组**：使用 `reverse()` 方法将单词数组反转。
-5. **反转每个单词**：使用 `map()` 方法遍历单词数组，对每个单词进行反转。
-6. **拼接结果**：使用 `join(' ')` 方法将反转后的单词数组拼接成最终的字符串。
+5. **拼接结果**：使用 `join(' ')` 方法将反转后的单词数组拼接成最终的字符串。
 
 ```mermaid
 flowchart TD
@@ -71,7 +62,6 @@ flowchart TD
   B --replace(/\s+/g, ' ')--> C["替换多余空格"]
   C --split(' ')--> D["分割字符串"]
   D --reverse()--> E["反转单词数组"]
-  E --map(...)--> F["反转每个单词"]
-  F --join(' ')--> G["拼接结果"]
+  E --join(' ')--> G["拼接结果"]
   G --> H("返回结果")
 ```
