@@ -2,6 +2,11 @@
 
 - [leetcode](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array)
 
+## 🔗 links
+
+- https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/solutions/698479/xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-5irwp/
+  - leetcode 官方题解
+
 ## 📝 Description
 
 已知一个长度为 `n` 的数组，预先按照升序排列，经由 `1` 到 `n` 次 **旋转** 后，得到输入数组。例如，原数组 `nums = [0,1,2,4,5,6,7]` 在变化后可能得到：
@@ -71,7 +76,7 @@ var findMin = function(nums) {
 ```
 
 - 图解：
-  - ![](2024-11-23-17-51-26.png)
+  - ![](md-imgs/2024-11-23-17-51-26.png)
 
 ## 💻 题解 - 二分查找
 
@@ -98,3 +103,6 @@ var findMin = function(nums) {
 };
 ```
 
+- 图解：
+  - ![](md-imgs/2024-11-23-19-52-46.png)
+  - 注意：题目描述中提到每一个元素都是不相同的，因此在比较的时候，不可能存在相等的情况。
