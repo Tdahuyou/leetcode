@@ -1,4 +1,4 @@
-# 0125. 验证回文串【简单】
+# [0125. 验证回文串【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/valid-palindrome)
 - 视频：
