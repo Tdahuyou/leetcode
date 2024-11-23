@@ -1,6 +1,9 @@
 # 0125. 验证回文串【简单】
 
 - [leetcode](https://leetcode.cn/problems/valid-palindrome)
+- 视频：
+  - leetcode.0125.1 - 暴力解法
+  - leetcode.0125.2 - 双指针解法
 
 ## 📝 Description
 
@@ -121,4 +124,29 @@ var isPalindrome = function (s) {
 function isAlphanumeric(char) {
   return /[a-zA-Z0-9]/.test(char)
 }
+```
+
+## 📒 notes - 正则 `\w`、`\W`
+
+- `\w` 表示单词字符，等价于 `[a-zA-Z0-9_]`。
+- `\W` 表示非单词字符，等价于 `[^a-zA-Z0-9_]`。
+- 如果你对正则中的 `\w`、`\W` 比较清楚，会发现上述题解中提到的 `[a-zA-Z0-9]` 和 `\w` 是非常类似的。
+
+```js
+/**
+ * 22-09-06
+ * @param {string} s
+ * @return {boolean}
+ */
+var isPalindrome = function(s) {
+  s = s.toLowerCase().replace(/[\W|_]/g, '')
+  
+  const len = s.length
+  if (len === 0 || len === 1) return true
+  
+  let ans = true, start = 0, end = len - 1
+  while (start < end) if (s[start++] !== s[end--]) ans = false
+  
+  return ans
+};
 ```
