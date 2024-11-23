@@ -1,8 +1,8 @@
 # 0151. 反转字符串中的单词【中等】
 
 - [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string)
-- ⏰ TODO
-  - 录制视频 - 暴力解法 - 双指针
+- ⏰ TODO - 发布视频：leetcode.0151.1
+- ⏰ TODO - 发布视频：leetcode.0151.2
 
 ## 📝 Description
 
