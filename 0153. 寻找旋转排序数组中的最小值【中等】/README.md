@@ -87,19 +87,17 @@ var findMin = function(nums) {
  * @return {number}
  */
 var findMin = function(nums) {
-  const len = nums.length
+  const n = nums.length
+  if (n === 1) return nums[0]
 
-  if (len === 1) return nums[0]
-
-  let l = 0, r = len - 1
-
-  while (l < r) {
-    const mid = (l + r) >> 1
-    if (nums[mid] > nums[r]) l = mid + 1
-    else r = mid
+  let low = 0, high = n - 1, pivot = low + ((high - low) >> 1)
+  while (low < high) {
+    if (nums[pivot] < nums[high]) high = pivot
+    else low = pivot + 1
+    pivot = low + ((high - low) >> 1)
   }
-
-  return nums[l]
+  
+  return nums[pivot]
 };
 ```
 
