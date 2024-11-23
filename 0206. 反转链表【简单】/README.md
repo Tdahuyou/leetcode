@@ -2,7 +2,6 @@
 
 - [leetcode](https://leetcode.cn/problems/reverse-linked-list)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.0206.递归
 
 ## 📝 Description
 

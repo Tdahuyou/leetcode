@@ -2,9 +2,10 @@
 
 - [leetcode](https://leetcode.cn/problems/container-with-most-water/)
 
-## 🔗 参考题解
+## 🔗 links
 
 - https://leetcode.cn/problems/container-with-most-water/solutions/11491/container-with-most-water-shuang-zhi-zhen-fa-yi-do/
+  - 参考题解
 
 ## 📝 Description
 
@@ -14,7 +15,7 @@
 
 返回容器可以储存的最大水量。
 
-**说明：**你不能倾斜容器。
+**说明：** 你不能倾斜容器。
 
 **示例 1：**
 

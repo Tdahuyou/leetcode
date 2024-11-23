@@ -2,9 +2,6 @@
 
 - [leetcode](https://leetcode.cn/problems/binary-tree-preorder-traversal)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.0144.递归
-- 相似：[0094. 二叉树的中序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
-- 相似：[0145. 二叉树的后序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 
 ## 🔗 links
 
@@ -52,7 +49,7 @@
 
 **进阶：**递归算法很简单，你可以通过迭代算法完成吗？
 
-## 💻 题解 - 递归
+## 💻 题解 - 1. 递归
 
 ```javascript
 /**

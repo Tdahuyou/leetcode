@@ -2,7 +2,6 @@
 
 - [leetcode](https://leetcode.cn/problems/function-composition)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.2629.复合函数
 
 ## 📝 Description
 

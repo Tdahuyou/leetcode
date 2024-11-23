@@ -2,8 +2,6 @@
 
 - [leetcode](https://leetcode.cn/problems/throttle)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.2676.节流
-- 相似：[2627. 函数防抖【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2627.%20%E5%87%BD%E6%95%B0%E9%98%B2%E6%8A%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./2627.%20%E5%87%BD%E6%95%B0%E9%98%B2%E6%8A%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 ## 🔗 links
 

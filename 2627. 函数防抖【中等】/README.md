@@ -2,8 +2,6 @@
 
 - [leetcode](https://leetcode.cn/problems/debounce/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.2627.函数防抖
-- 相似：[2676. 节流【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2676.%20%E8%8A%82%E6%B5%81%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./2676.%20%E8%8A%82%E6%B5%81%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 ## 🔗 links
 

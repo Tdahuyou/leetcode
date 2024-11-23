@@ -2,7 +2,6 @@
 
 - [leetcode](https://leetcode.cn/problems/create-hello-world-function)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.2667.创建 Hello World 函数
 - 备注：太看得起我了……
 
 ## 📝 Description

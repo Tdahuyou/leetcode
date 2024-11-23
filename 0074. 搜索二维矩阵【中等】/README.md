@@ -1,10 +1,6 @@
 # [0074. 搜索二维矩阵【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0074.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/search-a-2d-matrix/)
-- 相似：[0162. 寻找峰值【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
-- 相似：[0035. 搜索插入位置【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0035.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0035.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
-- 相似：[0704. 二分查找【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
-- 相似：[0074. 搜索二维矩阵【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0074.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0074.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 ## 🔗 links
 

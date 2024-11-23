@@ -1,7 +1,6 @@
 # [0009. 回文数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/palindrome-number/)
-- 相似：[0007. 整数反转【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 ## 📝 Description
 

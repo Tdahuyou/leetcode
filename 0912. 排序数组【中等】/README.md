@@ -2,12 +2,13 @@
 
 - [leetcode](https://leetcode.cn/problems/sort-an-array)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.0912.原生排序方法 Array.prototype.sort + 冒泡（官方提供的题解也超时 -_-||）
 
 ## 🔗 links
 
-- https://github.com/hustcc/JS-Sorting-Algorithm - Github，JS-Sorting-Algorithm，十大经典排序算法。`5.1k starts`
-- https://blog.csdn.net/hlc246/article/details/81064951 - CSDN，排序算法系列之鸡尾酒排序
+- https://github.com/hustcc/JS-Sorting-Algorithm
+  - Github，JS-Sorting-Algorithm，十大经典排序算法。`5.1k starts`
+- https://blog.csdn.net/hlc246/article/details/81064951
+  - CSDN，排序算法系列之鸡尾酒排序
 
 ## 📝 Description
 
@@ -28,7 +29,7 @@
 - `1 <= nums.length <= 5 * 10^4`
 - `-5 * 10^4 <= nums[i] <= 5 * 10^4`
 
-## 💻 题解 - 原生排序方法
+## 💻 题解 - 1. 原生排序方法
 
 ```javascript
 /**
@@ -45,7 +46,7 @@ var sortArray = function(nums) {
 
 ![](md-imgs/2024-09-25-17-19-13.png)
 
-## 💻 题解 - 冒泡排序
+## 💻 题解 - 2. 冒泡排序
 
 > 提示：
 > 尝试通过冒泡排序来解答此题，无论如何修改，提交后始终无法通过。
@@ -181,7 +182,7 @@ function swap(arr, a, b) {
 
 ![](md-imgs/2024-09-25-17-20-34.png)
 
-## 💻 题解 - 选择排序
+## 💻 题解 - 3. 选择排序
 
 ```javascript
 /**
@@ -215,7 +216,7 @@ function swap(arr, a, b) {
 
 ![](md-imgs/2024-09-25-17-21-40.png)
 
-## 💻 题解 - 快速排序
+## 💻 题解 - 4. 快速排序
 
 ```javascript
 /**

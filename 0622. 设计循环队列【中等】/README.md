@@ -2,7 +2,6 @@
 
 - [leetcode](https://leetcode.cn/problems/design-circular-queue)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.0622.设计循环队列
 
 ## 📝 Description
 
@@ -41,7 +40,7 @@ circularQueue.Rear();  // 返回 4
 - 操作数将在 1 至 1000 的范围内；
 - 请不要使用内置的队列库。
 
-## 💻 题解
+## 💻 题解 - 设计循环队列
 
 ![](md-imgs/622.%20设计循环队列-题解.gif)
 

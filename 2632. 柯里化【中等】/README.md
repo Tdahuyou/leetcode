@@ -2,7 +2,6 @@
 
 - [leetcode](https://leetcode.cn/problems/curry)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.2632.柯里化
 
 ## 📝 Description
 

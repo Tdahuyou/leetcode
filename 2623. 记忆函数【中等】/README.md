@@ -1,7 +1,6 @@
 # [2623. 记忆函数【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 - [leetcode](https://leetcode.cn/problems/memoize)
-- 相似：[2630. 记忆函数 II【困难】](https://github.com/Tdahuyou/leetcode/tree/main/2630.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91) <!-- [locale](./2630.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md) -->
 
 ## 📝 Description
 

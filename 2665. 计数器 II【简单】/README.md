@@ -2,9 +2,6 @@
 
 - [leetcode](https://leetcode.cn/problems/counter-ii)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.2665.计数器 II
-- 相似：[2620. 计数器【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
-- 相似：[2666. 只允许一次函数调用【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2666.%20%E5%8F%AA%E5%85%81%E8%AE%B8%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91) <!-- [locale](./2666.%20%E5%8F%AA%E5%85%81%E8%AE%B8%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->
 - 备注：这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
 
 ## 📝 Description

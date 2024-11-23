@@ -2,10 +2,6 @@
 
 - [leetcode](https://leetcode.cn/problems/two-sum/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
-  - leetcode.0001.双指针暴力求解
-  - leetcode.0001.静态哈希表
-  - leetcode.0001.动态哈希表
-- 相似：[0015. 三数之和【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91) <!-- [locale](./0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->
 
 ## 📝 Description
 
@@ -39,7 +35,7 @@
 
 进阶：你可以想出一个时间复杂度小于 `O(n^2)` 的算法吗？
 
-## 💻 题解 - 双指针暴力求解
+## 💻 题解 - 1. 双指针暴力求解
 
 ![](md-imgs/2024-09-25-07-26-04.png)
 
@@ -56,7 +52,7 @@ var twoSum = function (nums, target) {
 
 这种方法的一个缺点是，当 `n` 较大时，时间复杂度可能会变得非常高。我们可以通过使用一种叫做哈希映射的数据结构来改进这个算法，这种数据结构可以在常数时间内完成查找操作，从而将算法的时间复杂度降低到 `O(n)`。但是，这将使空间复杂度增加到 `O(n)`，因为我们需要存储 `n` 个元素的哈希映射。
 
-## 💻 题解 - 静态哈希表
+## 💻 题解 - 2. 静态哈希表
 
 ![](md-imgs/0001-题解-静态哈希表.gif)
 
@@ -87,7 +83,7 @@ var twoSum = function (nums, target) {
 
 注意，该目标元素不能是 `nums[i]` 本身（即 `map.get(anotherNum) !== i`）
 
-## 💻 题解 - 动态哈希表
+## 💻 题解 - 3. 动态哈希表
 
 ![](md-imgs/0001-题解-动态哈希表.gif)
 
