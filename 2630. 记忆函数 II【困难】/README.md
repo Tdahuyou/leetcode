@@ -1,8 +1,16 @@
 # [2630. 记忆函数 II【困难】](https://github.com/Tdahuyou/leetcode/tree/main/2630.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 双哈希表](#3--题解---双哈希表)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/memoize-ii/)
 
-## 📝 Description
+## 2. 📝 Description
 
 现给定一个函数 `fn` ，返回该函数的一个 **记忆化** 版本。
 
@@ -52,7 +60,7 @@ fn = function (a, b) { return ({...a, ...b}); }
 - `0 <= inputs.flat().length <= 10^5`
 - `inputs[i][j] != NaN`
 
-## 💻 题解 - 双哈希表
+## 3. 💻 题解 - 双哈希表
 
 ```ts
 type Fn = (...params: any) => any;

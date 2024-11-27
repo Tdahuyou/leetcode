@@ -1,8 +1,15 @@
 # [0705. 设计哈希集合【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0705.%20%E8%AE%BE%E8%AE%A1%E5%93%88%E5%B8%8C%E9%9B%86%E5%90%88%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/design-hashset)
 
-## 📝 Description
+## 2. 📝 Description
 
 不使用任何内建的哈希表库设计一个哈希集合（HashSet）。
 

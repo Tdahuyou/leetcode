@@ -1,8 +1,16 @@
 # [2634. 过滤数组中的元素【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2634.%20%E8%BF%87%E6%BB%A4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/filter-elements-from-array/)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定一个整数数组 `arr` 和一个过滤函数 `fn`，并返回一个过滤后的数组 `filteredArr` 。
 
@@ -38,7 +46,7 @@
 - `0 <= arr.length <= 1000`
 - `-10^9 <= arr[i] <= 10^9`
 
-## 💻 题解
+## 3. 💻 题解
 
 ```javascript
 var filter = function (arr, fn) {

@@ -1,9 +1,17 @@
 # [2723. 两个 Promise 对象相加【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2723.%20%E4%B8%A4%E4%B8%AA%20Promise%20%E5%AF%B9%E8%B1%A1%E7%9B%B8%E5%8A%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/add-two-promises)
 - 备注：考察对 Promise 的理解。
 
-## 📝 Description
+## 2. 📝 Description
 
 给定两个 promise 对象 `promise1` 和 `promise2`，返回一个新的 promise。`promise1` 和 `promise2` 都会被解析为一个数字。返回的 Promise 应该解析为这两个数字的和。
 
@@ -35,7 +43,7 @@ promise2 = new Promise(resolve => setTimeout(() => resolve(-12), 30))
 
 - `promise1 和 promise2` 都是被解析为一个数字的 promise 对象
 
-## 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**

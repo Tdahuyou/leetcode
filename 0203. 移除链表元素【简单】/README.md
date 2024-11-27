@@ -1,8 +1,17 @@
 # [0203. 移除链表元素【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0203.%20%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 遍历](#3--题解---遍历)
+- [4. 💻 题解 - 递归](#4--题解---递归)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/remove-linked-list-elements/)
 
-## 📝 Description
+## 2. 📝 Description
 
 给你一个链表的头节点 `head` 和一个整数 `val` ，请你删除链表中所有满足 `Node.val == val` 的节点，并返回 **新的头节点** 。
 
@@ -35,7 +44,7 @@
 - `1 <= Node.val <= 50`
 - `0 <= val <= 50`
 
-## 💻 题解 - 遍历
+## 3. 💻 题解 - 遍历
 
 ```js
 var removeElements = function (head, val) {
@@ -86,7 +95,7 @@ flowchart TD
 实际输出：[7, 7, 7, 7]
 ```
 
-## 💻 题解 - 递归
+## 4. 💻 题解 - 递归
 
 ```js
 var removeElements = function (head, val) {

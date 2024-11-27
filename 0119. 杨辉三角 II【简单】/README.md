@@ -1,8 +1,17 @@
 # [0119. 杨辉三角 II【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0119.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
+- [4. 💻 题解 - 暴力解法优化](#4--题解---暴力解法优化)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/pascals-triangle-ii)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定一个非负索引 `rowIndex`，返回「杨辉三角」的第 `rowIndex` 行。
 
@@ -36,7 +45,7 @@
 
 你可以优化你的算法到 `O(rowIndex)` 空间复杂度吗？
 
-## 💻 题解 - 暴力解法
+## 3. 💻 题解 - 暴力解法
 
 ```js
 /**
@@ -64,7 +73,7 @@ var getRow = function (rowIndex) {
 - 空间复杂度：O(rowIndex^2)
 - 这种解法的逻辑跟 0118 几乎完全一致，可以参考 0118 的题解。
 
-## 💻 题解 - 暴力解法优化
+## 4. 💻 题解 - 暴力解法优化
 
 ```js
 /**

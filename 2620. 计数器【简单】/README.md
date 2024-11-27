@@ -1,9 +1,17 @@
 # [2620. 计数器【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2620.%20%E8%AE%A1%E6%95%B0%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/counter/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定一个整型参数 `n`，请你编写并返回一个 `counter` 函数。这个 `counter` 函数最初返回 `n`，每次调用它时会返回前一个值加 1 的值 ( `n` ,  `n + 1` ,  `n + 2` ，等等)。
 
@@ -42,7 +50,7 @@ n = -2
 - `0 <= calls.length <= 1000`
 - `calls[i] === "call"`
 
-## 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**

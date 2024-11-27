@@ -1,13 +1,22 @@
 # [2676. 节流【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2676.%20%E8%8A%82%E6%B5%81%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 🔗 links](#2--links)
+- [3. 📝 Description](#3--description)
+- [4. 💻 题解](#4--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/throttle)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 🔗 links
+## 2. 🔗 links
 
 - https://github.com/Tdahuyou/javascript - 0037. 防抖、节流
 
-## 📝 Description
+## 3. 📝 Description
 
 现给定一个函数 `fn` 和一个以毫秒为单位的时间 `t` ，请你返回该函数的 **节流** 版本。
 
@@ -86,7 +95,7 @@ calls = [
 - `0 <= calls[i].t <= 1000`
 - `0 <= calls[i].inputs[i], calls[i].inputs.length <= 10`
 
-## 💻 题解
+## 4. 💻 题解
 
 ```javascript
 /**

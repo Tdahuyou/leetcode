@@ -1,9 +1,17 @@
 # [1695. 删除子数组的最大得分【中等】](https://github.com/Tdahuyou/leetcode/tree/main/1695.%20%E5%88%A0%E9%99%A4%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 1. 滑动窗口](#3--题解---1-滑动窗口)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/maximum-erasure-value/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 📝 Description
+## 2. 📝 Description
 
 给你一个正整数数组 `nums` ，请你从中删除一个含有 **若干不同元素** 的子数组。删除子数组的 **得分** 就是子数组各元素之 **和** 。
 
@@ -28,7 +36,7 @@
 - `1 <= nums.length <= 10^5`
 - `1 <= nums[i] <= 10^4`
 
-## 💻 题解 - 1. 滑动窗口
+## 3. 💻 题解 - 1. 滑动窗口
 
 ```javascript
 /**

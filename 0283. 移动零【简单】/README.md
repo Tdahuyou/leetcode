@@ -1,8 +1,16 @@
 # [0283. 移动零【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 双指针](#3--题解---双指针)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/move-zeroes/)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定一个数组 `nums`，编写一个函数将所有 `0` 移动到数组的末尾，同时保持非零元素的相对顺序。
 
@@ -25,7 +33,7 @@
 
 **进阶：** 你能尽量减少完成的操作次数吗？
 
-## 💻 题解 - 双指针
+## 3. 💻 题解 - 双指针
 
 ```js
 var moveZeroes = function (nums) {

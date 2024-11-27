@@ -1,8 +1,17 @@
 # [0053. 最大子数组和【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0053.%20%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
+- [4. 💻 题解 - 动态规划](#4--题解---动态规划)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/maximum-subarray/)
 
-## 📝 Description
+## 2. 📝 Description
 
 给你一个整数数组 `nums` ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
 
@@ -33,7 +42,7 @@
 
 **进阶：** 如果你已经实现复杂度为 `O(n)` 的解法，尝试使用更为精妙的 **分治法** 求解。
 
-## 💻 题解 - 暴力解法
+## 3. 💻 题解 - 暴力解法
 
 ```javascript
 var maxSubArray = function(nums) {
@@ -54,7 +63,7 @@ var maxSubArray = function(nums) {
 - 思想很简单，就是两层循环，将所有可能的子数组都判断一遍，取最值。
 - 注：回看提交记录时，发现一开始是通过的，但是现在运行提示超时，应该是新增了一些测试用例，对于一些新的测试用例，该暴力解法在执行后被判定为超时。
 
-## 💻 题解 - 动态规划
+## 4. 💻 题解 - 动态规划
 
 ```javascript
  var maxSubArray = function(nums) {

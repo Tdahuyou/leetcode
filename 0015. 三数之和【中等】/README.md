@@ -1,9 +1,17 @@
 # [0015. 三数之和【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 1. 排序 + 双指针](#3--题解---1-排序-+-双指针)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/3sum/description/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 📝 Description
+## 2. 📝 Description
 
 给你一个整数数组 `nums` ，判断是否存在三元组 `[nums[i], nums[j], nums[k]]` 满足 `i != j`、`i != k` 且 `j != k` ，同时还满足 `nums[i] + nums[j] + nums[k] == 0` 。请你返回所有和为 `0` 且不重复的三元组。
 
@@ -37,7 +45,7 @@
 - `3 <= nums.length <= 3000`
 - `-10^5 <= nums[i] <= 10^5`
 
-## 💻 题解 - 1. 排序 + 双指针
+## 3. 💻 题解 - 1. 排序 + 双指针
 
 ```javascript
 /**

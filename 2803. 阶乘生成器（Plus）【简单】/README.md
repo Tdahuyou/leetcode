@@ -1,8 +1,16 @@
 # [2803. 阶乘生成器（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2803.%20%E9%98%B6%E4%B9%98%E7%94%9F%E6%88%90%E5%99%A8%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/factorial-generator)
 
-## 📝 Description
+## 2. 📝 Description
 
 编写一个生成器函数，该函数以一个整数 `n` 作为参数，并返回一个生成器对象，该生成器对象可以生成 **阶乘序列** 。
 
@@ -49,7 +57,7 @@ gen.next().value // 1
 
 - `0 <= n <= 18`
 
-## 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**

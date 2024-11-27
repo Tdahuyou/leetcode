@@ -1,8 +1,16 @@
 # [0520. 检测大写字母【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0520.%20%E6%A3%80%E6%B5%8B%E5%A4%A7%E5%86%99%E5%AD%97%E6%AF%8D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/detect-capital)
 
-## 📝 Description
+## 2. 📝 Description
 
 我们定义，在以下情况时，单词的大写用法是正确的：
 
@@ -27,7 +35,7 @@
 - `1 <= word.length <= 100`
 - `word` 由小写和大写英文字母组成
 
-## 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**

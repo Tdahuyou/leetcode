@@ -1,9 +1,18 @@
 # [0013. 罗马数字转整数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0013.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 基于哈希表的逐字符解析法（1）](#3--题解---基于哈希表的逐字符解析法1)
+- [4. 💻 题解 - 基于哈希表的逐字符解析法（2）](#4--题解---基于哈希表的逐字符解析法2)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/roman-to-integer)
 - 备注：本文介绍的两种题解，都是基于哈希表来实现的。
 
-## 📝 Description
+## 2. 📝 Description
 
 罗马数字包含以下七种字符: `I`， `V`， `X`， `L`，`C`，`D` 和 `M`。
 
@@ -65,7 +74,7 @@
 
 > PS：不知道官方给的这个参考链接咋用……
 
-## 💻 题解 - 基于哈希表的逐字符解析法（1）
+## 3. 💻 题解 - 基于哈希表的逐字符解析法（1）
 
 ```javascript
 var romanToInt = function (s) {
@@ -104,7 +113,7 @@ var romanToInt = function (s) {
 
 准备好转换库，将正常情况和特殊情况都存储起来，直接从转换库中匹配。
 
-## 💻 题解 - 基于哈希表的逐字符解析法（2）
+## 4. 💻 题解 - 基于哈希表的逐字符解析法（2）
 
 ```javascript
 var romanToInt = function (s) {

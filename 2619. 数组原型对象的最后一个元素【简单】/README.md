@@ -1,8 +1,16 @@
 # [2619. 数组原型对象的最后一个元素【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2619.%20%E6%95%B0%E7%BB%84%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/array-prototype-last/)
 
-## 📝 Description
+## 2. 📝 Description
 
 请你编写一段代码实现一个数组方法，使任何数组都可以调用 `array.last()` 方法，这个方法将返回数组最后一个元素。如果数组中没有元素，则返回 `-1` 。
 
@@ -25,7 +33,7 @@
 - `arr` 是一个有效的 JSON 数组
 - `0 <= arr.length <= 1000`
 
-## 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**

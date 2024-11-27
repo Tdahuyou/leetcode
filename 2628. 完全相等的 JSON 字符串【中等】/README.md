@@ -1,8 +1,16 @@
 # [2628. 完全相等的 JSON 字符串【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2628.%20%E5%AE%8C%E5%85%A8%E7%9B%B8%E7%AD%89%E7%9A%84%20JSON%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 递归](#3--题解---递归)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/json-deep-equal)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定两个对象 `o1` 和 `o2` ，请你检查它们是否 **完全相等** 。
 
@@ -48,7 +56,7 @@
 - `1 <= JSON.stringify(o2).length <= 10^5`
 - `maxNestingDepth <= 1000`
 
-## 💻 题解 - 递归
+## 3. 💻 题解 - 递归
 
 ```js
 /**

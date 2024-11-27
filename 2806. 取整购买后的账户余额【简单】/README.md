@@ -1,9 +1,19 @@
 # [2806. 取整购买后的账户余额【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2806.%20%E5%8F%96%E6%95%B4%E8%B4%AD%E4%B9%B0%E5%90%8E%E7%9A%84%E8%B4%A6%E6%88%B7%E4%BD%99%E9%A2%9D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 1](#3--题解-1)
+- [4. 💻 题解 2](#4--题解-2)
+- [5. 💻 题解 3](#5--题解-3)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
 - 备注：找规律解题，规律很多，解法也很多。
 
-## 📝 Description
+## 2. 📝 Description
 
 一开始，你的银行账户里有 `100` 块钱。
 
@@ -33,7 +43,7 @@
 
 - `0 <= purchaseAmount <= 100`
 
-## 💻 题解 1
+## 3. 💻 题解 1
 
 ![](md-imgs/2024-09-26-23-10-13.png)
 
@@ -60,7 +70,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 
 ![](md-imgs/2024-09-26-23-10-44.png)
 
-## 💻 题解 2
+## 4. 💻 题解 2
 
 **所有金额整除 5 找规律：**
 
@@ -93,7 +103,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 }
 ```
 
-## 💻 题解 3
+## 5. 💻 题解 3
 
 **所有金额 ➕ 5 后整除 10 找规律：**
 

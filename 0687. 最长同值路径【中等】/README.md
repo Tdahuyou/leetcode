@@ -1,8 +1,16 @@
 # [0687. 最长同值路径【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0687.%20%E6%9C%80%E9%95%BF%E5%90%8C%E5%80%BC%E8%B7%AF%E5%BE%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - DFS](#3--题解---dfs)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/longest-univalue-path/)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定一个二叉树的 `root` ，返回 *最长的路径的长度* ，这个路径中的 *每个节点具有相同值* 。 这条路径可以经过也可以不经过根节点。
 
@@ -28,7 +36,7 @@
 - `-1000 <= Node.val <= 1000`
 - 树的深度将不超过 `1000`
 
-## 💻 题解 - DFS
+## 3. 💻 题解 - DFS
 
 ```js
 var longestUnivaluePath = function (root) {

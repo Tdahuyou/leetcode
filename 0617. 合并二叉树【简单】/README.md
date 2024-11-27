@@ -1,8 +1,17 @@
 # [0617. 合并二叉树【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0617.%20%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 📒 notes - 在 js 中，null 参与加法运算的时候自动被视作 0 处理](#3--notes---在-js-中null-参与加法运算的时候自动被视作-0-处理)
+- [4. 💻 题解 - DFS + 递归](#4--题解---dfs-+-递归)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
 
-## 📝 Description
+## 2. 📝 Description
 
 给你两棵二叉树： `root1` 和 `root2` 。
 
@@ -31,13 +40,13 @@
 - 两棵树中的节点数目在范围 `[0, 2000]` 内
 - `-10^4 <= Node.val <= 10^4`
 
-## 📒 notes - 在 js 中，null 参与加法运算的时候自动被视作 0 处理
+## 3. 📒 notes - 在 js 中，null 参与加法运算的时候自动被视作 0 处理
 
 ```js
 1 + 2 + null // => 3
 ```
 
-## 💻 题解 - DFS + 递归
+## 4. 💻 题解 - DFS + 递归
 
 ```js
 var mergeTrees = function (root1, root2) {

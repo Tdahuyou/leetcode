@@ -1,8 +1,16 @@
 # [2414. 最长的字母序连续子字符串的长度【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2414.%20%E6%9C%80%E9%95%BF%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BA%8F%E8%BF%9E%E7%BB%AD%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)
 
-## 📝 Description
+## 2. 📝 Description
 
 **字母序连续字符串** 是由字母表中连续字母组成的字符串。换句话说，字符串 `"abcdefghijklmnopqrstuvwxyz"` 的任意子字符串都是 **字母序连续字符串** 。
 
@@ -28,7 +36,7 @@
 - `1 <= s.length <= 10^5`
 - `s` 由小写英文字母组成
 
-## 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**

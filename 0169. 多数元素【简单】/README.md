@@ -1,8 +1,18 @@
 # [0169. 多数元素【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 排序](#3--题解---排序)
+- [4. 💻 题解 - hash-table](#4--题解---hash-table)
+- [5. 💻 题解 - 分治](#5--题解---分治)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/majority-element/)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定一个大小为 `n` 的数组 `nums` ，返回其中的多数元素。多数元素是指在数组中出现次数 **大于** `⌊ n/2 ⌋` 的元素。
 
@@ -27,7 +37,7 @@
 
 **进阶：** 尝试设计时间复杂度为 O(n)、空间复杂度为 O(1) 的算法解决此问题。
 
-## 💻 题解 - 排序
+## 3. 💻 题解 - 排序
 
 ```js
 var majorityElement = function(nums) {
@@ -35,7 +45,7 @@ var majorityElement = function(nums) {
 };
 ```
 
-## 💻 题解 - hash-table
+## 4. 💻 题解 - hash-table
 
 ```js
 var majorityElement = function(nums) {
@@ -48,7 +58,7 @@ var majorityElement = function(nums) {
 }
 ```
 
-## 💻 题解 - 分治
+## 5. 💻 题解 - 分治
 
 ```js
 /**

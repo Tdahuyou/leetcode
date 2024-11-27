@@ -1,13 +1,22 @@
 # [2804. 数组原型的 forEach 方法【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2804.%20%E6%95%B0%E7%BB%84%E5%8E%9F%E5%9E%8B%E7%9A%84%20forEach%20%E6%96%B9%E6%B3%95%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 🔗 links](#2--links)
+- [3. 📝 Description](#3--description)
+- [4. 💻 题解](#4--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/array-prototype-foreach/)
 
-## 🔗 links
+## 2. 🔗 links
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call - MDN，Function.prototype.call()
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach - MDN，Array.prototype.forEach()
 
-## 📝 Description
+## 3. 📝 Description
 
 编写一个数组方法 `forEach`，使其可以在任何数组上调用 `array.forEach(callback, context)` 方法，它将在数组的每个元素上执行回调函数。`forEach` 方法不应该返回任何内容。
 
@@ -77,7 +86,7 @@ context = {"context": 5}
 - `fn` 是一个函数
 - `0 <= arr.length <= 10^5`
 
-## 💻 题解
+## 4. 💻 题解
 
 ```javascript
 /**

@@ -1,8 +1,16 @@
 # [0496. 下一个更大元素 I【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0496.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0%20I%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/next-greater-element-i/)
 
-## 📝 Description
+## 2. 📝 Description
 
 `nums1` 中数字 `x` 的 **下一个更大元素** 是指 `x` 在 `nums2` 中对应位置 **右侧** 的 **第一个** 比 `x` 大的元素。
 
@@ -43,7 +51,7 @@
 
 **进阶：** 你可以设计一个时间复杂度为 `O(nums1.length + nums2.length)` 的解决方案吗？
 
-## 💻 题解
+## 3. 💻 题解
 
 ```
 

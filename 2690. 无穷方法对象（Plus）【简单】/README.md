@@ -1,8 +1,16 @@
 # [2690. 无穷方法对象（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2690.%20%E6%97%A0%E7%A9%B7%E6%96%B9%E6%B3%95%E5%AF%B9%E8%B1%A1%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/infinite-method-object)
 
-## 📝 Description
+## 2. 📝 Description
 
 请你编写一个函数，返回一个 **无穷方法对象** 。
 
@@ -29,7 +37,7 @@
 
 - `0 <= method.length <= 1000`
 
-## 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**

@@ -1,9 +1,17 @@
 # [0206. 反转链表【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0206.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 递归](#3--题解---递归)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/reverse-linked-list)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 📝 Description
+## 2. 📝 Description
 
 给你单链表的头节点 `head` ，请你反转链表，并返回反转后的链表。
 
@@ -33,7 +41,7 @@
 
 **进阶：**链表可以选用迭代或递归方式完成反转。你能否用两种方法解决这道题？
 
-## 💻 题解 - 递归
+## 3. 💻 题解 - 递归
 
 ```javascript
 /**

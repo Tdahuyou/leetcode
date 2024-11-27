@@ -1,8 +1,16 @@
 # [0046. 全排列【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0046.%20%E5%85%A8%E6%8E%92%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 回溯](#3--题解---回溯)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/permutations/)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定一个不含重复数字的数组 `nums` ，返回其 *所有可能的全排列* 。你可以 **按任意顺序** 返回答案。
 
@@ -27,7 +35,7 @@
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有整数 **互不相同**
 
-## 💻 题解 - 回溯
+## 3. 💻 题解 - 回溯
 
 ```javascript
 var permute = function(nums) {

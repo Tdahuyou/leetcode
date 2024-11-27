@@ -1,8 +1,16 @@
 # [0695. 岛屿的最大面积【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0695.%20%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E7%A7%AF%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - DFS + 递归](#3--题解---dfs-+-递归)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/max-area-of-island/)
 
-## 📝 Description
+## 2. 📝 Description
 
 给你一个大小为 `m x n` 的二进制矩阵 `grid` 。
 
@@ -33,7 +41,7 @@
 - `1 <= m, n <= 50`
 - `grid[i][j]` 为 `0` 或 `1`
 
-## 💻 题解 - DFS + 递归
+## 3. 💻 题解 - DFS + 递归
 
 ```js
 /**

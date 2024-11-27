@@ -1,8 +1,18 @@
 # [2623. 记忆函数【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 📒 notes - 将数字数组直接作为 key](#3--notes---将数字数组直接作为-key)
+- [4. 💻 题解 - 哈希表](#4--题解---哈希表)
+- [5. 💻 题解 - 双哈希表](#5--题解---双哈希表)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/memoize)
 
-## 📝 Description
+## 2. 📝 Description
 
 请你编写一个函数 `fn`，它接收另一个函数作为输入，并返回该函数的 **记忆化** 后的结果。
 
@@ -72,7 +82,7 @@ fib(5) = 8 // "call"
 - `actions[i]` 为 "call" 和 "getCallCount" 中的一个
 - `fnName` 为 "sum", "factorial" 和 "fib" 中的一个
 
-## 📒 notes - 将数字数组直接作为 key
+## 3. 📒 notes - 将数字数组直接作为 key
 
 ```js
 const arr = [1, 2]
@@ -94,7 +104,7 @@ console.log(cache['1,2'])                   // 3
 console.log(cache[arr.join(',')])           // 3
 ```
 
-## 💻 题解 - 哈希表
+## 4. 💻 题解 - 哈希表
 
 ```js
 function memoize(fn) {
@@ -112,7 +122,7 @@ function memoize(fn) {
 ```
 
 
-## 💻 题解 - 双哈希表
+## 5. 💻 题解 - 双哈希表
 
 如果使用上述的单哈希表 cache 来缓存函数的返回值，当参数是两个对象时，例如 `[{}, {}]`，`[{}, {}]`，`[{}, {}]`，则 `[{}, {}]` 和 `[{}, {}]` 的索引值是相同的，导致缓存命中。
 

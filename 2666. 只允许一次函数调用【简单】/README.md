@@ -1,9 +1,17 @@
 # [2666. 只允许一次函数调用【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2666.%20%E5%8F%AA%E5%85%81%E8%AE%B8%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/allow-one-function-call)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定一个函数 `fn` ，它返回一个新的函数，返回的函数与原始函数完全相同，只不过它确保 `fn` 最多被调用一次。
 
@@ -36,7 +44,7 @@
 - `1 <= calls[i].length <= 100`
 - `2 <= JSON.stringify(calls).length <= 1000`
 
-## 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**

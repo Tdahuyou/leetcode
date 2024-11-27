@@ -1,13 +1,23 @@
 # [0094. 二叉树的中序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 🔗 links](#2--links)
+- [3. 📝 Description](#3--description)
+- [4. 💻 题解 - 1. 递归](#4--题解---1-递归)
+- [5. 📒 notes - 二叉树的遍历](#5--notes---二叉树的遍历)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 🔗 links
+## 2. 🔗 links
 
 - https://wansuanfa.com/index.php/701 - 玩算法，二叉树的 DFS 遍历。
 
-## 📝 Description
+## 3. 📝 Description
 
 给定一个二叉树的根节点 `root` ，返回它的 **中序** 遍历。
 
@@ -35,7 +45,7 @@
 
 **进阶:** 递归算法很简单，你可以通过迭代算法完成吗？
 
-## 💻 题解 - 1. 递归
+## 4. 💻 题解 - 1. 递归
 
 ```javascript
 /**
@@ -60,7 +70,7 @@ var inorderTraversal = function(root, res = []) {
 ```
 
 
-## 📒 notes - 二叉树的遍历
+## 5. 📒 notes - 二叉树的遍历
 
 - 前序遍历（先根次序遍历）：**根节点** -> 左子树 -> 右子树
 - 中序遍历（中根次序遍历）：左子树 -> **根节点** -> 右子树

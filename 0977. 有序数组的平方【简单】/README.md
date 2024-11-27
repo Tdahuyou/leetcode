@@ -1,8 +1,17 @@
 # [0977. 有序数组的平方【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0977.%20%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 暴力解法 - 调用原生 API - map、sort](#3--题解---暴力解法---调用原生-api---mapsort)
+- [4. 💻 题解 - 双指针](#4--题解---双指针)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/squares-of-a-sorted-array)
 
-## 📝 Description
+## 2. 📝 Description
 
 给你一个按 **非递减顺序** 排序的整数数组 `nums`，返回 **每个数字的平方** 组成的新数组，要求也按 **非递减顺序** 排序。
 
@@ -28,7 +37,7 @@
 
 - 请你设计时间复杂度为 `O(n)` 的算法解决本问题
 
-## 💻 题解 - 暴力解法 - 调用原生 API - map、sort
+## 3. 💻 题解 - 暴力解法 - 调用原生 API - map、sort
 
 ```js
 var sortedSquares = function (nums) {
@@ -36,7 +45,7 @@ var sortedSquares = function (nums) {
 }
 ```
 
-## 💻 题解 - 双指针
+## 4. 💻 题解 - 双指针
 
 ```js
 var sortedSquares = function (nums) {

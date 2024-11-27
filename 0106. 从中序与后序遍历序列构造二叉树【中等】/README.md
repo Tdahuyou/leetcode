@@ -1,8 +1,16 @@
 # [0106. 从中序与后序遍历序列构造二叉树【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0106.%20%E4%BB%8E%E4%B8%AD%E5%BA%8F%E4%B8%8E%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定两个整数数组 `inorder` 和 `postorder` ，其中 `inorder` 是二叉树的中序遍历， `postorder` 是同一棵树的后序遍历，请你构造并返回这颗 _二叉树_ 。
 
@@ -28,7 +36,7 @@
 - `inorder` **保证**是树的中序遍历
 - `postorder` **保证**是树的后序遍历
 
-## 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**

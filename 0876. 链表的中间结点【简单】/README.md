@@ -1,10 +1,19 @@
 # [0876. 链表的中间结点【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0876.%20%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 暴力解法 - 先找长度，再找中间](#3--题解---暴力解法---先找长度再找中间)
+- [4. 💻 题解 - 快慢指针 - 一步两步](#4--题解---快慢指针---一步两步)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/middle-of-the-linked-list)
 - https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/
   - 本节笔记中用到的图片来源于这篇题解。
 
-## 📝 Description
+## 2. 📝 Description
 
 给你单链表的头结点 `head` ，请你找出并返回链表的中间结点。
 
@@ -34,7 +43,7 @@
 - 链表的结点数范围是 `[1, 100]`
 - `1 <= Node.val <= 100`
 
-## 💻 题解 - 暴力解法 - 先找长度，再找中间
+## 3. 💻 题解 - 暴力解法 - 先找长度，再找中间
 
 ```js
 var middleNode = function(head) {
@@ -53,7 +62,7 @@ var middleNode = function(head) {
 }
 ```
 
-## 💻 题解 - 快慢指针 - 一步两步
+## 4. 💻 题解 - 快慢指针 - 一步两步
 
 ```js
 var middleNode = function(head) {

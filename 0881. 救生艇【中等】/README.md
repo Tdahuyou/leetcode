@@ -1,8 +1,16 @@
 # [0881. 救生艇【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0881.%20%E6%95%91%E7%94%9F%E8%89%87%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解「贪心」](#3--题解「贪心」)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/boats-to-save-people)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定数组 `people` 。`people[i]`表示第 `i` 个人的体重 ，**船的数量不限**，每艘船可以承载的最大重量为 `limit`。
 
@@ -34,7 +42,7 @@
 - `1 <= people.length <= 5 * 10^4`
 - `1 <= people[i] <= limit <= 3 * 10^4`
 
-## 💻 题解「贪心」
+## 3. 💻 题解「贪心」
 
 ```js
 var numRescueBoats = function(people, limit) {

@@ -1,8 +1,16 @@
 # [0066. 加一【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0066.%20%E5%8A%A0%E4%B8%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 逆序循环](#3--题解---逆序循环)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/plus-one/)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定一个由 **整数** 组成的 **非空** 数组所表示的非负整数，在该数的基础上加一。
 
@@ -35,7 +43,7 @@
 - `1 <= digits.length <= 100`
 - `0 <= digits[i] <= 9`
 
-## 💻 题解 - 逆序循环
+## 3. 💻 题解 - 逆序循环
 
 ```javascript
 var plusOne = function (digits) {

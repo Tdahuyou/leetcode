@@ -1,14 +1,23 @@
 # [2677. 分块数组【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2677.%20%E5%88%86%E5%9D%97%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 🔗 links](#2--links)
+- [3. 📝 Description](#3--description)
+- [4. 💻 题解](#4--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/chunk-array)
 - 备注：本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
 
-## 🔗 links
+## 2. 🔗 links
 
 - https://lodash.com/docs/4.17.15#chunk - Lodash，Array，`_.chunk`。
 - https://github.com/lodash/lodash/blob/4.17.15/lodash.js#L6839 - Github Lodash，Array，`_.chunk` 实现源码。
 
-## 📝 Description
+## 3. 📝 Description
 
 给定一个数组 `arr` 和一个块大小 `size` ，返回一个 **分块** 的数组。
 
@@ -48,7 +57,7 @@
 - `2 <= JSON.stringify(arr).length <= 10^5`
 - `1 <= size <= arr.length + 1`
 
-## 💻 题解
+## 4. 💻 题解
 
 ```javascript
 /**

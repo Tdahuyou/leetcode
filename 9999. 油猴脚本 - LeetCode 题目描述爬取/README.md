@@ -1,8 +1,15 @@
 # [9999. 油猴脚本 - LeetCode 题目描述爬取](https://github.com/Tdahuyou/leetcode/tree/main/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 💻 demo](#2--demo)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - 备注：该油猴脚本用于从LeetCode网站上抓取题目描述并转换成Markdown格式，方便用户复制使用。脚本通过添加一个按钮到页面上，让用户能够一键复制题目描述，并对转换后的Markdown内容进行了一定的格式优化。使用者可以在题解页面找到新增的“复制题目描述”按钮来快速获取题目信息。
 
-## 💻 demo
+## 2. 💻 demo
 
 - `scripts/youhou.js` 中的内容如下。
 

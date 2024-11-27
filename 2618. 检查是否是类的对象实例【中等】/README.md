@@ -1,12 +1,22 @@
 # [2618. 检查是否是类的对象实例【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 🔗 links](#2--links)
+- [3. 📝 Description](#3--description)
+- [4. 📒 notes - 使用 Object() 将原始类型的值转为对应的包装对象](#4--notes---使用-object()-将原始类型的值转为对应的包装对象)
+- [5. 💻 题解](#5--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/check-if-object-instance-of-class)
 
-## 🔗 links
+## 2. 🔗 links
 
 - https://leetcode.cn/problems/check-if-object-instance-of-class/solutions/2288152/2618-jian-cha-shi-fou-shi-lei-de-dui-xia-spyn/ - 题解，2618. 检查是否是类的对象实例。从使用 instanceof 到迭代，递归实现 instanceof。
 
-## 📝 Description
+## 3. 📝 Description
 
 请你编写一个函数，检查给定的值是否是给定类或超类的实例。
 
@@ -41,7 +51,7 @@ Dog 是 Animal 的子类。因此，Dog 对象同时是 Dog 和 Animal 的实例
 - 输出：true
 - 解释：5 是一个 Number。注意，"instanceof" 关键字将返回 false。
 
-## 📒 notes - 使用 Object() 将原始类型的值转为对应的包装对象
+## 4. 📒 notes - 使用 Object() 将原始类型的值转为对应的包装对象
 
 **提示：**`Object` 函数的参数是各种原始类型的值，转换成对象就是原始类型值对应的包装对象。
 
@@ -59,7 +69,7 @@ obj instanceof Object // true
 obj instanceof Boolean // true
 ```
 
-## 💻 题解
+## 5. 💻 题解
 
 ```javascript
 /**

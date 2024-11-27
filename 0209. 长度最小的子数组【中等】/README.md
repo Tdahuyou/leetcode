@@ -1,8 +1,16 @@
 # [0209. 长度最小的子数组【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0209.%20%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/minimum-size-subarray-sum)
 
-## 📝 Description
+## 2. 📝 Description
 
 给定一个含有 `n` 个正整数的数组和一个正整数 `target` **。**
 
@@ -41,7 +49,7 @@
 
 - 如果你已经实现 `O(n)` 时间复杂度的解法, 请尝试设计一个 `O(n log(n))` 时间复杂度的解法。
 
-## 💻 题解
+## 3. 💻 题解
 
 ```
 

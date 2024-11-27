@@ -1,8 +1,16 @@
 # [2622. 有时间限制的缓存【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2622.%20%E6%9C%89%E6%97%B6%E9%97%B4%E9%99%90%E5%88%B6%E7%9A%84%E7%BC%93%E5%AD%98%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
+<!-- region:toc -->
+- [1. 📝 summary](#1--summary)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 哈希表](#3--题解---哈希表)
+<!-- endregion:toc -->
+
+## 1. 📝 summary
+
 - [leetcode](https://leetcode.cn/problems/cache-with-time-limit/)
 
-## 📝 Description
+## 2. 📝 Description
 
 编写一个类，它允许获取和设置键-值对，并且每个键都有一个 **过期时间** 。
 
@@ -67,7 +75,7 @@ timeDelays = [0, 0, 40, 50, 120, 200, 250]
 - `actions[i]` 是 "TimeLimitedCache"、"set"、"get" 和 "count" 中的一个。
 - 第一个操作始终是 "TimeLimitedCache" 而且一定会以 0 毫秒的延迟立即执行
 
-## 💻 题解 - 哈希表
+## 3. 💻 题解 - 哈希表
 
 ```ts
 class TimeLimitedCache {
