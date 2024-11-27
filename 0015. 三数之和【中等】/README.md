@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 📝 summary](#1--summary)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 1. 排序 + 双指针](#3--题解---1-排序-+-双指针)
+- [3. 💻 题解 - 排序 + 双指针【📺 leetcode.0015.1】](#3--题解---排序-+-双指针-leetcode00151)
 <!-- endregion:toc -->
 
 ## 1. 📝 summary
@@ -45,7 +45,7 @@
 - `3 <= nums.length <= 3000`
 - `-10^5 <= nums[i] <= 10^5`
 
-## 3. 💻 题解 - 1. 排序 + 双指针
+## 3. 💻 题解 - 排序 + 双指针【📺 leetcode.0015.1】
 
 ```javascript
 /**

@@ -5,7 +5,7 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
 - [4. 💻 题解 - 快慢指针](#4--题解---快慢指针)
-- [5. 📒 notes - 尝试正则解法失败](#5--notes---尝试正则解法失败)
+- [5. 📒 尝试正则解法失败](#5--尝试正则解法失败)
 <!-- endregion:toc -->
 
 ## 1. 📝 summary
@@ -129,7 +129,7 @@ var removeDuplicates = function (nums) {
 - **流程说明：**
 - ![](md-imgs/2024-11-10-18-55-21.png)
 
-## 5. 📒 notes - 尝试正则解法失败
+## 5. 📒 尝试正则解法失败
 
 ```js
 var removeDuplicates = function(nums) {

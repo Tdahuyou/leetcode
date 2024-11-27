@@ -5,7 +5,7 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 暴力解法（转为字符串求解）](#3--题解---暴力解法转为字符串求解)
 - [4. 💻 题解 - 数学方法](#4--题解---数学方法)
-- [5. 📒 notes - Math.trunc 的基本用法](#5--notes---mathtrunc-的基本用法)
+- [5. 📒 Math.trunc 的基本用法](#5--mathtrunc-的基本用法)
 - [6. 🤖 markdown 书写数学公式的语法](#6--markdown-书写数学公式的语法)
   - [6.1. 内联公式](#61-内联公式)
   - [6.2. 独立行公式（块级公式）](#62-独立行公式块级公式)
@@ -135,7 +135,7 @@ var reverse = function (x) {
 ![](md-imgs/2024-09-25-15-56-15.png)
 
 
-## 5. 📒 notes - Math.trunc 的基本用法
+## 5. 📒 Math.trunc 的基本用法
 
 
 在 `Math.trunc` 中，`trunc` 的全称是 truncate（v. 截短，缩短 `英 /'trʌŋkeɪt/` `美 /trʌŋ'ket/`）。`Math.trunc` 方法用于截取数字的小数部分，只保留其整数部分，无论数字是正数还是负数。

@@ -47,7 +47,7 @@
 - [ ] [9998. leetcode 刷题指南 - 新手快速入门 - 数据结构、算法](https://github.com/Tdahuyou/leetcode/tree/main/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md) <!-- [locale](./9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md) -->  
   <!-- region:toc -->
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md#1--summary)
-  - [2. 📒 notes - LeetCode 刷题指南 - 新手快速入门](https://github.com/Tdahuyou/leetcode/tree/main/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md#2--notes---leetcode-刷题指南---新手快速入门)
+  - [2. 📒 LeetCode 刷题指南 - 新手快速入门](https://github.com/Tdahuyou/leetcode/tree/main/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md#2--leetcode-刷题指南---新手快速入门)
   <!-- endregion:toc -->
   
 
@@ -58,7 +58,7 @@
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--summary)
   - [2. 🔗 links](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--links)
   - [3. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#3--description)
-  - [4. 📒 notes - 使用 Object() 将原始类型的值转为对应的包装对象](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#4--notes---使用-object()-将原始类型的值转为对应的包装对象)
+  - [4. 📒 使用 Object() 将原始类型的值转为对应的包装对象](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#4--使用-object()-将原始类型的值转为对应的包装对象)
   - [5. 💻 题解](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#5--题解)
   <!-- endregion:toc -->
   
@@ -116,7 +116,7 @@
   <!-- region:toc -->
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/2632.%20%E6%9F%AF%E9%87%8C%E5%8C%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--summary)
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/2632.%20%E6%9F%AF%E9%87%8C%E5%8C%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--description)
-  - [3. 📒 notes - 函数的 length 属性](https://github.com/Tdahuyou/leetcode/tree/main/2632.%20%E6%9F%AF%E9%87%8C%E5%8C%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#3--notes---函数的-length-属性)
+  - [3. 📒 函数的 length 属性](https://github.com/Tdahuyou/leetcode/tree/main/2632.%20%E6%9F%AF%E9%87%8C%E5%8C%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#3--函数的-length-属性)
   - [4. 💻 题解 - 题解1](https://github.com/Tdahuyou/leetcode/tree/main/2632.%20%E6%9F%AF%E9%87%8C%E5%8C%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#4--题解---题解1)
   - [5. 💻 题解 - 题解2](https://github.com/Tdahuyou/leetcode/tree/main/2632.%20%E6%9F%AF%E9%87%8C%E5%8C%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#5--题解---题解2)
   <!-- endregion:toc -->
@@ -318,7 +318,7 @@
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--description)
   - [3. 💻 题解 - 循环拼接](https://github.com/Tdahuyou/leetcode/tree/main/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--题解---循环拼接)
   - [4. 💻 题解 - 分治法，递归拼接](https://github.com/Tdahuyou/leetcode/tree/main/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--题解---分治法递归拼接)
-  - [5. 📒 notes - 单词](https://github.com/Tdahuyou/leetcode/tree/main/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--notes---单词)
+  - [5. 📒 单词](https://github.com/Tdahuyou/leetcode/tree/main/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--单词)
   - [6. 📒 ntoes - 双百提交](https://github.com/Tdahuyou/leetcode/tree/main/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#6--ntoes---双百提交)
   <!-- endregion:toc -->
   
@@ -362,9 +362,9 @@
   <!-- region:toc -->
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--summary)
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--description)
-  - [3. 💻 题解 - 1. 双指针暴力求解](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--题解---1-双指针暴力求解)
-  - [4. 💻 题解 - 2. 静态哈希表](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--题解---2-静态哈希表)
-  - [5. 💻 题解 - 3. 动态哈希表](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--题解---3-动态哈希表)
+  - [3. 💻 题解 - 1. 双指针暴力求解【📺 leetcode.0001.1】](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--题解---1-双指针暴力求解-leetcode00011)
+  - [4. 💻 题解 - 2. 静态哈希表【📺 leetcode.0001.2】](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--题解---2-静态哈希表-leetcode00012)
+  - [5. 💻 题解 - 3. 动态哈希表【📺 leetcode.0001.3】](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--题解---3-动态哈希表-leetcode00013)
   - [6. 📒 notes](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#6--notes)
   <!-- endregion:toc -->
   
@@ -393,7 +393,7 @@
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--description)
   - [3. 💻 题解 - 暴力解法（转为字符串求解）](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#3--题解---暴力解法转为字符串求解)
   - [4. 💻 题解 - 数学方法](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#4--题解---数学方法)
-  - [5. 📒 notes - Math.trunc 的基本用法](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#5--notes---mathtrunc-的基本用法)
+  - [5. 📒 Math.trunc 的基本用法](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#5--mathtrunc-的基本用法)
   - [6. 🤖 markdown 书写数学公式的语法](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#6--markdown-书写数学公式的语法)
     - [6.1. 内联公式](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#61-内联公式)
     - [6.2. 独立行公式（块级公式）](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#62-独立行公式块级公式)
@@ -449,7 +449,7 @@
   <!-- region:toc -->
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--summary)
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--description)
-  - [3. 💻 题解 - 1. 排序 + 双指针](https://github.com/Tdahuyou/leetcode/tree/main/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#3--题解---1-排序-+-双指针)
+  - [3. 💻 题解 - 排序 + 双指针【📺 leetcode.0015.1】](https://github.com/Tdahuyou/leetcode/tree/main/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#3--题解---排序-+-双指针-leetcode00151)
   <!-- endregion:toc -->
   
 
@@ -473,7 +473,7 @@
   <!-- region:toc -->
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--summary)
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--description)
-  - [3. 📒 notes - 测试代码](https://github.com/Tdahuyou/leetcode/tree/main/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--notes---测试代码)
+  - [3. 📒 测试代码](https://github.com/Tdahuyou/leetcode/tree/main/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--测试代码)
   - [4. 💻 题解 - 迭代](https://github.com/Tdahuyou/leetcode/tree/main/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--题解---迭代)
   - [5. 💻 题解 - 递归](https://github.com/Tdahuyou/leetcode/tree/main/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--题解---递归)
   <!-- endregion:toc -->
@@ -493,7 +493,7 @@
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--summary)
   - [2. 🔗 links](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--links)
   - [3. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--description)
-  - [4. 📒 notes - JS 测试用例](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--notes---js-测试用例)
+  - [4. 📒 JS 测试用例](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--js-测试用例)
   - [5. 💻 题解 - 双指针-1](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--题解---双指针-1)
   - [6. 💻 题解 - 双指针-2](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#6--题解---双指针-2)
   - [7. 💻 题解 - 调用系统函数](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#7--题解---调用系统函数)
@@ -505,9 +505,9 @@
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--summary)
   - [2. 🔗 links](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--links)
   - [3. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--description)
-  - [4. 📒 notes - 学习一个短语 - Find needle in haystack](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--notes---学习一个短语---find-needle-in-haystack)
+  - [4. 📒 学习一个短语 - Find needle in haystack](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--学习一个短语---find-needle-in-haystack)
   - [5. 💻 题解 - 暴力解法 - 调用原生 API - indexOf](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--题解---暴力解法---调用原生-api---indexof)
-  - [6. 📒 notes - KMP 算法简介](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#6--notes---kmp-算法简介)
+  - [6. 📒 KMP 算法简介](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#6--kmp-算法简介)
   - [7. 💻 题解 - 暴力解法](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#7--题解---暴力解法)
   - [8. 💻 题解 - KMP](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#8--题解---kmp)
   <!-- endregion:toc -->
@@ -590,7 +590,7 @@
   - [2. 🔗 links](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--links)
   - [3. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--description)
   - [4. 💻 题解 - 1. 递归](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--题解---1-递归)
-  - [5. 📒 notes - 二叉树的遍历](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--notes---二叉树的遍历)
+  - [5. 📒 二叉树的遍历](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--二叉树的遍历)
   <!-- endregion:toc -->
   
 
@@ -616,7 +616,7 @@
   - [2. 🔗 links](https://github.com/Tdahuyou/leetcode/tree/main/0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--links)
   - [3. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--description)
   - [4. 💻 题解 - 1. 递归](https://github.com/Tdahuyou/leetcode/tree/main/0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--题解---1-递归)
-  - [5. 📒 notes - 二叉树的遍历](https://github.com/Tdahuyou/leetcode/tree/main/0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--notes---二叉树的遍历)
+  - [5. 📒 二叉树的遍历](https://github.com/Tdahuyou/leetcode/tree/main/0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--二叉树的遍历)
   <!-- endregion:toc -->
   
 
@@ -626,7 +626,7 @@
   - [2. 🔗 links](https://github.com/Tdahuyou/leetcode/tree/main/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--links)
   - [3. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--description)
   - [4. 💻 题解 - 递归](https://github.com/Tdahuyou/leetcode/tree/main/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--题解---递归)
-  - [5. 📒 notes - 二叉树的遍历](https://github.com/Tdahuyou/leetcode/tree/main/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--notes---二叉树的遍历)
+  - [5. 📒 二叉树的遍历](https://github.com/Tdahuyou/leetcode/tree/main/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--二叉树的遍历)
   <!-- endregion:toc -->
   
 
@@ -738,7 +738,7 @@
   <!-- region:toc -->
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--summary)
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--description)
-  - [3. 📒 notes - 性能比较](https://github.com/Tdahuyou/leetcode/tree/main/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--notes---性能比较)
+  - [3. 📒 性能比较](https://github.com/Tdahuyou/leetcode/tree/main/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--性能比较)
   - [4. 💻 题解 - 暴力解法 - 遍历](https://github.com/Tdahuyou/leetcode/tree/main/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--题解---暴力解法---遍历)
   - [5. 💻 题解 - 暴力解法 - 字符串切片](https://github.com/Tdahuyou/leetcode/tree/main/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--题解---暴力解法---字符串切片)
   - [6. 💻 题解 - 暴力解法 - 正则](https://github.com/Tdahuyou/leetcode/tree/main/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#6--题解---暴力解法---正则)
@@ -782,7 +782,7 @@
   <!-- region:toc -->
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/0617.%20%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--summary)
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0617.%20%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--description)
-  - [3. 📒 notes - 在 js 中，null 参与加法运算的时候自动被视作 0 处理](https://github.com/Tdahuyou/leetcode/tree/main/0617.%20%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--notes---在-js-中null-参与加法运算的时候自动被视作-0-处理)
+  - [3. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理](https://github.com/Tdahuyou/leetcode/tree/main/0617.%20%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--在-js-中null-参与加法运算的时候自动被视作-0-处理)
   - [4. 💻 题解 - DFS + 递归](https://github.com/Tdahuyou/leetcode/tree/main/0617.%20%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--题解---dfs-+-递归)
   <!-- endregion:toc -->
   
@@ -881,7 +881,7 @@
     - [5.3. 冒泡排序 - 鸡尾酒排序 Cocktail Shaker Sort](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#53-冒泡排序---鸡尾酒排序-cocktail-shaker-sort)
   - [6. 💻 题解 - 3. 选择排序](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#6--题解---3-选择排序)
   - [7. 💻 题解 - 4. 快速排序](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#7--题解---4-快速排序)
-  - [8. 📒 notes - 排序的本质](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#8--notes---排序的本质)
+  - [8. 📒 排序的本质](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#8--排序的本质)
   <!-- endregion:toc -->
   
 
@@ -938,7 +938,7 @@
   <!-- region:toc -->
   - [1. 📝 summary](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--summary)
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--description)
-  - [3. 📒 notes - 将数字数组直接作为 key](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#3--notes---将数字数组直接作为-key)
+  - [3. 📒 将数字数组直接作为 key](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#3--将数字数组直接作为-key)
   - [4. 💻 题解 - 哈希表](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#4--题解---哈希表)
   - [5. 💻 题解 - 双哈希表](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#5--题解---双哈希表)
   <!-- endregion:toc -->
@@ -1206,7 +1206,7 @@
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--description)
   - [3. 💻 题解 - 暴力解法1](https://github.com/Tdahuyou/leetcode/tree/main/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#3--题解---暴力解法1)
   - [4. 💻 题解 - 暴力解法2](https://github.com/Tdahuyou/leetcode/tree/main/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#4--题解---暴力解法2)
-  - [5. 📒 notes - 手写 reduce](https://github.com/Tdahuyou/leetcode/tree/main/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#5--notes---手写-reduce)
+  - [5. 📒 手写 reduce](https://github.com/Tdahuyou/leetcode/tree/main/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#5--手写-reduce)
   <!-- endregion:toc -->
   
 
@@ -1227,7 +1227,7 @@
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0080.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--description)
   - [3. 💻 题解 - 暴力解法](https://github.com/Tdahuyou/leetcode/tree/main/0080.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#3--题解---暴力解法)
   - [4. 💻 题解 - 快慢指针](https://github.com/Tdahuyou/leetcode/tree/main/0080.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#4--题解---快慢指针)
-  - [5. 📒 notes - 尝试正则解法失败](https://github.com/Tdahuyou/leetcode/tree/main/0080.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#5--notes---尝试正则解法失败)
+  - [5. 📒 尝试正则解法失败](https://github.com/Tdahuyou/leetcode/tree/main/0080.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#5--尝试正则解法失败)
   <!-- endregion:toc -->
   
 
@@ -1237,7 +1237,7 @@
   - [2. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--description)
   - [3. 💻 题解 - 暴力解法](https://github.com/Tdahuyou/leetcode/tree/main/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--题解---暴力解法)
   - [4. 💻 题解 - 双指针](https://github.com/Tdahuyou/leetcode/tree/main/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#4--题解---双指针)
-  - [5. 📒 notes - 正则 `\w`、`\W`](https://github.com/Tdahuyou/leetcode/tree/main/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--notes---正则-\w\w)
+  - [5. 📒 正则 `\w`、`\W`](https://github.com/Tdahuyou/leetcode/tree/main/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#5--正则-\w\w)
   <!-- endregion:toc -->
   
 

@@ -5,7 +5,7 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 暴力解法1](#3--题解---暴力解法1)
 - [4. 💻 题解 - 暴力解法2](#4--题解---暴力解法2)
-- [5. 📒 notes - 手写 reduce](#5--notes---手写-reduce)
+- [5. 📒 手写 reduce](#5--手写-reduce)
 <!-- endregion:toc -->
 
 ## 1. 📝 summary
@@ -124,7 +124,7 @@ var merge = function (intervals) {
 
 - 实现思路和上述的【暴力解法1】是一样的，只不过这里通过数组的 reduce API 做了些许简化。
 
-## 5. 📒 notes - 手写 reduce
+## 5. 📒 手写 reduce
 
 ```js
 Array.prototype.myReduce = function (cb, initialValue) {

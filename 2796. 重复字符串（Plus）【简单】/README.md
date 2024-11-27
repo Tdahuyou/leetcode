@@ -5,7 +5,7 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 循环拼接](#3--题解---循环拼接)
 - [4. 💻 题解 - 分治法，递归拼接](#4--题解---分治法递归拼接)
-- [5. 📒 notes - 单词](#5--notes---单词)
+- [5. 📒 单词](#5--单词)
 - [6. 📒 ntoes - 双百提交](#6--ntoes---双百提交)
 <!-- endregion:toc -->
 
@@ -101,7 +101,7 @@ String.prototype.replicate = function (times) {
 - **递 - divide and conquer**：将 `times` 分成两部分，递归地生成半数的字符串副本。
 - **合并结果**：将两个半数的字符串副本拼接在一起，如果 `times` 是奇数，再加上原字符串。
 
-## 5. 📒 notes - 单词
+## 5. 📒 单词
 
 - replicate 复制
 - conquer `divide and conquer` 分而治之；各个击破

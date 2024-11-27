@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 📝 summary](#1--summary)
 - [2. 📝 Description](#2--description)
-- [3. 📒 notes - 测试代码](#3--notes---测试代码)
+- [3. 📒 测试代码](#3--测试代码)
 - [4. 💻 题解 - 迭代](#4--题解---迭代)
 - [5. 💻 题解 - 递归](#5--题解---递归)
 <!-- endregion:toc -->
@@ -38,7 +38,7 @@
 - `-100 <= Node.val <= 100`
 - `l1` 和 `l2` 均按 **非递减顺序** 排列
 
-## 3. 📒 notes - 测试代码
+## 3. 📒 测试代码
 
 ```js
 function ListNode(val, next) {

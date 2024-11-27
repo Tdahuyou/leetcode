@@ -5,7 +5,7 @@
 - [2. 🔗 links](#2--links)
 - [3. 📝 Description](#3--description)
 - [4. 💻 题解 - 1. 递归](#4--题解---1-递归)
-- [5. 📒 notes - 二叉树的遍历](#5--notes---二叉树的遍历)
+- [5. 📒 二叉树的遍历](#5--二叉树的遍历)
 <!-- endregion:toc -->
 
 ## 1. 📝 summary
@@ -87,7 +87,7 @@ var preorderTraversal = function(root, res = []) {
 
 由于最终要求返回一个 `number[]` 数组，为了收集每次递归时的 `root.value`，可以给 `preorderTraversal` 扩展一个参数 `res = []`，每次在调用的时候将 `res` 传入，用于继续收集 `root.value`，最后将 `res` 返回。
 
-## 5. 📒 notes - 二叉树的遍历
+## 5. 📒 二叉树的遍历
 
 - 前序遍历（先根次序遍历）：**根节点** -> 左子树 -> 右子树
 - 中序遍历（中根次序遍历）：左子树 -> **根节点** -> 右子树

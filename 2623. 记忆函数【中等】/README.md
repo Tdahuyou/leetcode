@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 📝 summary](#1--summary)
 - [2. 📝 Description](#2--description)
-- [3. 📒 notes - 将数字数组直接作为 key](#3--notes---将数字数组直接作为-key)
+- [3. 📒 将数字数组直接作为 key](#3--将数字数组直接作为-key)
 - [4. 💻 题解 - 哈希表](#4--题解---哈希表)
 - [5. 💻 题解 - 双哈希表](#5--题解---双哈希表)
 <!-- endregion:toc -->
@@ -82,7 +82,7 @@ fib(5) = 8 // "call"
 - `actions[i]` 为 "call" 和 "getCallCount" 中的一个
 - `fnName` 为 "sum", "factorial" 和 "fib" 中的一个
 
-## 3. 📒 notes - 将数字数组直接作为 key
+## 3. 📒 将数字数组直接作为 key
 
 ```js
 const arr = [1, 2]

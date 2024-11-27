@@ -4,7 +4,7 @@
 - [1. 📝 summary](#1--summary)
 - [2. 🔗 links](#2--links)
 - [3. 📝 Description](#3--description)
-- [4. 📒 notes - JS 测试用例](#4--notes---js-测试用例)
+- [4. 📒 JS 测试用例](#4--js-测试用例)
 - [5. 💻 题解 - 双指针-1](#5--题解---双指针-1)
 - [6. 💻 题解 - 双指针-2](#6--题解---双指针-2)
 - [7. 💻 题解 - 调用系统函数](#7--题解---调用系统函数)
@@ -68,7 +68,7 @@ for (int i = 0; i < actualLength; i++) {
 - `0 <= nums[i] <= 50`
 - `0 <= val <= 100`
 
-## 4. 📒 notes - JS 测试用例
+## 4. 📒 JS 测试用例
 
 ```javascript
 const nums = [3, 2, 2, 3];

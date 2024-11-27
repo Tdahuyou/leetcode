@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 - [1. 📝 summary](#1--summary)
-- [2. 📒 notes - LeetCode 刷题指南 - 新手快速入门](#2--notes---leetcode-刷题指南---新手快速入门)
+- [2. 📒 LeetCode 刷题指南 - 新手快速入门](#2--leetcode-刷题指南---新手快速入门)
 <!-- endregion:toc -->
 
 ## 1. 📝 summary
 
 - 通过思维导图的形式，记录了一些适合入门刷的数据结构、算法例题。
 
-## 2. 📒 notes - LeetCode 刷题指南 - 新手快速入门
+## 2. 📒 LeetCode 刷题指南 - 新手快速入门
 
 - 数据结构
   - ![](md-imgs/2024-09-25-15-01-46.png)
