@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/pascals-triangle)
 
 ## 1. 📝 Description
@@ -61,5 +58,7 @@ var generate = function (numRows) {
   - ![](md-imgs/2024-11-10-21-52-49.png)
   - 首先初始化一个全为 `1` 的 `triangle` 三角。
   - 对内层的每个位置进行重新求和，求和的逻辑：`triangle[r][c] = triangle[r - 1][c - 1] + triangle[r - 1][c]`
+
+
 
 

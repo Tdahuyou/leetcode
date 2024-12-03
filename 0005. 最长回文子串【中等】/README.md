@@ -5,9 +5,6 @@
 - [2. 💻 题解 - 中心扩散](#2--题解---中心扩散)
 - [3. 📒 notes](#3--notes)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/longest-palindromic-substring/)
 
 ## 1. 📝 Description
@@ -104,5 +101,7 @@ s 的长度是 1，直接返回 s 即可。
 
 - 回文性：如果字符串向前和向后读都相同，则它满足 **回文性**。
 - 子字符串：**子字符串** 是字符串中连续的 **非空** 字符序列。
+
+
 
 

@@ -5,9 +5,6 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/throttle)
 
 
@@ -124,6 +121,8 @@ var throttle = function (fn, t) {
  * throttled("log"); // logged at t=100ms.
  */
 ```
+
+
 
 
 

@@ -6,9 +6,6 @@
 - [3. 💻 题解 - 哈希表](#3--题解---哈希表)
 - [4. 💻 题解 - 双哈希表](#4--题解---双哈希表)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/memoize)
 
 ## 1. 📝 Description
@@ -170,4 +167,6 @@ function memoize(fn: Fn): Fn {
  * console.log(callCount) // 1
  */
 ```
+
+
 

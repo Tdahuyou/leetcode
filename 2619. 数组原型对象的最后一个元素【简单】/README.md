@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/array-prototype-last/)
 
 ## 1. 📝 Description
@@ -47,6 +44,8 @@ Array.prototype.last = function () {
  * arr.last(); // 3
  */
 ```
+
+
 
 
 

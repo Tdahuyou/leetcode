@@ -5,9 +5,6 @@
 - [2. 💻 题解 - 1. 暴力解法](#2--题解---1-暴力解法)
 - [3. 💻 题解 - 2. 滑动窗口](#3--题解---2-滑动窗口)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
 
 
@@ -189,4 +186,6 @@ end 开始赋值为 -1，也是为了让代码更优雅，好从字符串下标 
 
 1. 在每次收缩窗口之前
 2. 在遍历完字符串的时候
+
+
 

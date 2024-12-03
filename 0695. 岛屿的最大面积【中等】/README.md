@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - DFS + 递归](#2--题解---dfs-+-递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/max-area-of-island/)
 
 ## 1. 📝 Description
@@ -76,5 +73,7 @@ var maxAreaOfIsland = function (grid) {
 
 - 如何防止同一个陆地被重复遍历？
   - 但凡是遍历过的陆地（也就是被计数过的陆地），就将其重置为 0；重置以后，下次再遍历到它时，它将不再被识别为陆地。
+
+
 
 

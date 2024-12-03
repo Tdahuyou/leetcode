@@ -7,9 +7,6 @@
 - [4. 📒 单词](#4--单词)
 - [5. 📒 ntoes - 双百提交](#5--ntoes---双百提交)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/repeat-string/description/)
 
 ## 1. 📝 Description
@@ -110,5 +107,7 @@ String.prototype.replicate = function (times) {
 - 首次见到的双百的提交，记录一下……
   - https://leetcode.cn/problems/repeat-string/submissions/539803907
   - ![](md-imgs/2024-09-26-22-49-34.png)
+
+
 
 

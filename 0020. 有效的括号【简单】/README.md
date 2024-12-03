@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - 栈](#2--题解---栈)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/valid-parentheses/)
 - ⏰ TODO：本节的 gif 图看起来很不直观，重新制作。
 
@@ -120,4 +117,6 @@ var isValid = function (s) {
      - 第四次遍历，遇到了 `)`，和之前入栈压入的 `)` 匹配，那么说明此时的括号是有效的。
      - 此时栈为空，说明所有括号都已经配对完毕，返回 `true`。
  - 用自然语言很难描述清楚，若写不出来，最好还是画画图，理清思路再写代码。
+
+
 

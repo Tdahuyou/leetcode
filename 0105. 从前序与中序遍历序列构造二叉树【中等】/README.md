@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 
 ## 1. 📝 Description
@@ -63,6 +60,8 @@ var buildTree = function(preorder, inorder) {
   return root
 }
 ```
+
+
 
 
 

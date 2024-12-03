@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - 回溯](#2--题解---回溯)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/combinations/)
 
 ## 1. 📝 Description
@@ -195,5 +192,7 @@ var combine = function(n, k) {
 ```
 
 - ![](md-imgs/2024-11-03-21-52-43.png)
+
+
 
 

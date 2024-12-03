@@ -5,9 +5,6 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 回溯算法](#3--题解---回溯算法)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/generate-parentheses/)
 
 ## 1. 🔗 links
@@ -63,6 +60,8 @@ var generateParenthesis = function (n) {
 - 可选：由 `lRemain` 和 `rRemain` 决定
 - 结束：`str.length === n * 2`
 - 回溯的套路中，难点通常在于确定「可选」是什么，「已选」、「结束」往往都很容易明确。
+
+
 
 
 

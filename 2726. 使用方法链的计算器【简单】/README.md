@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/calculator-with-method-chaining)
 - 备注：题目有些长，但逻辑很简单。
 
@@ -143,4 +140,6 @@ class Calculator {
 
 - 链式调用，每次 `return this` 即可。
 - 除法运算时校验 value 不能为 0，否则抛出错误 `throw new Error('Division by zero is not allowed')`
+
+
 

@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/add-two-promises)
 - 备注：考察对 Promise 的理解。
 
@@ -59,5 +56,7 @@ var addTwoPromises = async function(promise1, promise2) {
  *   .then(console.log); // 4
  */
 ```
+
+
 
 

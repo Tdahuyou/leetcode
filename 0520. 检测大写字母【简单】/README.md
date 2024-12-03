@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/detect-capital)
 
 ## 1. 📝 Description
@@ -66,6 +63,8 @@ var detectCapitalUse = function(word) {
   }
 };
 ```
+
+
 
 
 

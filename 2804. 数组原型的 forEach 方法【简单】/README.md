@@ -5,9 +5,6 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/array-prototype-foreach/)
 
 ## 1. 🔗 links
@@ -114,5 +111,7 @@ Array.prototype.forEach = function(callback, context) {
 - 空间复杂度：$O(1)$
 
 题目要求 `callback` 在调用的时候，`this` 指向 `context`。这可以通过 `Function.prototype.call()` 来实现，将 `context` 作为 `callback.call(context, ...)` 的第一个参数传入即可。至于 `callback` 后续的剩余参数，继续写在后边儿即可。
+
+
 
 

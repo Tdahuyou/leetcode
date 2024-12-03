@@ -8,9 +8,6 @@
 - [5. 💻 题解 - 双指针-2](#5--题解---双指针-2)
 - [6. 💻 题解 - 调用系统函数](#6--题解---调用系统函数)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/remove-element/)
 
 ## 1. 🔗 links
@@ -189,4 +186,6 @@ var removeElement = function (nums, val) {
   - 很简单，遍历数组，一旦找到不满足条件的，直接将其从原数组中删除即可。
   - splice 这个 api，会改变原数组，所以，最后只要将修改后的原数组 nums 返回即可。
   - **注意：这么写虽然能通过，但并不符合题目要求。**
+
+
 

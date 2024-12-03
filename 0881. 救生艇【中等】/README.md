@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解「贪心」](#2--题解「贪心」)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/boats-to-save-people)
 
 ## 1. 📝 Description
@@ -87,4 +84,6 @@ var numRescueBoats = function(people, limit) {
 > - ... 等等
 >
 > 但是这些最优解都有一个共同点，浪费的资源量都是一样的。
+
+
 

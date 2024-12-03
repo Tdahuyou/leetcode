@@ -16,9 +16,6 @@
   - [5.4. 示例](#54-示例)
   - [5.5. 结论](#55-结论)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array)
 
 
@@ -201,5 +198,7 @@ var findMin = function(nums) {
 - **大多数情况下等效**：在大多数实际应用中，这两种写法是等效的。
 - **防止溢出**：如果你担心整数溢出，特别是当 `low` 和 `high` 都是大整数时，建议使用 `pivot = low + ((high - low) >> 1)`。
 - **简洁性**：如果你确定不会发生溢出，可以使用 `pivot = (high + low) >> 1`，因为它更简洁。
+
+
 
 

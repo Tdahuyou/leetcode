@@ -7,9 +7,6 @@
 - [4. 💻 题解 - 三路快速排序方法](#4--题解---三路快速排序方法)
 - [5. 💻 题解 - 基排序](#5--题解---基排序)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/sort-colors)
 - 本质是考察升序排序。
 
@@ -129,5 +126,7 @@ var sortColors = function (nums) {
 - **思路：**
   1. 用一个辅助数组 `arr` 记录下 `nums` 中的 0，1，2 的出现次数。
   2. 根据 `arr` 来重写 `nums`
+
+
 
 

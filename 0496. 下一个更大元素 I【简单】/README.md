@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/next-greater-element-i/)
 
 ## 1. 📝 Description
@@ -55,5 +52,7 @@
 ```
 
 ```
+
+
 
 

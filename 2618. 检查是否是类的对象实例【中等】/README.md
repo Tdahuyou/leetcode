@@ -6,9 +6,6 @@
 - [3. 📒 使用 Object() 将原始类型的值转为对应的包装对象](#3--使用-object()-将原始类型的值转为对应的包装对象)
 - [4. 💻 题解](#4--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/check-if-object-instance-of-class)
 
 ## 1. 🔗 links
@@ -103,6 +100,8 @@ if (['object', 'function', 'array'].includes(typeof obj)){
   return Object(obj) instanceof classFunction
 }
 ```
+
+
 
 
 

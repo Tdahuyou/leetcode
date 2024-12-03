@@ -6,9 +6,6 @@
 - [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
 - [4. 💻 题解 - 递归](#4--题解---递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/flatten-deeply-nested-array/description/)
 
 ## 1. 🔗 links
@@ -130,4 +127,6 @@ var flat = function (arr, depth) {
 ```
 
 - ![](md-imgs/2024-10-26-20-02-07.png)
+
+
 

@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/filter-elements-from-array/)
 
 ## 1. 📝 Description
@@ -65,5 +62,7 @@ var filter = function (arr, fn) {
 **理解回调：**
 
 `fn` 是调用者传入的回调函数，我们需要注入的是每次遍历数组 `arr` 时，当前项的值 `item` 和索引 `index`。然后根据返回结果的真、假，判断是否加入到返回的数组中。
+
+
 
 

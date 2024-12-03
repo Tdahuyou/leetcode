@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/create-hello-world-function)
 
 - 备注：太看得起我了……
@@ -57,5 +54,7 @@ var createHelloWorld = function () {
  * f(); // "Hello World"
  */
 ```
+
+
 
 

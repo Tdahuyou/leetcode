@@ -6,9 +6,6 @@
 - [3. 💻 题解 - 1. 递归](#3--题解---1-递归)
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal)
 
 
@@ -78,4 +75,6 @@ var inorderTraversal = function(root, res = []) {
 ![](md-imgs/2024-09-25-17-01-39.png)
 
 > 图片来源：https://wansuanfa.com/index.php/701
+
+
 

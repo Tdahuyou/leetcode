@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - 哈希表](#2--题解---哈希表)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/cache-with-time-limit/)
 
 ## 1. 📝 Description
@@ -114,4 +111,6 @@ class TimeLimitedCache {
  * obj.count() // 1
  */
 ```
+
+
 

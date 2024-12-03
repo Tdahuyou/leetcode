@@ -6,9 +6,6 @@
 - [3. 💻 题解 - 先反转再比较](#3--题解---先反转再比较)
 - [4. 💻 题解 - 二分对比](#4--题解---二分对比)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/palindrome-number/)
 
 ## 1. 📝 Description
@@ -100,4 +97,6 @@ var isPalindrome = function (x) {
 - 空间复杂度：$O(n)$
 
 俩指针从两端向中间走，检查走过的每一个成员的值，一旦发现不同的就返回 `false`。若遍历结束了，还是没有找到不同的成员，那么返回 `true`。
+
+
 

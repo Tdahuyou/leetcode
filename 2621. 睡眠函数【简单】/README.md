@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/sleep/)
 
 ## 1. 📝 Description
@@ -51,5 +48,7 @@ async function sleep(millis) {
  * sleep(100).then(() => console.log(Date.now() - t)) // 100
  */
 ```
+
+
 
 

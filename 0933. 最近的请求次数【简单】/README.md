@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - 暴力解法 - 使用队列 queue](#2--题解---暴力解法---使用队列-queue)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/number-of-recent-calls)
 
 ## 1. 📝 Description
@@ -66,4 +63,6 @@ RecentCounter.prototype.ping = function (t) {
 ```
 
 - `this.queue.shift()` 移除第一个成员（第二个成员将变为第一个成员，继续判断是否需要移除新的第一个成员。）
+
+
 

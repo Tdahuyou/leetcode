@@ -9,9 +9,6 @@
 - [6. 💻 题解 - 暴力解法](#6--题解---暴力解法)
 - [7. 💻 题解 - KMP](#7--题解---kmp)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 - 本节介绍了 KMP 算法，代码量不多，但理解起来比较费劲儿，不应该是简单题的难度。在查阅资料的过程中，了解到这貌似是考研、竞赛题。
 
@@ -201,4 +198,6 @@ for (let i = 0, j = 0; i < n; i++) {
 - `while (j > 0 && needle[j] !== haystack[i]) j = next[j - 1]` 失配，`j` 回退到 `next[j - 1]` 的位置。
 - `if (haystack[i] === needle[j]) j++` 匹配，j 向后移动一位。
 - `if (j === m) return i - m + 1` 一旦条件成立，表示在主串中找到了满足条件的连续子串，将匹配的起始位置返回。
+
+
 

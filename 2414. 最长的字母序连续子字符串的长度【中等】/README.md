@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)
 
 ## 1. 📝 Description
@@ -59,6 +56,8 @@ var longestContinuousSubstring = function(s) {
   return ans
 };
 ```
+
+
 
 
 

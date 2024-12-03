@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/function-composition)
 
 
@@ -97,4 +94,6 @@ var compose = function (functions) {
 **【注意】**
 
 - **空函数列表的复合函数就是恒等函数：**若入参 `functions` 为空数组 `[]`，那么直接将传入的 `x` 返回即可。
+
+
 

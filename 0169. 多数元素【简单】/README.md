@@ -6,9 +6,6 @@
 - [3. 💻 题解 - hash-table](#3--题解---hash-table)
 - [4. 💻 题解 - 分治](#4--题解---分治)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/majority-element/)
 
 ## 1. 📝 Description
@@ -100,4 +97,6 @@ var majorityElement = function (nums) {
 - ![](md-imgs/2024-11-16-19-12-36.png)
 - 如果两个区间中的众数相同，那么直接返回该众数。否则，将两区间合并，在合并后的区间中计算出这两个众数出现的次数，将出现次数多的返回。
 - 特殊情况：若两个子区间中的众数在合并后的区间中出现次数依旧相同，则随便返回一个，继续合并即可（此时必然还没有合并到头）。因为如果合并后的区间为 `[0, nums.length - 1]`，那么是不可能会有这种情况出现的。
+
+
 

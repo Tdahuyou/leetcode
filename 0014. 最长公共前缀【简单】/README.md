@@ -6,9 +6,6 @@
 - [3. 💻 题解 - 横向扫描](#3--题解---横向扫描)
 - [4. 💻 题解 - 纵向扫描](#4--题解---纵向扫描)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/longest-common-prefix)
 
 ## 1. 📝 Description
@@ -122,6 +119,8 @@ var longestCommonPrefix = function (strs) {
 **解题思路：**
 
 逐个字符地对比所有字符串的相同位置的字符，直到遇到不匹配的字符或到达某个字符串的末尾。
+
+
 
 
 

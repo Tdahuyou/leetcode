@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - 递归](#2--题解---递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/fibonacci-number/)
 
 ## 1. 📝 Description
@@ -51,4 +48,6 @@ var fib = function (n) {
 ```
 
 - ![](md-imgs/2024-11-16-19-07-29.png)
+
+
 

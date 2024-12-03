@@ -6,9 +6,6 @@
 - [3. 💻 题解 2](#3--题解-2)
 - [4. 💻 题解 3](#4--题解-3)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
 - 备注：找规律解题，规律很多，解法也很多。
 
@@ -129,5 +126,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
   return 100 - Math.floor((purchaseAmount + 5) / 10) * 10;
 }
 ```
+
+
 
 

@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/event-emitter)
 - 备注：模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
 
@@ -158,6 +155,8 @@ class EventEmitter {
  * emitter.emit('onClick'); // []
  */
 ```
+
+
 
 
 

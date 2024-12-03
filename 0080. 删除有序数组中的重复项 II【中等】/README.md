@@ -6,9 +6,6 @@
 - [3. 💻 题解 - 快慢指针](#3--题解---快慢指针)
 - [4. 📒 尝试正则解法失败](#4--尝试正则解法失败)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)
 
 ## 1. 📝 Description
@@ -142,4 +139,6 @@ var removeDuplicates = function(nums) {
 - 这道题一开始想要使用正则表达式（捕获组、反向引用）来实现，但是由于题目中也许会出现负数，所以正则逻辑还需要优化。目前的逻辑，也许仅适用于 nums 中只出现 0~9 的情况。
 - 提交记录：虽然能够通过一些示例，但 `nums[i]` 一旦出现负数或者大于 9 的数，这法子就行不通了。
   - ![](md-imgs/2024-11-10-19-07-44.png)
+
+
 

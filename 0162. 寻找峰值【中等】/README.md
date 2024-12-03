@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解「二分查找」](#2--题解「二分查找」)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/find-peak-element)
 
 ## 1. 📝 Description
@@ -69,4 +66,6 @@ var findPeakElement = function(nums) {
 - 74
 - 162
 - 704
+
+
 

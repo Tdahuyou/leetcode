@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - DFS](#2--题解---dfs)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/longest-univalue-path/)
 
 ## 1. 📝 Description
@@ -58,4 +55,6 @@ var longestUnivaluePath = function (root) {
 
 - 思路：
   - ![](./md-imgs/1.gif)
+
+
 

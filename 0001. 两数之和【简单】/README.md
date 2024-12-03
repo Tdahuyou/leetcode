@@ -7,9 +7,6 @@
 - [4. 💻 题解 - 3. 动态哈希表【📺 leetcode.0001.3】](#4--题解---3-动态哈希表-leetcode00013)
 - [5. 📒 notes](#5--notes)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/two-sum/)
 
 
@@ -188,4 +185,6 @@ twoSum([3, 2, 3], 6) // undefined
 ```
 
 在哈希表中，对于重复的 key 值，后面的会覆盖前面的。第一次存入的 `3 => 0` 还没被查询，就被 `3 => 2` 给覆盖了，那你还查个 der。
+
+
 

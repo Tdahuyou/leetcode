@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - 暴力解法 - 直接调用原生 API - trim、split、pop](#2--题解---暴力解法---直接调用原生-api---trimsplitpop)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/length-of-last-word/)
 
 ## 1. 📝 Description
@@ -52,4 +49,6 @@ var lengthOfLastWord = function(s) {
   return s.trim().split(/\s+/).pop().length
 }
 ```
+
+
 

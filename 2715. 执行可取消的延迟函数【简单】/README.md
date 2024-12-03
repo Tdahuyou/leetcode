@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/timeout-cancellation)
 
 ## 1. 📝 Description
@@ -70,5 +67,7 @@ var cancellable = function (fn, args, t) {
   return _ => clearInterval(timer)
 }
 ```
+
+
 
 

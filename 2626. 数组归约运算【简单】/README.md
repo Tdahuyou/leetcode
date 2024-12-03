@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
 
 ## 1. 📝 Description
@@ -102,5 +99,7 @@ var reduce = function(nums, fn, init) {
 `init = fn(init, nums[i])`
 
 上一次的处理结果作为下一次的输入之一。
+
+
 
 

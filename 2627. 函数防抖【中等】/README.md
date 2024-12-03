@@ -5,9 +5,6 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/debounce/)
 
 
@@ -133,5 +130,7 @@ var debounce = function (fn, t) {
 
 1. `clearTimeout(timer)` 清空之前的延迟触发器，无论有没有都清空。（这里的 if 判断逻辑没有多大意义，有没有都行）
 2. `timer = setTimeout(_ => fn(...args), t)` 绑定新的触发器，延迟时间为 `t`。
+
+
 
 

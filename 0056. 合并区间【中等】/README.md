@@ -6,9 +6,6 @@
 - [3. 💻 题解 - 暴力解法2](#3--题解---暴力解法2)
 - [4. 📒 手写 reduce](#4--手写-reduce)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/merge-intervals)
 
 ## 1. 📝 Description
@@ -138,4 +135,6 @@ Array.prototype.myReduce = function (cb, initialValue) {
   return initialValue
 }
 ```
+
+
 

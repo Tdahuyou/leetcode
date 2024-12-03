@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/return-length-of-arguments-passed)
 
 ## 1. 📝 Description
@@ -44,4 +41,6 @@ var argumentsLength = function(...args) {
 
 - 评论区点个赞～
   - ![](md-imgs/2024-09-26-22-26-49.png)
+
+
 

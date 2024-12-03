@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/join-two-arrays-by-id)
 
 ## 1. 📝 Description
@@ -124,5 +121,7 @@ var join = function (arr1, arr2) {
   return ans.sort((a, b) => a.id - b.id) // 按照 id 升序排序
 };
 ```
+
+
 
 

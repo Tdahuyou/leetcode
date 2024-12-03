@@ -5,9 +5,6 @@
 - [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
 - [3. 💻 题解 - 暴力解法优化](#3--题解---暴力解法优化)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/pascals-triangle-ii)
 
 ## 1. 📝 Description
@@ -103,5 +100,7 @@ var getRow = function (rowIndex) {
   - ![](md-imgs/2024-11-10-22-31-54.png)
 - **注意：**
   - **内层循环从 `c = r - 1` 到 `c = 1`，表示从右向左更新当前行的值。这样可以避免在更新过程中覆盖未计算的值。**
+
+
 
 

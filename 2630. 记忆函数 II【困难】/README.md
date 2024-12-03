@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - 双哈希表](#2--题解---双哈希表)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/memoize-ii/)
 
 ## 1. 📝 Description
@@ -95,5 +92,7 @@ function memoize(fn: Fn): Fn {
  * console.log(callCount) // 1
  */
 ```
+
+
 
 

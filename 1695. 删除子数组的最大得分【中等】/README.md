@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - 1. 滑动窗口](#2--题解---1-滑动窗口)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/maximum-erasure-value/)
 
 
@@ -63,5 +60,7 @@ var maximumUniqueSubarray = function(nums) {
 ```
 
 题解参考：0003. 无重复字符的最长子串
+
+
 
 

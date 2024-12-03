@@ -5,9 +5,6 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/array-upper-bound)
 
 ## 1. 🔗 links
@@ -67,5 +64,7 @@ Array.prototype.upperBound = function(target) {
 ```
 
 类似于 `Array.prototype.indexOf()`，不同点在于本题要求从数组的结尾开始找。
+
+
 
 

@@ -5,9 +5,6 @@
 - [2. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理](#2--在-js-中null-参与加法运算的时候自动被视作-0-处理)
 - [3. 💻 题解 - DFS + 递归](#3--题解---dfs-+-递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
 
 ## 1. 📝 Description
@@ -61,4 +58,6 @@ var mergeTrees = function (root1, root2) {
 - 优先处理 root1，优先返回 root1。
   - `return root1 || root2;`
   - 只要 root1 一开始不是空，那么，最后一次 return 时，会将 root1 返回。所以在 if 条件分支中，都是对二叉树 root1 做处理。
+
+
 

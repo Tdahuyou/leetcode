@@ -5,9 +5,6 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/sort-by)
 
 ## 1. 🔗 links
@@ -58,5 +55,7 @@ var sortBy = function(arr, fn) {
 ```
 
 可以通过 `Array.prototype.sort` 快速解题，题目描述中提到：按照 fn 的输出值排序。最先想到的就是数组的 sort 方法，只需要将数组的每一项作为 fn 函数的入参丢给它然后做差即可。
+
+
 
 

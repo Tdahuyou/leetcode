@@ -5,9 +5,6 @@
 - [2. 💻 题解 - 二分查找](#2--题解---二分查找)
 - [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/search-insert-position/)
 
 ## 1. 📝 Description
@@ -111,5 +108,7 @@ var searchInsert = function (nums, target) {
   return nums.length
 };
 ```
+
+
 
 

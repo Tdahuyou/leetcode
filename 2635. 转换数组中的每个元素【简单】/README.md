@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/apply-transform-over-each-element-in-array)
 
 - 备注：本题要求 - 实现数组原生 API `Array.map`
@@ -54,4 +51,6 @@ var map = function(arr, fn) {
   return ans
 }
 ```
+
+
 

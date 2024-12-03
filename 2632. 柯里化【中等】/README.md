@@ -6,9 +6,6 @@
 - [3. 💻 题解 - 题解1](#3--题解---题解1)
 - [4. 💻 题解 - 题解2](#4--题解---题解2)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/curry)
 
 
@@ -219,6 +216,8 @@ var curry = function (fn, ...rest1) {
 ```
 
 这种做法通过递归 curry 来收集剩余参数，如果参数数量不够，就返回 `curry(fn, ...receivedArgs)`。从写法上来看，这种写法显然会更加简洁一些。
+
+
 
 
 

@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/is-object-empty)
 
 ## 1. 📝 Description
@@ -78,5 +75,7 @@ JSON.stringify
 Object.keys
 
 ![](md-imgs/2024-09-26-22-42-11.png)
+
+
 
 

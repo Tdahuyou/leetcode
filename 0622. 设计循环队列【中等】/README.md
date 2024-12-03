@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解 - 设计循环队列](#2--题解---设计循环队列)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/design-circular-queue)
 
 
@@ -139,6 +136,8 @@ MyCircularQueue.prototype.isFull = function() {
 ![](md-imgs/2024-09-25-17-16-45.png)
 
 其中一种正确的做法是在内部维护一个变量 count，在每次 enQueue 成功的时候 count++，在每次 deQueue 成功的时候 count--，如果 count 的值和初始化时传入的 k 相同，那么意味着满了，否则没满。
+
+
 
 
 

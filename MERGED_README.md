@@ -9,9 +9,6 @@
 - [5. 💻 题解 - 3. 动态哈希表【📺 leetcode.0001.3】](#5--题解---3-动态哈希表-leetcode00013)
 - [6. 📒 notes](#6--notes)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/two-sum/)
 
 
@@ -202,9 +199,6 @@ twoSum([3, 2, 3], 6) // undefined
 - [3. 💻 题解 - 1. 暴力解法](#3--题解---1-暴力解法)
 - [4. 💻 题解 - 2. 滑动窗口](#4--题解---2-滑动窗口)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
 
 
@@ -398,9 +392,6 @@ end 开始赋值为 -1，也是为了让代码更优雅，好从字符串下标 
 - [3. 💻 题解 - 中心扩散](#3--题解---中心扩散)
 - [4. 📒 notes](#4--notes)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/longest-palindromic-substring/)
 
 ## 2. 📝 Description
@@ -518,9 +509,6 @@ s 的长度是 1，直接返回 s 即可。
 - [7. 🤖 整数位数和它的大小之间对数关系](#7--整数位数和它的大小之间对数关系)
 - [8. 🤖 对比 $O(log_{10} N)$ 和 $O(log N)$](#8--对比-$o(log_{10}-n)$-和-$o(log-n)$)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/reverse-integer/)
 
 ## 2. 📝 Description
@@ -780,9 +768,6 @@ x + y &= 2 \\
 - [4. 💻 题解 - 先反转再比较](#4--题解---先反转再比较)
 - [5. 💻 题解 - 二分对比](#5--题解---二分对比)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/palindrome-number/)
 
 ## 2. 📝 Description
@@ -889,9 +874,6 @@ var isPalindrome = function (x) {
 - [6. ❌ 问题解法 - 栈溢出](#6--问题解法---栈溢出)
 - [7. ❌ 问题解法 - 超时](#7--问题解法---超时)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/container-with-most-water/)
 
 ## 2. 🔗 links
@@ -1191,9 +1173,6 @@ height = [3846,7214,9316,9869,2423,4235,4921,5878,9832,5302,4298,4312,8571,531,3
 - [3. 💻 题解 - 基于哈希表的逐字符解析法（1）](#3--题解---基于哈希表的逐字符解析法1)
 - [4. 💻 题解 - 基于哈希表的逐字符解析法（2）](#4--题解---基于哈希表的逐字符解析法2)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/roman-to-integer)
 - 备注：本文介绍的两种题解，都是基于哈希表来实现的。
 
@@ -1344,9 +1323,6 @@ var romanToInt = function (s) {
 - [4. 💻 题解 - 横向扫描](#4--题解---横向扫描)
 - [5. 💻 题解 - 纵向扫描](#5--题解---纵向扫描)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/longest-common-prefix)
 
 ## 2. 📝 Description
@@ -1473,9 +1449,6 @@ var longestCommonPrefix = function (strs) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 排序 + 双指针【📺 leetcode.0015.1】](#3--题解---排序-+-双指针-leetcode00151)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/3sum/description/)
 
 
@@ -1608,9 +1581,6 @@ var threeSum = function (nums) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 三指针暴力解法](#3--题解---三指针暴力解法)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/)
 - 本文的题解中提到了一个概念【哑节点（dummy node）、哨兵节点（sentinel node）】这个东西在处理链表中还是蛮常用的，如果不清楚什么是【哑节点（dummy node）、哨兵节点（sentinel node）】，可以结合这道题来了解一下。
 
@@ -1695,9 +1665,6 @@ var removeNthFromEnd = function (head, n) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 栈](#3--题解---栈)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/valid-parentheses/)
 - ⏰ TODO：本节的 gif 图看起来很不直观，重新制作。
 
@@ -1824,9 +1791,6 @@ var isValid = function (s) {
 - [4. 💻 题解 - 迭代](#4--题解---迭代)
 - [5. 💻 题解 - 递归](#5--题解---递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/merge-two-sorted-lists/)
 
 ## 2. 📝 Description
@@ -2000,9 +1964,6 @@ var mergeTwoLists = function(list1, list2) {
 - [3. 📝 Description](#3--description)
 - [4. 💻 题解 - 回溯算法](#4--题解---回溯算法)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/generate-parentheses/)
 
 ## 2. 🔗 links
@@ -2071,9 +2032,6 @@ var generateParenthesis = function (n) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 双指针](#3--题解---双指针)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
 
 ## 2. 📝 Description
@@ -2158,9 +2116,6 @@ var removeDuplicates = function(nums) {
 - [6. 💻 题解 - 双指针-2](#6--题解---双指针-2)
 - [7. 💻 题解 - 调用系统函数](#7--题解---调用系统函数)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/remove-element/)
 
 ## 2. 🔗 links
@@ -2355,9 +2310,6 @@ var removeElement = function (nums, val) {
 - [7. 💻 题解 - 暴力解法](#7--题解---暴力解法)
 - [8. 💻 题解 - KMP](#8--题解---kmp)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 - 本节介绍了 KMP 算法，代码量不多，但理解起来比较费劲儿，不应该是简单题的难度。在查阅资料的过程中，了解到这貌似是考研、竞赛题。
 
@@ -2559,9 +2511,6 @@ for (let i = 0, j = 0; i < n; i++) {
 - [3. 💻 题解 - 二分查找](#3--题解---二分查找)
 - [4. 💻 题解 - 暴力解法](#4--题解---暴力解法)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/search-insert-position/)
 
 ## 2. 📝 Description
@@ -2677,9 +2626,6 @@ var searchInsert = function (nums, target) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 回溯](#3--题解---回溯)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/permutations/)
 
 ## 2. 📝 Description
@@ -2743,9 +2689,6 @@ var permute = function(nums) {
 - [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
 - [4. 💻 题解 - 翻转](#4--题解---翻转)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/rotate-image)
 
 ## 2. 📝 Description
@@ -2873,9 +2816,6 @@ var rotate = function (matrix) {
 - [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
 - [4. 💻 题解 - 动态规划](#4--题解---动态规划)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/maximum-subarray/)
 
 ## 2. 📝 Description
@@ -2962,9 +2902,6 @@ var maxSubArray = function(nums) {
 - [4. 💻 题解 - 暴力解法2](#4--题解---暴力解法2)
 - [5. 📒 手写 reduce](#5--手写-reduce)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/merge-intervals)
 
 ## 2. 📝 Description
@@ -3105,9 +3042,6 @@ Array.prototype.myReduce = function (cb, initialValue) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 暴力解法 - 直接调用原生 API - trim、split、pop](#3--题解---暴力解法---直接调用原生-api---trimsplitpop)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/length-of-last-word/)
 
 ## 2. 📝 Description
@@ -3164,9 +3098,6 @@ var lengthOfLastWord = function(s) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 逆序循环](#3--题解---逆序循环)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/plus-one/)
 
 ## 2. 📝 Description
@@ -3262,9 +3193,6 @@ flowchart TD
 - [5. 💻 题解 - 循环二维数组](#5--题解---循环二维数组)
 - [6. 💻 题解 - 二分查找](#6--题解---二分查找)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/search-a-2d-matrix/)
 
 ## 2. 🔗 links
@@ -3381,9 +3309,6 @@ var searchMatrix = function(matrix, target) {
 - [5. 💻 题解 - 三路快速排序方法](#5--题解---三路快速排序方法)
 - [6. 💻 题解 - 基排序](#6--题解---基排序)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/sort-colors)
 - 本质是考察升序排序。
 
@@ -3515,9 +3440,6 @@ var sortColors = function (nums) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 回溯](#3--题解---回溯)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/combinations/)
 
 ## 2. 📝 Description
@@ -3720,9 +3642,6 @@ var combine = function(n, k) {
 - [4. 💻 题解 - 循环遍历](#4--题解---循环遍历)
 - [5. 💻 题解 - 回溯](#5--题解---回溯)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/subsets/)
 - **⏰ TODO**
   - 合并 keynote-2.key、keynote.key。
@@ -3833,9 +3752,6 @@ var subsets = function(nums) {
 - [4. 💻 题解 - 快慢指针](#4--题解---快慢指针)
 - [5. 📒 尝试正则解法失败](#5--尝试正则解法失败)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)
 
 ## 2. 📝 Description
@@ -3981,9 +3897,6 @@ var removeDuplicates = function(nums) {
 - [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
 - [4. 💻 题解 - 尾插法](#4--题解---尾插法)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/merge-sorted-array)
 
 ## 2. 📝 Description
@@ -4135,9 +4048,6 @@ var merge = function (nums1, m, nums2, n) {
 - [4. 💻 题解 - 1. 递归](#4--题解---1-递归)
 - [5. 📒 二叉树的遍历](#5--二叉树的遍历)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal)
 
 
@@ -4218,9 +4128,6 @@ var inorderTraversal = function(root, res = []) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 
 ## 2. 📝 Description
@@ -4290,9 +4197,6 @@ var buildTree = function(preorder, inorder) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
 
 ## 2. 📝 Description
@@ -4362,9 +4266,6 @@ var buildTree = function(inorder, postorder) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/pascals-triangle)
 
 ## 2. 📝 Description
@@ -4432,9 +4333,6 @@ var generate = function (numRows) {
 - [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
 - [4. 💻 题解 - 暴力解法优化](#4--题解---暴力解法优化)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/pascals-triangle-ii)
 
 ## 2. 📝 Description
@@ -4544,9 +4442,6 @@ var getRow = function (rowIndex) {
 - [4. 💻 题解 - 双指针](#4--题解---双指针)
 - [5. 📒 正则 `\w`、`\W`](#5--正则-\w\w)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/valid-palindrome)
 
 
@@ -4708,9 +4603,6 @@ var isPalindrome = function(s) {
 - [4. 💻 题解 - 1. 递归](#4--题解---1-递归)
 - [5. 📒 二叉树的遍历](#5--二叉树的遍历)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/binary-tree-preorder-traversal)
 
 
@@ -4811,9 +4703,6 @@ var preorderTraversal = function(root, res = []) {
 - [4. 💻 题解 - 递归](#4--题解---递归)
 - [5. 📒 二叉树的遍历](#5--二叉树的遍历)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/binary-tree-postorder-traversal)
 
 
@@ -4895,9 +4784,6 @@ var postorderTraversal = function(root, res = []) {
 - [3. 💻 题解 - 1. 字符串分割](#3--题解---1-字符串分割)
 - [4. 💻 题解 - 2. 双指针](#4--题解---2-双指针)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string)
 
 
@@ -5032,9 +4918,6 @@ var reverseWords = function (s) {
   - [6.4. 示例](#64-示例)
   - [6.5. 结论](#65-结论)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array)
 
 
@@ -5229,9 +5112,6 @@ var findMin = function(nums) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解「二分查找」](#3--题解「二分查找」)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/find-peak-element)
 
 ## 2. 📝 Description
@@ -5305,9 +5185,6 @@ var findPeakElement = function(nums) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)
 
 ## 2. 📝 Description
@@ -5365,9 +5242,6 @@ var findPeakElement = function(nums) {
 - [4. 💻 题解 - hash-table](#4--题解---hash-table)
 - [5. 💻 题解 - 分治](#5--题解---分治)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/majority-element/)
 
 ## 2. 📝 Description
@@ -5474,9 +5348,6 @@ var majorityElement = function (nums) {
 - [6. 💻 题解 - 暴力解法4](#6--题解---暴力解法4)
 - [7. 💻 题解 - 双指针](#7--题解---双指针)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/rotate-array/)
 - 注意：
   - 本题的解题思路有很多，很多思路可能没问题，但是在 leetcode 提交后会提示超时。
@@ -5648,9 +5519,6 @@ var rotate = function (nums, k) {
 - [3. 💻 题解 - 遍历](#3--题解---遍历)
 - [4. 💻 题解 - 递归](#4--题解---递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/remove-linked-list-elements/)
 
 ## 2. 📝 Description
@@ -5785,9 +5653,6 @@ flowchart TD
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 递归](#3--题解---递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/reverse-linked-list)
 
 
@@ -5868,9 +5733,6 @@ var reverseList = function(head) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/minimum-size-subarray-sum)
 
 ## 2. 📝 Description
@@ -5935,9 +5797,6 @@ var reverseList = function(head) {
   - [4.4. 示例](#44-示例)
   - [4.5. 关键点](#45-关键点)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/sliding-window-maximum)
 
 
@@ -6221,9 +6080,6 @@ console.log(maxSlidingWindow(nums, k)); // 输出: [3, 3, 5, 5, 6, 7]
 - [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
 - [4. 💻 题解 - 二分查找](#4--题解---二分查找)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/first-bad-version/)
 
 ## 2. 📝 Description
@@ -6301,9 +6157,6 @@ var solution = function (isBadVersion) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 双指针](#3--题解---双指针)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/move-zeroes/)
 
 ## 2. 📝 Description
@@ -6359,9 +6212,6 @@ var moveZeroes = function (nums) {
 - [4. 💻 题解 - 双指针](#4--题解---双指针)
 - [5. 💻 题解 - 递归](#5--题解---递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/reverse-string/)
 - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
   - mdn - `Array.prototype.reverse()`
@@ -6439,9 +6289,6 @@ var reverseString = function (s) {
 - [5. 💻 题解 - 暴力解法 - 字符串切片](#5--题解---暴力解法---字符串切片)
 - [6. 💻 题解 - 暴力解法 - 正则](#6--题解---暴力解法---正则)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/max-consecutive-ones/)
 
 ## 2. 📝 Description
@@ -6550,9 +6397,6 @@ var findMaxConsecutiveOnes = function (nums) { // => [1, 1, 0, 1, 1, 1]
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/next-greater-element-i/)
 
 ## 2. 📝 Description
@@ -6613,9 +6457,6 @@ var findMaxConsecutiveOnes = function (nums) { // => [1, 1, 0, 1, 1, 1]
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 递归](#3--题解---递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/fibonacci-number/)
 
 ## 2. 📝 Description
@@ -6671,9 +6512,6 @@ var fib = function (n) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/detect-capital)
 
 ## 2. 📝 Description
@@ -6747,9 +6585,6 @@ var detectCapitalUse = function(word) {
 - [3. 💻 题解 - 暴力解法 - 使用原生 API](#3--题解---暴力解法---使用原生-api)
 - [4. 💻 题解 - 双指针](#4--题解---双指针)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string-iii/)
 
 ## 2. 📝 Description
@@ -6844,9 +6679,6 @@ var reverseWords = function (s) {
 - [3. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理](#3--在-js-中null-参与加法运算的时候自动被视作-0-处理)
 - [4. 💻 题解 - DFS + 递归](#4--题解---dfs-+-递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
 
 ## 2. 📝 Description
@@ -6911,9 +6743,6 @@ var mergeTrees = function (root1, root2) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 设计循环队列](#3--题解---设计循环队列)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/design-circular-queue)
 
 
@@ -7059,9 +6888,6 @@ MyCircularQueue.prototype.isFull = function() {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/design-circular-deque/)
 
 ## 2. 📝 Description
@@ -7123,9 +6949,6 @@ circularDeque.getFront();				// 返回 4
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/maximum-average-subarray-i/)
 
 ## 2. 📝 Description
@@ -7170,9 +6993,6 @@ circularDeque.getFront();				// 返回 4
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - DFS](#3--题解---dfs)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/longest-univalue-path/)
 
 ## 2. 📝 Description
@@ -7235,9 +7055,6 @@ var longestUnivaluePath = function (root) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - DFS + 递归](#3--题解---dfs-+-递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/max-area-of-island/)
 
 ## 2. 📝 Description
@@ -7321,9 +7138,6 @@ var maxAreaOfIsland = function (grid) {
 - [4. 💻 题解 - 二分查找](#4--题解---二分查找)
 - [5. 💻 题解 - 暴力解法 - 使用原生 API - indexOf](#5--题解---暴力解法---使用原生-api---indexof)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/binary-search)
 
 ## 2. 📝 Description
@@ -7423,9 +7237,6 @@ var search = function(nums, target) {
 - [1. 📝 summary](#1--summary)
 - [2. 📝 Description](#2--description)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/design-hashset)
 
 ## 2. 📝 Description
@@ -7474,9 +7285,6 @@ myHashSet.contains(2); // 返回 False ，（已移除）
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - DFS](#3--题解---dfs)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/flood-fill)
 
 ## 2. 📝 Description
@@ -7570,9 +7378,6 @@ var floodFill = function (image, sr, sc, newColor) {
 - [3. 💻 题解 - 暴力解法 - 先找长度，再找中间](#3--题解---暴力解法---先找长度再找中间)
 - [4. 💻 题解 - 快慢指针 - 一步两步](#4--题解---快慢指针---一步两步)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/middle-of-the-linked-list)
 - https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/
   - 本节笔记中用到的图片来源于这篇题解。
@@ -7653,9 +7458,6 @@ var middleNode = function(head) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解「贪心」](#3--题解「贪心」)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/boats-to-save-people)
 
 ## 2. 📝 Description
@@ -7755,9 +7557,6 @@ var numRescueBoats = function(people, limit) {
 - [7. 💻 题解 - 4. 快速排序](#7--题解---4-快速排序)
 - [8. 📒 排序的本质](#8--排序的本质)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/sort-an-array)
 
 
@@ -8047,9 +7846,6 @@ function quickSort(arr, begin, end) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 暴力解法 - 使用队列 queue](#3--题解---暴力解法---使用队列-queue)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/number-of-recent-calls)
 
 ## 2. 📝 Description
@@ -8121,9 +7917,6 @@ RecentCounter.prototype.ping = function (t) {
 - [3. 💻 题解 - 暴力解法 - 调用原生 API - map、sort](#3--题解---暴力解法---调用原生-api---mapsort)
 - [4. 💻 题解 - 双指针](#4--题解---双指针)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/squares-of-a-sorted-array)
 
 ## 2. 📝 Description
@@ -8200,9 +7993,6 @@ var sortedSquares = function (nums) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
 
 ## 2. 📝 Description
@@ -8270,9 +8060,6 @@ var sortedSquares = function (nums) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 1. 滑动窗口](#3--题解---1-滑动窗口)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/maximum-erasure-value/)
 
 
@@ -8341,9 +8128,6 @@ var maximumUniqueSubarray = function(nums) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)
 
 ## 2. 📝 Description
@@ -8411,9 +8195,6 @@ var longestContinuousSubstring = function(s) {
 - [4. 📒 使用 Object() 将原始类型的值转为对应的包装对象](#4--使用-object()-将原始类型的值转为对应的包装对象)
 - [5. 💻 题解](#5--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/check-if-object-instance-of-class)
 
 ## 2. 🔗 links
@@ -8521,9 +8302,6 @@ if (['object', 'function', 'array'].includes(typeof obj)){
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/array-prototype-last/)
 
 ## 2. 📝 Description
@@ -8577,9 +8355,6 @@ Array.prototype.last = function () {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/counter/)
 
 
@@ -8669,9 +8444,6 @@ console.log(counter()); // 输出 12
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/sleep/)
 
 ## 2. 📝 Description
@@ -8728,9 +8500,6 @@ async function sleep(millis) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 哈希表](#3--题解---哈希表)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/cache-with-time-limit/)
 
 ## 2. 📝 Description
@@ -8851,9 +8620,6 @@ class TimeLimitedCache {
 - [4. 💻 题解 - 哈希表](#4--题解---哈希表)
 - [5. 💻 题解 - 双哈希表](#5--题解---双哈希表)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/memoize)
 
 ## 2. 📝 Description
@@ -9027,9 +8793,6 @@ function memoize(fn: Fn): Fn {
 - [3. 📝 Description](#3--description)
 - [4. 💻 题解](#4--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/snail-traversal/)
 
 ## 2. 🔗 links
@@ -9141,9 +8904,6 @@ Array.prototype.snail = function (
 - [4. 💻 题解 - 暴力解法](#4--题解---暴力解法)
 - [5. 💻 题解 - 递归](#5--题解---递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/flatten-deeply-nested-array/description/)
 
 ## 2. 🔗 links
@@ -9276,9 +9036,6 @@ var flat = function (arr, depth) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
 
 ## 2. 📝 Description
@@ -9387,9 +9144,6 @@ var reduce = function(nums, fn, init) {
 - [3. 📝 Description](#3--description)
 - [4. 💻 题解](#4--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/debounce/)
 
 
@@ -9527,9 +9281,6 @@ var debounce = function (fn, t) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 递归](#3--题解---递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/json-deep-equal)
 
 ## 2. 📝 Description
@@ -9621,9 +9372,6 @@ var areDeeplyEqual = function (o1, o2) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/function-composition)
 
 
@@ -9725,9 +9473,6 @@ var compose = function (functions) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 双哈希表](#3--题解---双哈希表)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/memoize-ii/)
 
 ## 2. 📝 Description
@@ -9828,9 +9573,6 @@ function memoize(fn: Fn): Fn {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/group-by)
 
 ## 2. 📝 Description
@@ -9857,9 +9599,6 @@ function memoize(fn: Fn): Fn {
 - [4. 💻 题解 - 题解1](#4--题解---题解1)
 - [5. 💻 题解 - 题解2](#5--题解---题解2)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/curry)
 
 
@@ -10105,9 +9844,6 @@ var curry = function (fn, ...rest1) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/filter-elements-from-array/)
 
 ## 2. 📝 Description
@@ -10178,9 +9914,6 @@ var filter = function (arr, fn) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/apply-transform-over-each-element-in-array)
 
 - 备注：本题要求 - 实现数组原生 API `Array.map`
@@ -10239,9 +9972,6 @@ var map = function(arr, fn) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/promise-pool)
 
 ## 2. 📝 Description
@@ -10266,9 +9996,6 @@ var map = function(arr, fn) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/promise-time-limit/)
 
 ## 2. 📝 Description
@@ -10293,9 +10020,6 @@ var map = function(arr, fn) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/generate-fibonacci-sequence)
 
 ## 2. 📝 Description
@@ -10360,9 +10084,6 @@ var fibGenerator = function* () {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/nested-array-generator)
 
 ## 2. 📝 Description
@@ -10387,9 +10108,6 @@ var fibGenerator = function* () {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/design-cancellable-function/)
 
 ## 2. 📝 Description
@@ -10414,9 +10132,6 @@ var fibGenerator = function* () {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/counter-ii)
 
 - 备注：这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
@@ -10500,9 +10215,6 @@ var createCounter = function (init) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/allow-one-function-call)
 
 
@@ -10580,9 +10292,6 @@ var once = function (fn) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/create-hello-world-function)
 
 - 备注：太看得起我了……
@@ -10668,9 +10377,6 @@ var createHelloWorld = function () {
 - [3. 📝 Description](#3--description)
 - [4. 💻 题解](#4--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/throttle)
 
 
@@ -10801,9 +10507,6 @@ var throttle = function (fn, t) {
 - [3. 📝 Description](#3--description)
 - [4. 💻 题解](#4--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/chunk-array)
 - 备注：本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
 
@@ -10884,9 +10587,6 @@ var chunk = function(arr, size) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/infinite-method-object)
 
 ## 2. 📝 Description
@@ -10952,9 +10652,6 @@ var createInfiniteObject = function () {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/immutability-helper/)
 
 ## 2. 📝 Description
@@ -10979,9 +10676,6 @@ var createInfiniteObject = function () {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/make-object-immutable/)
 
 ## 2. 📝 Description
@@ -11006,9 +10700,6 @@ var createInfiniteObject = function () {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/call-function-with-custom-context/)
 
 ## 2. 📝 Description
@@ -11033,9 +10724,6 @@ var createInfiniteObject = function () {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/event-emitter)
 - 备注：模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
 
@@ -11201,9 +10889,6 @@ class EventEmitter {
 - [3. 📒 notes](#3--notes)
 - [4. 💻 题解](#4--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/array-wrapper)
 
 ## 2. 📝 Description
@@ -11342,9 +11027,6 @@ ArrayWrapper.prototype.toString = function() {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/return-length-of-arguments-passed)
 
 ## 2. 📝 Description
@@ -11393,9 +11075,6 @@ var argumentsLength = function(...args) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/to-be-or-not-to-be)
 
 ## 2. 📝 Description
@@ -11482,9 +11161,6 @@ var expect = function (val) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/timeout-cancellation)
 
 ## 2. 📝 Description
@@ -11582,9 +11258,6 @@ var cancellable = function (fn, args, t) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/join-two-arrays-by-id)
 
 ## 2. 📝 Description
@@ -11714,9 +11387,6 @@ var join = function (arr1, arr2) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/add-two-promises)
 - 备注：考察对 Promise 的理解。
 
@@ -11782,9 +11452,6 @@ var addTwoPromises = async function(promise1, promise2) {
 - [3. 📝 Description](#3--description)
 - [4. 💻 题解](#4--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/sort-by)
 
 ## 2. 🔗 links
@@ -11847,9 +11514,6 @@ var sortBy = function(arr, fn) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/interval-cancellation)
 
 ## 2. 📝 Description
@@ -12026,9 +11690,6 @@ var cancellable = function(fn, args, t) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/calculator-with-method-chaining)
 - 备注：题目有些长，但逻辑很简单。
 
@@ -12176,9 +11837,6 @@ class Calculator {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/is-object-empty)
 
 ## 2. 📝 Description
@@ -12350,9 +12008,6 @@ Object.keys
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/next-day)
 
 ## 2. 📝 Description
@@ -12440,9 +12095,6 @@ Date.prototype.nextDay = function () {
 - [3. 📝 Description](#3--description)
 - [4. 💻 题解](#4--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/array-upper-bound)
 
 ## 2. 🔗 links
@@ -12514,9 +12166,6 @@ Array.prototype.upperBound = function(target) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解 - 递归](#3--题解---递归)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/undefined-to-null/)
 
 ## 2. 📝 Description
@@ -12614,9 +12263,6 @@ function undefinedToNull(obj) {
 - [3. 📝 Description](#3--description)
 - [4. 💻 题解](#4--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/create-object-from-two-arrays)
 
 ## 2. 🔗 links
@@ -12716,9 +12362,6 @@ var createObject = function (keysArr, valuesArr) {
 - [5. 📒 单词](#5--单词)
 - [6. 📒 ntoes - 双百提交](#6--ntoes---双百提交)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/repeat-string/description/)
 
 ## 2. 📝 Description
@@ -12831,9 +12474,6 @@ String.prototype.replicate = function (times) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/partial-function-with-placeholders)
 
 ## 2. 📝 Description
@@ -12938,9 +12578,6 @@ var partial = function (fn, args) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/factorial-generator)
 
 ## 2. 📝 Description
@@ -13028,9 +12665,6 @@ function* factorial(n) {
 - [3. 📝 Description](#3--description)
 - [4. 💻 题解](#4--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/array-prototype-foreach/)
 
 ## 2. 🔗 links
@@ -13149,9 +12783,6 @@ Array.prototype.forEach = function(callback, context) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/custom-interval)
 
 ## 2. 📝 Description
@@ -13228,9 +12859,6 @@ setTimeout(() => {
 - [4. 💻 题解 2](#4--题解-2)
 - [5. 💻 题解 3](#5--题解-3)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
 - 备注：找规律解题，规律很多，解法也很多。
 
@@ -13363,9 +12991,6 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/delay-the-resolution-of-each-promise)
 
 ## 2. 📝 Description
@@ -13421,9 +13046,6 @@ ms = 70
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/inversion-of-object)
 
 ## 2. 📝 Description
@@ -13520,9 +13142,6 @@ var invertObject = function (obj) {
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/deep-object-filter)
 
 ## 2. 📝 Description

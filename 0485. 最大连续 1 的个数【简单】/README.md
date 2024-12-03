@@ -7,9 +7,6 @@
 - [4. 💻 题解 - 暴力解法 - 字符串切片](#4--题解---暴力解法---字符串切片)
 - [5. 💻 题解 - 暴力解法 - 正则](#5--题解---暴力解法---正则)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/max-consecutive-ones/)
 
 ## 1. 📝 Description
@@ -106,5 +103,7 @@ var findMaxConsecutiveOnes = function (nums) { // => [1, 1, 0, 1, 1, 1]
 ```
 
 - 转为字符串，结合正则表达式中的“正向预查”来实现。
+
+
 
 

@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/counter-ii)
 
 - 备注：这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
@@ -78,5 +75,7 @@ var createCounter = function (init) {
  * counter.decrement(); // 4
  */
 ```
+
+
 
 

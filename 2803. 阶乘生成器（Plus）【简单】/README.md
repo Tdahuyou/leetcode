@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/factorial-generator)
 
 ## 1. 📝 Description
@@ -81,5 +78,7 @@ function* factorial(n) {
  * gen.next().value; // 2
  */
 ```
+
+
 
 

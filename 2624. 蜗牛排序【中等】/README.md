@@ -5,9 +5,6 @@
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/snail-traversal/)
 
 ## 1. 🔗 links
@@ -104,6 +101,8 @@ Array.prototype.snail = function (
  * arr.snail(1,4); // [[1,2,3,4]]
  */
 ```
+
+
 
 
 

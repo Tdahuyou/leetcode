@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/partial-function-with-placeholders)
 
 ## 1. 📝 Description
@@ -98,6 +95,8 @@ var partial = function (fn, args) {
 在参数处理过程中，需要创建一个长度为 `n` 的数组 `arr`，因此空间复杂度为 `O(n)`。
 
 该解法的时间复杂度和空间复杂度都与输入参数的长度有关。
+
+
 
 
 

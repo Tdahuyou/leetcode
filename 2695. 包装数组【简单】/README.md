@@ -5,9 +5,6 @@
 - [2. 📒 notes](#2--notes)
 - [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/array-wrapper)
 
 ## 1. 📝 Description
@@ -112,5 +109,7 @@ ArrayWrapper.prototype.toString = function() {
  * String(obj2); // "[3,4]"
  */
 ```
+
+
 
 

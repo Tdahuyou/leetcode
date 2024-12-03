@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/allow-one-function-call)
 
 
@@ -72,5 +69,7 @@ var once = function (fn) {
 ```
 
 本题考察的依旧是闭包相关的知识点，只需要在函数 `once` 内部维护一个变量，记录 `fn` 是否被调用过即可。
+
+
 
 

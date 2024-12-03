@@ -4,9 +4,6 @@
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/delay-the-resolution-of-each-promise)
 
 ## 1. 📝 Description
@@ -50,5 +47,7 @@ ms = 70
 ```
 
 ```
+
+
 
 

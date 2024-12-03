@@ -5,9 +5,6 @@
 - [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
 - [3. 💻 题解 - 二分查找](#3--题解---二分查找)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/first-bad-version/)
 
 ## 1. 📝 Description
@@ -72,6 +69,8 @@ var solution = function (isBadVersion) {
 ```
 
 实现思路：同 `704. 二分查找`，不过得加一个判断，当找到错误的成员之后，必须确保该错误成员的左侧（前一个）成员必须是正确的，这样才能确保当前找到的这个错误成员是第一个出错的成员。
+
+
 
 
 

@@ -10,9 +10,6 @@
   - [3.4. 示例](#34-示例)
   - [3.5. 关键点](#35-关键点)
 <!-- endregion:toc -->
-
-
-
 - [leetcode](https://leetcode.cn/problems/sliding-window-maximum)
 
 
@@ -282,6 +279,8 @@ console.log(maxSlidingWindow(nums, k)); // 输出: [3, 3, 5, 5, 6, 7]
 ### 3.5. 关键点
 - 使用双端队列可以高效地实现滑动窗口的最大值问题，时间复杂度为 $O(n)$。
 - 双端队列能够在常数时间内完成从两端的插入和删除操作，使得一些复杂的算法能够更高效地实现。
+
+
 
 
 
