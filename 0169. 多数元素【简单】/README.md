@@ -1,18 +1,17 @@
 # [0169. 多数元素【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 排序](#3--题解---排序)
-- [4. 💻 题解 - hash-table](#4--题解---hash-table)
-- [5. 💻 题解 - 分治](#5--题解---分治)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 排序](#2--题解---排序)
+- [3. 💻 题解 - hash-table](#3--题解---hash-table)
+- [4. 💻 题解 - 分治](#4--题解---分治)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/majority-element/)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定一个大小为 `n` 的数组 `nums` ，返回其中的多数元素。多数元素是指在数组中出现次数 **大于** `⌊ n/2 ⌋` 的元素。
 
@@ -37,7 +36,7 @@
 
 **进阶：** 尝试设计时间复杂度为 O(n)、空间复杂度为 O(1) 的算法解决此问题。
 
-## 3. 💻 题解 - 排序
+## 2. 💻 题解 - 排序
 
 ```js
 var majorityElement = function(nums) {
@@ -45,7 +44,7 @@ var majorityElement = function(nums) {
 };
 ```
 
-## 4. 💻 题解 - hash-table
+## 3. 💻 题解 - hash-table
 
 ```js
 var majorityElement = function(nums) {
@@ -58,7 +57,7 @@ var majorityElement = function(nums) {
 }
 ```
 
-## 5. 💻 题解 - 分治
+## 4. 💻 题解 - 分治
 
 ```js
 /**
@@ -101,3 +100,4 @@ var majorityElement = function (nums) {
 - ![](md-imgs/2024-11-16-19-12-36.png)
 - 如果两个区间中的众数相同，那么直接返回该众数。否则，将两区间合并，在合并后的区间中计算出这两个众数出现的次数，将出现次数多的返回。
 - 特殊情况：若两个子区间中的众数在合并后的区间中出现次数依旧相同，则随便返回一个，继续合并即可（此时必然还没有合并到头）。因为如果合并后的区间为 `[0, nums.length - 1]`，那么是不可能会有这种情况出现的。
+

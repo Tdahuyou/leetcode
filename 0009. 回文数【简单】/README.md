@@ -1,18 +1,17 @@
 # [0009. 回文数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 暴力解法（转为字符串来比较）](#3--题解---暴力解法转为字符串来比较)
-- [4. 💻 题解 - 先反转再比较](#4--题解---先反转再比较)
-- [5. 💻 题解 - 二分对比](#5--题解---二分对比)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 暴力解法（转为字符串来比较）](#2--题解---暴力解法转为字符串来比较)
+- [3. 💻 题解 - 先反转再比较](#3--题解---先反转再比较)
+- [4. 💻 题解 - 二分对比](#4--题解---二分对比)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/palindrome-number/)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给你一个整数 `x` ，如果 `x` 是一个回文整数，返回 `true` ；否则，返回 `false`。
 
@@ -44,7 +43,7 @@
 
 **进阶：**你能不将整数转为字符串来解决这个问题吗？
 
-## 3. 💻 题解 - 暴力解法（转为字符串来比较）
+## 2. 💻 题解 - 暴力解法（转为字符串来比较）
 
 ```javascript
 var isPalindrome = function (x) {
@@ -60,7 +59,7 @@ var isPalindrome = function (x) {
 
 如果 `x` 是负数的话，直接 `return false` 即可。
 
-## 4. 💻 题解 - 先反转再比较
+## 3. 💻 题解 - 先反转再比较
 
 ```javascript
 var isPalindrome = function (x) {
@@ -80,7 +79,7 @@ var isPalindrome = function (x) {
 
 核心逻辑跟【0007. 整数反转】中的【题解 - 数学方法】是一样的。
 
-## 5. 💻 题解 - 二分对比
+## 4. 💻 题解 - 二分对比
 
 ![](md-imgs/2024-09-25-16-13-37.png)
 
@@ -101,3 +100,4 @@ var isPalindrome = function (x) {
 - 空间复杂度：$O(n)$
 
 俩指针从两端向中间走，检查走过的每一个成员的值，一旦发现不同的就返回 `false`。若遍历结束了，还是没有找到不同的成员，那么返回 `true`。
+

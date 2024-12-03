@@ -1,20 +1,19 @@
 # [0075. 颜色分类【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0075.%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 调用自带的 sort 函数](#3--题解---调用自带的-sort-函数)
-- [4. 💻 题解 - 冒泡排序](#4--题解---冒泡排序)
-- [5. 💻 题解 - 三路快速排序方法](#5--题解---三路快速排序方法)
-- [6. 💻 题解 - 基排序](#6--题解---基排序)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 调用自带的 sort 函数](#2--题解---调用自带的-sort-函数)
+- [3. 💻 题解 - 冒泡排序](#3--题解---冒泡排序)
+- [4. 💻 题解 - 三路快速排序方法](#4--题解---三路快速排序方法)
+- [5. 💻 题解 - 基排序](#5--题解---基排序)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/sort-colors)
 - 本质是考察升序排序。
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定一个包含红色、白色和蓝色、共 `n` 个元素的数组 `nums` ，**[原地](https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95)** 对它们进行排序，使得相同颜色的元素相邻，并按照红色、白色、蓝色顺序排列。
 
@@ -44,7 +43,7 @@
 
 - 你能想出一个仅使用常数空间的一趟扫描算法吗？
 
-## 3. 💻 题解 - 调用自带的 sort 函数
+## 2. 💻 题解 - 调用自带的 sort 函数
 
 ```js
 /**
@@ -61,7 +60,7 @@ var sortColors = function(nums) {
 - 提交记录：
   - ![](md-imgs/2024-11-10-14-35-56.png)
 
-## 4. 💻 题解 - 冒泡排序
+## 3. 💻 题解 - 冒泡排序
 
 ```js
 /**
@@ -78,7 +77,7 @@ var sortColors = function (nums) {
 }
 ```
 
-## 5. 💻 题解 - 三路快速排序方法
+## 4. 💻 题解 - 三路快速排序方法
 
 ```js
 /**
@@ -109,7 +108,7 @@ var sortColors = function (nums) {
 - 设置三个 `lt`, `gt`, `i` 定义：`nums[0...lt] == 0`，`nums[lt+1...i-1] = 1`，`nums[gt...n-1] == 2`，每次遍历的时候保持这个定义。
 - ![](md-imgs/2024-11-10-14-49-54.png)
 
-## 6. 💻 题解 - 基排序
+## 5. 💻 题解 - 基排序
 
 ```js
 /**
@@ -130,3 +129,5 @@ var sortColors = function (nums) {
 - **思路：**
   1. 用一个辅助数组 `arr` 记录下 `nums` 中的 0，1，2 的出现次数。
   2. 根据 `arr` 来重写 `nums`
+
+

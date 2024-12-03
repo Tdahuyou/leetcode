@@ -1,27 +1,26 @@
 # [0078. 子集【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0078.%20%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 🔗 links](#2--links)
-- [3. 📝 Description](#3--description)
-- [4. 💻 题解 - 循环遍历](#4--题解---循环遍历)
-- [5. 💻 题解 - 回溯](#5--题解---回溯)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 循环遍历](#3--题解---循环遍历)
+- [4. 💻 题解 - 回溯](#4--题解---回溯)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/subsets/)
 - **⏰ TODO**
   - 合并 keynote-2.key、keynote.key。
 
-## 2. 🔗 links
+## 1. 🔗 links
 
 - https://leetcode.cn/problems/subsets/solutions/420294/zi-ji-by-leetcode-solution/
   - leetcode 官方题解
 - https://zhuanlan.zhihu.com/p/93530380
   - 知乎 - 回溯算法套路详解
 
-## 3. 📝 Description
+## 2. 📝 Description
 
 给你一个整数数组 `nums` ，数组中的元素 **互不相同** 。返回该数组所有可能的 **子集** （幂集）。
 
@@ -45,7 +44,7 @@
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有元素 **互不相同**
 
-## 4. 💻 题解 - 循环遍历
+## 3. 💻 题解 - 循环遍历
 
 ```javascript
 var subsets = function(nums) {
@@ -68,7 +67,7 @@ var subsets = function(nums) {
 - ![](md-imgs/2024-11-03-21-55-18.png)
   - 参考 leetcode 官方题解：https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode-solution/
 
-## 5. 💻 题解 - 回溯
+## 4. 💻 题解 - 回溯
 
 ```javascript
 var subsets = function(nums) {
@@ -106,3 +105,5 @@ var subsets = function(nums) {
   - 详细内容知乎上的这篇参考文章：《回溯算法套路详解》。
 - ![](md-imgs/2024-11-03-22-00-13.png)
 - ![](md-imgs/2024-11-03-22-00-16.png)
+
+

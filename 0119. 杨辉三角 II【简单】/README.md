@@ -1,17 +1,16 @@
 # [0119. 杨辉三角 II【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0119.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
-- [4. 💻 题解 - 暴力解法优化](#4--题解---暴力解法优化)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
+- [3. 💻 题解 - 暴力解法优化](#3--题解---暴力解法优化)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/pascals-triangle-ii)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定一个非负索引 `rowIndex`，返回「杨辉三角」的第 `rowIndex` 行。
 
@@ -45,7 +44,7 @@
 
 你可以优化你的算法到 `O(rowIndex)` 空间复杂度吗？
 
-## 3. 💻 题解 - 暴力解法
+## 2. 💻 题解 - 暴力解法
 
 ```js
 /**
@@ -73,7 +72,7 @@ var getRow = function (rowIndex) {
 - 空间复杂度：O(rowIndex^2)
 - 这种解法的逻辑跟 0118 几乎完全一致，可以参考 0118 的题解。
 
-## 4. 💻 题解 - 暴力解法优化
+## 3. 💻 题解 - 暴力解法优化
 
 ```js
 /**
@@ -104,3 +103,5 @@ var getRow = function (rowIndex) {
   - ![](md-imgs/2024-11-10-22-31-54.png)
 - **注意：**
   - **内层循环从 `c = r - 1` 到 `c = 1`，表示从右向左更新当前行的值。这样可以避免在更新过程中覆盖未计算的值。**
+
+

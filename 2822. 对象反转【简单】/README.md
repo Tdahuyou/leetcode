@@ -1,16 +1,15 @@
 # [2822. 对象反转【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2822.%20%E5%AF%B9%E8%B1%A1%E5%8F%8D%E8%BD%AC%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/inversion-of-object)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定一个对象 `obj`，返回一个反转的对象 `invertedObj`。
 
@@ -40,7 +39,7 @@
 - `typeof obj[key] === "string"`
 - `2 <= JSON.stringify(obj).length <= 10**5`
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 /**
@@ -92,3 +91,5 @@ var invertObject = function (obj) {
   }, {})
 };
 ```
+
+

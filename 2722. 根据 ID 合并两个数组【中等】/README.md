@@ -1,16 +1,15 @@
 # [2722. 根据 ID 合并两个数组【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2722.%20%E6%A0%B9%E6%8D%AE%20ID%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/join-two-arrays-by-id)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 现给定两个数组 `arr1` 和 `arr2` ，返回一个新的数组 `joinedArray` 。两个输入数组中的每个对象都包含一个 `id` 字段。
 
@@ -95,7 +94,7 @@ arr2 = [
 - `2 <= JSON.stringify(arr1).length <= 10^6`
 - `2 <= JSON.stringify(arr2).length <= 10^6`
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 /**
@@ -125,3 +124,5 @@ var join = function (arr1, arr2) {
   return ans.sort((a, b) => a.id - b.id) // 按照 id 升序排序
 };
 ```
+
+

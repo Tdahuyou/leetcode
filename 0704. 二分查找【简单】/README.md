@@ -1,18 +1,17 @@
 # [0704. 二分查找【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
-- [4. 💻 题解 - 二分查找](#4--题解---二分查找)
-- [5. 💻 题解 - 暴力解法 - 使用原生 API - indexOf](#5--题解---暴力解法---使用原生-api---indexof)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
+- [3. 💻 题解 - 二分查找](#3--题解---二分查找)
+- [4. 💻 题解 - 暴力解法 - 使用原生 API - indexOf](#4--题解---暴力解法---使用原生-api---indexof)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/binary-search)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定一个 `n` 个元素有序的（升序）整型数组 `nums` 和一个目标值 `target`  ，写一个函数搜索 `nums` 中的 `target`，如果目标值存在返回下标，否则返回 `-1`。
 
@@ -36,7 +35,7 @@
 2. `n` 将在 `[1, 10000]`之间。
 3. `nums` 的每个元素都将在 `[-9999, 9999]`之间。
 
-## 3. 💻 题解 - 暴力解法
+## 2. 💻 题解 - 暴力解法
 
 ```js
 var search = function (nums, target) {
@@ -52,7 +51,7 @@ var search = function (nums, target) {
   - ![](https://pic.leetcode-cn.com/1641040650-CRsyOX-image-20220101101423645.png)
   - nums 就好比是从矮到高的一队同学，target 就是要插入到这队同学中的一个新同学。但是，插入规则是，target 只能插入到身高和他相同的那位同学所在的位置「返回该同学所在索引」，如果找不到该同学，那么他无法插入「返回 -1」。
 
-## 4. 💻 题解 - 二分查找
+## 3. 💻 题解 - 二分查找
 
 ```js
 var search = function(nums, target) {
@@ -84,7 +83,7 @@ var search = function(nums, target) {
 实际：死循环
 ```
 
-## 5. 💻 题解 - 暴力解法 - 使用原生 API - indexOf
+## 4. 💻 题解 - 暴力解法 - 使用原生 API - indexOf
 
 ```js
 var search = function(nums, target) {
@@ -99,3 +98,4 @@ var search = function(nums, target) {
   - 练习算法题：手写 indexOf
   - 练习算法题，主要是锻炼思维，思考思考 indexOf 的实现逻辑。解决实际问题的时候，推荐直接使用 indexOf API 来处理，一方面是简单，只需要一行就搞定了，另外一方面是原生 API 的性能表现很可能会比我们手写的逻辑更好一些。
   - 从本题的提交记录来看，indexOf 的执行时间和消耗的内存都是上述题解中最小的。
+

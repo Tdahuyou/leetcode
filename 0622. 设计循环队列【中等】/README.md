@@ -1,17 +1,16 @@
 # [0622. 设计循环队列【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0622.%20%E8%AE%BE%E8%AE%A1%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 设计循环队列](#3--题解---设计循环队列)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 设计循环队列](#2--题解---设计循环队列)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/design-circular-queue)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 2. 📝 Description
+
+## 1. 📝 Description
 
 设计你的循环队列实现。 循环队列是一种线性数据结构，其操作表现基于 FIFO（先进先出）原则并且队尾被连接在队首之后以形成一个循环。它也被称为“环形缓冲器”。
 
@@ -48,7 +47,7 @@ circularQueue.Rear();  // 返回 4
 - 操作数将在 1 至 1000 的范围内；
 - 请不要使用内置的队列库。
 
-## 3. 💻 题解 - 设计循环队列
+## 2. 💻 题解 - 设计循环队列
 
 ![](md-imgs/622.%20设计循环队列-题解.gif)
 
@@ -140,4 +139,6 @@ MyCircularQueue.prototype.isFull = function() {
 ![](md-imgs/2024-09-25-17-16-45.png)
 
 其中一种正确的做法是在内部维护一个变量 count，在每次 enQueue 成功的时候 count++，在每次 deQueue 成功的时候 count--，如果 count 的值和初始化时传入的 k 相同，那么意味着满了，否则没满。
+
+
 

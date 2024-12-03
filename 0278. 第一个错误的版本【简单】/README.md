@@ -1,17 +1,16 @@
 # [0278. 第一个错误的版本【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0278.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
-- [4. 💻 题解 - 二分查找](#4--题解---二分查找)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
+- [3. 💻 题解 - 二分查找](#3--题解---二分查找)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/first-bad-version/)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 你是产品经理，目前正在带领一个团队开发新的产品。不幸的是，你的产品的最新版本没有通过质量检测。由于每个版本都是基于之前的版本开发的，所以错误的版本之后的所有版本都是错的。
 
@@ -38,7 +37,7 @@
 
 - `1 <= bad <= n <= 2^31 - 1`
 
-## 3. 💻 题解 - 暴力解法
+## 2. 💻 题解 - 暴力解法
 
 ```js
 var solution = function (isBadVersion) {
@@ -54,7 +53,7 @@ var solution = function (isBadVersion) {
   - leetcode 提交记录
     - ![](md-imgs/2024-11-16-23-09-11.png)
 
-## 4. 💻 题解 - 二分查找
+## 3. 💻 题解 - 二分查找
 
 ```js
 var solution = function (isBadVersion) {
@@ -73,4 +72,6 @@ var solution = function (isBadVersion) {
 ```
 
 实现思路：同 `704. 二分查找`，不过得加一个判断，当找到错误的成员之后，必须确保该错误成员的左侧（前一个）成员必须是正确的，这样才能确保当前找到的这个错误成员是第一个出错的成员。
+
+
 

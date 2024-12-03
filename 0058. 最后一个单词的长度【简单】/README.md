@@ -1,16 +1,15 @@
 # [0058. 最后一个单词的长度【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0058.%20%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 暴力解法 - 直接调用原生 API - trim、split、pop](#3--题解---暴力解法---直接调用原生-api---trimsplitpop)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 暴力解法 - 直接调用原生 API - trim、split、pop](#2--题解---暴力解法---直接调用原生-api---trimsplitpop)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/length-of-last-word/)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给你一个字符串 `s`，由若干单词组成，单词前后用一些空格字符隔开。返回字符串中 **最后一个** 单词的长度。
 
@@ -42,7 +41,7 @@
 - `s` 仅有英文字母和空格 `' '` 组成
 - `s` 中至少存在一个单词
 
-## 3. 💻 题解 - 暴力解法 - 直接调用原生 API - trim、split、pop
+## 2. 💻 题解 - 暴力解法 - 直接调用原生 API - trim、split、pop
 
 ```javascript
 /**
@@ -53,3 +52,4 @@ var lengthOfLastWord = function(s) {
   return s.trim().split(/\s+/).pop().length
 }
 ```
+

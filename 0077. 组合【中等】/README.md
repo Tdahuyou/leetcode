@@ -1,16 +1,15 @@
 # [0077. 组合【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0077.%20%E7%BB%84%E5%90%88%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 回溯](#3--题解---回溯)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 回溯](#2--题解---回溯)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/combinations/)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定两个整数 `n` 和 `k`，返回范围 `[1, n]` 中所有可能的 `k` 个数的组合。
 
@@ -39,7 +38,7 @@
 - `1 <= n <= 20`
 - `1 <= k <= n`
 
-## 3. 💻 题解 - 回溯
+## 2. 💻 题解 - 回溯
 
 ```javascript
 var combine = function(n, k) {
@@ -196,3 +195,5 @@ var combine = function(n, k) {
 ```
 
 - ![](md-imgs/2024-11-03-21-52-43.png)
+
+

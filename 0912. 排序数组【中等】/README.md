@@ -1,32 +1,31 @@
 # [0912. 排序数组【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 🔗 links](#2--links)
-- [3. 📝 Description](#3--description)
-- [4. 💻 题解 - 1. 原生排序方法](#4--题解---1-原生排序方法)
-- [5. 💻 题解 - 2. 冒泡排序](#5--题解---2-冒泡排序)
-  - [5.1. 冒泡排序 - 标准版](#51-冒泡排序---标准版)
-  - [5.2. 冒泡排序 - 加入提前终止标志](#52-冒泡排序---加入提前终止标志)
-  - [5.3. 冒泡排序 - 鸡尾酒排序 Cocktail Shaker Sort](#53-冒泡排序---鸡尾酒排序-cocktail-shaker-sort)
-- [6. 💻 题解 - 3. 选择排序](#6--题解---3-选择排序)
-- [7. 💻 题解 - 4. 快速排序](#7--题解---4-快速排序)
-- [8. 📒 排序的本质](#8--排序的本质)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 1. 原生排序方法](#3--题解---1-原生排序方法)
+- [4. 💻 题解 - 2. 冒泡排序](#4--题解---2-冒泡排序)
+  - [4.1. 冒泡排序 - 标准版](#41-冒泡排序---标准版)
+  - [4.2. 冒泡排序 - 加入提前终止标志](#42-冒泡排序---加入提前终止标志)
+  - [4.3. 冒泡排序 - 鸡尾酒排序 Cocktail Shaker Sort](#43-冒泡排序---鸡尾酒排序-cocktail-shaker-sort)
+- [5. 💻 题解 - 3. 选择排序](#5--题解---3-选择排序)
+- [6. 💻 题解 - 4. 快速排序](#6--题解---4-快速排序)
+- [7. 📒 排序的本质](#7--排序的本质)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/sort-an-array)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 2. 🔗 links
+
+## 1. 🔗 links
 
 - https://github.com/hustcc/JS-Sorting-Algorithm
   - Github，JS-Sorting-Algorithm，十大经典排序算法。`5.1k starts`
 - https://blog.csdn.net/hlc246/article/details/81064951
   - CSDN，排序算法系列之鸡尾酒排序
 
-## 3. 📝 Description
+## 2. 📝 Description
 
 给你一个整数数组 `nums`，请你将该数组升序排列。
 
@@ -45,7 +44,7 @@
 - `1 <= nums.length <= 5 * 10^4`
 - `-5 * 10^4 <= nums[i] <= 5 * 10^4`
 
-## 4. 💻 题解 - 1. 原生排序方法
+## 3. 💻 题解 - 1. 原生排序方法
 
 ```javascript
 /**
@@ -62,13 +61,13 @@ var sortArray = function(nums) {
 
 ![](md-imgs/2024-09-25-17-19-13.png)
 
-## 5. 💻 题解 - 2. 冒泡排序
+## 4. 💻 题解 - 2. 冒泡排序
 
 > 提示：
 > 尝试通过冒泡排序来解答此题，无论如何修改，提交后始终无法通过。
 > 逻辑或许是正确的，不过提交后始终会 **超出时间限制**。
 
-### 5.1. 冒泡排序 - 标准版
+### 4.1. 冒泡排序 - 标准版
 
 冒泡排序的标准版本。
 
@@ -100,7 +99,7 @@ function swap(arr, a, b) {
 
 ![](md-imgs/2024-09-25-17-19-58.png)
 
-### 5.2. 冒泡排序 - 加入提前终止标志
+### 4.2. 冒泡排序 - 加入提前终止标志
 
 对【冒泡排序 - 标准版】做了一些优化处理，如果某次排序过程中没有交换，意味着序列已经是有序的了，直接 break 即可。
 
@@ -141,7 +140,7 @@ function swap(arr, a, b) {
 
 ![](md-imgs/2024-09-25-17-20-34.png)
 
-### 5.3. 冒泡排序 - 鸡尾酒排序 Cocktail Shaker Sort
+### 4.3. 冒泡排序 - 鸡尾酒排序 Cocktail Shaker Sort
 
 **双向冒泡排序（鸡尾酒排序 Cocktail Shaker Sort）**
 
@@ -198,7 +197,7 @@ function swap(arr, a, b) {
 
 ![](md-imgs/2024-09-25-17-20-34.png)
 
-## 6. 💻 题解 - 3. 选择排序
+## 5. 💻 题解 - 3. 选择排序
 
 ```javascript
 /**
@@ -232,7 +231,7 @@ function swap(arr, a, b) {
 
 ![](md-imgs/2024-09-25-17-21-40.png)
 
-## 7. 💻 题解 - 4. 快速排序
+## 6. 💻 题解 - 4. 快速排序
 
 ```javascript
 /**
@@ -271,7 +270,7 @@ function quickSort(arr, begin, end) {
 }
 ```
 
-## 8. 📒 排序的本质
+## 7. 📒 排序的本质
 
 排序的本质是基于 **比较** 和 **交换**（或移动）来将数据按某种顺序排列起来。
 
@@ -292,4 +291,6 @@ function quickSort(arr, begin, end) {
 根据比较的结果，可能需要交换两个元素的位置，或者将某个元素移动到合适的位置。
 
 例如，冒泡排序通过交换相邻元素来排序，而插入排序则通过将一个元素插入到已排序部分的正确位置来实现排序。
+
+
 

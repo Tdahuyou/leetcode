@@ -1,17 +1,16 @@
 # [0035. 搜索插入位置【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0035.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 二分查找](#3--题解---二分查找)
-- [4. 💻 题解 - 暴力解法](#4--题解---暴力解法)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 二分查找](#2--题解---二分查找)
+- [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/search-insert-position/)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。
 
@@ -39,7 +38,7 @@
 - `nums` 为 **无重复元素** 的 **升序** 排列数组
 - `-10^4 <= target <= 10^4`
 
-## 3. 💻 题解 - 二分查找
+## 2. 💻 题解 - 二分查找
 
 ```javascript
 var searchInsert = function (nums, target) {
@@ -86,7 +85,7 @@ var searchInsert = function(nums, target) {
 }
 ```
 
-## 4. 💻 题解 - 暴力解法
+## 3. 💻 题解 - 暴力解法
 
 ```javascript
 var searchInsert = function (nums, target) {
@@ -112,3 +111,5 @@ var searchInsert = function (nums, target) {
   return nums.length
 };
 ```
+
+

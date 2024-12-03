@@ -1,16 +1,15 @@
 # [0733. 图像渲染【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0733.%20%E5%9B%BE%E5%83%8F%E6%B8%B2%E6%9F%93%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - DFS](#3--题解---dfs)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - DFS](#2--题解---dfs)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/flood-fill)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 有一幅以 `m x n` 的二维整数数组表示的图画 `image` ，其中 `image[i][j]` 表示该图画的像素值大小。你也被给予三个整数 `sr` ,  `sc` 和 `color` 。你应该从像素 `image[sr][sc]` 开始对图像进行上色 **填充** 。
 
@@ -56,7 +55,7 @@
 - `0 <= sr < m`
 - `0 <= sc < n`
 
-## 3. 💻 题解 - DFS
+## 2. 💻 题解 - DFS
 
 ```js
 /**
@@ -89,3 +88,4 @@ var floodFill = function (image, sr, sc, newColor) {
   return image;
 }
 ```
+

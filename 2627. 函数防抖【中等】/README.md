@@ -1,24 +1,23 @@
 # [2627. 函数防抖【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2627.%20%E5%87%BD%E6%95%B0%E9%98%B2%E6%8A%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 🔗 links](#2--links)
-- [3. 📝 Description](#3--description)
-- [4. 💻 题解](#4--题解)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/debounce/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 2. 🔗 links
+
+## 1. 🔗 links
 
 - https://lodash.com/docs/4.17.15#debounce - Lodash，`_.debounce(func, [wait=0], [options={}])`
 - https://github.com/lodash/lodash/blob/4.17.15/lodash.js#L10304 - github Lodash，debounce 实现源码
 - https://github.com/Tdahuyou/javascript - 0037. 防抖、节流
 
-## 3. 📝 Description
+## 2. 📝 Description
 
 请你编写一个函数，接收参数为另一个函数和一个以毫秒为单位的时间 `t` ，并返回该函数的 **函数防抖** 后的结果。
 
@@ -104,7 +103,7 @@ calls = [
 - `0 <= calls[i].t <= 1000`
 - `0 <= calls[i].inputs.length <= 10`
 
-## 4. 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**
@@ -134,3 +133,5 @@ var debounce = function (fn, t) {
 
 1. `clearTimeout(timer)` 清空之前的延迟触发器，无论有没有都清空。（这里的 if 判断逻辑没有多大意义，有没有都行）
 2. `timer = setTimeout(_ => fn(...args), t)` 绑定新的触发器，延迟时间为 `t`。
+
+

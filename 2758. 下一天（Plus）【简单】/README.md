@@ -1,16 +1,15 @@
 # [2758. 下一天（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2758.%20%E4%B8%8B%E4%B8%80%E5%A4%A9%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/next-day)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 请你编写一个有关日期对象的方法，使得任何日期对象都可以调用 `date.nextDay()` 方法，然后返回调用日期对象的下一天，格式为 YYYY-MM-DD 。
 
@@ -37,7 +36,7 @@ date.nextDay(); // "2014-06-21"
 
 - `new Date(date)` 是一个有效的日期对象
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 /**
@@ -61,3 +60,4 @@ Date.prototype.nextDay = function () {
 ```
 
 `const nextDate = new Date(this.valueOf())`，创建一个新的日期对象以避免修改原始日期。
+

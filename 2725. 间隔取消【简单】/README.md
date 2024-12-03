@@ -1,16 +1,15 @@
 # [2725. 间隔取消【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2725.%20%E9%97%B4%E9%9A%94%E5%8F%96%E6%B6%88%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/interval-cancellation)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 现给定一个函数 `fn`，一个参数数组 `args` 和一个时间间隔 `t`，返回一个取消函数 `cancelFn`。
 
@@ -126,7 +125,7 @@ setTimeout(cancelFn, cancelTimeMs)
 - `30 <= t <= 100`
 - `10 <= cancelT <= 500`
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 /**
@@ -172,3 +171,5 @@ var cancellable = function(fn, args, t) {
  *  }, cancelTimeMs + t + 15)
  */
 ```
+
+

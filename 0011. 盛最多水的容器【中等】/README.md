@@ -1,25 +1,24 @@
 # [0011. 盛最多水的容器【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0011.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 🔗 links](#2--links)
-- [3. 📝 Description](#3--description)
-- [4. 💻 题解 - 暴力枚举](#4--题解---暴力枚举)
-- [5. 💻 题解 - 碰撞指针](#5--题解---碰撞指针)
-- [6. ❌ 问题解法 - 栈溢出](#6--问题解法---栈溢出)
-- [7. ❌ 问题解法 - 超时](#7--问题解法---超时)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - 暴力枚举](#3--题解---暴力枚举)
+- [4. 💻 题解 - 碰撞指针](#4--题解---碰撞指针)
+- [5. ❌ 问题解法 - 栈溢出](#5--问题解法---栈溢出)
+- [6. ❌ 问题解法 - 超时](#6--问题解法---超时)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/container-with-most-water/)
 
-## 2. 🔗 links
+## 1. 🔗 links
 
 - https://leetcode.cn/problems/container-with-most-water/solutions/11491/container-with-most-water-shuang-zhi-zhen-fa-yi-do/
   - 参考题解
 
-## 3. 📝 Description
+## 2. 📝 Description
 
 给定一个长度为 `n` 的整数数组 `height` 。有 `n` 条垂线，第 `i` 条线的两个端点是 `(i, 0)` 和 `(i, height[i])` 。
 
@@ -48,7 +47,7 @@
 - `2 <= n <= 10^5`
 - `0 <= height[i] <= 10^4`
 
-## 4. 💻 题解 - 暴力枚举
+## 3. 💻 题解 - 暴力枚举
 
 ![](md-imgs/2024-09-25-16-18-33.png)
 
@@ -105,7 +104,7 @@ var maxArea = function (height) {
 
 [暴力枚举导致超时问题](#Qxt3W)
 
-## 5. 💻 题解 - 碰撞指针
+## 4. 💻 题解 - 碰撞指针
 
 ```javascript
 var maxArea = function (height) {
@@ -158,7 +157,7 @@ var maxArea = function (height) {
 
 > 吐槽一嘴，语雀提供的“图册”组件在阅读模式下会自动轮播，可以点击图片，然后通过 `←` `→` 方向键来切换图片，预览交互体验会好一些。
 
-## 6. ❌ 问题解法 - 栈溢出
+## 5. ❌ 问题解法 - 栈溢出
 
 ```javascript
 /**
@@ -269,7 +268,7 @@ console.log(testStackDepth(0)) // 9186
 
 每次递归调用时，将参数 depth 的值加 1，并尝试继续递归调用 testStackDepth 函数。当调用栈的深度超过 JavaScript 引擎的限制时，会抛出异常，并通过 catch 语句捕获异常并返回当前的调用栈深度。
 
-## 7. ❌ 问题解法 - 超时
+## 6. ❌ 问题解法 - 超时
 
 
 ```javascript
@@ -295,6 +294,8 @@ height = [3846,7214,9316,9869,2423,4235,4921,5878,9832,5302,4298,4312,8571,531,3
 
 - 时间复杂度：$O(n^2)$
 - 空间复杂度：$O(1)$
+
+
 
 
 

@@ -1,18 +1,17 @@
 # [0021. 合并两个有序链表【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 📒 测试代码](#3--测试代码)
-- [4. 💻 题解 - 迭代](#4--题解---迭代)
-- [5. 💻 题解 - 递归](#5--题解---递归)
+- [1. 📝 Description](#1--description)
+- [2. 📒 测试代码](#2--测试代码)
+- [3. 💻 题解 - 迭代](#3--题解---迭代)
+- [4. 💻 题解 - 递归](#4--题解---递归)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/merge-two-sorted-lists/)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 将两个升序链表合并为一个新的 **升序** 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
 
@@ -38,7 +37,7 @@
 - `-100 <= Node.val <= 100`
 - `l1` 和 `l2` 均按 **非递减顺序** 排列
 
-## 3. 📒 测试代码
+## 2. 📒 测试代码
 
 ```js
 function ListNode(val, next) {
@@ -83,7 +82,7 @@ traverseLinkedList(newList1); // 1 1 2 3 4 4
 // traverseLinkedList(newList3); // 0 null
 ```
 
-## 4. 💻 题解 - 迭代
+## 3. 💻 题解 - 迭代
 
 ```js
 // 22-08-17
@@ -154,7 +153,7 @@ var mergeTwoLists = function(l1, l2) {
   - 自己的做法：最开始的时候添加判断，如果某个链表是空，那么直接返回另外一个
   - 官方题解的做法：新建一个 prehead 节点，最后返回 prehead.next
 
-## 5. 💻 题解 - 递归
+## 4. 💻 题解 - 递归
 
 ```js
 var mergeTwoLists = function(list1, list2) {
@@ -171,3 +170,4 @@ var mergeTwoLists = function(list1, list2) {
 ```
 
 - 如果使用递归的方式来写，代码确实会更加简洁，不过性能貌似并没有迭代好。
+

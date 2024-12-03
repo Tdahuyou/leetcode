@@ -1,16 +1,15 @@
 # [2690. 无穷方法对象（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2690.%20%E6%97%A0%E7%A9%B7%E6%96%B9%E6%B3%95%E5%AF%B9%E8%B1%A1%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/infinite-method-object)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 请你编写一个函数，返回一个 **无穷方法对象** 。
 
@@ -37,7 +36,7 @@
 
 - `0 <= method.length <= 1000`
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 /**
@@ -60,4 +59,6 @@ var createInfiniteObject = function () {
 **原理简述：**
 
 返回一个 Proxy 代理，包装一层 get，每次访问某个属性的时候，都会被这个 get 拦截，然后我们在这个拦截器里面丢一个 `return () => prop` 函数回去，当函数被调用的时候，将 `prop` 给返回即可。
+
+
 

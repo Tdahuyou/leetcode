@@ -1,18 +1,17 @@
 # [0056. 合并区间【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 暴力解法1](#3--题解---暴力解法1)
-- [4. 💻 题解 - 暴力解法2](#4--题解---暴力解法2)
-- [5. 📒 手写 reduce](#5--手写-reduce)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 暴力解法1](#2--题解---暴力解法1)
+- [3. 💻 题解 - 暴力解法2](#3--题解---暴力解法2)
+- [4. 📒 手写 reduce](#4--手写-reduce)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/merge-intervals)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 以数组 `intervals` 表示若干个区间的集合，其中单个区间为 `intervals[i] = [starti, endi]` 。请你合并所有重叠的区间，并返回 *一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间* 。
 
@@ -38,7 +37,7 @@
 - `intervals[i].length == 2`
 - `0 <= starti <= endi <= 10^4`
 
-## 3. 💻 题解 - 暴力解法1
+## 2. 💻 题解 - 暴力解法1
 
 ```js
 /**
@@ -101,7 +100,7 @@ while (i < intervals.length) {
 }
 ```
 
-## 4. 💻 题解 - 暴力解法2
+## 3. 💻 题解 - 暴力解法2
 
 ```js
 /**
@@ -124,7 +123,7 @@ var merge = function (intervals) {
 
 - 实现思路和上述的【暴力解法1】是一样的，只不过这里通过数组的 reduce API 做了些许简化。
 
-## 5. 📒 手写 reduce
+## 4. 📒 手写 reduce
 
 ```js
 Array.prototype.myReduce = function (cb, initialValue) {
@@ -139,3 +138,4 @@ Array.prototype.myReduce = function (cb, initialValue) {
   return initialValue
 }
 ```
+

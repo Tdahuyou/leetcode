@@ -1,17 +1,16 @@
 # [2726. 使用方法链的计算器【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2726.%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E9%93%BE%E7%9A%84%E8%AE%A1%E7%AE%97%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/calculator-with-method-chaining)
 - 备注：题目有些长，但逻辑很简单。
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 设计一个类 `Calculator` 。该类应提供加法、减法、乘法、除法和乘方等数学运算功能。同时，它还应支持连续操作的方法链式调用。`Calculator` 类的构造函数应接受一个数字作为 `result` 的初始值。
 
@@ -74,7 +73,7 @@ values = [20, 0]
 - 第一个操作总是 "Calculator"
 - 最后一个操作总是 "getResult"
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 class Calculator {
@@ -144,3 +143,4 @@ class Calculator {
 
 - 链式调用，每次 `return this` 即可。
 - 除法运算时校验 value 不能为 0，否则抛出错误 `throw new Error('Division by zero is not allowed')`
+

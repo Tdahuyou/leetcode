@@ -1,20 +1,19 @@
 # [0344. 反转字符串【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 暴力解法 - 直接调用原生 API](#3--题解---暴力解法---直接调用原生-api)
-- [4. 💻 题解 - 双指针](#4--题解---双指针)
-- [5. 💻 题解 - 递归](#5--题解---递归)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 暴力解法 - 直接调用原生 API](#2--题解---暴力解法---直接调用原生-api)
+- [3. 💻 题解 - 双指针](#3--题解---双指针)
+- [4. 💻 题解 - 递归](#4--题解---递归)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/reverse-string/)
 - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
   - mdn - `Array.prototype.reverse()`
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 编写一个函数，其作用是将输入的字符串反转过来。输入字符串以字符数组 `s` 的形式给出。
 
@@ -35,7 +34,7 @@
 - `1 <= s.length <= 10^5`
 - `s[i]` 都是 [ASCII](https://baike.baidu.com/item/ASCII) 码表中的可打印字符
 
-## 3. 💻 题解 - 暴力解法 - 直接调用原生 API
+## 2. 💻 题解 - 暴力解法 - 直接调用原生 API
 
 ```js
 var reverseString = function (s) {
@@ -43,7 +42,7 @@ var reverseString = function (s) {
 }
 ```
 
-## 4. 💻 题解 - 双指针
+## 3. 💻 题解 - 双指针
 
 ```js
 var reverseString = function (s) {
@@ -58,7 +57,7 @@ var reverseString = function (s) {
 
 - ![](md-imgs/2024-11-16-20-17-45.png)
 
-## 5. 💻 题解 - 递归
+## 4. 💻 题解 - 递归
 
 ```js
 var reverseString = function (s) {
@@ -72,3 +71,5 @@ var reverseString = function (s) {
 ```
 
 - 思路和双指针是相同的。
+
+

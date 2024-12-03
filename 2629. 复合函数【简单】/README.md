@@ -1,17 +1,16 @@
 # [2629. 复合函数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2629.%20%E5%A4%8D%E5%90%88%E5%87%BD%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/function-composition)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 2. 📝 Description
+
+## 1. 📝 Description
 
 请你编写一个函数，它接收一个函数数组 `[f1, f2, f3，…， fn]` ，并返回一个新的函数 `fn` ，它是函数数组的 **复合函数** 。
 
@@ -54,7 +53,7 @@
 - `0 <= functions.length <= 1000`
 - 所有函数都接受并返回一个整型
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 /**
@@ -98,3 +97,4 @@ var compose = function (functions) {
 **【注意】**
 
 - **空函数列表的复合函数就是恒等函数：**若入参 `functions` 为空数组 `[]`，那么直接将传入的 `x` 返回即可。
+

@@ -1,16 +1,15 @@
 # [2648. 生成斐波那契数列【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2648.%20%E7%94%9F%E6%88%90%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/generate-fibonacci-sequence)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 请你编写一个生成器函数，并返回一个可以生成 **斐波那契数列** 的生成器对象。
 
@@ -40,7 +39,7 @@
 
 - `0 <= callCount <= 50`
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 /**
@@ -60,3 +59,5 @@ var fibGenerator = function* () {
  * gen.next().value; // 1
  */
 ```
+
+

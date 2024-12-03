@@ -1,16 +1,15 @@
 # [0105. 从前序与中序遍历序列构造二叉树【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定两个整数数组 `preorder` 和 `inorder` ，其中 `preorder` 是二叉树的**先序遍历**， `inorder` 是同一棵树的**中序遍历**，请构造二叉树并返回其根节点。
 
@@ -36,7 +35,7 @@
 - `preorder` **保证** 为二叉树的前序遍历序列
 - `inorder` **保证** 为二叉树的中序遍历序列
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 /**
@@ -64,4 +63,6 @@ var buildTree = function(preorder, inorder) {
   return root
 }
 ```
+
+
 

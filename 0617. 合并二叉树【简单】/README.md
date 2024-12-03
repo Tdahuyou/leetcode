@@ -1,17 +1,16 @@
 # [0617. 合并二叉树【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0617.%20%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理](#3--在-js-中null-参与加法运算的时候自动被视作-0-处理)
-- [4. 💻 题解 - DFS + 递归](#4--题解---dfs-+-递归)
+- [1. 📝 Description](#1--description)
+- [2. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理](#2--在-js-中null-参与加法运算的时候自动被视作-0-处理)
+- [3. 💻 题解 - DFS + 递归](#3--题解---dfs-+-递归)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给你两棵二叉树： `root1` 和 `root2` 。
 
@@ -40,13 +39,13 @@
 - 两棵树中的节点数目在范围 `[0, 2000]` 内
 - `-10^4 <= Node.val <= 10^4`
 
-## 3. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理
+## 2. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理
 
 ```js
 1 + 2 + null // => 3
 ```
 
-## 4. 💻 题解 - DFS + 递归
+## 3. 💻 题解 - DFS + 递归
 
 ```js
 var mergeTrees = function (root1, root2) {
@@ -62,3 +61,4 @@ var mergeTrees = function (root1, root2) {
 - 优先处理 root1，优先返回 root1。
   - `return root1 || root2;`
   - 只要 root1 一开始不是空，那么，最后一次 return 时，会将 root1 返回。所以在 if 条件分支中，都是对二叉树 root1 做处理。
+

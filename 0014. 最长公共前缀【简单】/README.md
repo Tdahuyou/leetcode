@@ -1,18 +1,17 @@
 # [0014. 最长公共前缀【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0014.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
-- [4. 💻 题解 - 横向扫描](#4--题解---横向扫描)
-- [5. 💻 题解 - 纵向扫描](#5--题解---纵向扫描)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
+- [3. 💻 题解 - 横向扫描](#3--题解---横向扫描)
+- [4. 💻 题解 - 纵向扫描](#4--题解---纵向扫描)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/longest-common-prefix)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 编写一个函数来查找字符串数组中的最长公共前缀。
 
@@ -35,7 +34,7 @@
 - `0 <= strs[i].length <= 200`
 - `strs[i]` 仅由小写英文字母组成
 
-## 3. 💻 题解 - 暴力解法
+## 2. 💻 题解 - 暴力解法
 
 ![](md-imgs/2024-09-25-16-39-11.png)
 
@@ -66,7 +65,7 @@ var longestCommonPrefix = function (strs) {
 1. 找到长度最短的字符串。
 2. 依次遍历最短字符串的每个字符以及字符串数组的每一项，从头开始比较，一旦发现不等的字符直接 return 切片结果。
 
-## 4. 💻 题解 - 横向扫描
+## 3. 💻 题解 - 横向扫描
 
 ![](md-imgs/2024-09-25-16-41-28.png)
 
@@ -99,7 +98,7 @@ var longestCommonPrefix = function (strs) {
 - while 循环执行完第二轮，意味着已确定前一次 while 循环得到的结果 `flow` 与 strs 中的第三项的最长公共前缀 `fl`；
 - 。。。以此类推，直到 strs 遍历结束；
 
-## 5. 💻 题解 - 纵向扫描
+## 4. 💻 题解 - 纵向扫描
 
 ![](md-imgs/2024-09-25-16-42-01.png)
 
@@ -123,4 +122,6 @@ var longestCommonPrefix = function (strs) {
 **解题思路：**
 
 逐个字符地对比所有字符串的相同位置的字符，直到遇到不匹配的字符或到达某个字符串的末尾。
+
+
 

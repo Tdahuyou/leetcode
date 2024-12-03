@@ -1,17 +1,16 @@
 # [2694. 事件发射器【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2694.%20%E4%BA%8B%E4%BB%B6%E5%8F%91%E5%B0%84%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/event-emitter)
 - 备注：模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 设计一个 `EventEmitter` 类。这个接口与 Node.js 或 DOM 的 Event Target 接口相似，但有一些差异。`EventEmitter` 应该允许订阅事件和触发事件。
 
@@ -108,7 +107,7 @@ emitter.emit("firstEvent", [5]); // [7]
 
 
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 class EventEmitter {
@@ -159,4 +158,6 @@ class EventEmitter {
  * emitter.emit('onClick'); // []
  */
 ```
+
+
 

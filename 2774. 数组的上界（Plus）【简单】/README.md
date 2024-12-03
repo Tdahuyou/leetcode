@@ -1,21 +1,20 @@
 # [2774. 数组的上界（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2774.%20%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8A%E7%95%8C%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 🔗 links](#2--links)
-- [3. 📝 Description](#3--description)
-- [4. 💻 题解](#4--题解)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/array-upper-bound)
 
-## 2. 🔗 links
+## 1. 🔗 links
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf - MDN，`Array.prototype.indexOf()`
 
-## 3. 📝 Description
+## 2. 📝 Description
 
 请你编写代码实现一个数组方法，任何数组都可以调用 `upperBound()` 方法，并返回给定目标数字的 **最后** 一个索引。`nums` 是一个可能包含重复数字的按升序排序的数组。如果在数组中找不到目标数字，则返回 -1。
 
@@ -45,7 +44,7 @@
 
 **进阶：**你能编写一个时间复杂度为 `O(log n)` 的算法吗？
 
-## 4. 💻 题解
+## 3. 💻 题解
 
 ```javascript
 /**
@@ -68,3 +67,5 @@ Array.prototype.upperBound = function(target) {
 ```
 
 类似于 `Array.prototype.indexOf()`，不同点在于本题要求从数组的结尾开始找。
+
+

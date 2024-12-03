@@ -1,16 +1,15 @@
 # [0167. 两数之和 II - 输入有序数组【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0167.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%20II%20-%20%E8%BE%93%E5%85%A5%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给你一个下标从 **1** 开始的整数数组 `numbers` ，该数组已按 **非递减顺序排列**  ，请你从数组中找出满足相加之和等于目标数 `target` 的两个数。如果设这两个数分别是 `numbers[index1]` 和 `numbers[index2]` ，则 `1 <= index1 < index2 <= numbers.length` 。
 
@@ -46,8 +45,10 @@
 - `-1000 <= target <= 1000`
 - **仅存在一个有效答案**
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```
 
 ```
+
+

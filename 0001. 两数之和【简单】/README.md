@@ -1,20 +1,19 @@
 # [0001. 两数之和【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 1. 双指针暴力求解【📺 leetcode.0001.1】](#3--题解---1-双指针暴力求解-leetcode00011)
-- [4. 💻 题解 - 2. 静态哈希表【📺 leetcode.0001.2】](#4--题解---2-静态哈希表-leetcode00012)
-- [5. 💻 题解 - 3. 动态哈希表【📺 leetcode.0001.3】](#5--题解---3-动态哈希表-leetcode00013)
-- [6. 📒 notes](#6--notes)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 1. 双指针暴力求解【📺 leetcode.0001.1】](#2--题解---1-双指针暴力求解-leetcode00011)
+- [3. 💻 题解 - 2. 静态哈希表【📺 leetcode.0001.2】](#3--题解---2-静态哈希表-leetcode00012)
+- [4. 💻 题解 - 3. 动态哈希表【📺 leetcode.0001.3】](#4--题解---3-动态哈希表-leetcode00013)
+- [5. 📒 notes](#5--notes)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/two-sum/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1)
 
-## 2. 📝 Description
+
+## 1. 📝 Description
 
 给定一个整数数组 `nums` 和一个整数目标值 `target`，请你在该数组中找出 **和为目标值** `target`  的那 **两个** 整数，并返回它们的数组下标。
 
@@ -46,7 +45,7 @@
 
 进阶：你可以想出一个时间复杂度小于 `O(n^2)` 的算法吗？
 
-## 3. 💻 题解 - 1. 双指针暴力求解【📺 leetcode.0001.1】
+## 2. 💻 题解 - 1. 双指针暴力求解【📺 leetcode.0001.1】
 
 ![](md-imgs/2024-09-25-07-26-04.png)
 
@@ -63,7 +62,7 @@ var twoSum = function (nums, target) {
 
 这种方法的一个缺点是，当 `n` 较大时，时间复杂度可能会变得非常高。我们可以通过使用一种叫做哈希映射的数据结构来改进这个算法，这种数据结构可以在常数时间内完成查找操作，从而将算法的时间复杂度降低到 `O(n)`。但是，这将使空间复杂度增加到 `O(n)`，因为我们需要存储 `n` 个元素的哈希映射。
 
-## 4. 💻 题解 - 2. 静态哈希表【📺 leetcode.0001.2】
+## 3. 💻 题解 - 2. 静态哈希表【📺 leetcode.0001.2】
 
 ![](md-imgs/0001-题解-静态哈希表.gif)
 
@@ -94,7 +93,7 @@ var twoSum = function (nums, target) {
 
 注意，该目标元素不能是 `nums[i]` 本身（即 `map.get(anotherNum) !== i`）
 
-## 5. 💻 题解 - 3. 动态哈希表【📺 leetcode.0001.3】
+## 4. 💻 题解 - 3. 动态哈希表【📺 leetcode.0001.3】
 
 ![](md-imgs/0001-题解-动态哈希表.gif)
 
@@ -117,7 +116,7 @@ var twoSum = function (nums, target) {
 
 每次在查的时候，都会将所有之前写入的值都查一边，不可能会存在遗漏的情况。任意俩数字组合，都只会被查一次。
 
-## 6. 📒 notes
+## 5. 📒 notes
 
 **对比“静态”哈希表和“动态”哈希表之间的差异**
 - 静态：先把整个哈希表准备好，然后再查询。
@@ -189,3 +188,4 @@ twoSum([3, 2, 3], 6) // undefined
 ```
 
 在哈希表中，对于重复的 key 值，后面的会覆盖前面的。第一次存入的 `3 => 0` 还没被查询，就被 `3 => 2` 给覆盖了，那你还查个 der。
+

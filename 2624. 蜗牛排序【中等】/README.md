@@ -1,22 +1,21 @@
 # [2624. 蜗牛排序【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2624.%20%E8%9C%97%E7%89%9B%E6%8E%92%E5%BA%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 🔗 links](#2--links)
-- [3. 📝 Description](#3--description)
-- [4. 💻 题解](#4--题解)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解](#3--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/snail-traversal/)
 
-## 2. 🔗 links
+## 1. 🔗 links
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from - MDN Array.from()
 - https://github.com/Tdahuyou/javascript - 0076. 使用 Array.form 来创建一个二维数组
 
-## 3. 📝 Description
+## 2. 📝 Description
 
 请你编写一段代码为所有数组实现  `snail(rowsCount，colsCount)` 方法，该方法将 1D 数组转换为以蜗牛排序的模式的 2D 数组。无效的输入值应该输出一个空数组。当 `rowsCount * colsCount !==``nums.length` 时。这个输入被认为是无效的。
 
@@ -64,7 +63,7 @@ Explanation: 2 * 2 = 4, 且原数组 [1,3] 的长度为 2; 所以，输入是无
 - `1 <= rowsCount <= 250`
 - `1 <= colsCount <= 250`
 
-## 4. 💻 题解
+## 3. 💻 题解
 
 ```ts
 interface Array<T> {
@@ -105,4 +104,6 @@ Array.prototype.snail = function (
  * arr.snail(1,4); // [[1,2,3,4]]
  */
 ```
+
+
 

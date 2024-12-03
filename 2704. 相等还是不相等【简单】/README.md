@@ -1,16 +1,15 @@
 # [2704. 相等还是不相等【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2704.%20%E7%9B%B8%E7%AD%89%E8%BF%98%E6%98%AF%E4%B8%8D%E7%9B%B8%E7%AD%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/to-be-or-not-to-be)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 请你编写一个名为 `expect` 的函数，用于帮助开发人员测试他们的代码。它应该接受任何值 `val` 并返回一个包含以下两个函数的对象。
 
@@ -35,7 +34,7 @@
 - 输出：`{"value": true}`
 - 解释：`5 !== null` 因此该表达式返回 `true`.
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 /**
@@ -60,3 +59,5 @@ var expect = function (val) {
  * expect(5).notToBe(5); // throws "Equal"
  */
 ```
+
+

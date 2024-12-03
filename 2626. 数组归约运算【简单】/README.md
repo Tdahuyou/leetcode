@@ -1,16 +1,15 @@
 # [2626. 数组归约运算【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2626.%20%E6%95%B0%E7%BB%84%E5%BD%92%E7%BA%A6%E8%BF%90%E7%AE%97%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定一个整数数组 `nums`、一个 reducer 函数 `fn` 和一个初始值 `init`，返回通过依次对数组的每个元素执行 `fn` 函数得到的最终结果。
 
@@ -89,7 +88,7 @@ init = 25
 - `0 <= nums[i] <= 1000`
 - `0 <= init <= 1000`
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 var reduce = function(nums, fn, init) {
@@ -103,3 +102,5 @@ var reduce = function(nums, fn, init) {
 `init = fn(init, nums[i])`
 
 上一次的处理结果作为下一次的输入之一。
+
+

@@ -1,16 +1,15 @@
 # [2703. 返回传递的参数的长度【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2703.%20%E8%BF%94%E5%9B%9E%E4%BC%A0%E9%80%92%E7%9A%84%E5%8F%82%E6%95%B0%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解](#2--题解)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/return-length-of-arguments-passed)
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 请你编写一个函数 `argumentsLength`，返回传递给该函数的参数数量。
 
@@ -35,7 +34,7 @@
 - `args` 是一个有效的 JSON 数组
 - `0 <= args.length <= 100`
 
-## 3. 💻 题解
+## 2. 💻 题解
 
 ```javascript
 var argumentsLength = function(...args) {
@@ -45,3 +44,4 @@ var argumentsLength = function(...args) {
 
 - 评论区点个赞～
   - ![](md-imgs/2024-09-26-22-26-49.png)
+

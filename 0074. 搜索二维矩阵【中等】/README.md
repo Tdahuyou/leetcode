@@ -1,24 +1,23 @@
 # [0074. 搜索二维矩阵【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0074.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 🔗 links](#2--links)
-- [3. 📝 Description](#3--description)
-- [4. 💻 题解 - flat](#4--题解---flat)
-- [5. 💻 题解 - 循环二维数组](#5--题解---循环二维数组)
-- [6. 💻 题解 - 二分查找](#6--题解---二分查找)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
+- [3. 💻 题解 - flat](#3--题解---flat)
+- [4. 💻 题解 - 循环二维数组](#4--题解---循环二维数组)
+- [5. 💻 题解 - 二分查找](#5--题解---二分查找)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/search-a-2d-matrix/)
 
-## 2. 🔗 links
+## 1. 🔗 links
 
 - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
   - MDN - `Array.prototype.flat()` - 将数组拍扁。
 
-## 3. 📝 Description
+## 2. 📝 Description
 
 给你一个满足下述两条属性的 `m x n` 整数矩阵：
 
@@ -52,7 +51,7 @@
 - `1 <= m, n <= 100`
 - `-10^4 <= matrix[i][j], target <= 10^4`
 
-## 4. 💻 题解 - flat
+## 3. 💻 题解 - flat
 
 ```javascript
 var searchMatrix = function(matrix, target) {
@@ -68,7 +67,7 @@ var searchMatrix = function(matrix, target) {
 ```
 - ![](md-imgs/2024-11-03-21-45-21.png)
 
-## 5. 💻 题解 - 循环二维数组
+## 4. 💻 题解 - 循环二维数组
 
 ```javascript
 var searchMatrix = function(matrix, target) {
@@ -88,7 +87,7 @@ var searchMatrix = function(matrix, target) {
   - 若找完所有项都没找到与目标值相等的值，则返回 false，表明该二维数组 matrix 中不存在目标值。
 - ![](md-imgs/2024-11-03-21-47-00.png)
 
-## 6. 💻 题解 - 二分查找
+## 5. 💻 题解 - 二分查找
 
 ```javascript
 var searchMatrix = function(matrix, target) {
@@ -111,4 +110,6 @@ var searchMatrix = function(matrix, target) {
 
 - 将二维数组视作一维数组来做，并且题目明确该二维数组是有序的。
 - ![](md-imgs/2024-11-03-21-47-44.png)
+
+
 

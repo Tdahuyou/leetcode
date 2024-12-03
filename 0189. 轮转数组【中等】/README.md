@@ -1,22 +1,21 @@
 # [0189. 轮转数组【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0189.%20%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 summary](#1--summary)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 暴力解法1 - 使用原生 API - unshift、pop](#3--题解---暴力解法1---使用原生-api---unshiftpop)
-- [4. 💻 题解 - 暴力解法2](#4--题解---暴力解法2)
-- [5. 💻 题解 - 暴力解法3 - 使用原生 API - splice、reverse](#5--题解---暴力解法3---使用原生-api---splicereverse)
-- [6. 💻 题解 - 暴力解法4](#6--题解---暴力解法4)
-- [7. 💻 题解 - 双指针](#7--题解---双指针)
+- [1. 📝 Description](#1--description)
+- [2. 💻 题解 - 暴力解法1 - 使用原生 API - unshift、pop](#2--题解---暴力解法1---使用原生-api---unshiftpop)
+- [3. 💻 题解 - 暴力解法2](#3--题解---暴力解法2)
+- [4. 💻 题解 - 暴力解法3 - 使用原生 API - splice、reverse](#4--题解---暴力解法3---使用原生-api---splicereverse)
+- [5. 💻 题解 - 暴力解法4](#5--题解---暴力解法4)
+- [6. 💻 题解 - 双指针](#6--题解---双指针)
 <!-- endregion:toc -->
 
-## 1. 📝 summary
+
 
 - [leetcode](https://leetcode.cn/problems/rotate-array/)
 - 注意：
   - 本题的解题思路有很多，很多思路可能没问题，但是在 leetcode 提交后会提示超时。
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定一个整数数组 `nums`，将数组中的元素向右轮转 `k` 个位置，其中 `k` 是非负数。
 
@@ -49,7 +48,7 @@
 - 尽可能想出更多的解决方案，至少有 **三种** 不同的方法可以解决这个问题。
 - 你可以使用空间复杂度为 `O(1)` 的 **原地** 算法解决这个问题吗？
 
-## 3. 💻 题解 - 暴力解法1 - 使用原生 API - unshift、pop
+## 2. 💻 题解 - 暴力解法1 - 使用原生 API - unshift、pop
 
 ```js
 var rotate = function(nums, k) {
@@ -64,7 +63,7 @@ var rotate = function(nums, k) {
   - 思路或许没问题，不过这么写在 leetcode 上提交后会提示运行超时。
   - ![](md-imgs/2024-11-16-20-22-55.png)
 
-## 4. 💻 题解 - 暴力解法2
+## 3. 💻 题解 - 暴力解法2
 
 ```js
 var rotate = function (nums, k) {
@@ -84,7 +83,7 @@ var rotate = function (nums, k) {
 
 - 会超时
 
-## 5. 💻 题解 - 暴力解法3 - 使用原生 API - splice、reverse
+## 4. 💻 题解 - 暴力解法3 - 使用原生 API - splice、reverse
 
 ```js
 var rotate = function (nums, k) {
@@ -117,7 +116,7 @@ console.log(months);
 // Expected output: Array ["Jan", "Feb", "March", "April", "May"]
 ```
 
-## 6. 💻 题解 - 暴力解法4
+## 5. 💻 题解 - 暴力解法4
 
 ```js
 var rotate = function (nums, k) {
@@ -140,7 +139,7 @@ var rotate = function (nums, k) {
   - 先把后半部分装入原数组
   - 再把前半部分装入原数组
 
-## 7. 💻 题解 - 双指针
+## 6. 💻 题解 - 双指针
 
 ```js
 // 反转数组(left_index ~ right_index)
@@ -171,3 +170,4 @@ var rotate = function (nums, k) {
 
 - 这解法，勉勉强强算是双指针吧，就是封装了一个 reverseArr 函数，实现原理前边的都差不多。
 - 这种解法比前边的做法的性能都好。
+
