@@ -1,13 +1,14 @@
+# leetcode
+
 <!-- region:toc -->
-- [LeetCode](#leetcode)
-  - [⏰ 待录视频](#⏰-待录视频)
-  - [GitHub 技术社区 Doocs 开源项目 leetcode](#github-技术社区-doocs-开源项目-leetcode)
-  - [JS 相关例题](#js-相关例题)
-  - [⏰ 待分组](#⏰-待分组)
+- [leetcode](#leetcode)
+  - [1. ⏰ 待录视频](#1--待录视频)
+  - [2. GitHub 技术社区 Doocs 开源项目 leetcode](#2-github-技术社区-doocs-开源项目-leetcode)
+  - [3. JS 相关例题](#3-js-相关例题)
+  - [4. ⏰ 待分组](#4--待分组)
+<!-- endregion:toc -->
 
-# LeetCode
-
-## ⏰ 待录视频
+## 1. ⏰ 待录视频
 
 - [ ] [0088. 合并两个有序数组【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0088.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./0088.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0088.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
@@ -29,7 +30,7 @@
   - [leetcode](https://leetcode.cn/problems/pascals-triangle-ii)
   
 
-## GitHub 技术社区 Doocs 开源项目 leetcode
+## 2. GitHub 技术社区 Doocs 开源项目 leetcode
 
 - [ ] [9997. GitHub 技术社区 Doocs 开源项目 leetcode](https://github.com/Tdahuyou/leetcode/tree/main/9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode/README.md) <!-- [locale](./9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode/README.md) -->  
   - [1. 🔗 links](https://github.com/Tdahuyou/leetcode/tree/main/9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode/README.md#1--links)
@@ -47,7 +48,7 @@
   - 通过思维导图的形式，记录了一些适合入门刷的数据结构、算法例题。
   
 
-## JS 相关例题
+## 3. JS 相关例题
 
 - [ ] [2618. 检查是否是类的对象实例【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) <!-- [locale](./2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->  
   - [1. 🔗 links](https://github.com/Tdahuyou/leetcode/tree/main/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--links)
@@ -296,7 +297,7 @@
   - [leetcode](https://leetcode.cn/problems/inversion-of-object)
   
 
-## ⏰ 待分组
+## 4. ⏰ 待分组
 
 - [ ] [0001. 两数之和【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
