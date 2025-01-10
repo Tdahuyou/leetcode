@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "merge": "      node ./node_modules/tnotes   --mergeREADME         --repoName=leetcode",
-    "update": "     node ./node_modules/tnotes   --updateREADME        --repoName=leetcode",
-    "distribute": " node ./node_modules/tnotes   --distributeREADME    --repoName=leetcode",
-    "sync": "       node ./node_modules/tnotes   --syncREADME          --repoName=leetcode"
+    "merge": "           node ./node_modules/tnotes   --mergeREADME         --repoName=leetcode",
+    "update": "          node ./node_modules/tnotes   --updateREADME        --repoName=leetcode",
+    "distribute": "      node ./node_modules/tnotes   --distributeREADME    --repoName=leetcode",
+    "sync": "            node ./node_modules/tnotes   --syncREADME          --repoName=leetcode",
+    "docs:publish": "    node ./node_modules/tnotes/scripts/docs-publish.js"
   },
   "tnotesConfig": {
     "ignoreDirs": [
