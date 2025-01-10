@@ -1,10 +1,11 @@
 # [0622. 设计循环队列【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0622.%20%E8%AE%BE%E8%AE%A1%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 设计循环队列](#2--题解---设计循环队列)
+- [1. 📝 Description](#1--description-46)
+- [2. 💻 solutions.设计循环队列](#2--solutions设计循环队列)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/design-circular-queue)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 
 ## 1. 📝 Description
@@ -44,9 +45,9 @@ circularQueue.Rear();  // 返回 4
 - 操作数将在 1 至 1000 的范围内；
 - 请不要使用内置的队列库。
 
-## 2. 💻 题解 - 设计循环队列
+## 2. 💻 solutions.设计循环队列
 
-![](md-imgs/622.%20设计循环队列-题解.gif)
+![](assets/622.%20设计循环队列-题解.gif)
 
 ```javascript
 /**
@@ -133,9 +134,11 @@ MyCircularQueue.prototype.isFull = function() {
 
 在第二次执行 `circularQueue.enQueue(4)` 的时候可以往循环队列中插入新成员，此时维护的数组内部每个位置其实都已经是有值的状态了。由此可见在判断循环队列是否已经满了的逻辑，并非看数组的每个位置是否都有值了。
 
-![](md-imgs/2024-09-25-17-16-45.png)
+![](assets/2024-09-25-17-16-45.png)
 
 其中一种正确的做法是在内部维护一个变量 count，在每次 enQueue 成功的时候 count++，在每次 deQueue 成功的时候 count--，如果 count 的值和初始化时传入的 k 相同，那么意味着满了，否则没满。
+
+
 
 
 

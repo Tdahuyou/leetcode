@@ -1,10 +1,11 @@
 # [0509. 斐波那契数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0509.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 递归](#2--题解---递归)
+- [1. 📝 Description](#1--description-42)
+- [2. 💻 solutions.递归](#2--solutions递归-1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/fibonacci-number/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -37,7 +38,7 @@ F(n) = F(n - 1) + F(n - 2)，其中 n > 1
 
 - `0 <= n <= 30`
 
-## 2. 💻 题解 - 递归
+## 2. 💻 solutions.递归
 
 ```js
 var fib = function (n) {
@@ -47,7 +48,9 @@ var fib = function (n) {
 };
 ```
 
-- ![](md-imgs/2024-11-16-19-07-29.png)
+- ![](assets/2024-11-16-19-07-29.png)
+
+
 
 
 

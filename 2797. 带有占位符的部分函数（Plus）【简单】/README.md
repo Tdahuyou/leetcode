@@ -1,10 +1,11 @@
 # [2797. 带有占位符的部分函数（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2797.%20%E5%B8%A6%E6%9C%89%E5%8D%A0%E4%BD%8D%E7%AC%A6%E7%9A%84%E9%83%A8%E5%88%86%E5%87%BD%E6%95%B0%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解](#2--题解)
+- [1. 📝 Description](#1--description-112)
+- [2. 💻 题解](#2--题解-53)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/partial-function-with-placeholders)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -95,6 +96,8 @@ var partial = function (fn, args) {
 在参数处理过程中，需要创建一个长度为 `n` 的数组 `arr`，因此空间复杂度为 `O(n)`。
 
 该解法的时间复杂度和空间复杂度都与输入参数的长度有关。
+
+
 
 
 

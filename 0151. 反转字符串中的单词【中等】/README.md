@@ -1,11 +1,12 @@
 # [0151. 反转字符串中的单词【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0151.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%8D%95%E8%AF%8D%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 1. 字符串分割](#2--题解---1-字符串分割)
-- [3. 💻 题解 - 2. 双指针](#3--题解---2-双指针)
+- [1. 📝 Description](#1--description-28)
+- [2. 💻 solutions.1. 字符串分割](#2--solutions1-字符串分割)
+- [3. 💻 solutions.2. 双指针](#3--solutions2-双指针)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 
 ## 1. 📝 Description
@@ -46,7 +47,7 @@
 
 **进阶：** 如果字符串在你使用的编程语言中是一种可变数据类型，请尝试使用 `O(1)` 额外空间复杂度的 **原地** 解法。
 
-## 2. 💻 题解 - 1. 字符串分割
+## 2. 💻 solutions.1. 字符串分割
 
 ```js
 var reverseWords = function (s) {
@@ -72,7 +73,7 @@ flowchart TD
   G --> H("返回结果")
 ```
 
-## 3. 💻 题解 - 2. 双指针
+## 3. 💻 solutions.2. 双指针
 
 ```js
 var reverseWords = function (s) {
@@ -115,6 +116,8 @@ var reverseWords = function (s) {
    - 使用 `words.join(' ')` 方法将反转后的单词数组转换为一个由空格分隔的字符串。
 5. **返回结果**：
    - 返回上一步得到的字符串，即原字符串 `s` 中所有单词按逆序排列后的新字符串。
+
+
 
 
 

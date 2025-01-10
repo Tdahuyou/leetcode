@@ -1,10 +1,11 @@
 # [2726. 使用方法链的计算器【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2726.%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E9%93%BE%E7%9A%84%E8%AE%A1%E7%AE%97%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解](#2--题解)
+- [1. 📝 Description](#1--description-99)
+- [2. 💻 题解](#2--题解-42)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/calculator-with-method-chaining)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 - 备注：题目有些长，但逻辑很简单。
 
 ## 1. 📝 Description
@@ -140,6 +141,8 @@ class Calculator {
 
 - 链式调用，每次 `return this` 即可。
 - 除法运算时校验 value 不能为 0，否则抛出错误 `throw new Error('Division by zero is not allowed')`
+
+
 
 
 

@@ -1,10 +1,11 @@
 # [2722. 根据 ID 合并两个数组【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2722.%20%E6%A0%B9%E6%8D%AE%20ID%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解](#2--题解)
+- [1. 📝 Description](#1--description-96)
+- [2. 💻 题解](#2--题解-39)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/join-two-arrays-by-id)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -121,6 +122,8 @@ var join = function (arr1, arr2) {
   return ans.sort((a, b) => a.id - b.id) // 按照 id 升序排序
 };
 ```
+
+
 
 
 

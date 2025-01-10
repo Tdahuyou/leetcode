@@ -1,10 +1,11 @@
 # [0118. 杨辉三角【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0118.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
+- [1. 📝 Description](#1--description-25)
+- [2. 💻 solutions.暴力解法](#2--solutions暴力解法-5)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/pascals-triangle)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -30,7 +31,7 @@
 
 - `1 <= numRows <= 30`
 
-## 2. 💻 题解 - 暴力解法
+## 2. 💻 solutions.暴力解法
 
 ```js
 /**
@@ -55,9 +56,11 @@ var generate = function (numRows) {
 ```
 
 - **解题思路：**
-  - ![](md-imgs/2024-11-10-21-52-49.png)
+  - ![](assets/2024-11-10-21-52-49.png)
   - 首先初始化一个全为 `1` 的 `triangle` 三角。
   - 对内层的每个位置进行重新求和，求和的逻辑：`triangle[r][c] = triangle[r - 1][c - 1] + triangle[r - 1][c]`
+
+
 
 
 

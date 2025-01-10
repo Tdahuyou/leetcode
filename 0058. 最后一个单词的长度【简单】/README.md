@@ -1,10 +1,11 @@
 # [0058. 最后一个单词的长度【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0058.%20%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 暴力解法 - 直接调用原生 API - trim、split、pop](#2--题解---暴力解法---直接调用原生-api---trimsplitpop)
+- [1. 📝 Description](#1--description-17)
+- [2. 💻 solutions.暴力解法 - 直接调用原生 API - trim、split、pop](#2--solutions暴力解法---直接调用原生-api---trimsplitpop)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/length-of-last-word/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -38,7 +39,7 @@
 - `s` 仅有英文字母和空格 `' '` 组成
 - `s` 中至少存在一个单词
 
-## 2. 💻 题解 - 暴力解法 - 直接调用原生 API - trim、split、pop
+## 2. 💻 solutions.暴力解法 - 直接调用原生 API - trim、split、pop
 
 ```javascript
 /**
@@ -49,6 +50,8 @@ var lengthOfLastWord = function(s) {
   return s.trim().split(/\s+/).pop().length
 }
 ```
+
+
 
 
 

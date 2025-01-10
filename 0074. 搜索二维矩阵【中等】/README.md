@@ -1,13 +1,14 @@
 # [0074. 搜索二维矩阵【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0074.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - flat](#3--题解---flat)
-- [4. 💻 题解 - 循环二维数组](#4--题解---循环二维数组)
-- [5. 💻 题解 - 二分查找](#5--题解---二分查找)
+- [1. 🔗 links](#1--links-4)
+- [2. 📝 Description](#2--description-4)
+- [3. 💻 solutions.flat](#3--solutionsflat)
+- [4. 💻 solutions.循环二维数组](#4--solutions循环二维数组)
+- [5. 💻 solutions.二分查找](#5--solutions二分查找)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/search-a-2d-matrix/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 🔗 links
 
@@ -25,7 +26,7 @@
 
 **示例 1：**
 
-![](md-imgs/2024-11-02-21-32-16.png)
+![](assets/2024-11-02-21-32-16.png)
 
 ```
 输入：matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3
@@ -34,7 +35,7 @@
 
 **示例 2：**
 
-![](md-imgs/2024-11-02-21-32-35.png)
+![](assets/2024-11-02-21-32-35.png)
 
 ```
 输入：matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
@@ -48,7 +49,7 @@
 - `1 <= m, n <= 100`
 - `-10^4 <= matrix[i][j], target <= 10^4`
 
-## 3. 💻 题解 - flat
+## 3. 💻 solutions.flat
 
 ```javascript
 var searchMatrix = function(matrix, target) {
@@ -62,9 +63,9 @@ var searchMatrix = function(matrix, target) {
 [0, 1, 2, [[[3, 4]]]].flat(2); // => [0, 1, 2, [3, 4]]
 // flat() 参数默认值为 1
 ```
-- ![](md-imgs/2024-11-03-21-45-21.png)
+- ![](assets/2024-11-03-21-45-21.png)
 
-## 4. 💻 题解 - 循环二维数组
+## 4. 💻 solutions.循环二维数组
 
 ```javascript
 var searchMatrix = function(matrix, target) {
@@ -82,9 +83,9 @@ var searchMatrix = function(matrix, target) {
 - 两个 for 循环，暴力循环二维数组的每一项。
   - 一旦发现与目标值 target 相等的项，则返回 true，表示在该二维数组 matrix 中找到了目标值。
   - 若找完所有项都没找到与目标值相等的值，则返回 false，表明该二维数组 matrix 中不存在目标值。
-- ![](md-imgs/2024-11-03-21-47-00.png)
+- ![](assets/2024-11-03-21-47-00.png)
 
-## 5. 💻 题解 - 二分查找
+## 5. 💻 solutions.二分查找
 
 ```javascript
 var searchMatrix = function(matrix, target) {
@@ -106,7 +107,9 @@ var searchMatrix = function(matrix, target) {
 ```
 
 - 将二维数组视作一维数组来做，并且题目明确该二维数组是有序的。
-- ![](md-imgs/2024-11-03-21-47-44.png)
+- ![](assets/2024-11-03-21-47-44.png)
+
+
 
 
 

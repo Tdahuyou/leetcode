@@ -1,8 +1,8 @@
 # [0239. 滑动窗口最大值【困难】](https://github.com/Tdahuyou/leetcode/tree/main/0239.%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 1. Deque](#2--题解---1-deque)
+- [1. 📝 Description](#1--description-36)
+- [2. 💻 solutions.1. Deque](#2--solutions1-deque)
 - [3. 🤖 AI - 什么是双端队列？](#3--ai---什么是双端队列)
   - [3.1. 特性](#31-特性)
   - [3.2. 常见操作](#32-常见操作)
@@ -11,6 +11,7 @@
   - [3.5. 关键点](#35-关键点)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/sliding-window-maximum)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 
 ## 1. 📝 Description
@@ -45,9 +46,9 @@
 - `-10^4 <= nums[i] <= 10^4`
 - `1 <= k <= nums.length`
 
-## 2. 💻 题解 - 1. Deque
+## 2. 💻 solutions.1. Deque
 
-![](md-imgs/2024-09-25-17-07-42.png)
+![](assets/2024-09-25-17-07-42.png)
 
 > 图片来源：https://leetcode.cn/problems/sliding-window-maximum/solutions/2361228/239-hua-dong-chuang-kou-zui-da-zhi-dan-d-u6h0
 
@@ -279,6 +280,8 @@ console.log(maxSlidingWindow(nums, k)); // 输出: [3, 3, 5, 5, 6, 7]
 ### 3.5. 关键点
 - 使用双端队列可以高效地实现滑动窗口的最大值问题，时间复杂度为 $O(n)$。
 - 双端队列能够在常数时间内完成从两端的插入和删除操作，使得一些复杂的算法能够更高效地实现。
+
+
 
 
 

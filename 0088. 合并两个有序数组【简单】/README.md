@@ -1,11 +1,12 @@
 # [0088. 合并两个有序数组【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0088.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
-- [3. 💻 题解 - 尾插法](#3--题解---尾插法)
+- [1. 📝 Description](#1--description-22)
+- [2. 💻 solutions.暴力解法](#2--solutions暴力解法-4)
+- [3. 💻 solutions.尾插法](#3--solutions尾插法)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/merge-sorted-array)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -51,7 +52,7 @@
 
 **进阶：** 你可以设计实现一个时间复杂度为 `O(m + n)` 的算法解决此问题吗？
 
-## 2. 💻 题解 - 暴力解法
+## 2. 💻 solutions.暴力解法
 
 ```js
 /**
@@ -73,7 +74,7 @@ var merge = function (nums1, m, nums2, n) {
   - Do not return anything, modify nums1 in-place instead.
   - 头部注释信息中强调，不需要返回任何内容，直接基于 nums1 原地修改即可。
 
-## 3. 💻 题解 - 尾插法
+## 3. 💻 solutions.尾插法
 
 ```js
 /**
@@ -104,7 +105,7 @@ var merge = function (nums1, m, nums2, n) {
 ```
 
 - **执行流程：**
-  - ![](md-imgs/2024-11-10-20-55-40.png)
+  - ![](assets/2024-11-10-20-55-40.png)
 - `if ((nums1[i] > nums2[j]) || (j < 0)) nums1[k--] = nums1[i--]`
   - 如果 `nums1[i]` 大于 `nums2[j]` 或者 `nums2` 已经查完了，那么使用 `nums1[i]` 跟 `nums1[k]` 交换，交换后俩指针往前挪一步。
 - `if ((nums2[j] >= nums1[i]) || (i < 0)) nums1[k--] = nums2[j--]`
@@ -143,6 +144,8 @@ var merge = function (nums1, m, nums2, n) {
   }
 };
 ```
+
+
 
 
 

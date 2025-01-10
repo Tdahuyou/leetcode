@@ -1,11 +1,12 @@
 # [0035. 搜索插入位置【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0035.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 二分查找](#2--题解---二分查找)
-- [3. 💻 题解 - 暴力解法](#3--题解---暴力解法)
+- [1. 📝 Description](#1--description-12)
+- [2. 💻 solutions.二分查找](#2--solutions二分查找)
+- [3. 💻 solutions.暴力解法](#3--solutions暴力解法)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/search-insert-position/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -35,7 +36,7 @@
 - `nums` 为 **无重复元素** 的 **升序** 排列数组
 - `-10^4 <= target <= 10^4`
 
-## 2. 💻 题解 - 二分查找
+## 2. 💻 solutions.二分查找
 
 ```javascript
 var searchInsert = function (nums, target) {
@@ -54,7 +55,7 @@ var searchInsert = function (nums, target) {
 };
 ```
 
-- ![](md-imgs/2024-11-03-21-30-01.png)
+- ![](assets/2024-11-03-21-30-01.png)
 - 特殊情况
   - 当 target 比 nums 中每一个成员都大时，返回 nums.length。由于在这种情况下，插入位置并不在 [L, R] 区间内，所以要单独处理。
 - 二分 - 若不是特殊情况，那么进行二分查找，不断细分区间。细分区间的逻辑：
@@ -82,7 +83,7 @@ var searchInsert = function(nums, target) {
 }
 ```
 
-## 3. 💻 题解 - 暴力解法
+## 3. 💻 solutions.暴力解法
 
 ```javascript
 var searchInsert = function (nums, target) {
@@ -95,7 +96,7 @@ var searchInsert = function (nums, target) {
   - 从有序数组 `nums` 中查找第一个不小于 `target` 的成员，并返回其下标。若 `target` 比所有成员都大，那么插入位置为 `nums.length`。
   - 思路虽然可行，但是不满足题意，这种解法的时间复杂度是 `O(N)`，题目要求设计一个时间复杂度为 `O(log N)` 的解法。
 - 题解：
-  - ![](md-imgs/2024-11-03-21-31-58.png)
+  - ![](assets/2024-11-03-21-31-58.png)
   - 直接用 leetcode.0704 题解的图，思路完全几乎是一样的。
 
 ```js
@@ -108,6 +109,8 @@ var searchInsert = function (nums, target) {
   return nums.length
 };
 ```
+
+
 
 
 

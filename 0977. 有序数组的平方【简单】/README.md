@@ -1,11 +1,12 @@
 # [0977. 有序数组的平方【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0977.%20%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 暴力解法 - 调用原生 API - map、sort](#2--题解---暴力解法---调用原生-api---mapsort)
-- [3. 💻 题解 - 双指针](#3--题解---双指针)
+- [1. 📝 Description](#1--description-57)
+- [2. 💻 solutions.暴力解法 - 调用原生 API - map、sort](#2--solutions暴力解法---调用原生-api---mapsort)
+- [3. 💻 solutions.双指针](#3--solutions双指针-3)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/squares-of-a-sorted-array)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -33,7 +34,7 @@
 
 - 请你设计时间复杂度为 `O(n)` 的算法解决本问题
 
-## 2. 💻 题解 - 暴力解法 - 调用原生 API - map、sort
+## 2. 💻 solutions.暴力解法 - 调用原生 API - map、sort
 
 ```js
 var sortedSquares = function (nums) {
@@ -41,7 +42,7 @@ var sortedSquares = function (nums) {
 }
 ```
 
-## 3. 💻 题解 - 双指针
+## 3. 💻 solutions.双指针
 
 ```js
 var sortedSquares = function (nums) {
@@ -69,6 +70,8 @@ var sortedSquares = function (nums) {
 - 🤔 问：在这种解法中，将 `while (l <= r) { ... }` 改为 `while (l < r) { ... }` 可以吗？
   - 不行。
   - 每次 while 循环遍历一遍，left 或者 right 指针挪动一步，为了确保每个元素都被遍历到，循环条件不能改为 `l < r`，否则会漏掉一个元素（俩指针相撞 `l == r` 的时候）。
+
+
 
 
 

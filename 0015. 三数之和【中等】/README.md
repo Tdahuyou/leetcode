@@ -1,10 +1,11 @@
 # [0015. 三数之和【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 排序 + 双指针【📺 leetcode.0015.1】](#2--题解---排序-+-双指针-leetcode00151)
+- [1. 📝 Description](#1--description-7)
+- [2. 💻 solutions.排序 + 双指针【📺 leetcode.0015.1】](#2--solutions排序--双指针-leetcode00151)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/3sum/description/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 
 ## 1. 📝 Description
@@ -41,7 +42,7 @@
 - `3 <= nums.length <= 3000`
 - `-10^5 <= nums[i] <= 10^5`
 
-## 2. 💻 题解 - 排序 + 双指针【📺 leetcode.0015.1】
+## 2. 💻 solutions.排序 + 双指针【📺 leetcode.0015.1】
 
 ```javascript
 /**
@@ -84,7 +85,7 @@ var threeSum = function (nums) {
 };
 ```
 
-![](md-imgs/0015.%20三数之和-题解-排序+双指针.gif)
+![](assets/0015.%20三数之和-题解-排序+双指针.gif)
 
 **实现流程**
 
@@ -123,6 +124,8 @@ var threeSum = function (nums) {
 6. **返回结果**
 
 外层循环结束后，所有可能的三元组都已经被检查并加入到 `ans` 数组中。返回结果数组 `ans`，其中包含所有符合条件的不重复的三元组。
+
+
 
 
 

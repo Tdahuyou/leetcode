@@ -1,10 +1,11 @@
 # [2666. 只允许一次函数调用【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2666.%20%E5%8F%AA%E5%85%81%E8%AE%B8%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解](#2--题解)
+- [1. 📝 Description](#1--description-81)
+- [2. 💻 题解](#2--题解-25)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/allow-one-function-call)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 
 ## 1. 📝 Description
@@ -69,6 +70,8 @@ var once = function (fn) {
 ```
 
 本题考察的依旧是闭包相关的知识点，只需要在函数 `once` 内部维护一个变量，记录 `fn` 是否被调用过即可。
+
+
 
 
 

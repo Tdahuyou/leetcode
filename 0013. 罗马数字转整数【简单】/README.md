@@ -1,11 +1,12 @@
 # [0013. 罗马数字转整数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0013.%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 基于哈希表的逐字符解析法（1）](#2--题解---基于哈希表的逐字符解析法1)
-- [3. 💻 题解 - 基于哈希表的逐字符解析法（2）](#3--题解---基于哈希表的逐字符解析法2)
+- [1. 📝 Description](#1--description-5)
+- [2. 💻 solutions.基于哈希表的逐字符解析法（1）](#2--solutions基于哈希表的逐字符解析法1)
+- [3. 💻 solutions.基于哈希表的逐字符解析法（2）](#3--solutions基于哈希表的逐字符解析法2)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/roman-to-integer)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 - 备注：本文介绍的两种题解，都是基于哈希表来实现的。
 
 ## 1. 📝 Description
@@ -70,7 +71,7 @@
 
 > PS：不知道官方给的这个参考链接咋用……
 
-## 2. 💻 题解 - 基于哈希表的逐字符解析法（1）
+## 2. 💻 solutions.基于哈希表的逐字符解析法（1）
 
 ```javascript
 var romanToInt = function (s) {
@@ -109,7 +110,7 @@ var romanToInt = function (s) {
 
 准备好转换库，将正常情况和特殊情况都存储起来，直接从转换库中匹配。
 
-## 3. 💻 题解 - 基于哈希表的逐字符解析法（2）
+## 3. 💻 solutions.基于哈希表的逐字符解析法（2）
 
 ```javascript
 var romanToInt = function (s) {
@@ -140,6 +141,8 @@ var romanToInt = function (s) {
 - 思路：**在存储的时候，只要存储正常情况即可，特殊情况有固定的规律：**
   - 【正常情况】连续字符中，左侧的字符所表示的数字是比右侧的字符所表示的数字大的（或相等），此时累加即可。
   - 【特殊情况】连续字符中，左侧的字符所表示的数字比右侧小，那么左侧的字符表示的是一个负数，即：在累加时，需要对左侧的字符取反，再相加。
+
+
 
 
 

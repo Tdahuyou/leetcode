@@ -1,12 +1,13 @@
 # [0078. 子集【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0078.%20%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 循环遍历](#3--题解---循环遍历)
-- [4. 💻 题解 - 回溯](#4--题解---回溯)
+- [1. 🔗 links](#1--links-5)
+- [2. 📝 Description](#2--description-5)
+- [3. 💻 solutions.循环遍历](#3--solutions循环遍历)
+- [4. 💻 solutions.回溯](#4--solutions回溯)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/subsets/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 - **⏰ TODO**
   - 合并 keynote-2.key、keynote.key。
 
@@ -41,7 +42,7 @@
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有元素 **互不相同**
 
-## 3. 💻 题解 - 循环遍历
+## 3. 💻 solutions.循环遍历
 
 ```javascript
 var subsets = function(nums) {
@@ -61,10 +62,10 @@ var subsets = function(nums) {
 };
 ```
 
-- ![](md-imgs/2024-11-03-21-55-18.png)
+- ![](assets/2024-11-03-21-55-18.png)
   - 参考 leetcode 官方题解：https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode-solution/
 
-## 4. 💻 题解 - 回溯
+## 4. 💻 solutions.回溯
 
 ```javascript
 var subsets = function(nums) {
@@ -86,7 +87,7 @@ var subsets = function(nums) {
 };
 ```
 
-- ![](md-imgs/2024-11-03-21-53-54.png)
+- ![](assets/2024-11-03-21-53-54.png)
 - 对于当前值，只有两种选择：「选」 | 「不选」。所以，如果 nums 的长度为 3，那么结果有 2^3，也就是 8 个。
   - 绿线：选；红线：不选；
     - 第一个 dfs 走绿线；
@@ -100,8 +101,10 @@ var subsets = function(nums) {
 - 回溯的意思就是指撤销我们做的选择，让我们重新选。
   - https://zhuanlan.zhihu.com/p/93530380
   - 详细内容知乎上的这篇参考文章：《回溯算法套路详解》。
-- ![](md-imgs/2024-11-03-22-00-13.png)
-- ![](md-imgs/2024-11-03-22-00-16.png)
+- ![](assets/2024-11-03-22-00-13.png)
+- ![](assets/2024-11-03-22-00-16.png)
+
+
 
 
 

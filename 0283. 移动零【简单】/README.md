@@ -1,10 +1,11 @@
 # [0283. 移动零【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0283.%20%E7%A7%BB%E5%8A%A8%E9%9B%B6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 双指针](#2--题解---双指针)
+- [1. 📝 Description](#1--description-38)
+- [2. 💻 solutions.双指针](#2--solutions双指针-1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/move-zeroes/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -29,7 +30,7 @@
 
 **进阶：** 你能尽量减少完成的操作次数吗？
 
-## 2. 💻 题解 - 双指针
+## 2. 💻 solutions.双指针
 
 ```js
 var moveZeroes = function (nums) {
@@ -46,6 +47,8 @@ var moveZeroes = function (nums) {
 
 - 实现思路：
   - i 指向 0 的时候，j 找 i 后边第一个不是 0 的跟 i 交换。
+
+
 
 
 

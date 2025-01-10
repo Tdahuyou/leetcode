@@ -1,13 +1,14 @@
 # [2796. 重复字符串（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 循环拼接](#2--题解---循环拼接)
-- [3. 💻 题解 - 分治法，递归拼接](#3--题解---分治法递归拼接)
+- [1. 📝 Description](#1--description-111)
+- [2. 💻 solutions.循环拼接](#2--solutions循环拼接)
+- [3. 💻 solutions.分治法，递归拼接](#3--solutions分治法递归拼接)
 - [4. 📒 单词](#4--单词)
 - [5. 📒 ntoes - 双百提交](#5--ntoes---双百提交)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/repeat-string/description/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -40,7 +41,7 @@
 
 **进阶**：为了简化分析，让我们假设连接字符串是一个常数时间操作 `O(1)`。考虑到这个假设，您能编写时间复杂度为 `O(log n)` 的算法吗？
 
-## 2. 💻 题解 - 循环拼接
+## 2. 💻 solutions.循环拼接
 
 ```javascript
 /**
@@ -63,7 +64,7 @@ String.prototype.replicate = function(times) {
 
 题目中提到 m 是 1（假设连接字符串是一个常数时间操作 `O(1)`），因此时间复杂度 `O(m * n)` 可以简写为 `O(n)`。
 
-## 3. 💻 题解 - 分治法，递归拼接
+## 3. 💻 solutions.分治法，递归拼接
 
 ```javascript
 /**
@@ -106,7 +107,9 @@ String.prototype.replicate = function (times) {
 
 - 首次见到的双百的提交，记录一下……
   - https://leetcode.cn/problems/repeat-string/submissions/539803907
-  - ![](md-imgs/2024-09-26-22-49-34.png)
+  - ![](assets/2024-09-26-22-49-34.png)
+
+
 
 
 

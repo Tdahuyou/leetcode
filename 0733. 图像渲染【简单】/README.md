@@ -1,10 +1,11 @@
 # [0733. 图像渲染【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0733.%20%E5%9B%BE%E5%83%8F%E6%B8%B2%E6%9F%93%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - DFS](#2--题解---dfs)
+- [1. 📝 Description](#1--description-53)
+- [2. 💻 solutions.DFS](#2--solutionsdfs-1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/flood-fill)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -21,7 +22,7 @@
 
 **示例 1:**
 
-![](md-imgs/2024-11-03-15-11-43.png)
+![](assets/2024-11-03-15-11-43.png)
 
 ```
 输入：image = [[1,1,1],[1,1,0],[1,0,1]]，sr = 1, sc = 1, color = 2
@@ -52,7 +53,7 @@
 - `0 <= sr < m`
 - `0 <= sc < n`
 
-## 2. 💻 题解 - DFS
+## 2. 💻 solutions.DFS
 
 ```js
 /**
@@ -85,6 +86,8 @@ var floodFill = function (image, sr, sc, newColor) {
   return image;
 }
 ```
+
+
 
 
 

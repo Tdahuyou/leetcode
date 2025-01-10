@@ -1,12 +1,13 @@
 # [0021. 合并两个有序链表【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
+- [1. 📝 Description](#1--description-10)
 - [2. 📒 测试代码](#2--测试代码)
-- [3. 💻 题解 - 迭代](#3--题解---迭代)
-- [4. 💻 题解 - 递归](#4--题解---递归)
+- [3. 💻 solutions.迭代](#3--solutions迭代)
+- [4. 💻 solutions.递归](#4--solutions递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/merge-two-sorted-lists/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -14,7 +15,7 @@
 
 **示例 1：**
 
-- ![](md-imgs/2024-10-26-23-11-25.png)
+- ![](assets/2024-10-26-23-11-25.png)
 - 输入：`l1 = [1,2,4], l2 = [1,3,4]`
 - 输出：`[1,1,2,3,4,4]`
 
@@ -79,7 +80,7 @@ traverseLinkedList(newList1); // 1 1 2 3 4 4
 // traverseLinkedList(newList3); // 0 null
 ```
 
-## 3. 💻 题解 - 迭代
+## 3. 💻 solutions.迭代
 
 ```js
 // 22-08-17
@@ -150,7 +151,7 @@ var mergeTwoLists = function(l1, l2) {
   - 自己的做法：最开始的时候添加判断，如果某个链表是空，那么直接返回另外一个
   - 官方题解的做法：新建一个 prehead 节点，最后返回 prehead.next
 
-## 4. 💻 题解 - 递归
+## 4. 💻 solutions.递归
 
 ```js
 var mergeTwoLists = function(list1, list2) {
@@ -167,6 +168,8 @@ var mergeTwoLists = function(list1, list2) {
 ```
 
 - 如果使用递归的方式来写，代码确实会更加简洁，不过性能貌似并没有迭代好。
+
+
 
 
 

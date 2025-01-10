@@ -1,10 +1,11 @@
 # [2667. 创建 Hello World 函数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2667.%20%E5%88%9B%E5%BB%BA%20Hello%20World%20%E5%87%BD%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解](#2--题解)
+- [1. 📝 Description](#1--description-82)
+- [2. 💻 题解](#2--题解-26)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/create-hello-world-function)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 - 备注：太看得起我了……
 
@@ -54,6 +55,8 @@ var createHelloWorld = function () {
  * f(); // "Hello World"
  */
 ```
+
+
 
 
 

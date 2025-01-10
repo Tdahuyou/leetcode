@@ -1,10 +1,11 @@
 # [2621. 睡眠函数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2621.%20%E7%9D%A1%E7%9C%A0%E5%87%BD%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解](#2--题解)
+- [1. 📝 Description](#1--description-63)
+- [2. 💻 题解](#2--题解-12)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/sleep/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -48,6 +49,8 @@ async function sleep(millis) {
  * sleep(100).then(() => console.log(Date.now() - t)) // 100
  */
 ```
+
+
 
 
 

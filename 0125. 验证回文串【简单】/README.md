@@ -1,12 +1,13 @@
 # [0125. 验证回文串【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
-- [3. 💻 题解 - 双指针](#3--题解---双指针)
-- [4. 📒 正则 `\w`、`\W`](#4--正则-\w\w)
+- [1. 📝 Description](#1--description-27)
+- [2. 💻 solutions.暴力解法](#2--solutions暴力解法-7)
+- [3. 💻 solutions.双指针](#3--solutions双指针)
+- [4. 📒 正则 `\w`、`\W`](#4--正则-ww)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/valid-palindrome)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 
 ## 1. 📝 Description
@@ -44,7 +45,7 @@
 - `1 <= s.length <= 2 * 10^5`
 - `s` 仅由可打印的 ASCII 字符组成
 
-## 2. 💻 题解 - 暴力解法
+## 2. 💻 solutions.暴力解法
 
 ```js
 var isPalindrome = function (s) {
@@ -62,7 +63,7 @@ var isPalindrome = function (s) {
 3. 字符串逆置 `[...s].reverse().join("")`
 4. 返回比较原字符串和逆置后的字符串的结果 `return s === [...s].reverse().join("")`
 
-## 3. 💻 题解 - 双指针
+## 3. 💻 solutions.双指针
 
 ```js
 var isPalindrome = function (s) {
@@ -154,6 +155,8 @@ var isPalindrome = function(s) {
   return ans
 };
 ```
+
+
 
 
 

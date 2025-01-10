@@ -1,12 +1,13 @@
 # [0094. 二叉树的中序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 1. 递归](#3--题解---1-递归)
+- [1. 🔗 links](#1--links-6)
+- [2. 📝 Description](#2--description-6)
+- [3. 💻 solutions.1. 递归](#3--solutions1-递归)
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 
 ## 1. 🔗 links
@@ -19,7 +20,7 @@
 
 **示例 1：**
 
-![](md-imgs/2024-09-25-16-52-06.png)
+![](assets/2024-09-25-16-52-06.png)
 
 - 输入：root = [1,null,2,3]
 - 输出：[1,3,2]
@@ -41,7 +42,7 @@
 
 **进阶:** 递归算法很简单，你可以通过迭代算法完成吗？
 
-## 3. 💻 题解 - 1. 递归
+## 3. 💻 solutions.1. 递归
 
 ```javascript
 /**
@@ -72,9 +73,11 @@ var inorderTraversal = function(root, res = []) {
 - 中序遍历（中根次序遍历）：左子树 -> **根节点** -> 右子树
 - 后序遍历（后根次序遍历）：左子树 -> 右子树 -> **根节点**
 
-![](md-imgs/2024-09-25-17-01-39.png)
+![](assets/2024-09-25-17-01-39.png)
 
 > 图片来源：https://wansuanfa.com/index.php/701
+
+
 
 
 

@@ -1,10 +1,11 @@
 # [0162. 寻找峰值【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解「二分查找」](#2--题解「二分查找」)
+- [1. 📝 Description](#1--description-29)
+- [2. 💻 题解「二分查找」](#2--题解二分查找)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/find-peak-element)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -66,6 +67,8 @@ var findPeakElement = function(nums) {
 - 74
 - 162
 - 704
+
+
 
 
 

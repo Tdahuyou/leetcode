@@ -2,12 +2,16 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 1. 双指针暴力求解【📺 leetcode.0001.1】](#2--题解---1-双指针暴力求解-leetcode00011)
-- [3. 💻 题解 - 2. 静态哈希表【📺 leetcode.0001.2】](#3--题解---2-静态哈希表-leetcode00012)
-- [4. 💻 题解 - 3. 动态哈希表【📺 leetcode.0001.3】](#4--题解---3-动态哈希表-leetcode00013)
-- [5. 📒 notes](#5--notes)
+- [2. 💻 solutions.1. 双指针暴力求解](#2--solutions1-双指针暴力求解)
+- [3. 💻 solutions.2. 静态哈希表](#3--solutions2-静态哈希表)
+- [4. 💻 solutions.3. 动态哈希表](#4--solutions3-动态哈希表)
+- [5. 📒 对比“静态”哈希表和“动态”哈希表之间的差异](#5--对比静态哈希表和动态哈希表之间的差异)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/two-sum/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+  - leetcode.0001.1
+  - leetcode.0001.2
+  - leetcode.0001.3
 
 
 ## 1. 📝 Description
@@ -42,9 +46,9 @@
 
 进阶：你可以想出一个时间复杂度小于 `O(n^2)` 的算法吗？
 
-## 2. 💻 题解 - 1. 双指针暴力求解【📺 leetcode.0001.1】
+## 2. 💻 solutions.1. 双指针暴力求解
 
-![](md-imgs/2024-09-25-07-26-04.png)
+![](assets/2024-09-25-07-26-04.png)
 
 ```js
 var twoSum = function (nums, target) {
@@ -59,9 +63,9 @@ var twoSum = function (nums, target) {
 
 这种方法的一个缺点是，当 `n` 较大时，时间复杂度可能会变得非常高。我们可以通过使用一种叫做哈希映射的数据结构来改进这个算法，这种数据结构可以在常数时间内完成查找操作，从而将算法的时间复杂度降低到 `O(n)`。但是，这将使空间复杂度增加到 `O(n)`，因为我们需要存储 `n` 个元素的哈希映射。
 
-## 3. 💻 题解 - 2. 静态哈希表【📺 leetcode.0001.2】
+## 3. 💻 solutions.2. 静态哈希表
 
-![](md-imgs/0001-题解-静态哈希表.gif)
+![](assets/0001-题解-静态哈希表.gif)
 
 ```js
 var twoSum = function (nums, target) {
@@ -90,9 +94,9 @@ var twoSum = function (nums, target) {
 
 注意，该目标元素不能是 `nums[i]` 本身（即 `map.get(anotherNum) !== i`）
 
-## 4. 💻 题解 - 3. 动态哈希表【📺 leetcode.0001.3】
+## 4. 💻 solutions.3. 动态哈希表
 
-![](md-imgs/0001-题解-动态哈希表.gif)
+![](assets/0001-题解-动态哈希表.gif)
 
 ```js
 var twoSum = function (nums, target) {
@@ -113,17 +117,9 @@ var twoSum = function (nums, target) {
 
 每次在查的时候，都会将所有之前写入的值都查一边，不可能会存在遗漏的情况。任意俩数字组合，都只会被查一次。
 
-## 5. 📒 notes
+**思考：在上述题解（solutions.3. 动态哈希表）中是“先查后写”，现在改写程序“先写后查”。比如在判断 `map.has(anotherNum)` 之前执行 `map.set(item, i)`，请问这么做会出现什么问题？**
 
-**对比“静态”哈希表和“动态”哈希表之间的差异**
-- 静态：先把整个哈希表准备好，然后再查询。
-- 动态：一边查询，一边构建哈希表。
-
----
-
-**思考：在上述题解（题解 - 动态哈希表）中是“先查后写”，现在改写程序“先写后查”。比如在判断 `map.has(anotherNum)` 之前执行 `map.set(item, i)`，请问这么做会出现什么问题？**
-
-![](md-imgs/2024-09-25-07-31-22.png)
+![](assets/2024-09-25-07-31-22.png)
 
 事先明确一点，描述中提到“数组中同一个元素在答案里不能重复出现”。
 
@@ -186,5 +182,7 @@ twoSum([3, 2, 3], 6) // undefined
 
 在哈希表中，对于重复的 key 值，后面的会覆盖前面的。第一次存入的 `3 => 0` 还没被查询，就被 `3 => 2` 给覆盖了，那你还查个 der。
 
+## 5. 📒 对比“静态”哈希表和“动态”哈希表之间的差异
 
-
+- 静态：先把整个哈希表准备好，然后再查询。
+- 动态：一边查询，一边构建哈希表。

@@ -1,10 +1,11 @@
 # [0687. 最长同值路径【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0687.%20%E6%9C%80%E9%95%BF%E5%90%8C%E5%80%BC%E8%B7%AF%E5%BE%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - DFS](#2--题解---dfs)
+- [1. 📝 Description](#1--description-49)
+- [2. 💻 solutions.DFS](#2--solutionsdfs)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/longest-univalue-path/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -14,14 +15,14 @@
 
 **示例 1:**
 
-![](md-imgs/2024-11-03-10-19-17.png)
+![](assets/2024-11-03-10-19-17.png)
 ```
 输入：root = [5,4,5,1,1,5]
 输出：2
 ```
 **示例 2:**
 
-![](md-imgs/2024-11-03-10-19-23.png)
+![](assets/2024-11-03-10-19-23.png)
 ```
 输入：root = [1,4,5,4,4,5]
 输出：2
@@ -32,7 +33,7 @@
 - `-1000 <= Node.val <= 1000`
 - 树的深度将不超过 `1000`
 
-## 2. 💻 题解 - DFS
+## 2. 💻 solutions.DFS
 
 ```js
 var longestUnivaluePath = function (root) {
@@ -55,6 +56,8 @@ var longestUnivaluePath = function (root) {
 
 - 思路：
   - ![](./md-imgs/1.gif)
+
+
 
 
 

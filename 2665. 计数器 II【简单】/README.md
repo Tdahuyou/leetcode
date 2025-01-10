@@ -1,10 +1,11 @@
 # [2665. 计数器 II【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2665.%20%E8%AE%A1%E6%95%B0%E5%99%A8%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解](#2--题解)
+- [1. 📝 Description](#1--description-80)
+- [2. 💻 题解](#2--题解-24)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/counter-ii)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 - 备注：这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
 
@@ -75,6 +76,8 @@ var createCounter = function (init) {
  * counter.decrement(); // 4
  */
 ```
+
+
 
 
 

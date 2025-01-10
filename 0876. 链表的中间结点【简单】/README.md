@@ -1,11 +1,12 @@
 # [0876. 链表的中间结点【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0876.%20%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 暴力解法 - 先找长度，再找中间](#2--题解---暴力解法---先找长度再找中间)
-- [3. 💻 题解 - 快慢指针 - 一步两步](#3--题解---快慢指针---一步两步)
+- [1. 📝 Description](#1--description-54)
+- [2. 💻 solutions.暴力解法 - 先找长度，再找中间](#2--solutions暴力解法---先找长度再找中间)
+- [3. 💻 solutions.快慢指针 - 一步两步](#3--solutions快慢指针---一步两步)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/middle-of-the-linked-list)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 - https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/
   - 本节笔记中用到的图片来源于这篇题解。
 
@@ -17,7 +18,7 @@
 
 **示例 1：**
 
-![](md-imgs/2024-11-03-15-25-26.png)
+![](assets/2024-11-03-15-25-26.png)
 
 ```
 输出：[3,4,5]
@@ -26,7 +27,7 @@
 
 **示例 2：**
 
-![](md-imgs/2024-11-03-15-25-32.png)
+![](assets/2024-11-03-15-25-32.png)
 
 ```
 输入：head = [1,2,3,4,5,6]
@@ -39,7 +40,7 @@
 - 链表的结点数范围是 `[1, 100]`
 - `1 <= Node.val <= 100`
 
-## 2. 💻 题解 - 暴力解法 - 先找长度，再找中间
+## 2. 💻 solutions.暴力解法 - 先找长度，再找中间
 
 ```js
 var middleNode = function(head) {
@@ -58,7 +59,7 @@ var middleNode = function(head) {
 }
 ```
 
-## 3. 💻 题解 - 快慢指针 - 一步两步
+## 3. 💻 solutions.快慢指针 - 一步两步
 
 ```js
 var middleNode = function(head) {
@@ -71,8 +72,10 @@ var middleNode = function(head) {
 }
 ```
 
-- ![](md-imgs/2024-11-16-19-59-26.png)
-- ![](md-imgs/2024-11-16-19-59-32.png)
+- ![](assets/2024-11-16-19-59-26.png)
+- ![](assets/2024-11-16-19-59-32.png)
+
+
 
 
 

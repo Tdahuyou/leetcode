@@ -1,11 +1,12 @@
 # [2695. 包装数组【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2695.%20%E5%8C%85%E8%A3%85%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
+- [1. 📝 Description](#1--description-89)
 - [2. 📒 notes](#2--notes)
-- [3. 💻 题解](#3--题解)
+- [3. 💻 题解](#3--题解-4)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/array-wrapper)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -109,6 +110,8 @@ ArrayWrapper.prototype.toString = function() {
  * String(obj2); // "[3,4]"
  */
 ```
+
+
 
 
 

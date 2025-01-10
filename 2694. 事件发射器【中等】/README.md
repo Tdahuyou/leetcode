@@ -1,10 +1,11 @@
 # [2694. 事件发射器【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2694.%20%E4%BA%8B%E4%BB%B6%E5%8F%91%E5%B0%84%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解](#2--题解)
+- [1. 📝 Description](#1--description-88)
+- [2. 💻 题解](#2--题解-32)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/event-emitter)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 - 备注：模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
 
 ## 1. 📝 Description
@@ -155,6 +156,8 @@ class EventEmitter {
  * emitter.emit('onClick'); // []
  */
 ```
+
+
 
 
 

@@ -1,21 +1,22 @@
 # [0028. 找出字符串中第一个匹配项的下标【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0028.%20%E6%89%BE%E5%87%BA%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8C%B9%E9%85%8D%E9%A1%B9%E7%9A%84%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [1. 🔗 links](#1--links-3)
+- [2. 📝 Description](#2--description-3)
 - [3. 📒 学习一个短语 - Find needle in haystack](#3--学习一个短语---find-needle-in-haystack)
-- [4. 💻 题解 - 暴力解法 - 调用原生 API - indexOf](#4--题解---暴力解法---调用原生-api---indexof)
+- [4. 💻 solutions.暴力解法 - 调用原生 API - indexOf](#4--solutions暴力解法---调用原生-api---indexof)
 - [5. 📒 KMP 算法简介](#5--kmp-算法简介)
-- [6. 💻 题解 - 暴力解法](#6--题解---暴力解法)
-- [7. 💻 题解 - KMP](#7--题解---kmp)
+- [6. 💻 solutions.暴力解法](#6--solutions暴力解法)
+- [7. 💻 solutions.KMP](#7--solutionskmp)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 - 本节介绍了 KMP 算法，代码量不多，但理解起来比较费劲儿，不应该是简单题的难度。在查阅资料的过程中，了解到这貌似是考研、竞赛题。
 
 ## 1. 🔗 links
 
 - https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/solutions/575568/shua-chuan-lc-shuang-bai-po-su-jie-fa-km-tb86/
-  - 参考题解 - 【宫水三叶】简单题学 KMP 算法
+  - 参考solutions - 【宫水三叶】简单题学 KMP 算法
 - https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/solutions/732236/shi-xian-strstr-by-leetcode-solution-ds6y/
   - leetcode 官方题解
 - https://www.bilibili.com/video/BV1AY4y157yL/?spm_id_from=333.337.search-card.all.click&vd_source=f8873530fc00410ea3fbec0d4b875972
@@ -48,7 +49,7 @@
 
 - **Find needle in haystack** 大海捞针
 
-## 4. 💻 题解 - 暴力解法 - 调用原生 API - indexOf
+## 4. 💻 solutions.暴力解法 - 调用原生 API - indexOf
 
 ```javascript
 var strStr = function(haystack, needle) {
@@ -77,7 +78,7 @@ var strStr = function(haystack, needle) {
      - **当发生失配时，模式串指针不会回溯到起始位置，而是根据PMT移动到下一个可能匹配的位置。**
      - **如果模式串完全匹配，则返回匹配的起始位置；否则，继续匹配直到主串结束或找到匹配。**
 
-## 6. 💻 题解 - 暴力解法
+## 6. 💻 solutions.暴力解法
 
 ```js
 var strStr = function (haystack, needle) {
@@ -107,7 +108,7 @@ var strStr = function (haystack, needle) {
   - 从主串的开头 0 进行遍历，直到 n - m 为止。
   - 每次遍历，一旦发现子串的某个位置不匹配，就结束本次匹配，下次匹配继续从子串开头进行匹配。
 
-## 7. 💻 题解 - KMP
+## 7. 💻 solutions.KMP
 
 ```javascript
 /**
@@ -151,9 +152,9 @@ var strStr = function (haystack, needle) {
       - 示例：`needle = "sad"` 对应的 next 数组为 `[0, 0, 0]`。
       - 示例：`leeto` 对应的 next 数组为 `[0, 0, 0, 0, 0]`。
       - 示例：`needle = "ababca"` 对应的 next 数组为 `[0, 0, 1, 2, 0, 1]`。
-        - ![](md-imgs/2024-11-17-12-17-38.png)
+        - ![](assets/2024-11-17-12-17-38.png)
       - 官方提供的示例：
-        - ![](md-imgs/2024-11-17-12-27-49.png)
+        - ![](assets/2024-11-17-12-27-49.png)
   - **步骤2. 匹配过程**：使用两个指针i和j分别遍历主串和模式串。当字符匹配时，两个指针都向前移动；如果不匹配，模式串指针j会根据next数组进行调整，以尝试新的匹配位置。如果模式串完全匹配，则返回匹配的起始位置。
   - 步骤 1、2 的实现流程是 KMP 算法的核心，它们的实现逻辑是非常类似的。
 
@@ -198,6 +199,8 @@ for (let i = 0, j = 0; i < n; i++) {
 - `while (j > 0 && needle[j] !== haystack[i]) j = next[j - 1]` 失配，`j` 回退到 `next[j - 1]` 的位置。
 - `if (haystack[i] === needle[j]) j++` 匹配，j 向后移动一位。
 - `if (j === m) return i - m + 1` 一旦条件成立，表示在主串中找到了满足条件的连续子串，将匹配的起始位置返回。
+
+
 
 
 

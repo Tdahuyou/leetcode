@@ -1,12 +1,13 @@
 # [0056. 合并区间【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 暴力解法1](#2--题解---暴力解法1)
-- [3. 💻 题解 - 暴力解法2](#3--题解---暴力解法2)
+- [1. 📝 Description](#1--description-16)
+- [2. 💻 solutions.暴力解法1](#2--solutions暴力解法1)
+- [3. 💻 solutions.暴力解法2](#3--solutions暴力解法2)
 - [4. 📒 手写 reduce](#4--手写-reduce)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/merge-intervals)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -34,7 +35,7 @@
 - `intervals[i].length == 2`
 - `0 <= starti <= endi <= 10^4`
 
-## 2. 💻 题解 - 暴力解法1
+## 2. 💻 solutions.暴力解法1
 
 ```js
 /**
@@ -71,7 +72,7 @@ var merge = function (intervals) {
 ```
 
 - **思路：**
-  - ![](md-imgs/2024-11-10-12-14-08.png)
+  - ![](assets/2024-11-10-12-14-08.png)
   1. 先对数组按照区间左侧值的大小进行升序排序。
   2. 再逐一比较 **当前项的左侧** 和 **前一项的右侧** 判断区间是否有重叠。
   3. 根据不同的情况做不同的处理：
@@ -97,7 +98,7 @@ while (i < intervals.length) {
 }
 ```
 
-## 3. 💻 题解 - 暴力解法2
+## 3. 💻 solutions.暴力解法2
 
 ```js
 /**
@@ -135,6 +136,8 @@ Array.prototype.myReduce = function (cb, initialValue) {
   return initialValue
 }
 ```
+
+
 
 
 

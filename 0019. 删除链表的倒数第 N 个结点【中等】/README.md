@@ -1,10 +1,11 @@
 # [0019. 删除链表的倒数第 N 个结点【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0019.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%AC%20N%20%E4%B8%AA%E7%BB%93%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 三指针暴力解法](#2--题解---三指针暴力解法)
+- [1. 📝 Description](#1--description-8)
+- [2. 💻 solutions.三指针暴力解法](#2--solutions三指针暴力解法)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 - 本文的题解中提到了一个概念【哑节点（dummy node）、哨兵节点（sentinel node）】这个东西在处理链表中还是蛮常用的，如果不清楚什么是【哑节点（dummy node）、哨兵节点（sentinel node）】，可以结合这道题来了解一下。
 
 ## 1. 📝 Description
@@ -13,7 +14,7 @@
 
 **示例 1：**
 
-- ![](md-imgs/2024-10-26-21-07-31.png)
+- ![](assets/2024-10-26-21-07-31.png)
 
 ```
 输入：head = [1,2,3,4,5], n = 2
@@ -43,7 +44,7 @@
 
 **进阶：** 你能尝试使用一趟扫描实现吗？
 
-## 2. 💻 题解 - 三指针暴力解法
+## 2. 💻 solutions.三指针暴力解法
 
 ```javascript
 var removeNthFromEnd = function (head, n) {
@@ -77,6 +78,8 @@ var removeNthFromEnd = function (head, n) {
     - 最后，返回 `p3.next` 作为新的头节点。
   - 这样做之后，无论删除的是哪个节点，你都可以通过 `p3.next` 返回正确的链表头部，而不需要考虑特殊情况。
   - 如果你不使用哑节点，那么你需要在删除头节点时单独处理这种情况，这会使代码变得更复杂且容易出错。因此，**使用哑节点是一种常见且有效的方法来简化链表操作。**
+
+
 
 
 

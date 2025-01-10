@@ -1,13 +1,14 @@
 # [0485. 最大连续 1 的个数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
+- [1. 📝 Description](#1--description-40)
 - [2. 📒 性能比较](#2--性能比较)
-- [3. 💻 题解 - 暴力解法 - 遍历](#3--题解---暴力解法---遍历)
-- [4. 💻 题解 - 暴力解法 - 字符串切片](#4--题解---暴力解法---字符串切片)
-- [5. 💻 题解 - 暴力解法 - 正则](#5--题解---暴力解法---正则)
+- [3. 💻 solutions.暴力解法 - 遍历](#3--solutions暴力解法---遍历)
+- [4. 💻 solutions.暴力解法 - 字符串切片](#4--solutions暴力解法---字符串切片)
+- [5. 💻 solutions.暴力解法 - 正则](#5--solutions暴力解法---正则)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/max-consecutive-ones/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -33,7 +34,7 @@
 
 - 在本节介绍的提接中，通过【暴力解法 - 遍历】的方式来求解是性能最好的。
 
-## 3. 💻 题解 - 暴力解法 - 遍历
+## 3. 💻 solutions.暴力解法 - 遍历
 
 ```js
 var findMaxConsecutiveOnes = function (nums) {
@@ -57,7 +58,7 @@ var findMaxConsecutiveOnes = function (nums) {
   - 如果当前项不是 1，那么将 len 的值与最终结果进行比较，将较大的值赋值给 maxLen。同时将 len 清零，意味着当前连续的 1 已经结束，下次需要重新开始计算。
 - 注意：循环结束时，需要再判断一次 len 和 maxLen。
 
-## 4. 💻 题解 - 暴力解法 - 字符串切片
+## 4. 💻 solutions.暴力解法 - 字符串切片
 
 - 实现思路：
   - 将数组转为字符串后，按照 0 对字符串进行分割，获取到分割后的新数组 `["11", "111"]`，再从中找出最长的字符串的长度。
@@ -89,7 +90,7 @@ var findMaxConsecutiveOnes = function (nums) {
 }
 ```
 
-## 5. 💻 题解 - 暴力解法 - 正则
+## 5. 💻 solutions.暴力解法 - 正则
 
 ```js
 var findMaxConsecutiveOnes = function (nums) { // => [1, 1, 0, 1, 1, 1]
@@ -103,6 +104,8 @@ var findMaxConsecutiveOnes = function (nums) { // => [1, 1, 0, 1, 1, 1]
 ```
 
 - 转为字符串，结合正则表达式中的“正向预查”来实现。
+
+
 
 
 

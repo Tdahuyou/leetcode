@@ -1,10 +1,11 @@
 # [0046. 全排列【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0046.%20%E5%85%A8%E6%8E%92%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 回溯](#2--题解---回溯)
+- [1. 📝 Description](#1--description-13)
+- [2. 💻 solutions.回溯](#2--solutions回溯)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/permutations/)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -31,7 +32,7 @@
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有整数 **互不相同**
 
-## 2. 💻 题解 - 回溯
+## 2. 💻 solutions.回溯
 
 ```javascript
 var permute = function(nums) {
@@ -54,6 +55,8 @@ var permute = function(nums) {
   return ans;
 };
 ```
+
+
 
 
 

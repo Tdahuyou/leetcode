@@ -1,22 +1,23 @@
 # [0153. 寻找旋转排序数组中的最小值【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0153.%20%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解 - 双指针1](#3--题解---双指针1)
-- [4. 💻 题解 - 二分查找](#4--题解---二分查找)
-- [5. 🤖 AI - `pivot = low + ((high - low) >> 1)`、`pivot = (high + low) >> 1` 这两种写法等效吗？](#5--ai---pivot-=-low-+-((high---low)->>-1)pivot-=-(high-+-low)->>-1-这两种写法等效吗)
-  - [5.1. `pivot = low + ((high - low) >> 1)`](#51-pivot-=-low-+-((high---low)->>-1))
+- [1. 🔗 links](#1--links-9)
+- [2. 📝 Description](#2--description-9)
+- [3. 💻 solutions.双指针1](#3--solutions双指针1)
+- [4. 💻 solutions.二分查找](#4--solutions二分查找)
+- [5. 🤖 AI - `pivot = low + ((high - low) >> 1)`、`pivot = (high + low) >> 1` 这两种写法等效吗？](#5--ai---pivot--low--high---low--1pivot--high--low--1-这两种写法等效吗)
+  - [5.1. `pivot = low + ((high - low) >> 1)`](#51-pivot--low--high---low--1)
     - [5.1.1. 优点](#511-优点)
     - [5.1.2. 缺点](#512-缺点)
-  - [5.2. `pivot = (high + low) >> 1`](#52-pivot-=-(high-+-low)->>-1)
+  - [5.2. `pivot = (high + low) >> 1`](#52-pivot--high--low--1)
     - [5.2.1. 优点](#521-优点)
     - [5.2.2. 缺点](#522-缺点)
   - [5.3. 等效性分析](#53-等效性分析)
-  - [5.4. 示例](#54-示例)
+  - [5.4. 示例](#54-示例-1)
   - [5.5. 结论](#55-结论)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 
 ## 1. 🔗 links
@@ -66,7 +67,7 @@
 - `nums` 中的所有整数 **互不相同**
 - `nums` 原来是一个升序排序的数组，并进行了 `1` 至 `n` 次旋转
 
-## 3. 💻 题解 - 双指针1
+## 3. 💻 solutions.双指针1
 
 ```js
 /**
@@ -93,9 +94,9 @@ var findMin = function(nums) {
 ```
 
 - 图解：
-  - ![](md-imgs/2024-11-23-17-51-26.png)
+  - ![](assets/2024-11-23-17-51-26.png)
 
-## 4. 💻 题解 - 二分查找
+## 4. 💻 solutions.二分查找
 
 ```js
 /**
@@ -119,7 +120,7 @@ var findMin = function(nums) {
 ```
 
 - 图解：
-  - ![](md-imgs/2024-11-23-19-52-46.png)
+  - ![](assets/2024-11-23-19-52-46.png)
   - 注意：题目描述中提到每一个元素都是不相同的，因此在比较的时候，不可能存在相等的情况。
 - **🤔 思考：** 为什么当两个指针相撞退出循环的时候，pivot 指向的一定就是最小值呢？
   - 当执行到 `return nums[pivot]` 语句的时候，low、high、pivot 都是相等的，此时区间已经缩小到了只有一个成员，所以返回 `nums[pivot]` 就是最小值，返回 `nums[low]`、`nums[high]` 也都是可以的。
@@ -198,6 +199,8 @@ var findMin = function(nums) {
 - **大多数情况下等效**：在大多数实际应用中，这两种写法是等效的。
 - **防止溢出**：如果你担心整数溢出，特别是当 `low` 和 `high` 都是大整数时，建议使用 `pivot = low + ((high - low) >> 1)`。
 - **简洁性**：如果你确定不会发生溢出，可以使用 `pivot = (high + low) >> 1`，因为它更简洁。
+
+
 
 
 

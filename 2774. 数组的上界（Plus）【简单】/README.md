@@ -1,11 +1,12 @@
 # [2774. 数组的上界（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2774.%20%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8A%E7%95%8C%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
-- [3. 💻 题解](#3--题解)
+- [1. 🔗 links](#1--links-18)
+- [2. 📝 Description](#2--description-18)
+- [3. 💻 题解](#3--题解-6)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/array-upper-bound)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 🔗 links
 
@@ -64,6 +65,8 @@ Array.prototype.upperBound = function(target) {
 ```
 
 类似于 `Array.prototype.indexOf()`，不同点在于本题要求从数组的结尾开始找。
+
+
 
 
 

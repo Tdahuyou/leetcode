@@ -1,10 +1,11 @@
 # [2628. 完全相等的 JSON 字符串【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2628.%20%E5%AE%8C%E5%85%A8%E7%9B%B8%E7%AD%89%E7%9A%84%20JSON%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 递归](#2--题解---递归)
+- [1. 📝 Description](#1--description-67)
+- [2. 💻 solutions.递归](#2--solutions递归-2)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/json-deep-equal)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -52,7 +53,7 @@
 - `1 <= JSON.stringify(o2).length <= 10^5`
 - `maxNestingDepth <= 1000`
 
-## 2. 💻 题解 - 递归
+## 2. 💻 solutions.递归
 
 ```js
 /**
@@ -82,6 +83,8 @@ var areDeeplyEqual = function (o1, o2) {
     return true;
 };
 ```
+
+
 
 
 

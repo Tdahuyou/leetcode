@@ -1,11 +1,12 @@
 # [0119. 杨辉三角 II【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0119.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 暴力解法](#2--题解---暴力解法)
-- [3. 💻 题解 - 暴力解法优化](#3--题解---暴力解法优化)
+- [1. 📝 Description](#1--description-26)
+- [2. 💻 solutions.暴力解法](#2--solutions暴力解法-6)
+- [3. 💻 solutions.暴力解法优化](#3--solutions暴力解法优化)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/pascals-triangle-ii)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -41,7 +42,7 @@
 
 你可以优化你的算法到 `O(rowIndex)` 空间复杂度吗？
 
-## 2. 💻 题解 - 暴力解法
+## 2. 💻 solutions.暴力解法
 
 ```js
 /**
@@ -69,7 +70,7 @@ var getRow = function (rowIndex) {
 - 空间复杂度：O(rowIndex^2)
 - 这种解法的逻辑跟 0118 几乎完全一致，可以参考 0118 的题解。
 
-## 3. 💻 题解 - 暴力解法优化
+## 3. 💻 solutions.暴力解法优化
 
 ```js
 /**
@@ -97,9 +98,11 @@ var getRow = function (rowIndex) {
   - 我们可以通过一个长度为 `rowIndex + 1` 的数组 `rowArr` 来存储当前行的数据，并在计算过程中更新这个数组。
   - 要理解优化逻辑，核心在于理解上一行的数据是如何通过 `rowArr` 数组来维护的，比如现在要取 rowIndex 为 3 位置的行（也就是第 4 行）的数据，那么 rowIndex 为 2 位置的行（也就是第 3 行）的数据是哪来的呢？
     - `for (let r = 2; r <= rowIndex; r++)` 外层循环每走一轮，将明确 rowIndex 为 r 时的行的数据，比如 r 为 2 的遍历，将得到 rowArr 为 `[1, 2, 1, 1]`，仔细观察会发现我们需要的数据已经记录在 rowArr 中了，就是前边的 1 2 1。也就是说当 r 遍历结束，将会得到一个新的 rowArr，而新的 rowArr 的前 r + 1 位，就是这一行的数据。这就说明在遍历下一行的时候，上一行的数据始终都是可以获取到的。
-  - ![](md-imgs/2024-11-10-22-31-54.png)
+  - ![](assets/2024-11-10-22-31-54.png)
 - **注意：**
   - **内层循环从 `c = r - 1` 到 `c = 1`，表示从右向左更新当前行的值。这样可以避免在更新过程中覆盖未计算的值。**
+
+
 
 
 

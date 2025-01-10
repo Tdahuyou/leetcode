@@ -1,10 +1,11 @@
 # [0933. 最近的请求次数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0933.%20%E6%9C%80%E8%BF%91%E7%9A%84%E8%AF%B7%E6%B1%82%E6%AC%A1%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解 - 暴力解法 - 使用队列 queue](#2--题解---暴力解法---使用队列-queue)
+- [1. 📝 Description](#1--description-56)
+- [2. 💻 solutions.暴力解法 - 使用队列 queue](#2--solutions暴力解法---使用队列-queue)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/number-of-recent-calls)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -38,7 +39,7 @@ recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002]，范围是 [2,300
 - 保证每次对 `ping` 调用所使用的 `t` 值都 **严格递增**
 - 至多调用 `ping` 方法 `10^4` 次
 
-## 2. 💻 题解 - 暴力解法 - 使用队列 queue
+## 2. 💻 solutions.暴力解法 - 使用队列 queue
 
 ```js
 var RecentCounter = function () {
@@ -63,6 +64,8 @@ RecentCounter.prototype.ping = function (t) {
 ```
 
 - `this.queue.shift()` 移除第一个成员（第二个成员将变为第一个成员，继续判断是否需要移除新的第一个成员。）
+
+
 
 
 

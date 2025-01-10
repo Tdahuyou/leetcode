@@ -1,10 +1,11 @@
 # [0881. 救生艇【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0881.%20%E6%95%91%E7%94%9F%E8%89%87%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description)
-- [2. 💻 题解「贪心」](#2--题解「贪心」)
+- [1. 📝 Description](#1--description-55)
+- [2. 💻 题解「贪心」](#2--题解贪心)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/boats-to-save-people)
+- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 ## 1. 📝 Description
 
@@ -67,7 +68,7 @@ var numRescueBoats = function(people, limit) {
 
 - 为什么最重和最轻搭，是最优解呢？
 
-![](md-imgs/2024-11-16-08-41-13.png)
+![](assets/2024-11-16-08-41-13.png)
 
 
 比如说，最重的是 7，最轻的是 1；那么 7 和 3 搭显然是要比 7 和 1 搭更“贪心”，看似更能充分地利用资源。但是，我们不妨换一种思维方式来看待这个问题。
@@ -84,6 +85,8 @@ var numRescueBoats = function(people, limit) {
 > - ... 等等
 >
 > 但是这些最优解都有一个共同点，浪费的资源量都是一样的。
+
+
 
 
 
