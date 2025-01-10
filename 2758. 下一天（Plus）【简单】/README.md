@@ -1,8 +1,8 @@
 # [2758. 下一天（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2758.%20%E4%B8%8B%E4%B8%80%E5%A4%A9%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-105)
-- [2. 💻 题解](#2--题解-48)
+- [1. 📝 Description](#1--description-106)
+- [2. 💻 sols.1](#2--sols1-50)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/next-day)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -34,7 +34,7 @@ date.nextDay(); // "2014-06-21"
 
 - `new Date(date)` 是一个有效的日期对象
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -58,6 +58,8 @@ Date.prototype.nextDay = function () {
 ```
 
 `const nextDate = new Date(this.valueOf())`，创建一个新的日期对象以避免修改原始日期。
+
+
 
 
 

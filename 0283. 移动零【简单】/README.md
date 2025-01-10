@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-38)
-- [2. 💻 solutions.双指针](#2--solutions双指针-1)
+- [2. 💻 sols.1 - 双指针](#2--sols1---双指针-1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/move-zeroes/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -30,7 +30,7 @@
 
 **进阶：** 你能尽量减少完成的操作次数吗？
 
-## 2. 💻 solutions.双指针
+## 2. 💻 sols.1 - 双指针
 
 ```js
 var moveZeroes = function (nums) {
@@ -47,6 +47,8 @@ var moveZeroes = function (nums) {
 
 - 实现思路：
   - i 指向 0 的时候，j 找 i 后边第一个不是 0 的跟 i 交换。
+
+
 
 
 

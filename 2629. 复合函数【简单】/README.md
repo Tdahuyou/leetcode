@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-68)
-- [2. 💻 题解](#2--题解-14)
+- [2. 💻 sols.1](#2--sols1-14)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/function-composition)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -51,7 +51,7 @@
 - `0 <= functions.length <= 1000`
 - 所有函数都接受并返回一个整型
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -95,6 +95,8 @@ var compose = function (functions) {
 **【注意】**
 
 - **空函数列表的复合函数就是恒等函数：**若入参 `functions` 为空数组 `[]`，那么直接将传入的 `x` 返回即可。
+
+
 
 
 

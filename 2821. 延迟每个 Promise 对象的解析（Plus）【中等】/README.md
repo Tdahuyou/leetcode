@@ -1,8 +1,8 @@
 # [2821. 延迟每个 Promise 对象的解析（Plus）【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2821.%20%E5%BB%B6%E8%BF%9F%E6%AF%8F%E4%B8%AA%20Promise%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%A7%A3%E6%9E%90%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-116)
-- [2. 💻 题解](#2--题解-56)
+- [1. 📝 Description](#1--description-117)
+- [2. 💻 sols.1](#2--sols1-59)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/delay-the-resolution-of-each-promise)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -43,11 +43,13 @@ ms = 70
 - `10 <= ms <= 500`
 - `1 <= functions.length <= 10`
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

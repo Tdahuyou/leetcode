@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-42)
-- [2. 💻 solutions.递归](#2--solutions递归-1)
+- [2. 💻 sols.1 - 递归](#2--sols1---递归-1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/fibonacci-number/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -38,7 +38,7 @@ F(n) = F(n - 1) + F(n - 2)，其中 n > 1
 
 - `0 <= n <= 30`
 
-## 2. 💻 solutions.递归
+## 2. 💻 sols.1 - 递归
 
 ```js
 var fib = function (n) {
@@ -49,6 +49,8 @@ var fib = function (n) {
 ```
 
 - ![](assets/2024-11-16-19-07-29.png)
+
+
 
 
 

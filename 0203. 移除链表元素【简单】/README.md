@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-33)
-- [2. 💻 solutions.遍历](#2--solutions遍历)
-- [3. 💻 solutions.递归](#3--solutions递归-1)
+- [2. 💻 sols.1 - 遍历](#2--sols1---遍历)
+- [3. 💻 sols.2 - 递归](#3--sols2---递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/remove-linked-list-elements/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -41,7 +41,7 @@
 - `1 <= Node.val <= 50`
 - `0 <= val <= 50`
 
-## 2. 💻 solutions.遍历
+## 2. 💻 sols.1 - 遍历
 
 ```js
 var removeElements = function (head, val) {
@@ -92,7 +92,7 @@ flowchart TD
 实际输出：[7, 7, 7, 7]
 ```
 
-## 3. 💻 solutions.递归
+## 3. 💻 sols.2 - 递归
 
 ```js
 var removeElements = function (head, val) {
@@ -128,6 +128,8 @@ flowchart TD
     - 归的过程，好比从后往前依次遍历各节点，对于遍历到的节点，需要判断是归并当前节点还是当前节点的下一个节点。
       - 若发现当前节点的 val 值与传入的 val 值相同，那么将当前节点的下一个节点归并；（意味着删除当前这个节点）
       - 若发现当前节点的 val 值与传入的 val 值不同，那么直接将当前节点归并；
+
+
 
 
 

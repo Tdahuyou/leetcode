@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links-15)
 - [2. 📝 Description](#2--description-15)
-- [3. 💻 题解](#3--题解-2)
+- [3. 💻 sols.1](#3--sols1-3)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/throttle)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -92,7 +92,7 @@ calls = [
 - `0 <= calls[i].t <= 1000`
 - `0 <= calls[i].inputs[i], calls[i].inputs.length <= 10`
 
-## 3. 💻 题解
+## 3. 💻 sols.1
 
 ```javascript
 /**
@@ -122,6 +122,8 @@ var throttle = function (fn, t) {
  * throttled("log"); // logged at t=100ms.
  */
 ```
+
+
 
 
 

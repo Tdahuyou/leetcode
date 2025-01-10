@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-20)
-- [2. 💻 solutions.回溯](#2--solutions回溯-1)
+- [2. 💻 sols.1 - 回溯](#2--sols1---回溯-1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/combinations/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -36,7 +36,7 @@
 - `1 <= n <= 20`
 - `1 <= k <= n`
 
-## 2. 💻 solutions.回溯
+## 2. 💻 sols.1 - 回溯
 
 ```javascript
 var combine = function(n, k) {
@@ -193,6 +193,8 @@ var combine = function(n, k) {
 ```
 
 - ![](assets/2024-11-03-21-52-43.png)
+
+
 
 
 

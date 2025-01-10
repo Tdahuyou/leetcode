@@ -4,7 +4,7 @@
 - [1. 🔗 links](#1--links-11)
 - [2. 📝 Description](#2--description-11)
 - [3. 📒 使用 Object() 将原始类型的值转为对应的包装对象](#3--使用-object-将原始类型的值转为对应的包装对象)
-- [4. 💻 题解](#4--题解)
+- [4. 💻 sols.1](#4--sols1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/check-if-object-instance-of-class)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -66,7 +66,7 @@ obj instanceof Object // true
 obj instanceof Boolean // true
 ```
 
-## 4. 💻 题解
+## 4. 💻 sols.1
 
 ```javascript
 /**
@@ -101,6 +101,8 @@ if (['object', 'function', 'array'].includes(typeof obj)){
   return Object(obj) instanceof classFunction
 }
 ```
+
+
 
 
 

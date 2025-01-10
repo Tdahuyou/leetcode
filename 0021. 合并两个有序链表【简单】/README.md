@@ -3,8 +3,8 @@
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-10)
 - [2. 📒 测试代码](#2--测试代码)
-- [3. 💻 solutions.迭代](#3--solutions迭代)
-- [4. 💻 solutions.递归](#4--solutions递归)
+- [3. 💻 sols.1 - 迭代](#3--sols1---迭代)
+- [4. 💻 sols.2 - 递归](#4--sols2---递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/merge-two-sorted-lists/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -80,7 +80,7 @@ traverseLinkedList(newList1); // 1 1 2 3 4 4
 // traverseLinkedList(newList3); // 0 null
 ```
 
-## 3. 💻 solutions.迭代
+## 3. 💻 sols.1 - 迭代
 
 ```js
 // 22-08-17
@@ -151,7 +151,7 @@ var mergeTwoLists = function(l1, l2) {
   - 自己的做法：最开始的时候添加判断，如果某个链表是空，那么直接返回另外一个
   - 官方题解的做法：新建一个 prehead 节点，最后返回 prehead.next
 
-## 4. 💻 solutions.递归
+## 4. 💻 sols.2 - 递归
 
 ```js
 var mergeTwoLists = function(list1, list2) {
@@ -168,6 +168,8 @@ var mergeTwoLists = function(list1, list2) {
 ```
 
 - 如果使用递归的方式来写，代码确实会更加简洁，不过性能貌似并没有迭代好。
+
+
 
 
 

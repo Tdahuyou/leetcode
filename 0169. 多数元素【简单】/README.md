@@ -2,9 +2,9 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-31)
-- [2. 💻 solutions.排序](#2--solutions排序)
-- [3. 💻 solutions.hash-table](#3--solutionshash-table)
-- [4. 💻 solutions.分治](#4--solutions分治)
+- [2. 💻 sols.1 - 排序](#2--sols1---排序)
+- [3. 💻 sols.2 - hash-table](#3--sols2---hash-table)
+- [4. 💻 sols.3 - 分治](#4--sols3---分治)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/majority-element/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -34,7 +34,7 @@
 
 **进阶：** 尝试设计时间复杂度为 O(n)、空间复杂度为 O(1) 的算法解决此问题。
 
-## 2. 💻 solutions.排序
+## 2. 💻 sols.1 - 排序
 
 ```js
 var majorityElement = function(nums) {
@@ -42,7 +42,7 @@ var majorityElement = function(nums) {
 };
 ```
 
-## 3. 💻 solutions.hash-table
+## 3. 💻 sols.2 - hash-table
 
 ```js
 var majorityElement = function(nums) {
@@ -55,7 +55,7 @@ var majorityElement = function(nums) {
 }
 ```
 
-## 4. 💻 solutions.分治
+## 4. 💻 sols.3 - 分治
 
 ```js
 /**
@@ -98,6 +98,8 @@ var majorityElement = function (nums) {
 - ![](assets/2024-11-16-19-12-36.png)
 - 如果两个区间中的众数相同，那么直接返回该众数。否则，将两区间合并，在合并后的区间中计算出这两个众数出现的次数，将出现次数多的返回。
 - 特殊情况：若两个子区间中的众数在合并后的区间中出现次数依旧相同，则随便返回一个，继续合并即可（此时必然还没有合并到头）。因为如果合并后的区间为 `[0, nums.length - 1]`，那么是不可能会有这种情况出现的。
+
+
 
 
 

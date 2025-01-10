@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links-12)
 - [2. 📝 Description](#2--description-12)
-- [3. 💻 题解](#3--题解)
+- [3. 💻 sols.1](#3--sols1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/snail-traversal/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -61,7 +61,7 @@ Explanation: 2 * 2 = 4, 且原数组 [1,3] 的长度为 2; 所以，输入是无
 - `1 <= rowsCount <= 250`
 - `1 <= colsCount <= 250`
 
-## 3. 💻 题解
+## 3. 💻 sols.1
 
 ```ts
 interface Array<T> {
@@ -102,6 +102,8 @@ Array.prototype.snail = function (
  * arr.snail(1,4); // [[1,2,3,4]]
  */
 ```
+
+
 
 
 

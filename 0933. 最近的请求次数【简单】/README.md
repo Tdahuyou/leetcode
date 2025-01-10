@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-56)
-- [2. 💻 solutions.暴力解法 - 使用队列 queue](#2--solutions暴力解法---使用队列-queue)
+- [2. 💻 sols.1 - 暴力解法 - 使用队列 queue](#2--sols1---暴力解法---使用队列-queue)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/number-of-recent-calls)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -39,7 +39,7 @@ recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002]，范围是 [2,300
 - 保证每次对 `ping` 调用所使用的 `t` 值都 **严格递增**
 - 至多调用 `ping` 方法 `10^4` 次
 
-## 2. 💻 solutions.暴力解法 - 使用队列 queue
+## 2. 💻 sols.1 - 暴力解法 - 使用队列 queue
 
 ```js
 var RecentCounter = function () {
@@ -64,6 +64,8 @@ RecentCounter.prototype.ping = function (t) {
 ```
 
 - `this.queue.shift()` 移除第一个成员（第二个成员将变为第一个成员，继续判断是否需要移除新的第一个成员。）
+
+
 
 
 

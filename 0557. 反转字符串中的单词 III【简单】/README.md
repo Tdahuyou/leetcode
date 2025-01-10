@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-44)
-- [2. 💻 solutions.暴力解法 - 使用原生 API](#2--solutions暴力解法---使用原生-api)
-- [3. 💻 solutions.双指针](#3--solutions双指针-2)
+- [2. 💻 sols.1 - 暴力解法 - 使用原生 API](#2--sols1---暴力解法---使用原生-api)
+- [3. 💻 sols.2 - 双指针](#3--sols2---双指针-3)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string-iii/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -31,7 +31,7 @@
 - `s` 里 **至少** 有一个词。
 - `s` 中的所有单词都用一个空格隔开。
 
-## 2. 💻 solutions.暴力解法 - 使用原生 API
+## 2. 💻 sols.1 - 暴力解法 - 使用原生 API
 
 ```js
 var reverseWords = function(s) {
@@ -55,7 +55,7 @@ var reverseWords = function(s) {
 // => "s'teL ekat edoCteeL tsetnoc"
 ```
 
-## 3. 💻 solutions.双指针
+## 3. 💻 sols.2 - 双指针
 
 ```js
 /**
@@ -86,6 +86,8 @@ var reverseWords = function (s) {
 
 - `newArr = new Array(len)`
   - 由于 JavaScript 中 String 是不可变的，所以这里就换成了 Array 来替代一下，实现原理上和 `344. 反转字符串` 都是一样的。
+
+
 
 
 

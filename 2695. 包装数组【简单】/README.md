@@ -2,11 +2,23 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-89)
-- [2. 📒 notes](#2--notes)
-- [3. 💻 题解](#3--题解-4)
+- [2. 💻 sols.1](#2--sols1-33)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/array-wrapper)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+- 总感觉这题考察的点有点儿偏，你需要知道对象类型的加法运算，实际上会先走 valueOf 然后走 toString。但是平时谁没事会那对象来做加法运算呢？？？除此之外，你还需要知道在 JS 中，当一个函数被 new 关键字调用的时候，会隐式的在函数作用域的头部新建一个 this，然后在结尾将 this 返回。
+
+```javascript
+var ArrayWrapper = function(nums) {
+  // const this = {} // 头部会隐式的新建一个对象
+  this.nums = nums
+  // return this // 结尾会将这个对象给返回
+}
+
+new ArrayWrapper(...)
+```
+
+- 只要我们的函数在调用的时候，加上了 new 关键字的话，那么被注释掉的两条语句，相当于是自动执行，是不可见的行为。（这两条语句的内部实际实现应该不是这么简单地写，不过在做题时，我们可以先简单地这么理解。）
 
 ## 1. 📝 Description
 
@@ -59,25 +71,7 @@ obj1 + obj2; // 0
 - `0 <= nums[i] <= 1000`
 - `注意：nums 是传递给构造函数的数组。`
 
-## 2. 📒 notes
-
-总感觉这题考察的点有点儿偏，你需要知道对象类型的加法运算，实际上会先走 valueOf 然后走 toString。但是平时谁没事会那对象来做加法运算呢？？？
-
-除此之外，你还需要知道在 JS 中，当一个函数被 new 关键字调用的时候，会隐式的在函数作用域的头部新建一个 this，然后在结尾将 this 返回。
-
-```javascript
-var ArrayWrapper = function(nums) {
-  // const this = {} // 头部会隐式的新建一个对象
-  this.nums = nums
-  // return this // 结尾会将这个对象给返回
-}
-
-new ArrayWrapper(...)
-```
-
-只要我们的函数在调用的时候，加上了 new 关键字的话，那么被注释掉的两条语句，相当于是自动执行，是不可见的行为。（这两条语句的内部实际实现应该不是这么简单地写，不过在做题时，我们可以先简单地这么理解。）
-
-## 3. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -110,6 +104,8 @@ ArrayWrapper.prototype.toString = function() {
  * String(obj2); // "[3,4]"
  */
 ```
+
+
 
 
 

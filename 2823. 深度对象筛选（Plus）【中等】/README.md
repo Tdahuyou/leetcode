@@ -1,8 +1,8 @@
 # [2823. 深度对象筛选（Plus）【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2823.%20%E6%B7%B1%E5%BA%A6%E5%AF%B9%E8%B1%A1%E7%AD%9B%E9%80%89%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-118)
-- [2. 💻 题解](#2--题解-58)
+- [1. 📝 Description](#1--description-119)
+- [2. 💻 sols.1](#2--sols1-61)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/deep-object-filter)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -52,11 +52,13 @@ fn = (x) => Array.isArray(x)
 - `obj` 是一个有效的 JSON 对象
 - `2 <= JSON.stringify(obj).length <= 10**5`
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

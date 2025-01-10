@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-74)
-- [2. 💻 题解](#2--题解-18)
+- [2. 💻 sols.1](#2--sols1-18)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/apply-transform-over-each-element-in-array)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -41,7 +41,7 @@
 - `-10^9 <= arr[i] <= 10^9`
 - `fn` 返回一个数
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 var map = function(arr, fn) {
@@ -52,6 +52,8 @@ var map = function(arr, fn) {
   return ans
 }
 ```
+
+
 
 
 

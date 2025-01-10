@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links-6)
 - [2. 📝 Description](#2--description-6)
-- [3. 💻 solutions.1. 递归](#3--solutions1-递归)
+- [3. 💻 sols.1 - 递归](#3--sols1---递归)
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal)
@@ -42,7 +42,7 @@
 
 **进阶:** 递归算法很简单，你可以通过迭代算法完成吗？
 
-## 3. 💻 solutions.1. 递归
+## 3. 💻 sols.1 - 递归
 
 ```javascript
 /**
@@ -76,6 +76,8 @@ var inorderTraversal = function(root, res = []) {
 ![](assets/2024-09-25-17-01-39.png)
 
 > 图片来源：https://wansuanfa.com/index.php/701
+
+
 
 
 

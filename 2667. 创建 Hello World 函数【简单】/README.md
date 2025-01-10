@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-82)
-- [2. 💻 题解](#2--题解-26)
+- [2. 💻 sols.1](#2--sols1-26)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/create-hello-world-function)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -37,7 +37,7 @@
 
 - `0 <= args.length <= 10`
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -55,6 +55,8 @@ var createHelloWorld = function () {
  * f(); // "Hello World"
  */
 ```
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-60)
-- [2. 💻 题解](#2--题解-9)
+- [2. 💻 sols.1](#2--sols1-9)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -33,7 +33,7 @@
 - `1 <= s.length <= 10^5`
 - `s` 由小写英文字母组成
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -57,6 +57,8 @@ var longestContinuousSubstring = function(s) {
   return ans
 };
 ```
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-87)
-- [2. 💻 题解](#2--题解-31)
+- [2. 💻 sols.1](#2--sols1-31)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/call-function-with-custom-context/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -11,11 +11,13 @@
 
 
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

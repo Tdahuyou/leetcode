@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-14)
-- [2. 💻 solutions.暴力解法](#2--solutions暴力解法-1)
-- [3. 💻 solutions.翻转](#3--solutions翻转)
+- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法-2)
+- [3. 💻 sols.2 - 翻转](#3--sols2---翻转)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/rotate-image)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -38,7 +38,7 @@
 - `1 <= n <= 20`
 - `-1000 <= matrix[i][j] <= 1000`
 
-## 2. 💻 solutions.暴力解法
+## 2. 💻 sols.1 - 暴力解法
 
 ```js
 /**
@@ -70,7 +70,7 @@ var rotate = function (matrix) {
   - 把图像顺时针 🔃 旋转 90° 后来看，其实就是从每一列的最后一行开始遍历到第一行的内容。
 - 【注意】这种解法不符合题目要求的 **原地** 旋转。
 
-## 3. 💻 solutions.翻转
+## 3. 💻 sols.2 - 翻转
 
 ```js
 /**
@@ -121,6 +121,8 @@ var rotate = function (matrix) {
   }
 }
 ```
+
+
 
 
 

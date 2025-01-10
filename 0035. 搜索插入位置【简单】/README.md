@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-12)
-- [2. 💻 solutions.二分查找](#2--solutions二分查找)
-- [3. 💻 solutions.暴力解法](#3--solutions暴力解法)
+- [2. 💻 sols.1 - 二分查找](#2--sols1---二分查找)
+- [3. 💻 sols.2 - 暴力解法](#3--sols2---暴力解法)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/search-insert-position/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -36,7 +36,7 @@
 - `nums` 为 **无重复元素** 的 **升序** 排列数组
 - `-10^4 <= target <= 10^4`
 
-## 2. 💻 solutions.二分查找
+## 2. 💻 sols.1 - 二分查找
 
 ```javascript
 var searchInsert = function (nums, target) {
@@ -83,7 +83,7 @@ var searchInsert = function(nums, target) {
 }
 ```
 
-## 3. 💻 solutions.暴力解法
+## 3. 💻 sols.2 - 暴力解法
 
 ```javascript
 var searchInsert = function (nums, target) {
@@ -109,6 +109,8 @@ var searchInsert = function (nums, target) {
   return nums.length
 };
 ```
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-58)
-- [2. 💻 题解](#2--题解-8)
+- [2. 💻 sols.1](#2--sols1-8)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -55,11 +55,13 @@
 - `s` 由小写英文字母组成
 - `1 <= k <= s.length`
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

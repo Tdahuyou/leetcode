@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-67)
-- [2. 💻 solutions.递归](#2--solutions递归-2)
+- [2. 💻 sols.递归](#2--sols递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/json-deep-equal)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -53,7 +53,7 @@
 - `1 <= JSON.stringify(o2).length <= 10^5`
 - `maxNestingDepth <= 1000`
 
-## 2. 💻 solutions.递归
+## 2. 💻 sols.递归
 
 ```js
 /**
@@ -83,6 +83,8 @@ var areDeeplyEqual = function (o1, o2) {
     return true;
 };
 ```
+
+
 
 
 

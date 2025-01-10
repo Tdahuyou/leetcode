@@ -3,9 +3,9 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links-4)
 - [2. 📝 Description](#2--description-4)
-- [3. 💻 solutions.flat](#3--solutionsflat)
-- [4. 💻 solutions.循环二维数组](#4--solutions循环二维数组)
-- [5. 💻 solutions.二分查找](#5--solutions二分查找)
+- [3. 💻 sols.1 - flat](#3--sols1---flat)
+- [4. 💻 sols.1 - 循环二维数组](#4--sols1---循环二维数组)
+- [5. 💻 sols.1 - 二分查找](#5--sols1---二分查找)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/search-a-2d-matrix/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -49,7 +49,7 @@
 - `1 <= m, n <= 100`
 - `-10^4 <= matrix[i][j], target <= 10^4`
 
-## 3. 💻 solutions.flat
+## 3. 💻 sols.1 - flat
 
 ```javascript
 var searchMatrix = function(matrix, target) {
@@ -65,7 +65,7 @@ var searchMatrix = function(matrix, target) {
 ```
 - ![](assets/2024-11-03-21-45-21.png)
 
-## 4. 💻 solutions.循环二维数组
+## 4. 💻 sols.1 - 循环二维数组
 
 ```javascript
 var searchMatrix = function(matrix, target) {
@@ -85,7 +85,7 @@ var searchMatrix = function(matrix, target) {
   - 若找完所有项都没找到与目标值相等的值，则返回 false，表明该二维数组 matrix 中不存在目标值。
 - ![](assets/2024-11-03-21-47-00.png)
 
-## 5. 💻 solutions.二分查找
+## 5. 💻 sols.1 - 二分查找
 
 ```javascript
 var searchMatrix = function(matrix, target) {
@@ -108,6 +108,8 @@ var searchMatrix = function(matrix, target) {
 
 - 将二维数组视作一维数组来做，并且题目明确该二维数组是有序的。
 - ![](assets/2024-11-03-21-47-44.png)
+
+
 
 
 

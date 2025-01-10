@@ -2,9 +2,9 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-39)
-- [2. 💻 solutions.暴力解法 - 直接调用原生 API](#2--solutions暴力解法---直接调用原生-api)
-- [3. 💻 solutions.双指针](#3--solutions双指针-1)
-- [4. 💻 solutions.递归](#4--solutions递归-1)
+- [2. 💻 sols.1 - 暴力解法 - 直接调用原生 API](#2--sols1---暴力解法---直接调用原生-api)
+- [3. 💻 sols.2 - 双指针](#3--sols2---双指针-2)
+- [4. 💻 sols.3 - 递归](#4--sols3---递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/reverse-string/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -32,7 +32,7 @@
 - `1 <= s.length <= 10^5`
 - `s[i]` 都是 [ASCII](https://baike.baidu.com/item/ASCII) 码表中的可打印字符
 
-## 2. 💻 solutions.暴力解法 - 直接调用原生 API
+## 2. 💻 sols.1 - 暴力解法 - 直接调用原生 API
 
 ```js
 var reverseString = function (s) {
@@ -40,7 +40,7 @@ var reverseString = function (s) {
 }
 ```
 
-## 3. 💻 solutions.双指针
+## 3. 💻 sols.2 - 双指针
 
 ```js
 var reverseString = function (s) {
@@ -55,7 +55,7 @@ var reverseString = function (s) {
 
 - ![](assets/2024-11-16-20-17-45.png)
 
-## 4. 💻 solutions.递归
+## 4. 💻 sols.3 - 递归
 
 ```js
 var reverseString = function (s) {
@@ -69,6 +69,8 @@ var reverseString = function (s) {
 ```
 
 - 思路和双指针是相同的。
+
+
 
 
 

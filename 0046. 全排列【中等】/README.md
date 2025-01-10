@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-13)
-- [2. 💻 solutions.回溯](#2--solutions回溯)
+- [2. 💻 sols.1 - 回溯](#2--sols1---回溯)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/permutations/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -32,7 +32,7 @@
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有整数 **互不相同**
 
-## 2. 💻 solutions.回溯
+## 2. 💻 sols.1 - 回溯
 
 ```javascript
 var permute = function(nums) {
@@ -55,6 +55,8 @@ var permute = function(nums) {
   return ans;
 };
 ```
+
+
 
 
 

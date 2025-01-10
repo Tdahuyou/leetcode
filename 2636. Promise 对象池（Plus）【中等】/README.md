@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-75)
-- [2. 💻 题解](#2--题解-19)
+- [2. 💻 sols.1](#2--sols1-19)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/promise-pool)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -11,11 +11,13 @@
 
 
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

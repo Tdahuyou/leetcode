@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-91)
-- [2. 💻 题解](#2--题解-34)
+- [2. 💻 sols.1](#2--sols1-35)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/return-length-of-arguments-passed)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -32,7 +32,7 @@
 - `args` 是一个有效的 JSON 数组
 - `0 <= args.length <= 100`
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 var argumentsLength = function(...args) {
@@ -42,6 +42,8 @@ var argumentsLength = function(...args) {
 
 - 评论区点个赞～
   - ![](assets/2024-09-26-22-26-49.png)
+
+
 
 
 

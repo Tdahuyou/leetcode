@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-63)
-- [2. 💻 题解](#2--题解-12)
+- [2. 💻 sols.1](#2--sols1-12)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/sleep/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -34,7 +34,7 @@ sleep(100).then(() => {
 
 - `1 <= millis <= 1000`
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -49,6 +49,8 @@ async function sleep(millis) {
  * sleep(100).then(() => console.log(Date.now() - t)) // 100
  */
 ```
+
+
 
 
 

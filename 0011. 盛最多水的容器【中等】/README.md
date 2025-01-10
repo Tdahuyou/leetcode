@@ -3,8 +3,8 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 solutions.暴力枚举](#3--solutions暴力枚举)
-- [4. 💻 solutions.碰撞指针](#4--solutions碰撞指针)
+- [3. 💻 sols.1 - 暴力枚举](#3--sols1---暴力枚举)
+- [4. 💻 sols.2 - 碰撞指针](#4--sols2---碰撞指针)
 - [5. ❌ 问题解法 - 栈溢出](#5--问题解法---栈溢出)
 - [6. ❌ 问题解法 - 超时](#6--问题解法---超时)
 <!-- endregion:toc -->
@@ -45,7 +45,7 @@
 - `2 <= n <= 10^5`
 - `0 <= height[i] <= 10^4`
 
-## 3. 💻 solutions.暴力枚举
+## 3. 💻 sols.1 - 暴力枚举
 
 ![](assets/2024-09-25-16-18-33.png)
 
@@ -102,7 +102,7 @@ var maxArea = function (height) {
 
 [暴力枚举导致超时问题](#Qxt3W)
 
-## 4. 💻 solutions.碰撞指针
+## 4. 💻 sols.2 - 碰撞指针
 
 ```javascript
 var maxArea = function (height) {
@@ -292,6 +292,8 @@ height = [3846,7214,9316,9869,2423,4235,4921,5878,9832,5302,4298,4312,8571,531,3
 
 - 时间复杂度：$O(n^2)$
 - 空间复杂度：$O(1)$
+
+
 
 
 

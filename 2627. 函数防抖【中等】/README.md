@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links-14)
 - [2. 📝 Description](#2--description-14)
-- [3. 💻 题解](#3--题解-1)
+- [3. 💻 sols.1](#3--sols1-1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/debounce/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -101,7 +101,7 @@ calls = [
 - `0 <= calls[i].t <= 1000`
 - `0 <= calls[i].inputs.length <= 10`
 
-## 3. 💻 题解
+## 3. 💻 sols.1
 
 ```javascript
 /**
@@ -131,6 +131,8 @@ var debounce = function (fn, t) {
 
 1. `clearTimeout(timer)` 清空之前的延迟触发器，无论有没有都清空。（这里的 if 判断逻辑没有多大意义，有没有都行）
 2. `timer = setTimeout(_ => fn(...args), t)` 绑定新的触发器，延迟时间为 `t`。
+
+
 
 
 

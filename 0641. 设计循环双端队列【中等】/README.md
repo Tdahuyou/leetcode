@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-47)
-- [2. 💻 题解](#2--题解-6)
+- [2. 💻 sols.1](#2--sols1-6)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/design-circular-deque/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -49,11 +49,13 @@ circularDeque.getFront();				// 返回 4
 - `0 <= value <= 1000`
 - `insertFront`, `insertLast`, `deleteFront`, `deleteLast`, `getFront`, `getRear`, `isEmpty`, `isFull`  调用次数不大于 `2000` 次
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

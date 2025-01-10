@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-86)
-- [2. 💻 题解](#2--题解-30)
+- [2. 💻 sols.1](#2--sols1-30)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/make-object-immutable/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -11,11 +11,13 @@
 
 
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

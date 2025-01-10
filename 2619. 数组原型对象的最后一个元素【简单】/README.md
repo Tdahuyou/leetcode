@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-61)
-- [2. 💻 题解](#2--题解-10)
+- [2. 💻 sols.1](#2--sols1-10)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/array-prototype-last/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -30,7 +30,7 @@
 - `arr` 是一个有效的 JSON 数组
 - `0 <= arr.length <= 1000`
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -45,6 +45,8 @@ Array.prototype.last = function () {
  * arr.last(); // 3
  */
 ```
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-97)
-- [2. 💻 题解](#2--题解-40)
+- [2. 💻 sols.1](#2--sols1-41)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/add-two-promises)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -40,7 +40,7 @@ promise2 = new Promise(resolve => setTimeout(() => resolve(-12), 30))
 
 - `promise1 和 promise2` 都是被解析为一个数字的 promise 对象
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -57,6 +57,8 @@ var addTwoPromises = async function(promise1, promise2) {
  *   .then(console.log); // 4
  */
 ```
+
+
 
 
 

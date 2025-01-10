@@ -1,9 +1,9 @@
 # [2804. 数组原型的 forEach 方法【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2804.%20%E6%95%B0%E7%BB%84%E5%8E%9F%E5%9E%8B%E7%9A%84%20forEach%20%E6%96%B9%E6%B3%95%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links-20)
-- [2. 📝 Description](#2--description-20)
-- [3. 💻 题解](#3--题解-8)
+- [1. 🔗 links](#1--links-19)
+- [2. 📝 Description](#2--description-19)
+- [3. 💻 sols.1](#3--sols1-7)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/array-prototype-foreach/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -83,7 +83,7 @@ context = {"context": 5}
 - `fn` 是一个函数
 - `0 <= arr.length <= 10^5`
 
-## 3. 💻 题解
+## 3. 💻 sols.1
 
 ```javascript
 /**
@@ -112,6 +112,8 @@ Array.prototype.forEach = function(callback, context) {
 - 空间复杂度：$O(1)$
 
 题目要求 `callback` 在调用的时候，`this` 指向 `context`。这可以通过 `Function.prototype.call()` 来实现，将 `context` 作为 `callback.call(context, ...)` 的第一个参数传入即可。至于 `callback` 后续的剩余参数，继续写在后边儿即可。
+
+
 
 
 

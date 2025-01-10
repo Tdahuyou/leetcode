@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-35)
-- [2. 💻 题解](#2--题解-3)
+- [2. 💻 sols.1](#2--sols1-3)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/minimum-size-subarray-sum)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -46,11 +46,13 @@
 
 - 如果你已经实现 `O(n)` 时间复杂度的解法, 请尝试设计一个 `O(n log(n))` 时间复杂度的解法。
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

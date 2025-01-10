@@ -3,8 +3,8 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links-5)
 - [2. 📝 Description](#2--description-5)
-- [3. 💻 solutions.循环遍历](#3--solutions循环遍历)
-- [4. 💻 solutions.回溯](#4--solutions回溯)
+- [3. 💻 sols.1 - 循环遍历](#3--sols1---循环遍历)
+- [4. 💻 sols.2 - 回溯](#4--sols2---回溯)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/subsets/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -42,7 +42,7 @@
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有元素 **互不相同**
 
-## 3. 💻 solutions.循环遍历
+## 3. 💻 sols.1 - 循环遍历
 
 ```javascript
 var subsets = function(nums) {
@@ -65,7 +65,7 @@ var subsets = function(nums) {
 - ![](assets/2024-11-03-21-55-18.png)
   - 参考 leetcode 官方题解：https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode-solution/
 
-## 4. 💻 solutions.回溯
+## 4. 💻 sols.2 - 回溯
 
 ```javascript
 var subsets = function(nums) {
@@ -103,6 +103,8 @@ var subsets = function(nums) {
   - 详细内容知乎上的这篇参考文章：《回溯算法套路详解》。
 - ![](assets/2024-11-03-22-00-13.png)
 - ![](assets/2024-11-03-22-00-16.png)
+
+
 
 
 

@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links-7)
 - [2. 📝 Description](#2--description-7)
-- [3. 💻 solutions.1. 递归](#3--solutions1-递归-1)
+- [3. 💻 sols.1 - 递归](#3--sols1---递归-1)
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历-1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/binary-tree-preorder-traversal)
@@ -56,7 +56,7 @@
 
 **进阶：**递归算法很简单，你可以通过迭代算法完成吗？
 
-## 3. 💻 solutions.1. 递归
+## 3. 💻 sols.1 - 递归
 
 ```javascript
 /**
@@ -93,6 +93,8 @@ var preorderTraversal = function(root, res = []) {
 ![](assets/2024-09-25-16-59-31.png)
 
 > 图片来源：https://wansuanfa.com/index.php/701
+
+
 
 
 

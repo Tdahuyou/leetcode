@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-48)
-- [2. 💻 题解](#2--题解-7)
+- [2. 💻 sols.1](#2--sols1-7)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/maximum-average-subarray-i/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -32,11 +32,13 @@
 - `1 <= k <= n <= 10^5`
 - `-10^4 <= nums[i] <= 10^4`
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

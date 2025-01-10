@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-85)
-- [2. 💻 题解](#2--题解-29)
+- [2. 💻 sols.1](#2--sols1-29)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/immutability-helper/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -11,11 +11,13 @@
 
 
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

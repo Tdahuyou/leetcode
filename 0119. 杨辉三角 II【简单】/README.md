@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-26)
-- [2. 💻 solutions.暴力解法](#2--solutions暴力解法-6)
-- [3. 💻 solutions.暴力解法优化](#3--solutions暴力解法优化)
+- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法-7)
+- [3. 💻 sols.2 - 暴力解法优化](#3--sols2---暴力解法优化)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/pascals-triangle-ii)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -42,7 +42,7 @@
 
 你可以优化你的算法到 `O(rowIndex)` 空间复杂度吗？
 
-## 2. 💻 solutions.暴力解法
+## 2. 💻 sols.1 - 暴力解法
 
 ```js
 /**
@@ -70,7 +70,7 @@ var getRow = function (rowIndex) {
 - 空间复杂度：O(rowIndex^2)
 - 这种解法的逻辑跟 0118 几乎完全一致，可以参考 0118 的题解。
 
-## 3. 💻 solutions.暴力解法优化
+## 3. 💻 sols.2 - 暴力解法优化
 
 ```js
 /**
@@ -101,6 +101,8 @@ var getRow = function (rowIndex) {
   - ![](assets/2024-11-10-22-31-54.png)
 - **注意：**
   - **内层循环从 `c = r - 1` 到 `c = 1`，表示从右向左更新当前行的值。这样可以避免在更新过程中覆盖未计算的值。**
+
+
 
 
 

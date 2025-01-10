@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-27)
-- [2. 💻 solutions.暴力解法](#2--solutions暴力解法-7)
-- [3. 💻 solutions.双指针](#3--solutions双指针)
+- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法-8)
+- [3. 💻 sols.2 - 双指针](#3--sols2---双指针)
 - [4. 📒 正则 `\w`、`\W`](#4--正则-ww)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/valid-palindrome)
@@ -45,7 +45,7 @@
 - `1 <= s.length <= 2 * 10^5`
 - `s` 仅由可打印的 ASCII 字符组成
 
-## 2. 💻 solutions.暴力解法
+## 2. 💻 sols.1 - 暴力解法
 
 ```js
 var isPalindrome = function (s) {
@@ -63,7 +63,7 @@ var isPalindrome = function (s) {
 3. 字符串逆置 `[...s].reverse().join("")`
 4. 返回比较原字符串和逆置后的字符串的结果 `return s === [...s].reverse().join("")`
 
-## 3. 💻 solutions.双指针
+## 3. 💻 sols.2 - 双指针
 
 ```js
 var isPalindrome = function (s) {
@@ -155,6 +155,8 @@ var isPalindrome = function(s) {
   return ans
 };
 ```
+
+
 
 
 

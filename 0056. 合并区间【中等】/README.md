@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-16)
-- [2. 💻 solutions.暴力解法1](#2--solutions暴力解法1)
-- [3. 💻 solutions.暴力解法2](#3--solutions暴力解法2)
+- [2. 💻 sols.1 - 暴力解法1](#2--sols1---暴力解法1)
+- [3. 💻 sols.2 - 暴力解法2](#3--sols2---暴力解法2)
 - [4. 📒 手写 reduce](#4--手写-reduce)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/merge-intervals)
@@ -35,7 +35,7 @@
 - `intervals[i].length == 2`
 - `0 <= starti <= endi <= 10^4`
 
-## 2. 💻 solutions.暴力解法1
+## 2. 💻 sols.1 - 暴力解法1
 
 ```js
 /**
@@ -98,7 +98,7 @@ while (i < intervals.length) {
 }
 ```
 
-## 3. 💻 solutions.暴力解法2
+## 3. 💻 sols.2 - 暴力解法2
 
 ```js
 /**
@@ -136,6 +136,8 @@ Array.prototype.myReduce = function (cb, initialValue) {
   return initialValue
 }
 ```
+
+
 
 
 

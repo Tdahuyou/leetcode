@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-88)
-- [2. 💻 题解](#2--题解-32)
+- [2. 💻 sols.1](#2--sols1-32)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/event-emitter)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -105,7 +105,7 @@ emitter.emit("firstEvent", [5]); // [7]
 
 
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 class EventEmitter {
@@ -156,6 +156,8 @@ class EventEmitter {
  * emitter.emit('onClick'); // []
  */
 ```
+
+
 
 
 

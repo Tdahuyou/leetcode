@@ -1,8 +1,8 @@
 # [2727. 判断对象是否为空【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2727.%20%E5%88%A4%E6%96%AD%E5%AF%B9%E8%B1%A1%E6%98%AF%E5%90%A6%E4%B8%BA%E7%A9%BA%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-100)
-- [2. 💻 题解](#2--题解-43)
+- [1. 📝 Description](#1--description-101)
+- [2. 💻 sols.1](#2--sols1-45)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/is-object-empty)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -41,7 +41,7 @@
 
 **你可以在 `O(1)` 时间复杂度内解决这个问题吗？**
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -76,6 +76,8 @@ JSON.stringify
 Object.keys
 
 ![](assets/2024-09-26-22-42-11.png)
+
+
 
 
 

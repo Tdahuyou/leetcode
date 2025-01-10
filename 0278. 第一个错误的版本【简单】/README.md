@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-37)
-- [2. 💻 solutions.暴力解法](#2--solutions暴力解法-8)
-- [3. 💻 solutions.二分查找](#3--solutions二分查找)
+- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法-9)
+- [3. 💻 sols.2 - 二分查找](#3--sols2---二分查找)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/first-bad-version/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -35,7 +35,7 @@
 
 - `1 <= bad <= n <= 2^31 - 1`
 
-## 2. 💻 solutions.暴力解法
+## 2. 💻 sols.1 - 暴力解法
 
 ```js
 var solution = function (isBadVersion) {
@@ -51,7 +51,7 @@ var solution = function (isBadVersion) {
   - leetcode 提交记录
     - ![](assets/2024-11-16-23-09-11.png)
 
-## 3. 💻 solutions.二分查找
+## 3. 💻 sols.2 - 二分查找
 
 ```js
 var solution = function (isBadVersion) {
@@ -70,6 +70,8 @@ var solution = function (isBadVersion) {
 ```
 
 实现思路：同 `704. 二分查找`，不过得加一个判断，当找到错误的成员之后，必须确保该错误成员的左侧（前一个）成员必须是正确的，这样才能确保当前找到的这个错误成员是第一个出错的成员。
+
+
 
 
 

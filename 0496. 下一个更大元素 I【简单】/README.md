@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-41)
-- [2. 💻 题解](#2--题解-4)
+- [2. 💻 sols.1](#2--sols1-4)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/next-greater-element-i/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -48,11 +48,13 @@
 
 **进阶：** 你可以设计一个时间复杂度为 `O(nums1.length + nums2.length)` 的解决方案吗？
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```
 
 ```
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-84)
-- [2. 💻 题解](#2--题解-28)
+- [2. 💻 sols.1](#2--sols1-28)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/infinite-method-object)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -34,7 +34,7 @@
 
 - `0 <= method.length <= 1000`
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -57,6 +57,8 @@ var createInfiniteObject = function () {
 **原理简述：**
 
 返回一个 Proxy 代理，包装一层 get，每次访问某个属性的时候，都会被这个 get 拦截，然后我们在这个拦截器里面丢一个 `return () => prop` 函数回去，当函数被调用的时候，将 `prop` 给返回即可。
+
+
 
 
 

@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links-16)
 - [2. 📝 Description](#2--description-16)
-- [3. 💻 题解](#3--题解-3)
+- [3. 💻 sols.1](#3--sols1-4)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/chunk-array)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -54,7 +54,7 @@
 - `2 <= JSON.stringify(arr).length <= 10^5`
 - `1 <= size <= arr.length + 1`
 
-## 3. 💻 题解
+## 3. 💻 sols.1
 
 ```javascript
 /**
@@ -74,6 +74,8 @@ var chunk = function(arr, size) {
   return ans
 };
 ```
+
+
 
 
 

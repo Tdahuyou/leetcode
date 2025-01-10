@@ -1,18 +1,14 @@
 # [2724. 排序方式【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2724.%20%E6%8E%92%E5%BA%8F%E6%96%B9%E5%BC%8F%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links-17)
-- [2. 📝 Description](#2--description-17)
-- [3. 💻 题解](#3--题解-5)
+- [1. 📝 Description](#1--description-98)
+- [2. 💻 sols.1](#2--sols1-42)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/sort-by)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
-
-## 1. 🔗 links
-
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort - MDN，Array.prototype.sort
 
-## 2. 📝 Description
+## 1. 📝 Description
 
 给定一个数组 `arr` 和一个函数 `fn`，返回一个排序后的数组 `sortedArr`。你可以假设 `fn` 只返回数字，并且这些数字决定了 `sortedArr` 的排序顺序。`sortedArr` 必须按照 `fn` 的输出值 **升序** 排序。
 
@@ -42,7 +38,7 @@
 - `fn` 是一个函数，返回一个数字
 - `1 <= arr.length <= 5 * 10^5`
 
-## 3. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -56,6 +52,8 @@ var sortBy = function(arr, fn) {
 ```
 
 可以通过 `Array.prototype.sort` 快速解题，题目描述中提到：按照 fn 的输出值排序。最先想到的就是数组的 sort 方法，只需要将数组的每一项作为 fn 函数的入参丢给它然后做差即可。
+
+
 
 
 

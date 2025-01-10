@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-73)
-- [2. 💻 题解](#2--题解-17)
+- [2. 💻 sols.1](#2--sols1-17)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/filter-elements-from-array/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -43,7 +43,7 @@
 - `0 <= arr.length <= 1000`
 - `-10^9 <= arr[i] <= 10^9`
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 var filter = function (arr, fn) {
@@ -63,6 +63,8 @@ var filter = function (arr, fn) {
 **理解回调：**
 
 `fn` 是调用者传入的回调函数，我们需要注入的是每次遍历数组 `arr` 时，当前项的值 `item` 和索引 `index`。然后根据返回结果的真、假，判断是否加入到返回的数组中。
+
+
 
 
 

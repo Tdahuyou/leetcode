@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-5)
-- [2. 💻 solutions.基于哈希表的逐字符解析法（1）](#2--solutions基于哈希表的逐字符解析法1)
-- [3. 💻 solutions.基于哈希表的逐字符解析法（2）](#3--solutions基于哈希表的逐字符解析法2)
+- [2. 💻 sols.1 - 基于哈希表的逐字符解析法（1）](#2--sols1---基于哈希表的逐字符解析法1)
+- [3. 💻 sols.2 - 基于哈希表的逐字符解析法（2）](#3--sols2---基于哈希表的逐字符解析法2)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/roman-to-integer)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -71,7 +71,7 @@
 
 > PS：不知道官方给的这个参考链接咋用……
 
-## 2. 💻 solutions.基于哈希表的逐字符解析法（1）
+## 2. 💻 sols.1 - 基于哈希表的逐字符解析法（1）
 
 ```javascript
 var romanToInt = function (s) {
@@ -110,7 +110,7 @@ var romanToInt = function (s) {
 
 准备好转换库，将正常情况和特殊情况都存储起来，直接从转换库中匹配。
 
-## 3. 💻 solutions.基于哈希表的逐字符解析法（2）
+## 3. 💻 sols.2 - 基于哈希表的逐字符解析法（2）
 
 ```javascript
 var romanToInt = function (s) {
@@ -141,6 +141,8 @@ var romanToInt = function (s) {
 - 思路：**在存储的时候，只要存储正常情况即可，特殊情况有固定的规律：**
   - 【正常情况】连续字符中，左侧的字符所表示的数字是比右侧的字符所表示的数字大的（或相等），此时累加即可。
   - 【特殊情况】连续字符中，左侧的字符所表示的数字比右侧小，那么左侧的字符表示的是一个负数，即：在累加时，需要对左侧的字符取反，再相加。
+
+
 
 
 

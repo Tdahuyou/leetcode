@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-25)
-- [2. 💻 solutions.暴力解法](#2--solutions暴力解法-5)
+- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法-6)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/pascals-triangle)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -31,7 +31,7 @@
 
 - `1 <= numRows <= 30`
 
-## 2. 💻 solutions.暴力解法
+## 2. 💻 sols.1 - 暴力解法
 
 ```js
 /**
@@ -59,6 +59,8 @@ var generate = function (numRows) {
   - ![](assets/2024-11-10-21-52-49.png)
   - 首先初始化一个全为 `1` 的 `triangle` 三角。
   - 对内层的每个位置进行重新求和，求和的逻辑：`triangle[r][c] = triangle[r - 1][c - 1] + triangle[r - 1][c]`
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description-23)
-- [2. 💻 题解](#2--题解)
+- [2. 💻 sols.1](#2--sols1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -33,7 +33,7 @@
 - `preorder` **保证** 为二叉树的前序遍历序列
 - `inorder` **保证** 为二叉树的中序遍历序列
 
-## 2. 💻 题解
+## 2. 💻 sols.1
 
 ```javascript
 /**
@@ -61,6 +61,8 @@ var buildTree = function(preorder, inorder) {
   return root
 }
 ```
+
+
 
 
 
