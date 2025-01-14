@@ -1,7 +1,7 @@
 # [0035. 搜索插入位置【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0035.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-12)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 二分查找](#2--sols1---二分查找)
 - [3. 💻 sols.2 - 暴力解法](#3--sols2---暴力解法)
 <!-- endregion:toc -->

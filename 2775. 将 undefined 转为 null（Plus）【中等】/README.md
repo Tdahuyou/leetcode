@@ -1,8 +1,8 @@
 # [2775. 将 undefined 转为 null（Plus）【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2775.%20%E5%B0%86%20undefined%20%E8%BD%AC%E4%B8%BA%20null%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-108)
-- [2. 💻 sols.1 - 递归](#2--sols1---递归-2)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1 - 递归](#2--sols1---递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/undefined-to-null/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)

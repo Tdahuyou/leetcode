@@ -1,16 +1,740 @@
 {
   "scripts": {
-    "merge": "           node ./node_modules/tnotes   --mergeREADME         --repoName=leetcode",
-    "update": "          node ./node_modules/tnotes   --updateREADME        --repoName=leetcode",
     "distribute": "      node ./node_modules/tnotes   --distributeREADME    --repoName=leetcode",
+    "docs:publish": "    node ./node_modules/tnotes/scripts/docs-publish.js",
+    "merge": "           node ./node_modules/tnotes   --mergeREADME         --repoName=leetcode",
     "sync": "            node ./node_modules/tnotes   --syncREADME          --repoName=leetcode",
-    "docs:publish": "    node ./node_modules/tnotes/scripts/docs-publish.js"
+    "update": "          node ./node_modules/tnotes   --updateREADME        --repoName=leetcode"
   },
   "tnotesConfig": {
-    "ignoreDirs": [
-      ".vscode",
-      ".git",
-      "0000"
-    ]
+    "dirList": {
+      "1456": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "1695": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2414": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2618": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2619": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2620": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2621": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2622": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2623": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2624": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2625": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2626": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2627": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2628": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2629": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2630": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2631": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2632": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2633": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2634": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2635": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2636": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2637": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2648": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2649": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2650": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2665": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2666": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2667": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2675": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2676": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2677": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2690": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2691": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2692": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2693": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2694": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2695": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2700": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2703": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2704": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2705": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2715": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2721": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2722": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2723": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2724": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2725": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2726": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2727": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2754": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2755": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2756": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2757": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2758": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2759": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2774": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2775": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2776": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2777": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2794": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2795": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2796": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2797": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2803": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2804": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2805": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2806": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2821": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2822": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "2823": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "9997": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "9998": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "9999": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      ".git": {
+        "ignore": true
+      },
+      ".vscode": {
+        "ignore": true
+      },
+      "0001": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0003": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0005": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0007": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0009": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0011": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0013": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0014": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0015": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0019": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0020": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0021": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0022": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0026": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0027": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0028": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0035": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0046": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0048": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0053": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0056": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0058": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0066": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0074": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0075": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0077": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0078": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0080": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0088": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0094": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0105": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0106": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0118": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0119": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0125": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0144": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0145": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0151": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0153": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0162": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0167": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0169": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0189": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0203": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0206": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0209": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0239": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0278": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0283": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0344": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0485": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0496": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0509": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0520": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0557": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0617": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0622": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0641": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0643": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0687": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0695": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0704": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0705": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0733": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0876": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0881": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0912": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0933": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "0977": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "assets": {
+        "ignore": true
+      },
+      "md-imgs": {
+        "ignore": true
+      }
+    }
   }
 }

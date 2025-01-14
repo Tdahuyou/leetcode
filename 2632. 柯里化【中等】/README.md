@@ -1,9 +1,9 @@
 # [2632. 柯里化【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2632.%20%E6%9F%AF%E9%87%8C%E5%8C%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-71)
+- [1. 📝 Description](#1--description)
 - [2. 📒 函数的 length 属性](#2--函数的-length-属性)
-- [3. 💻 sols.1](#3--sols1-2)
+- [3. 💻 sols.1](#3--sols1)
 - [4. 💻 sols.2](#4--sols2)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/curry)

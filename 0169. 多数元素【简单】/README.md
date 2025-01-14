@@ -1,7 +1,7 @@
 # [0169. 多数元素【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-31)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 排序](#2--sols1---排序)
 - [3. 💻 sols.2 - hash-table](#3--sols2---hash-table)
 - [4. 💻 sols.3 - 分治](#4--sols3---分治)

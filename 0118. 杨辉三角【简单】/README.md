@@ -1,8 +1,8 @@
 # [0118. 杨辉三角【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0118.%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-25)
-- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法-6)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/pascals-triangle)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)

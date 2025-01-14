@@ -1,8 +1,8 @@
 # [2626. 数组归约运算【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2626.%20%E6%95%B0%E7%BB%84%E5%BD%92%E7%BA%A6%E8%BF%90%E7%AE%97%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-66)
-- [2. 💻 sols.1](#2--sols1-13)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1](#2--sols1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)

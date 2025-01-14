@@ -1,8 +1,8 @@
 # [2629. 复合函数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2629.%20%E5%A4%8D%E5%90%88%E5%87%BD%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-68)
-- [2. 💻 sols.1](#2--sols1-14)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1](#2--sols1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/function-composition)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)

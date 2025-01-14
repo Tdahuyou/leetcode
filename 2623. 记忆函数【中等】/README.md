@@ -1,7 +1,7 @@
 # [2623. 记忆函数【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-65)
+- [1. 📝 Description](#1--description)
 - [2. 📒 将数字数组直接作为 key](#2--将数字数组直接作为-key)
 - [3. 💻 sols.哈希表](#3--sols哈希表)
 - [4. 💻 sols.双哈希表](#4--sols双哈希表)

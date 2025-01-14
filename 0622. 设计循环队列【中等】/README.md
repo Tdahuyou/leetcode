@@ -1,7 +1,7 @@
 # [0622. 设计循环队列【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0622.%20%E8%AE%BE%E8%AE%A1%E5%BE%AA%E7%8E%AF%E9%98%9F%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-46)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 设计循环队列](#2--sols1---设计循环队列)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/design-circular-queue)

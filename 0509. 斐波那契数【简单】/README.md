@@ -1,8 +1,8 @@
 # [0509. 斐波那契数【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0509.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-42)
-- [2. 💻 sols.1 - 递归](#2--sols1---递归-1)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1 - 递归](#2--sols1---递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/fibonacci-number/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)

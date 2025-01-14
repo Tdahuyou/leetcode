@@ -1,8 +1,8 @@
 # [0094. 二叉树的中序遍历【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0094.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links-6)
-- [2. 📝 Description](#2--description-6)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
 - [3. 💻 sols.1 - 递归](#3--sols1---递归)
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历)
 <!-- endregion:toc -->

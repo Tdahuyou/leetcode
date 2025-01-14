@@ -1,8 +1,8 @@
 # [0077. 组合【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0077.%20%E7%BB%84%E5%90%88%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-20)
-- [2. 💻 sols.1 - 回溯](#2--sols1---回溯-1)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1 - 回溯](#2--sols1---回溯)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/combinations/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)

@@ -1,7 +1,7 @@
 # [0020. 有效的括号【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0020.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-9)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 栈](#2--sols1---栈)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/valid-parentheses/)

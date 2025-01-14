@@ -1,8 +1,8 @@
 # [0078. 子集【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0078.%20%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links-5)
-- [2. 📝 Description](#2--description-5)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
 - [3. 💻 sols.1 - 循环遍历](#3--sols1---循环遍历)
 - [4. 💻 sols.2 - 回溯](#4--sols2---回溯)
 <!-- endregion:toc -->

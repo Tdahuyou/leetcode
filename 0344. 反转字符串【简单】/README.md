@@ -1,9 +1,9 @@
 # [0344. 反转字符串【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-39)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 暴力解法 - 直接调用原生 API](#2--sols1---暴力解法---直接调用原生-api)
-- [3. 💻 sols.2 - 双指针](#3--sols2---双指针-2)
+- [3. 💻 sols.2 - 双指针](#3--sols2---双指针)
 - [4. 💻 sols.3 - 递归](#4--sols3---递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/reverse-string/)

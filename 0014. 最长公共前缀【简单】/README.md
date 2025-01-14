@@ -1,8 +1,8 @@
 # [0014. 最长公共前缀【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0014.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-6)
-- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法-1)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法)
 - [3. 💻 sols.2 - 横向扫描](#3--sols2---横向扫描)
 - [4. 💻 sols.3 - 纵向扫描](#4--sols3---纵向扫描)
 <!-- endregion:toc -->

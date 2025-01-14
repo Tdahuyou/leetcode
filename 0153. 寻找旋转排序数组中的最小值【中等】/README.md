@@ -1,8 +1,8 @@
 # [0153. 寻找旋转排序数组中的最小值【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0153.%20%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links-9)
-- [2. 📝 Description](#2--description-9)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
 - [3. 💻 sols.1 - 双指针1](#3--sols1---双指针1)
 - [4. 💻 sols.2 - 二分查找](#4--sols2---二分查找)
 - [5. 🤖 AI - `pivot = low + ((high - low) >> 1)`、`pivot = (high + low) >> 1` 这两种写法等效吗？](#5--ai---pivot--low--high---low--1pivot--high--low--1-这两种写法等效吗)
@@ -13,7 +13,7 @@
     - [5.2.1. 优点](#521-优点)
     - [5.2.2. 缺点](#522-缺点)
   - [5.3. 等效性分析](#53-等效性分析)
-  - [5.4. 示例](#54-示例-1)
+  - [5.4. 示例](#54-示例)
   - [5.5. 结论](#55-结论)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array)

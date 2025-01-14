@@ -1,7 +1,7 @@
 # [0066. 加一【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0066.%20%E5%8A%A0%E4%B8%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-18)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 逆序循环](#2--sols1---逆序循环)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/plus-one/)

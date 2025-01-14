@@ -1,7 +1,7 @@
 # [0075. 颜色分类【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0075.%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-19)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 调用自带的 sort 函数](#2--sols1---调用自带的-sort-函数)
 - [3. 💻 sols.2 - 冒泡排序](#3--sols2---冒泡排序)
 - [4. 💻 sols.3 - 三路快速排序方法](#4--sols3---三路快速排序方法)

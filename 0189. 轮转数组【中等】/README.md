@@ -1,9 +1,9 @@
 # [0189. 轮转数组【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0189.%20%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-32)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 暴力解法1 - 使用原生 API - unshift、pop](#2--sols1---暴力解法1---使用原生-api---unshiftpop)
-- [3. 💻 sols.2 - 暴力解法2](#3--sols2---暴力解法2-1)
+- [3. 💻 sols.2 - 暴力解法2](#3--sols2---暴力解法2)
 - [4. 💻 sols.3 - 暴力解法3 - 使用原生 API - splice、reverse](#4--sols3---暴力解法3---使用原生-api---splicereverse)
 - [5. 💻 sols.4 - 暴力解法4](#5--sols4---暴力解法4)
 - [6. 💻 sols.5 - 双指针](#6--sols5---双指针)

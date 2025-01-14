@@ -1,7 +1,7 @@
 # [0007. 整数反转【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-3)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 暴力解法（转为字符串求解）](#2--sols1---暴力解法转为字符串求解)
 - [3. 💻 sols.2 - 数学方法](#3--sols2---数学方法)
 - [4. 📒 Math.trunc 的基本用法](#4--mathtrunc-的基本用法)

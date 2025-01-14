@@ -1,7 +1,7 @@
 # [2630. 记忆函数 II【困难】](https://github.com/Tdahuyou/leetcode/tree/main/2630.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-69)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.双哈希表](#2--sols双哈希表)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/memoize-ii/)

@@ -1,8 +1,8 @@
 # [0053. 最大子数组和【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0053.%20%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-15)
-- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法-3)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法)
 - [3. 💻 sols.2 - 动态规划](#3--sols2---动态规划)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/maximum-subarray/)

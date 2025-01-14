@@ -1,8 +1,8 @@
 # [0048. 旋转图像【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0048.%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-14)
-- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法-2)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法)
 - [3. 💻 sols.2 - 翻转](#3--sols2---翻转)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/rotate-image)

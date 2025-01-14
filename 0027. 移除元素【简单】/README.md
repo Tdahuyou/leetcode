@@ -1,8 +1,8 @@
 # [0027. 移除元素【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links-2)
-- [2. 📝 Description](#2--description-2)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
 - [3. 📒 JS 测试用例](#3--js-测试用例)
 - [4. 💻 sols.1 - 双指针-1](#4--sols1---双指针-1)
 - [5. 💻 sols.2 - 双指针-2](#5--sols2---双指针-2)

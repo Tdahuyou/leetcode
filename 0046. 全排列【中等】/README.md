@@ -1,7 +1,7 @@
 # [0046. 全排列【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0046.%20%E5%85%A8%E6%8E%92%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-13)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 回溯](#2--sols1---回溯)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/permutations/)

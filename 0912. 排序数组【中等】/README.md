@@ -1,8 +1,8 @@
 # [0912. 排序数组【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links-10)
-- [2. 📝 Description](#2--description-10)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
 - [3. 💻 sols.1 - 原生排序方法](#3--sols1---原生排序方法)
 - [4. 💻 sols.2 - 冒泡排序](#4--sols2---冒泡排序)
   - [4.1. 冒泡排序 - 标准版](#41-冒泡排序---标准版)

@@ -1,9 +1,9 @@
 # [2677. 分块数组【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2677.%20%E5%88%86%E5%9D%97%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links-16)
-- [2. 📝 Description](#2--description-16)
-- [3. 💻 sols.1](#3--sols1-4)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
+- [3. 💻 sols.1](#3--sols1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/chunk-array)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)

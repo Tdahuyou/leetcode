@@ -1,7 +1,7 @@
 # [0056. 合并区间【中等】](https://github.com/Tdahuyou/leetcode/tree/main/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-16)
+- [1. 📝 Description](#1--description)
 - [2. 💻 sols.1 - 暴力解法1](#2--sols1---暴力解法1)
 - [3. 💻 sols.2 - 暴力解法2](#3--sols2---暴力解法2)
 - [4. 📒 手写 reduce](#4--手写-reduce)

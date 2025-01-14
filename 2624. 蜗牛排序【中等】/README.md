@@ -1,8 +1,8 @@
 # [2624. 蜗牛排序【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2624.%20%E8%9C%97%E7%89%9B%E6%8E%92%E5%BA%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 🔗 links](#1--links-12)
-- [2. 📝 Description](#2--description-12)
+- [1. 🔗 links](#1--links)
+- [2. 📝 Description](#2--description)
 - [3. 💻 sols.1](#3--sols1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/snail-traversal/)

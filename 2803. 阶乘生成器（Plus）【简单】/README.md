@@ -1,8 +1,8 @@
 # [2803. 阶乘生成器（Plus）【简单】](https://github.com/Tdahuyou/leetcode/tree/main/2803.%20%E9%98%B6%E4%B9%98%E7%94%9F%E6%88%90%E5%99%A8%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-114)
-- [2. 💻 sols.1](#2--sols1-56)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1](#2--sols1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/factorial-generator)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)

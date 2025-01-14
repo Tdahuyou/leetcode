@@ -1,8 +1,8 @@
 # [2823. 深度对象筛选（Plus）【中等】](https://github.com/Tdahuyou/leetcode/tree/main/2823.%20%E6%B7%B1%E5%BA%A6%E5%AF%B9%E8%B1%A1%E7%AD%9B%E9%80%89%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
-- [1. 📝 Description](#1--description-119)
-- [2. 💻 sols.1](#2--sols1-61)
+- [1. 📝 Description](#1--description)
+- [2. 💻 sols.1](#2--sols1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/deep-object-filter)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
