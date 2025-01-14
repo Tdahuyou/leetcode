@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - 暴力解法 - 调用原生 API - map、sort](#2--sols1---暴力解法---调用原生-api---mapsort)
-- [3. 💻 sols.2 - 双指针](#3--sols2---双指针)
+- [2. 💻 题解.1 - 暴力解法 - 调用原生 API - map、sort](#2--题解1---暴力解法---调用原生-api---mapsort)
+- [3. 💻 题解.2 - 双指针](#3--题解2---双指针)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/squares-of-a-sorted-array)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -34,7 +34,7 @@
 
 - 请你设计时间复杂度为 `O(n)` 的算法解决本问题
 
-## 2. 💻 sols.1 - 暴力解法 - 调用原生 API - map、sort
+## 2. 💻 题解.1 - 暴力解法 - 调用原生 API - map、sort
 
 ```js
 var sortedSquares = function (nums) {
@@ -42,7 +42,7 @@ var sortedSquares = function (nums) {
 }
 ```
 
-## 3. 💻 sols.2 - 双指针
+## 3. 💻 题解.2 - 双指针
 
 ```js
 var sortedSquares = function (nums) {
@@ -70,6 +70,8 @@ var sortedSquares = function (nums) {
 - 🤔 问：在这种解法中，将 `while (l <= r) { ... }` 改为 `while (l < r) { ... }` 可以吗？
   - 不行。
   - 每次 while 循环遍历一遍，left 或者 right 指针挪动一步，为了确保每个元素都被遍历到，循环条件不能改为 `l < r`，否则会漏掉一个元素（俩指针相撞 `l == r` 的时候）。
+
+
 
 
 

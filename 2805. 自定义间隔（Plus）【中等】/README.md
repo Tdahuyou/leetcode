@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/custom-interval)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -62,11 +62,13 @@ setTimeout(() => {
 - `20 <= delay, period <= 250`
 - `20 <= stopTime <= 1000`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```
 
 ```
+
+
 
 
 

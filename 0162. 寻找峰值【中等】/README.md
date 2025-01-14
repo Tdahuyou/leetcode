@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - 二分查找](#2--sols1---二分查找)
+- [2. 💻 题解.1 - 二分查找](#2--题解1---二分查找)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/find-peak-element)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -36,7 +36,7 @@
 - `-2^31 <= nums[i] <= 2^31 - 1`
 - 对于所有有效的 `i` 都有 `nums[i] != nums[i + 1]`
 
-## 2. 💻 sols.1 - 二分查找
+## 2. 💻 题解.1 - 二分查找
 
 ```js
 var findPeakElement = function(nums) {
@@ -67,6 +67,8 @@ var findPeakElement = function(nums) {
 - 74
 - 162
 - 704
+
+
 
 
 

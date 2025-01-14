@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -33,7 +33,7 @@
 - `inorder` **保证**是树的中序遍历
 - `postorder` **保证**是树的后序遍历
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 /**
@@ -62,6 +62,8 @@ var buildTree = function(inorder, postorder) {
   return root
 }
 ```
+
+
 
 
 

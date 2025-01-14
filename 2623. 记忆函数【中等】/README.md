@@ -3,8 +3,8 @@
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
 - [2. 📒 将数字数组直接作为 key](#2--将数字数组直接作为-key)
-- [3. 💻 sols.哈希表](#3--sols哈希表)
-- [4. 💻 sols.双哈希表](#4--sols双哈希表)
+- [3. 💻 题解.哈希表](#3--题解哈希表)
+- [4. 💻 题解.双哈希表](#4--题解双哈希表)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/memoize)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -101,7 +101,7 @@ console.log(cache['1,2'])                   // 3
 console.log(cache[arr.join(',')])           // 3
 ```
 
-## 3. 💻 sols.哈希表
+## 3. 💻 题解.哈希表
 
 ```js
 function memoize(fn) {
@@ -119,7 +119,7 @@ function memoize(fn) {
 ```
 
 
-## 4. 💻 sols.双哈希表
+## 4. 💻 题解.双哈希表
 
 如果使用上述的单哈希表 cache 来缓存函数的返回值，当参数是两个对象时，例如 `[{}, {}]`，`[{}, {}]`，`[{}, {}]`，则 `[{}, {}]` 和 `[{}, {}]` 的索引值是相同的，导致缓存命中。
 
@@ -168,6 +168,8 @@ function memoize(fn: Fn): Fn {
  * console.log(callCount) // 1
  */
 ```
+
+
 
 
 

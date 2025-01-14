@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/deep-object-filter)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -52,11 +52,13 @@ fn = (x) => Array.isArray(x)
 - `obj` 是一个有效的 JSON 对象
 - `2 <= JSON.stringify(obj).length <= 10**5`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```
 
 ```
+
+
 
 
 

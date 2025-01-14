@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/timeout-cancellation)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -60,7 +60,7 @@
 - `20 <= t <= 1000`
 - `10 <= cancelTimeMs <= 1000`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 var cancellable = function (fn, args, t) {
@@ -68,6 +68,8 @@ var cancellable = function (fn, args, t) {
   return _ => clearInterval(timer)
 }
 ```
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/calculator-with-method-chaining)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -71,7 +71,7 @@ values = [20, 0]
 - 第一个操作总是 "Calculator"
 - 最后一个操作总是 "getResult"
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 class Calculator {
@@ -141,6 +141,8 @@ class Calculator {
 
 - 链式调用，每次 `return this` 即可。
 - 除法运算时校验 value 不能为 0，否则抛出错误 `throw new Error('Division by zero is not allowed')`
+
+
 
 
 

@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 sols.1 - 回溯算法](#3--sols1---回溯算法)
+- [3. 💻 题解.1 - 回溯算法](#3--题解1---回溯算法)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/generate-parentheses/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -31,7 +31,7 @@
 
 - `1 <= n <= 8`
 
-## 3. 💻 sols.1 - 回溯算法
+## 3. 💻 题解.1 - 回溯算法
 
 ```js
 var generateParenthesis = function (n) {
@@ -61,6 +61,8 @@ var generateParenthesis = function (n) {
 - 可选：由 `lRemain` 和 `rRemain` 决定
 - 结束：`str.length === n * 2`
 - 回溯的套路中，难点通常在于确定「可选」是什么，「已选」、「结束」往往都很容易明确。
+
+
 
 
 

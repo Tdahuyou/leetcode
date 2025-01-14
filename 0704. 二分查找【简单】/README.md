@@ -2,9 +2,9 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - 暴力解法](#2--sols1---暴力解法)
-- [3. 💻 sols.2 - 二分查找](#3--sols2---二分查找)
-- [4. 💻 sols.3 - 暴力解法 - 使用原生 API - indexOf](#4--sols3---暴力解法---使用原生-api---indexof)
+- [2. 💻 题解.1 - 暴力解法](#2--题解1---暴力解法)
+- [3. 💻 题解.2 - 二分查找](#3--题解2---二分查找)
+- [4. 💻 题解.3 - 暴力解法 - 使用原生 API - indexOf](#4--题解3---暴力解法---使用原生-api---indexof)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/binary-search)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -33,7 +33,7 @@
 2. `n` 将在 `[1, 10000]`之间。
 3. `nums` 的每个元素都将在 `[-9999, 9999]`之间。
 
-## 2. 💻 sols.1 - 暴力解法
+## 2. 💻 题解.1 - 暴力解法
 
 ```js
 var search = function (nums, target) {
@@ -49,7 +49,7 @@ var search = function (nums, target) {
   - ![](https://pic.leetcode-cn.com/1641040650-CRsyOX-image-20220101101423645.png)
   - nums 就好比是从矮到高的一队同学，target 就是要插入到这队同学中的一个新同学。但是，插入规则是，target 只能插入到身高和他相同的那位同学所在的位置「返回该同学所在索引」，如果找不到该同学，那么他无法插入「返回 -1」。
 
-## 3. 💻 sols.2 - 二分查找
+## 3. 💻 题解.2 - 二分查找
 
 ```js
 var search = function(nums, target) {
@@ -81,7 +81,7 @@ var search = function(nums, target) {
 实际：死循环
 ```
 
-## 4. 💻 sols.3 - 暴力解法 - 使用原生 API - indexOf
+## 4. 💻 题解.3 - 暴力解法 - 使用原生 API - indexOf
 
 ```js
 var search = function(nums, target) {
@@ -96,6 +96,8 @@ var search = function(nums, target) {
   - 练习算法题：手写 indexOf
   - 练习算法题，主要是锻炼思维，思考思考 indexOf 的实现逻辑。解决实际问题的时候，推荐直接使用 indexOf API 来处理，一方面是简单，只需要一行就搞定了，另外一方面是原生 API 的性能表现很可能会比我们手写的逻辑更好一些。
   - 从本题的提交记录来看，indexOf 的执行时间和消耗的内存都是上述题解中最小的。
+
+
 
 
 

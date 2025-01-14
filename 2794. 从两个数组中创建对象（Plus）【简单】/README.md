@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 sols.1](#3--sols1)
+- [3. 💻 题解.1](#3--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/create-object-from-two-arrays)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -44,7 +44,7 @@
 - `2 <= JSON.stringify(keysArr).length, JSON.stringify(valuesArr).length <= 5 * 10^5`
 - `keysArr.length === valuesArr.length`
 
-## 3. 💻 sols.1
+## 3. 💻 题解.1
 
 ```javascript
 /**
@@ -68,6 +68,8 @@ var createObject = function (keysArr, valuesArr) {
 
 - `key in obj`
 - `obj.hasOwnProperty(key)`
+
+
 
 
 

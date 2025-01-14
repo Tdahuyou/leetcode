@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - 逆序循环](#2--sols1---逆序循环)
+- [2. 💻 题解.1 - 逆序循环](#2--题解1---逆序循环)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/plus-one/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -40,7 +40,7 @@
 - `1 <= digits.length <= 100`
 - `0 <= digits[i] <= 9`
 
-## 2. 💻 sols.1 - 逆序循环
+## 2. 💻 题解.1 - 逆序循环
 
 ```javascript
 var plusOne = function (digits) {
@@ -86,6 +86,8 @@ flowchart TD
     ReturnDigits --> End([结束])
     ReturnResult --> End
 ```
+
+
 
 
 

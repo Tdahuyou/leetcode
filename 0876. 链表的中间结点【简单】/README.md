@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - 暴力解法 - 先找长度，再找中间](#2--sols1---暴力解法---先找长度再找中间)
-- [3. 💻 sols.2 - 快慢指针 - 一步两步](#3--sols2---快慢指针---一步两步)
+- [2. 💻 题解.1 - 暴力解法 - 先找长度，再找中间](#2--题解1---暴力解法---先找长度再找中间)
+- [3. 💻 题解.2 - 快慢指针 - 一步两步](#3--题解2---快慢指针---一步两步)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/middle-of-the-linked-list)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -40,7 +40,7 @@
 - 链表的结点数范围是 `[1, 100]`
 - `1 <= Node.val <= 100`
 
-## 2. 💻 sols.1 - 暴力解法 - 先找长度，再找中间
+## 2. 💻 题解.1 - 暴力解法 - 先找长度，再找中间
 
 ```js
 var middleNode = function(head) {
@@ -59,7 +59,7 @@ var middleNode = function(head) {
 }
 ```
 
-## 3. 💻 sols.2 - 快慢指针 - 一步两步
+## 3. 💻 题解.2 - 快慢指针 - 一步两步
 
 ```js
 var middleNode = function(head) {
@@ -74,6 +74,8 @@ var middleNode = function(head) {
 
 - ![](assets/2024-11-16-19-59-26.png)
 - ![](assets/2024-11-16-19-59-32.png)
+
+
 
 
 

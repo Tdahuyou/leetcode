@@ -3,8 +3,8 @@
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
 - [2. 📒 函数的 length 属性](#2--函数的-length-属性)
-- [3. 💻 sols.1](#3--sols1)
-- [4. 💻 sols.2](#4--sols2)
+- [3. 💻 题解.1](#3--题解1)
+- [4. 💻 题解.2](#4--题解2)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/curry)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -98,7 +98,7 @@ arr.length = 0
 arr // []
 ```
 
-## 3. 💻 sols.1
+## 3. 💻 题解.1
 
 ```javascript
 /**
@@ -193,7 +193,7 @@ var curry = function (fn) {
 
 ![](assets/2024-09-26-21-57-46.png)
 
-## 4. 💻 sols.2
+## 4. 💻 题解.2
 
 ```javascript
 /**
@@ -217,6 +217,8 @@ var curry = function (fn, ...rest1) {
 ```
 
 这种做法通过递归 curry 来收集剩余参数，如果参数数量不够，就返回 `curry(fn, ...receivedArgs)`。从写法上来看，这种写法显然会更加简洁一些。
+
+
 
 
 

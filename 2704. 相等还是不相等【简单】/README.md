@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/to-be-or-not-to-be)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -32,7 +32,7 @@
 - 输出：`{"value": true}`
 - 解释：`5 !== null` 因此该表达式返回 `true`.
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 /**
@@ -57,6 +57,8 @@ var expect = function (val) {
  * expect(5).notToBe(5); // throws "Equal"
  */
 ```
+
+
 
 
 

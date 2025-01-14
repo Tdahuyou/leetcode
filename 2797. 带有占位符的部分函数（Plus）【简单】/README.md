@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/partial-function-with-placeholders)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -65,7 +65,7 @@ console.log(result) // -10
 - `1 <= restArgs.length <= 5 * 10^4`
 - `0 <= number of placeholders <= restArgs.length`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 /**
@@ -96,6 +96,8 @@ var partial = function (fn, args) {
 在参数处理过程中，需要创建一个长度为 `n` 的数组 `arr`，因此空间复杂度为 `O(n)`。
 
 该解法的时间复杂度和空间复杂度都与输入参数的长度有关。
+
+
 
 
 

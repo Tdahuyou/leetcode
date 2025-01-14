@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/sort-by)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -38,7 +38,7 @@
 - `fn` 是一个函数，返回一个数字
 - `1 <= arr.length <= 5 * 10^5`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 /**
@@ -52,6 +52,8 @@ var sortBy = function(arr, fn) {
 ```
 
 可以通过 `Array.prototype.sort` 快速解题，题目描述中提到：按照 fn 的输出值排序。最先想到的就是数组的 sort 方法，只需要将数组的每一项作为 fn 函数的入参丢给它然后做差即可。
+
+
 
 
 

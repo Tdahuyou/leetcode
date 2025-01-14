@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/join-two-arrays-by-id)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -92,7 +92,7 @@ arr2 = [
 - `2 <= JSON.stringify(arr1).length <= 10^6`
 - `2 <= JSON.stringify(arr2).length <= 10^6`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 /**
@@ -122,6 +122,8 @@ var join = function (arr1, arr2) {
   return ans.sort((a, b) => a.id - b.id) // 按照 id 升序排序
 };
 ```
+
+
 
 
 

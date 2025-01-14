@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/allow-one-function-call)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -41,7 +41,7 @@
 - `1 <= calls[i].length <= 100`
 - `2 <= JSON.stringify(calls).length <= 1000`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 /**
@@ -70,6 +70,8 @@ var once = function (fn) {
 ```
 
 本题考察的依旧是闭包相关的知识点，只需要在函数 `once` 内部维护一个变量，记录 `fn` 是否被调用过即可。
+
+
 
 
 

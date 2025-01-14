@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/next-day)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -34,7 +34,7 @@ date.nextDay(); // "2014-06-21"
 
 - `new Date(date)` 是一个有效的日期对象
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 /**
@@ -58,6 +58,8 @@ Date.prototype.nextDay = function () {
 ```
 
 `const nextDate = new Date(this.valueOf())`，创建一个新的日期对象以避免修改原始日期。
+
+
 
 
 

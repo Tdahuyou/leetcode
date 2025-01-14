@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.中心扩散](#2--sols中心扩散)
+- [2. 💻 题解.中心扩散](#2--题解中心扩散)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/longest-palindromic-substring/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -27,7 +27,7 @@
 - `1 <= s.length <= 1000`
 - `s` 仅由数字和英文字母组成
 
-## 2. 💻 sols.中心扩散
+## 2. 💻 题解.中心扩散
 
 ```javascript
 var longestPalindrome = function (s) {
@@ -101,4 +101,6 @@ function centerSpread(s, l, r) {
 **特殊情况：**
 
 s 的长度是 1，直接返回 s 即可。
+
+
 

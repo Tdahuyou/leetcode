@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - DFS](#2--sols1---dfs)
+- [2. 💻 题解.1 - DFS](#2--题解1---dfs)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/flood-fill)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -53,7 +53,7 @@
 - `0 <= sr < m`
 - `0 <= sc < n`
 
-## 2. 💻 sols.1 - DFS
+## 2. 💻 题解.1 - DFS
 
 ```js
 /**
@@ -86,6 +86,8 @@ var floodFill = function (image, sr, sc, newColor) {
   return image;
 }
 ```
+
+
 
 
 

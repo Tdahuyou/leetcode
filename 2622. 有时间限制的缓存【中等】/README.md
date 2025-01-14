@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - 哈希表](#2--sols1---哈希表)
+- [2. 💻 题解.1 - 哈希表](#2--题解1---哈希表)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/cache-with-time-limit/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -72,7 +72,7 @@ timeDelays = [0, 0, 40, 50, 120, 200, 250]
 - `actions[i]` 是 "TimeLimitedCache"、"set"、"get" 和 "count" 中的一个。
 - 第一个操作始终是 "TimeLimitedCache" 而且一定会以 0 毫秒的延迟立即执行
 
-## 2. 💻 sols.1 - 哈希表
+## 2. 💻 题解.1 - 哈希表
 
 ```ts
 class TimeLimitedCache {
@@ -112,6 +112,8 @@ class TimeLimitedCache {
  * obj.count() // 1
  */
 ```
+
+
 
 
 

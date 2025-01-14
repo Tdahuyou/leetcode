@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - 双指针](#2--sols1---双指针)
+- [2. 💻 题解.1 - 双指针](#2--题解1---双指针)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -52,7 +52,7 @@ for (int i = 0; i < k; i++) {
 - `-10^4 <= nums[i] <= 10^4`
 - `nums` 已按 **非严格递增** 排列
 
-## 2. 💻 sols.1 - 双指针
+## 2. 💻 题解.1 - 双指针
 
 ```js
 /**
@@ -73,6 +73,8 @@ var removeDuplicates = function(nums) {
 - **题解说明：**
   - 定义俩指针 `fast` `slow`，其中快指针 `fast` 不断往后探索，一旦发现 `fast` 指向的成员和 `slow` 指向的成员不等时，`slow` 指针才会往后移动，并将此时 `fast` 指针指向的值赋值给 `slow` 指向的值。直到 `fast` 遍历完整个 `nums`，最后将 `slow + 1` 返回即可。
   - ![](assets/2024-11-10-14-21-40.png)
+
+
 
 
 

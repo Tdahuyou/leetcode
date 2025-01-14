@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - 递归](#2--sols1---递归)
+- [2. 💻 题解.1 - 递归](#2--题解1---递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/undefined-to-null/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -31,7 +31,7 @@
 - `obj` 是一个有效的 JSON 对象或数组
 - `2 <= JSON.stringify(obj).length <= 105`
 
-## 2. 💻 sols.1 - 递归
+## 2. 💻 题解.1 - 递归
 
 ```js
 function undefinedToNull(obj) {
@@ -46,6 +46,8 @@ function undefinedToNull(obj) {
     return obj;
 }
 ```
+
+
 
 
 

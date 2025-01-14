@@ -4,9 +4,9 @@
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
 - [3. 📒 JS 测试用例](#3--js-测试用例)
-- [4. 💻 sols.1 - 双指针-1](#4--sols1---双指针-1)
-- [5. 💻 sols.2 - 双指针-2](#5--sols2---双指针-2)
-- [6. 💻 sols.3 - 调用系统函数](#6--sols3---调用系统函数)
+- [4. 💻 题解.1 - 双指针-1](#4--题解1---双指针-1)
+- [5. 💻 题解.2 - 双指针-2](#5--题解2---双指针-2)
+- [6. 💻 题解.3 - 调用系统函数](#6--题解3---调用系统函数)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/remove-element/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -78,7 +78,7 @@ const len = removeElement(nums, val);
 console.log(nums, len); // [0, 1, 3, 0, 4, 2, 2, 2]
 ```
 
-## 4. 💻 sols.1 - 双指针-1
+## 4. 💻 题解.1 - 双指针-1
 
 ```javascript
 /**
@@ -115,7 +115,7 @@ var removeElement = function (nums, val) {
   - 内层循环始终是从外层循环的当前项的下一项开始查找，一旦找到满足条件的成员，意味着数组长度需要加 1。
   - 并非只有在发生交换时，数组长度才需要加 1；若外层循环遍历到的当前项本身就不等于 val，那么也意味着该项是不需要删除的，此时，数组的长度也需要加 1。
 
-## 5. 💻 sols.2 - 双指针-2
+## 5. 💻 题解.2 - 双指针-2
 
 ```javascript
 var removeElement = function (nums, val) {
@@ -162,7 +162,7 @@ var removeElement = function (nums, val) {
 }
 ```
 
-## 6. 💻 sols.3 - 调用系统函数
+## 6. 💻 题解.3 - 调用系统函数
 
 ```javascript
 /**
@@ -187,6 +187,8 @@ var removeElement = function (nums, val) {
   - 很简单，遍历数组，一旦找到不满足条件的，直接将其从原数组中删除即可。
   - splice 这个 api，会改变原数组，所以，最后只要将修改后的原数组 nums 返回即可。
   - **注意：这么写虽然能通过，但并不符合题目要求。**
+
+
 
 
 

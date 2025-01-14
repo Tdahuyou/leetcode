@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/array-wrapper)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -71,7 +71,7 @@ obj1 + obj2; // 0
 - `0 <= nums[i] <= 1000`
 - `注意：nums 是传递给构造函数的数组。`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 /**
@@ -104,6 +104,8 @@ ArrayWrapper.prototype.toString = function() {
  * String(obj2); // "[3,4]"
  */
 ```
+
+
 
 
 

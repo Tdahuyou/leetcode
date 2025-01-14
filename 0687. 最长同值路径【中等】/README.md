@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - DFS](#2--sols1---dfs)
+- [2. 💻 题解.1 - DFS](#2--题解1---dfs)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/longest-univalue-path/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -33,7 +33,7 @@
 - `-1000 <= Node.val <= 1000`
 - 树的深度将不超过 `1000`
 
-## 2. 💻 sols.1 - DFS
+## 2. 💻 题解.1 - DFS
 
 ```js
 var longestUnivaluePath = function (root) {
@@ -56,6 +56,8 @@ var longestUnivaluePath = function (root) {
 
 - 思路：
   - ![](assets/1.gif)
+
+
 
 
 

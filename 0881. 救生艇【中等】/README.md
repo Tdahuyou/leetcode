@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1 - 贪心](#2--sols1---贪心)
+- [2. 💻 题解.1 - 贪心](#2--题解1---贪心)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/boats-to-save-people)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -39,7 +39,7 @@
 - `1 <= people.length <= 5 * 10^4`
 - `1 <= people[i] <= limit <= 3 * 10^4`
 
-## 2. 💻 sols.1 - 贪心
+## 2. 💻 题解.1 - 贪心
 
 ```js
 var numRescueBoats = function(people, limit) {
@@ -85,6 +85,8 @@ var numRescueBoats = function(people, limit) {
 > - ... 等等
 >
 > 但是这些最优解都有一个共同点，浪费的资源量都是一样的。
+
+
 
 
 

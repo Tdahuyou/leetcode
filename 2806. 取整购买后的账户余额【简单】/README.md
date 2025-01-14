@@ -2,9 +2,9 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
-- [3. 💻 sols.2](#3--sols2)
-- [4. 💻 sols.3](#4--sols3)
+- [2. 💻 题解.1](#2--题解1)
+- [3. 💻 题解.2](#3--题解2)
+- [4. 💻 题解.3](#4--题解3)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -40,7 +40,7 @@
 
 - `0 <= purchaseAmount <= 100`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ![](assets/2024-09-26-23-10-13.png)
 
@@ -67,7 +67,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 
 ![](assets/2024-09-26-23-10-44.png)
 
-## 3. 💻 sols.2
+## 3. 💻 题解.2
 
 **所有金额整除 5 找规律：**
 
@@ -100,7 +100,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 }
 ```
 
-## 4. 💻 sols.3
+## 4. 💻 题解.3
 
 **所有金额 ➕ 5 后整除 10 找规律：**
 
@@ -127,6 +127,8 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
   return 100 - Math.floor((purchaseAmount + 5) / 10) * 10;
 }
 ```
+
+
 
 
 

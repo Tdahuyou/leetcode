@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.双哈希表](#2--sols双哈希表)
+- [2. 💻 题解.双哈希表](#2--题解双哈希表)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/memoize-ii/)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -57,7 +57,7 @@ fn = function (a, b) { return ({...a, ...b}); }
 - `0 <= inputs.flat().length <= 10^5`
 - `inputs[i][j] != NaN`
 
-## 2. 💻 sols.双哈希表
+## 2. 💻 题解.双哈希表
 
 ```ts
 type Fn = (...params: any) => any;
@@ -93,6 +93,8 @@ function memoize(fn: Fn): Fn {
  * console.log(callCount) // 1
  */
 ```
+
+
 
 
 

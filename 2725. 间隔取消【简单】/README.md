@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/interval-cancellation)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -123,7 +123,7 @@ setTimeout(cancelFn, cancelTimeMs)
 - `30 <= t <= 100`
 - `10 <= cancelT <= 500`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 /**
@@ -169,6 +169,8 @@ var cancellable = function(fn, args, t) {
  *  }, cancelTimeMs + t + 15)
  */
 ```
+
+
 
 
 

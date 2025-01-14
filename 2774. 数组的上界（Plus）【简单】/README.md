@@ -3,7 +3,7 @@
 <!-- region:toc -->
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 sols.1](#3--sols1)
+- [3. 💻 题解.1](#3--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/array-upper-bound)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -42,7 +42,7 @@
 
 **进阶：**你能编写一个时间复杂度为 `O(log n)` 的算法吗？
 
-## 3. 💻 sols.1
+## 3. 💻 题解.1
 
 ```javascript
 /**
@@ -65,6 +65,8 @@ Array.prototype.upperBound = function(target) {
 ```
 
 类似于 `Array.prototype.indexOf()`，不同点在于本题要求从数组的结尾开始找。
+
+
 
 
 

@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 - [1. 📝 Description](#1--description)
-- [2. 💻 sols.1](#2--sols1)
+- [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
 - [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
@@ -86,7 +86,7 @@ init = 25
 - `0 <= nums[i] <= 1000`
 - `0 <= init <= 1000`
 
-## 2. 💻 sols.1
+## 2. 💻 题解.1
 
 ```javascript
 var reduce = function(nums, fn, init) {
@@ -100,6 +100,8 @@ var reduce = function(nums, fn, init) {
 `init = fn(init, nums[i])`
 
 上一次的处理结果作为下一次的输入之一。
+
+
 
 
 
