@@ -7,7 +7,7 @@
 - [4. 💻 题解.2 - 回溯](#4--题解2---回溯)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/subsets/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - **⏰ TODO**
   - 合并 keynote-2.key、keynote.key。
 

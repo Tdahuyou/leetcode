@@ -6,7 +6,7 @@
 - [3. 💻 题解.2 - 尾插法](#3--题解2---尾插法)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/merge-sorted-array)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

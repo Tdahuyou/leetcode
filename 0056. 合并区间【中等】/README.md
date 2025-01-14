@@ -7,7 +7,7 @@
 - [4. 📒 手写 reduce](#4--手写-reduce)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/merge-intervals)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

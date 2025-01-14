@@ -9,7 +9,7 @@
 - [6. 💻 题解.5 - 双指针](#6--题解5---双指针)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/rotate-array/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - 注意：
   - 本题的解题思路有很多，很多思路可能没问题，但是在 leetcode 提交后会提示超时。
 

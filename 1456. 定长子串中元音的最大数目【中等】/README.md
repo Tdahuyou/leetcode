@@ -5,7 +5,7 @@
 - [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

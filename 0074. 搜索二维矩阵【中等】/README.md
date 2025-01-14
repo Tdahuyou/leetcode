@@ -8,7 +8,7 @@
 - [5. 💻 题解.1 - 二分查找](#5--题解1---二分查找)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/search-a-2d-matrix/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 🔗 links
 

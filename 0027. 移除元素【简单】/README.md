@@ -9,7 +9,7 @@
 - [6. 💻 题解.3 - 调用系统函数](#6--题解3---调用系统函数)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/remove-element/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 🔗 links
 

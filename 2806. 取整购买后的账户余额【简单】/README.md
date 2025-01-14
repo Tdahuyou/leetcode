@@ -7,7 +7,7 @@
 - [4. 💻 题解.3](#4--题解3)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - 备注：找规律解题，规律很多，解法也很多。
 
 ## 1. 📝 Description

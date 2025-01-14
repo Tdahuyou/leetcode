@@ -5,7 +5,7 @@
 - [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/create-hello-world-function)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 - 备注：太看得起我了……
 

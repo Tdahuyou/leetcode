@@ -5,7 +5,7 @@
 - [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/sort-by)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort - MDN，Array.prototype.sort
 
 ## 1. 📝 Description

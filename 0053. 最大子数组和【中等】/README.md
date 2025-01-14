@@ -6,7 +6,7 @@
 - [3. 💻 题解.2 - 动态规划](#3--题解2---动态规划)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/maximum-subarray/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

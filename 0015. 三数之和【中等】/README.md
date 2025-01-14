@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 排序 + 双指针【📺 leetcode.0015.1】](#2--题解1---排序--双指针-leetcode00151)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/3sum/description/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 
 ## 1. 📝 Description

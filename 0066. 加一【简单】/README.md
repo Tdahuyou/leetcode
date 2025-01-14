@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 逆序循环](#2--题解1---逆序循环)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/plus-one/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

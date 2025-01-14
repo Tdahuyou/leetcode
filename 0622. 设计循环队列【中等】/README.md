@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 设计循环队列](#2--题解1---设计循环队列)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/design-circular-queue)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 
 ## 1. 📝 Description

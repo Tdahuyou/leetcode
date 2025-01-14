@@ -6,7 +6,7 @@
 - [3. 💻 题解.2 - 双指针](#3--题解2---双指针)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string-iii/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

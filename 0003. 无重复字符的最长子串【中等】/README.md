@@ -6,7 +6,6 @@
 - [3. 💻 题解.2 - 滑动窗口](#3--题解2---滑动窗口)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
 
 
 ## 1. 📝 Description

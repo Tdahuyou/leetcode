@@ -7,7 +7,7 @@
 - [4. 💻 题解.3 - 分治](#4--题解3---分治)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/majority-element/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

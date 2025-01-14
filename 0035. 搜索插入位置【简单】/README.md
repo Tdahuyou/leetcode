@@ -6,7 +6,7 @@
 - [3. 💻 题解.2 - 暴力解法](#3--题解2---暴力解法)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/search-insert-position/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

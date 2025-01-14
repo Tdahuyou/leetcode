@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 贪心](#2--题解1---贪心)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/boats-to-save-people)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

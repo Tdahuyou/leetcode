@@ -7,7 +7,7 @@
 - [4. 💻 题解.3 - 暴力解法 - 使用原生 API - indexOf](#4--题解3---暴力解法---使用原生-api---indexof)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/binary-search)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

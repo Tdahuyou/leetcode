@@ -6,7 +6,7 @@
 - [3. 💻 题解.2 - 递归](#3--题解2---递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/remove-linked-list-elements/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

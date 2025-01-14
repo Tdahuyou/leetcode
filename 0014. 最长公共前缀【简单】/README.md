@@ -7,7 +7,7 @@
 - [4. 💻 题解.3 - 纵向扫描](#4--题解3---纵向扫描)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/longest-common-prefix)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

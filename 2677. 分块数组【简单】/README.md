@@ -6,7 +6,7 @@
 - [3. 💻 题解.1](#3--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/chunk-array)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - 备注：本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
 
 ## 1. 🔗 links

@@ -8,7 +8,7 @@
 - [5. 💻 题解.4 - 基排序](#5--题解4---基排序)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/sort-colors)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - 本质是考察升序排序。
 
 ## 1. 📝 Description

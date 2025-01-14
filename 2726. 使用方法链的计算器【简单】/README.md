@@ -5,7 +5,7 @@
 - [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/calculator-with-method-chaining)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - 备注：题目有些长，但逻辑很简单。
 
 ## 1. 📝 Description

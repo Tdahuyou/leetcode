@@ -7,7 +7,7 @@
 - [4. 📒 尝试正则解法失败](#4--尝试正则解法失败)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

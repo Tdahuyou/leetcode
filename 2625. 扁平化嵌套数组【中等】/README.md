@@ -7,7 +7,7 @@
 - [4. 💻 题解.递归](#4--题解递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/flatten-deeply-nested-array/description/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 🔗 links
 

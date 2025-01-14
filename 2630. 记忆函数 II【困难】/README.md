@@ -5,7 +5,7 @@
 - [2. 💻 题解.双哈希表](#2--题解双哈希表)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/memoize-ii/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

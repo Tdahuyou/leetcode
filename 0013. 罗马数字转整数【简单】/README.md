@@ -6,7 +6,7 @@
 - [3. 💻 题解.2 - 基于哈希表的逐字符解析法（2）](#3--题解2---基于哈希表的逐字符解析法2)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/roman-to-integer)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - 备注：本文介绍的两种题解，都是基于哈希表来实现的。
 
 ## 1. 📝 Description

@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 暴力解法 - 直接调用原生 API - trim、split、pop](#2--题解1---暴力解法---直接调用原生-api---trimsplitpop)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/length-of-last-word/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

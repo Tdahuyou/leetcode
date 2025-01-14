@@ -11,7 +11,7 @@
   - [3.5. 关键点](#35-关键点)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/sliding-window-maximum)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 
 ## 1. 📝 Description

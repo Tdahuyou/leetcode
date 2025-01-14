@@ -6,7 +6,7 @@
 - [3. 💻 题解.1 - 回溯算法](#3--题解1---回溯算法)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/generate-parentheses/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 🔗 links
 

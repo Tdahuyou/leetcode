@@ -5,7 +5,7 @@
 - [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/add-two-promises)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - 备注：考察对 Promise 的理解。
 
 ## 1. 📝 Description

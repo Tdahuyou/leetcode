@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - DFS](#2--题解1---dfs)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/longest-univalue-path/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

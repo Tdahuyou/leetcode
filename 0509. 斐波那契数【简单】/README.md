@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 递归](#2--题解1---递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/fibonacci-number/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

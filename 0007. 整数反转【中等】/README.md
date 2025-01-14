@@ -14,7 +14,7 @@
 - [7. 🤖 对比 $O(log_{10} N)$ 和 $O(log N)$](#7--对比-olog_10-n-和-olog-n)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/reverse-integer/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 暴力解法 - 使用队列 queue](#2--题解1---暴力解法---使用队列-queue)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/number-of-recent-calls)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

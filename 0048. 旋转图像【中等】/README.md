@@ -6,7 +6,7 @@
 - [3. 💻 题解.2 - 翻转](#3--题解2---翻转)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/rotate-image)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

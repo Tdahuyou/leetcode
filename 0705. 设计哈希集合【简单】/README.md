@@ -4,7 +4,7 @@
 - [1. 📝 Description](#1--description)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/design-hashset)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

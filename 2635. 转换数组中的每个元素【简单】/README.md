@@ -5,7 +5,7 @@
 - [2. 💻 题解.1](#2--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/apply-transform-over-each-element-in-array)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 - 备注：本题要求 - 实现数组原生 API `Array.map`
 

@@ -8,7 +8,7 @@
 - [5. 💻 题解.3 - 暴力解法 - 正则](#5--题解3---暴力解法---正则)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/max-consecutive-ones/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

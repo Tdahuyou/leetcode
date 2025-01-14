@@ -1,6 +1,12 @@
 # [0001. 两数之和【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+<BilibiliOutsidePlayer id="BV1DivNejEb1" />
+<BilibiliOutsidePlayer id="BV1DivNejEb1" />
+<BilibiliOutsidePlayer id="BV1DivNejEb1" />
+
+
+- [bilibili.leetcode.0001.1](https://www.bilibili.com/video/BV1DivNejEb1)、[bilibili.leetcode.0001.2](https://www.bilibili.com/video/BV1DivNejEb1)、[bilibili.leetcode.0001.3](https://www.bilibili.com/video/BV1DivNejEb1)
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 双指针暴力求解](#2--题解1---双指针暴力求解)
 - [3. 💻 题解.2 - 静态哈希表](#3--题解2---静态哈希表)
@@ -8,10 +14,6 @@
 - [5. 📒 对比“静态”哈希表和“动态”哈希表之间的差异](#5--对比静态哈希表和动态哈希表之间的差异)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/two-sum/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
-  - leetcode.0001.1
-  - leetcode.0001.2
-  - leetcode.0001.3
 
 
 ## 1. 📝 Description

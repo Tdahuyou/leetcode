@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 栈](#2--题解1---栈)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/valid-parentheses/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - ⏰ TODO：本节的 gif 图看起来很不直观，重新制作。
 
 ## 1. 📝 Description

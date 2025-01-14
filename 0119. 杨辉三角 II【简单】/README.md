@@ -6,7 +6,7 @@
 - [3. 💻 题解.2 - 暴力解法优化](#3--题解2---暴力解法优化)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/pascals-triangle-ii)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

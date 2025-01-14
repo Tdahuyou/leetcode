@@ -7,7 +7,7 @@
 - [4. 💻 题解.2](#4--题解2)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/curry)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 
 ## 1. 📝 Description

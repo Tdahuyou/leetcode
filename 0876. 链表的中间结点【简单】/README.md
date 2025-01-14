@@ -6,7 +6,7 @@
 - [3. 💻 题解.2 - 快慢指针 - 一步两步](#3--题解2---快慢指针---一步两步)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/middle-of-the-linked-list)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/
   - 本节笔记中用到的图片来源于这篇题解。
 

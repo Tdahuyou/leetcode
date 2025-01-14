@@ -7,7 +7,7 @@
 - [4. 💻 题解.3 - 二分对比](#4--题解3---二分对比)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/palindrome-number/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

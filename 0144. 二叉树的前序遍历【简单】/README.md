@@ -7,7 +7,7 @@
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/binary-tree-preorder-traversal)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 
 ## 1. 🔗 links

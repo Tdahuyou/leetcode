@@ -7,7 +7,7 @@
 - [4. 📒 正则 `\w`、`\W`](#4--正则-ww)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/valid-palindrome)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 
 ## 1. 📝 Description

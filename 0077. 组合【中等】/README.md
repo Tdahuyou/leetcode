@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 回溯](#2--题解1---回溯)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/combinations/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

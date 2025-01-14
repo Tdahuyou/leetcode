@@ -6,7 +6,7 @@
 - [3. 💻 题解.2 - 二分查找](#3--题解2---二分查找)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/first-bad-version/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

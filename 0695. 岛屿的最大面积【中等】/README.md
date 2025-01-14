@@ -5,7 +5,7 @@
 - [2. 💻 题解.DFS + 递归](#2--题解dfs--递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/max-area-of-island/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

@@ -10,7 +10,7 @@
 - [7. 💻 题解.3 - KMP](#7--题解3---kmp)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - 本节介绍了 KMP 算法，代码量不多，但理解起来比较费劲儿，不应该是简单题的难度。在查阅资料的过程中，了解到这貌似是考研、竞赛题。
 
 ## 1. 🔗 links

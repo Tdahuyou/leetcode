@@ -6,7 +6,7 @@
 - [3. 💻 题解.1 - DFS + 递归](#3--题解1---dfs--递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

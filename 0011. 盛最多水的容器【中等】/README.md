@@ -9,7 +9,7 @@
 - [6. ❌ 问题解法 - 超时](#6--问题解法---超时)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/container-with-most-water/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 🔗 links
 

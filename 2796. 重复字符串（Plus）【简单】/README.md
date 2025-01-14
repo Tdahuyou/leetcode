@@ -7,7 +7,7 @@
 - [4. 📒 双百提交](#4--双百提交)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/repeat-string/description/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - replicate 复制
 - conquer `divide and conquer` 分而治之；各个击破
 

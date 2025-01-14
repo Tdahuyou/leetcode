@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 暴力解法](#2--题解1---暴力解法)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/pascals-triangle)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

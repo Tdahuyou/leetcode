@@ -7,7 +7,7 @@
 - [4. 💻 题解.1](#4--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/check-if-object-instance-of-class)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 🔗 links
 

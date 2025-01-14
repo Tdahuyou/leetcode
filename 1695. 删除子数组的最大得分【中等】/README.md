@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 滑动窗口](#2--题解1---滑动窗口)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/maximum-erasure-value/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 
 ## 1. 📝 Description

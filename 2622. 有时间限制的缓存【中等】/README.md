@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 哈希表](#2--题解1---哈希表)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/cache-with-time-limit/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

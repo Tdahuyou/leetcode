@@ -6,7 +6,7 @@
 - [3. 💻 题解.1](#3--题解1)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/throttle)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 
 ## 1. 🔗 links

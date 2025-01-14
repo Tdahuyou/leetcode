@@ -5,7 +5,7 @@
 - [2. 💻 题解.1 - 二分查找](#2--题解1---二分查找)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/find-peak-element)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 ## 1. 📝 Description
 

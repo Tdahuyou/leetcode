@@ -13,7 +13,7 @@
 - [7. 📒 排序的本质](#7--排序的本质)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/sort-an-array)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 
 ## 1. 🔗 links

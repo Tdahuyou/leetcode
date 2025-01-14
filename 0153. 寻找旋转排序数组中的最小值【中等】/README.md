@@ -17,7 +17,7 @@
   - [5.5. 结论](#55-结论)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 
 
 ## 1. 🔗 links

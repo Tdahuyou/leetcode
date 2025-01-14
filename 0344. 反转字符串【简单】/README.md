@@ -7,7 +7,7 @@
 - [4. 💻 题解.3 - 递归](#4--题解3---递归)
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/reverse-string/)
-- [bilibili](https://www.bilibili.com/video/BV1DivNejEb1/)
+
 - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
   - mdn - `Array.prototype.reverse()`
 
