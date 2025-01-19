@@ -93,6 +93,12 @@ var twoSum = function (nums, target) {
 
 ![](assets/0001-题解-静态哈希表.gif)
 
+::: swiper
+![](assets/2025-01-19-18-21-20.png)
+![](assets/2025-01-19-18-21-27.png)
+![](assets/2025-01-19-18-21-32.png)
+:::
+
 ```js
 var twoSum = function (nums, target) {
   // 初始化哈希表
