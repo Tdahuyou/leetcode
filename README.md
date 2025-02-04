@@ -2,56 +2,16 @@
 
 <!-- region:toc -->
 - [leetcode](#leetcode)
-  - [1. 一键提取题目内容为 markdown 的油猴脚本](#1-一键提取题目内容为-markdown-的油猴脚本)
-  - [2. GitHub 技术社区 Doocs 开源项目 leetcode](#2-github-技术社区-doocs-开源项目-leetcode)
-  - [3. 题目列表](#3-题目列表)
+  - [1. 题目列表](#1-题目列表)
+  - [2. 其他](#2-其他)
+    - [2.1. 一键提取题目内容为 markdown 的油猴脚本](#21-一键提取题目内容为-markdown-的油猴脚本)
+    - [2.2. GitHub 技术社区 Doocs 开源项目 leetcode](#22-github-技术社区-doocs-开源项目-leetcode)
 <!-- endregion:toc -->
 
-## 1. 一键提取题目内容为 markdown 的油猴脚本
 
-- [ ] [9999. 油猴脚本 - LeetCode 题目描述爬取](https://github.com/Tdahuyou/leetcode/tree/main/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md) <!-- [locale](./9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md) -->  
-  - [1. 💻 demo](https://github.com/Tdahuyou/leetcode/tree/main/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md#1--demo)
-  
-  
-  
-  - 备注：该油猴脚本用于从LeetCode网站上抓取题目描述并转换成Markdown格式，方便用户复制使用。脚本通过添加一个按钮到页面上，让用户能够一键复制题目描述，并对转换后的Markdown内容进行了一定的格式优化。使用者可以在题解页面找到新增的“复制题目描述”按钮来快速获取题目信息。
-  
-
-## 2. GitHub 技术社区 Doocs 开源项目 leetcode
-
-- [ ] [9997. GitHub 技术社区 Doocs 开源项目 leetcode](https://github.com/Tdahuyou/leetcode/tree/main/9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode/README.md) <!-- [locale](./9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode/README.md) -->  
-  - https://github.com/doocs
-    - 这是 GitHub 技术社区 Doocs
-  - https://github.com/doocs/leetcode
-    - 这是 github 项目仓库地址
-    - 🔥 LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解
-    - **leetcode 上的相关例题，大多都可以在这个开源项目中找到。包括 leetcode 题库中的 3k 多道题，往期竞赛例题、《剑指 Offer》例题等等。**
-  - https://doocs.github.io/leetcode/lc/1/
-    - LeetCode 全解
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-- [ ] [9998. leetcode 刷题指南 - 新手快速入门 - 数据结构、算法](https://github.com/Tdahuyou/leetcode/tree/main/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md) <!-- [locale](./9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md) -->  
-  - [1. 📒 LeetCode 刷题指南 - 新手快速入门](https://github.com/Tdahuyou/leetcode/tree/main/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md#1--leetcode-刷题指南---新手快速入门)
-  
-  
-  
-  - 通过思维导图的形式，记录了一些适合入门刷的数据结构、算法例题。
-  
-
-## 3. 题目列表
+## 1. 题目列表
 
 - [x] [0001. 两数之和【简单】](https://github.com/Tdahuyou/leetcode/tree/main/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
-  <BilibiliOutsidePlayer id="BV1DivNejEb1" />
-<BilibiliOutsidePlayer id="BV1DivNejEb1" />
-<BilibiliOutsidePlayer id="BV1DivNejEb1" />
   
 
   - [bilibili.leetcode.0001.1](https://www.bilibili.com/video/BV1DivNejEb1)、[bilibili.leetcode.0001.2](https://www.bilibili.com/video/BV1DivNejEb1)、[bilibili.leetcode.0001.3](https://www.bilibili.com/video/BV1DivNejEb1)
@@ -1155,4 +1115,45 @@
   - [2. 💻 题解.1](https://github.com/Tdahuyou/leetcode/tree/main/2823.%20%E6%B7%B1%E5%BA%A6%E5%AF%B9%E8%B1%A1%E7%AD%9B%E9%80%89%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--题解1)
   - [leetcode](https://leetcode.cn/problems/deep-object-filter)
   
+  
+
+## 2. 其他
+
+### 2.1. 一键提取题目内容为 markdown 的油猴脚本
+
+- [ ] [9999. 油猴脚本 - LeetCode 题目描述爬取](https://github.com/Tdahuyou/leetcode/tree/main/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md) <!-- [locale](./9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md) -->  
+  - [1. 💻 demo](https://github.com/Tdahuyou/leetcode/tree/main/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md#1--demo)
+  
+  
+  
+  - 备注：该油猴脚本用于从LeetCode网站上抓取题目描述并转换成Markdown格式，方便用户复制使用。脚本通过添加一个按钮到页面上，让用户能够一键复制题目描述，并对转换后的Markdown内容进行了一定的格式优化。使用者可以在题解页面找到新增的“复制题目描述”按钮来快速获取题目信息。
+  
+
+### 2.2. GitHub 技术社区 Doocs 开源项目 leetcode
+
+- [ ] [9997. GitHub 技术社区 Doocs 开源项目 leetcode](https://github.com/Tdahuyou/leetcode/tree/main/9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode/README.md) <!-- [locale](./9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode/README.md) -->  
+  - https://github.com/doocs
+    - 这是 GitHub 技术社区 Doocs
+  - https://github.com/doocs/leetcode
+    - 这是 github 项目仓库地址
+    - 🔥 LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解
+    - **leetcode 上的相关例题，大多都可以在这个开源项目中找到。包括 leetcode 题库中的 3k 多道题，往期竞赛例题、《剑指 Offer》例题等等。**
+  - https://doocs.github.io/leetcode/lc/1/
+    - LeetCode 全解
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+- [ ] [9998. leetcode 刷题指南 - 新手快速入门 - 数据结构、算法](https://github.com/Tdahuyou/leetcode/tree/main/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md) <!-- [locale](./9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md) -->  
+  - [1. 📒 LeetCode 刷题指南 - 新手快速入门](https://github.com/Tdahuyou/leetcode/tree/main/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md#1--leetcode-刷题指南---新手快速入门)
+  
+  
+  
+  - 通过思维导图的形式，记录了一些适合入门刷的数据结构、算法例题。
   
