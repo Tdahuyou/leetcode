@@ -43,6 +43,8 @@
 
 ![](assets/0003-题解-暴力解法.gif)
 
+::: code-group
+
 ```javascript
 var lengthOfLongestSubstring = function (s) {
   const len = s.length, set = new Set()
@@ -61,6 +63,8 @@ var lengthOfLongestSubstring = function (s) {
   return ans
 }
 ```
+
+:::
 
 - 时间复杂度：O(n^2)
 - 空间复杂度：O(n)
@@ -136,6 +140,8 @@ var lengthOfLongestSubstring = function (s) {
 
 ![](assets/0003-题解-滑动窗口.gif)
 
+::: code-group
+
 ```javascript
 /**
  * @param {string} s
@@ -158,6 +164,8 @@ var lengthOfLongestSubstring = function (s) {
   return ans
 };
 ```
+
+:::
 
 - 时间复杂度：O(n)
 - 空间复杂度：O(n)
