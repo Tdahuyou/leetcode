@@ -142,7 +142,6 @@ var maxArea = function (height) {
 
 ![](assets/2025-02-04-23-50-37.png)
 
-<div style="background: #fff;">
 ::: swiper
 ![image](assets/2-0.png)
 ![image](assets/2-1.png)
@@ -155,7 +154,8 @@ var maxArea = function (height) {
 ![image](assets/2-8.png)
 ![image](assets/2-9.png)
 :::
-</div>
+
+> 【备注】切换主题为 light 查看，dark 预览效果不好。
 
 ## 5. ❌ 问题解法 - 栈溢出
 
